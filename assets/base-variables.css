@@ -1,0 +1,284 @@
+/* CSS Variables - Tiny Earth Toys v2 Design System */
+
+:root {
+    /* Base Colors */
+    
+        --te-base-white: #FFFFFF;
+        --te-base-black: #221F20;
+        --te-base-background: #F5F2EE;
+        --te-base-text: var(--te-gray-700);
+    
+    /* Grayscale */
+    
+        --te-gray-25: #FDFDFC;
+        --te-gray-50: #FAFAF9;
+        --te-gray-100: #F5F5F4;
+        --te-gray-200: #E7E5E4;
+        --te-gray-300: #D7D3D0;
+        --te-gray-400: #A9A29D;
+        --te-gray-500: #79716B;
+        --te-gray-600: #57534E;
+        --te-gray-700: #44403C;
+        --te-gray-800: #292524;
+        --te-gray-900: #1C1917;
+    
+    /* Primary Color */
+    
+        --te-teal-25: #F5F8F9;
+        --te-teal-50: #CCDDDF;
+        --te-teal-100: #A3C2C5;
+        --te-teal-200: #7AA6AB;
+        --te-teal-300: #528990;
+        --te-teal-400: #296C75;
+        --te-teal-500: #004E59;
+        --te-teal-600: #00424F;
+        --te-teal-700: #003745;
+        --te-teal-800: #002C3B;
+        --te-teal-900: #002230;
+    
+    /* Accent Colors - Frequently Used */
+    
+        --te-silver-25: #FEFDFC;
+        --te-silver-50: #F9F3F0;
+        --te-silver-100: #F9F3F0;
+        --te-silver-200: #EEE0D9;
+        --te-silver-300: #E8D6CE;
+        --te-silver-400: #E2CDC3;
+        --te-silver-500: #DCC4B8;
+        --te-silver-600: #C1ADA0;
+        --te-silver-700: #A69589;
+        --te-silver-800: #8B7D72;
+        --te-silver-900: #6F655B;
+    
+        --te-moss-25: #FAFBF9;
+        --te-moss-50: #E5ECDF;
+        --te-moss-100: #D0DCC5;
+        --te-moss-200: #BBCCAC;
+        --te-moss-300: #A6BC93;
+        --te-moss-400: #90AB7A;
+        --te-moss-500: #7B9A62;
+        --te-moss-600: #6A8855;
+        --te-moss-700: #597548;
+        --te-moss-800: #48623B;
+        --te-moss-900: #394F2F;
+    
+        --te-aqua-25: #F5FCFC;
+        --te-aqua-50: #CCEEF1;
+        --te-aqua-100: #A3E0E4;
+        --te-aqua-200: #7AD0D7;
+        --te-aqua-300: #52C0C8;
+        --te-aqua-400: #29AEB9;
+        --te-aqua-500: #009BA9;
+        --te-aqua-600: #008497;
+        --te-aqua-700: #006E83;
+        --te-aqua-800: #00586F;
+        --te-aqua-900: #00445A;
+    
+        --te-baby-blue-25: #FAFCFE;
+        --te-baby-blue-50: #E4F0FA;
+        --te-baby-blue-100: #CEE4F5;
+        --te-baby-blue-200: #B9D7F0;
+        --te-baby-blue-300: #A5CAEB;
+        --te-baby-blue-400: #91BDE5;
+        --te-baby-blue-500: #7EB0DE;
+        --te-baby-blue-600: #6D97C4;
+        --te-baby-blue-700: #5C7EA9;
+        --te-baby-blue-800: #4C678E;
+        --te-baby-blue-900: #3C5072;
+    
+    /*Accent Colors - Less Frequently Used */
+    
+        --te-lime-25: #FEFEF9;
+        --te-lime-50: #FCFBE2;
+        --te-lime-100: #F8F7CC;
+        --te-lime-200: #F4F3B6;
+        --te-lime-300: #F0EFA1;
+        --te-lime-400: #EBEA8C;
+        --te-lime-500: #E5E578;
+        --te-lime-600: #C6CA67;
+        --te-lime-700: #A8AF57;
+        --te-lime-800: #8A9347;
+        --te-lime-900: #6D7638;
+    
+        --te-honey-25: #FFFCF6;
+        --te-honey-50: #FDF2D2;
+        --te-honey-100: #FAE7AF;
+        --te-honey-200: #F6DC8D;
+        --te-honey-300: #F2D16B;
+        --te-honey-400: #ECC64B;
+        --te-honey-500: #E5BA2C;
+        --te-honey-600: #CBAB24;
+        --te-honey-700: #B1991C;
+        --te-honey-800: #958615;
+        --te-honey-900: #797010;
+    
+        --te-pink-25: #FEFDFD;
+        --te-pink-50: #F9F5F6;
+        --te-pink-100: #F4EDF0;
+        --te-pink-200: #EFE5E9;
+        --te-pink-300: #EADDE2;
+        --te-pink-400: #E4D6DB;
+        --te-pink-500: #DFCED4;
+        --te-pink-600: #C3B4B9;
+        --te-pink-700: #A89A9E;
+        --te-pink-800: #8C8083;
+        --te-pink-900: #706668;
+    
+        --te-coral-25: #FFF8F8;
+        --te-coral-50: #FCDBDB;
+        --te-coral-100: #F9C0BE;
+        --te-coral-200: #F5A6A3;
+        --te-coral-300: #F18C88;
+        --te-coral-400: #EB746E;
+        --te-coral-500: #E55C55;
+        --te-coral-600: #CB5348;
+        --te-coral-700: #B04A3C;
+        --te-coral-800: #944030;
+        --te-coral-900: #783626;
+    
+    /* Feedback Colors */
+    
+        --te-error-red-25: #FFFBFA;
+        --te-error-red-50: #FEF3F2;
+        --te-error-red-100: #FEE4E2;
+        --te-error-red-200: #FECDCA;
+        --te-error-red-300: #FDA29B;
+        --te-error-red-400: #F97066;
+        --te-error-red-500: #F04438;
+        --te-error-red-600: #D92D20;
+        --te-error-red-700: #B42318;
+        --te-error-red-800: #912018;
+        --te-error-red-900: #7A271A;
+    
+        --te-warning-yellow-25: #FFFCF5;
+        --te-warning-yellow-50: #FFFAEB;
+        --te-warning-yellow-100: #FEF0C7;
+        --te-warning-yellow-200: #FEDF89;
+        --te-warning-yellow-300: #FEC84B;
+        --te-warning-yellow-400: #FDB022;
+        --te-warning-yellow-500: #F79009;
+        --te-warning-yellow-600: #DC6803;
+        --te-warning-yellow-700: #B54708;
+        --te-warning-yellow-800: #93370D;
+        --te-warning-yellow-900: #7A2E0E;
+    
+        --te-success-green-25: #F6FEF9;
+        --te-success-green-50: #ECFDF3;
+        --te-success-green-100: #D1FADF;
+        --te-success-green-200: #A6F4C5;
+        --te-success-green-300: #6CE9A6;
+        --te-success-green-400: #32D583;
+        --te-success-green-500: #12B76A;
+        --te-success-green-600: #039855;
+        --te-success-green-700: #027A48;
+        --te-success-green-800: #05603A;
+        --te-success-green-900: #054F31;
+    
+    /* Typography - v2 Design System */
+    
+        --te-font-body-family: 'Raleway';
+        --te-font-heading-family: 'Poppins';
+    /* Grids & Spacing - v2 Design System */
+    
+        --te-spacing-1: .25rem;
+        --te-spacing-2: .5rem;
+        --te-spacing-3: .75rem;
+        --te-spacing-4: 1rem;
+        --te-spacing-5: 1.25rem;
+        --te-spacing-6: 1.5rem;
+        --te-spacing-8: 2rem;
+        --te-spacing-10: 2.5rem;
+        --te-spacing-12: 3rem;
+        --te-spacing-16: 4rem;
+        --te-spacing-20: 5rem;
+        --te-spacing-24: 6rem;
+        --te-spacing-32: 8rem;
+        --te-spacing-40: 10rem;
+        --te-spacing-48: 12rem;
+        --te-spacing-56: 14rem;
+        --te-spacing-64: 16rem;
+    
+        --te-container-sm: 40rem;
+        --te-container-md: 48rem;
+        --te-container-lg: 64rem;
+        --te-container-xl: 80rem;
+    
+    
+        --te-media-border-radius: 16px;
+        --te-button-border-radius: 40px;
+    /* Logos - v2 Design System */
+    
+    /* Icons - v2 Design System */
+    
+    /* Shadows & Blurs - v2 Design System */
+    
+    /* Buttons - v2 Design System */
+    
+    }
+    
+    
+    .te-display-2xl {
+        font-family: var(--te-font-heading-family);
+        font-size: 72px;
+        line-height: 90px;
+    }
+    
+    .te-display-xl {
+        font-family: var(--te-font-heading-family);
+        font-size: 60px;
+        line-height: 72px;
+    }
+    
+    .te-display-lg {
+        font-family: var(--te-font-heading-family);
+        font-size: 48px;
+        line-height: 60px;
+    }
+    
+    .te-display-md {
+        font-family: var(--te-font-heading-family);
+        font-size: 36px;
+        line-height: 44px;
+    }
+    
+    .te-display-sm {
+        font-family: var(--te-font-heading-family);
+        font-size: 30px;
+        line-height: 38px;
+    }
+    
+    .te-display-xs {
+        font-family: var(--te-font-heading-family);
+        font-size: 24px;
+        line-height: 32px;
+    }
+    
+    .te-text-xl {
+        font-family: var(--te-font-body-family);
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .te-text-lg {
+        font-family: var(--te-font-body-family);
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .te-text-md {
+        font-family: var(--te-font-body-family);
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .te-text-sm {
+        font-family: var(--te-font-body-family);
+        font-size: 14px;
+        line-height: 20px;
+    }
+    
+    .te-text-xs {
+        font-family: var(--te-font-body-family);
+        font-size: 12px;
+        line-height: 18px;
+    }
