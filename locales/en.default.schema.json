@@ -1971,7 +1971,7 @@
       }
     },
     "te-multicolumn": {
-      "name": "Multicolumn",
+      "name": "TE-Multicolumn",
       "settings": {
         "title": {
           "label": "Heading"
