@@ -310,20 +310,26 @@
       },
       "spacing": "Spacing",
       "colors": {
-        "accent_1": {
-          "label": "Accent 1"
+        "te-color-default": {
+          "label": "Default"
         },
-        "accent_2": {
-          "label": "Accent 2"
+        "te-color-cream-dark": {
+          "label": "Cream/dark"
         },
-        "background_1": {
-          "label": "Background 1"
+        "te-color-teal-light": {
+          "label": "Teal/light"
         },
-        "background_2": {
-          "label": "Background 2"
+        "te-color-teal-dark": {
+          "label": "Teal/dark"
         },
-        "inverse": {
-          "label": "Inverse"
+        "te-color-silver-light": {
+          "label": "Silver/light"
+        },
+        "te-color-silver-dark": {
+          "label": "Silver/dark"
+        },
+        "te-color-black-white": {
+          "label": "Black & White"
         },
         "label": "Color scheme",
         "has_cards_info": "To change the card color scheme, update your theme settings."

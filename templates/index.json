@@ -95,6 +95,7 @@
       "settings": {
         "title": "Discover the kits",
         "heading_size": "h1",
+        "heading_alignment": "center",
         "subtitle": "proin sed libero enim sed faucibus turpis in eu mi bibendum\nNeque egestas congue quisque egestas diam in",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -103,7 +104,7 @@
         "background_style": "primary",
         "button_label": "See Plans and Pricing",
         "button_link": "shopify:\/\/pages\/memberships",
-        "color_scheme": "background-1",
+        "color_scheme": "te-color-teal-dark",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
