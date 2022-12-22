@@ -27,7 +27,7 @@
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div class="page-width section-{{ section.id }}-padding isolate">
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper">
+      <div class="title-wrapper {{ section.settings.heading_alignment }}">
         <h2 class="title {{ section.settings.heading_size }}">
           {{ section.settings.title | escape }}
         </h2>
@@ -209,6 +209,26 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.all.heading_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.all.heading_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.all.heading_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.all.heading_alignment.label"
     },
     {
       "type": "textarea",

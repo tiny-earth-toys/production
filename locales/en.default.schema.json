@@ -339,6 +339,18 @@
         "options__3": {
           "label": "Large"
         }
+      },
+      "heading_alignment": {
+        "label": "Heading Alignment",
+        "options__1": {
+          "label": "Left"
+        },
+        "options__2": {
+          "label": "Center"
+        },
+        "options__3": {
+          "label": "Right"
+        }
       }
     },
     "announcement-bar": {
