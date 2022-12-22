@@ -89,6 +89,18 @@
     "colors": {
       "name": "Colors",
       "settings": {
+        "background_color_option_1": {
+          "label": "Background Option 1",
+          "info": "Fill this in later"
+        },
+        "background_color_option_2": {
+          "label": "Background Option 2",
+          "info": "Fill this in later"
+        },
+        "background_color_option_3": {
+          "label": "Background Option 3",
+          "info": "Fill this in later"
+        },
         "colors_solid_button_labels": {
           "label": "Solid button label",
           "info": "Used as foreground color on accent colors."

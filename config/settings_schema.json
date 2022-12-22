@@ -15,6 +15,21 @@
         "content": "t:settings_schema.colors.settings.header__1.content"
       },
       {
+        "id": "background_color_option_1",
+        "type": "color_background",
+        "label": "t:settings_schema.colors.settings.background_color_option_1.label"
+      },
+      {
+        "id": "background_color_option_2",
+        "type": "color_background",
+        "label": "t:settings_schema.colors.settings.background_color_option_2.label"
+      },
+      {
+        "id": "background_color_option_3",
+        "type": "color_background",
+        "label": "t:settings_schema.colors.settings.background_color_option_3.label"
+      },
+      {
         "type": "color",
         "id": "colors_solid_button_labels",
         "default": "#FFFFFF",
