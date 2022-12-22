@@ -1976,6 +1976,9 @@
         "title": {
           "label": "Heading"
         },
+        "subtitle":{
+          "label": "Subtitle"
+        },
         "image_width": {
           "label": "Image width",
           "options__1": {
