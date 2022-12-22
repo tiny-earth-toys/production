@@ -1,6 +1,49 @@
 /* Color custom properties */
 
+/* Set Base Background and Base Text colors here: using variables defined in base-variables.css */
+:root {
+  --te-base-background: var(--te-base-cream-light);
+  --te-base-text: var(--te-gray-700);
+}
+
+
+/* Background Color Options available to the theme editor.  Use variables defined in base-variables.css */
 :root,
+.te-color-default {
+  --color-foreground: var(--te-base-text);
+  --color-background: var(--te-base-background;)
+}
+
+.te-color-black-white {
+  --color-foreground: var(--te-base-black);
+  --color-background: var(--te-base-white);
+}
+
+.te-color-teal-dark {
+  --color-foreground: var(--te-base-white);
+  --color-background: var(--te-teal-800);
+}
+
+.te-color-teal-light {
+  --color-foreground: var(--te-base-black);
+  --color-background: var(--te-teal-50);
+}
+
+.te-color-cream-dark {
+  --color-foreground: var(--te-base-black);
+  --color-background: var(--te-base-cream-dark);
+}
+
+.te-color-silver-light {
+  --color-foreground: var(--te-base-black);
+  --color-background: var(--te-silver-300);
+}
+
+.te-color-silver-dark {
+  --color-foreground: var(--te-base-black);
+  --color-background: var(--te-silver-600);
+}
+
 .color-background-1 {
   --color-foreground: var(--color-base-text);
   --color-background: var(--color-base-background-1);
