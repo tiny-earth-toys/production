@@ -561,6 +561,10 @@ table:not([class]) th {
   text-align: right;
 }
 
+.left {
+  text-align: left;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
