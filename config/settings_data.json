@@ -119,10 +119,11 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/tiny-earth-toys-logo-warmgray.png",
+          "logo_width": 170,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "menu_type_desktop": "dropdown",
+          "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
