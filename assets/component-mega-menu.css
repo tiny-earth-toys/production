@@ -3,7 +3,7 @@
 }
 
 .mega-menu__content {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
   border-left: 0;
   border-radius: 0;
   border-right: 0;  
@@ -43,7 +43,7 @@
 }
 
 .mega-menu__link {
-  color: rgba(var(--color-foreground), 0.75);
+  color: var(--color-foreground);
   display: block;
   font-size: 1.3rem;
   line-height: calc(1 + 0.3 / var(--font-body-scale));
@@ -76,7 +76,7 @@
 
 .mega-menu__link:hover,
 .mega-menu__link--active {
-  color: rgb(var(--color-foreground));
+  color: var(--color-foreground);
   text-decoration: underline;
 }
 

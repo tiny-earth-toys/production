@@ -8,12 +8,12 @@
 }
 
 .search__button:focus-visible {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
   z-index: 2;
 }
 
 .search__button:focus {
-  background-color: rgb(var(--color-background));
+  background-color: var(--color-background);
   z-index: 2;
 }
 
