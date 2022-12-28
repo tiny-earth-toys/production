@@ -118,7 +118,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "te-color-teal-dark",
+          "color_scheme": "te-color-default",
           "logo": "shopify:\/\/shop_images\/tiny-earth-toys-logo-warmgray.png",
           "logo_width": 180,
           "logo_position": "middle-left",
