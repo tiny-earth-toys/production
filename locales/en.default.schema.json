@@ -1395,6 +1395,9 @@
             },
             "button_link": {
               "label": "Button link"
+            },
+            "button_color": {
+              "label": "Button Color"
             }
           }
         }
