@@ -95,8 +95,8 @@ body,
 .te-color-silver-light,
 .te-color-silver-dark,
 .te-color-black-white {
-  color: var(--color-foreground);
-  background-color: var(--color-background);
+  color: rgb(var(--color-foreground));
+  background-color: rgb(var(--color-background));
 }
 
 .background-secondary {
@@ -1909,7 +1909,7 @@ input[type='checkbox'] {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--color-background);
+  background: rgb(var(--color-background));
   z-index: 4;
   display: flex;
   justify-content: center;
@@ -2012,7 +2012,7 @@ input[type='checkbox'] {
 .header-wrapper {
   display: block;
   position: relative;
-  background-color: var(--color-background);
+  background-color: rgba(var(--color-background),.75);
 }
 
 .header-wrapper--border-bottom {
@@ -2533,8 +2533,8 @@ details-disclosure > details {
 }
 
 .gradient {
-  background: var(--color-background);
-  background: var(--gradient-background);
+  background: rgb(var(--color-background));
+  background: rgb(var(--gradient-background));
   background-attachment: fixed;
 }
 
@@ -2605,7 +2605,7 @@ details-disclosure > details {
   border: var(--media-border-width) solid rgba(var(--color-foreground), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-  background-color: var(--color-background);
+  background-color: rgb(var(--color-background));
 }
 
 .global-media-settings:after {

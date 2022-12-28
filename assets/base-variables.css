@@ -1,178 +1,180 @@
-/* CSS Variables - Tiny Earth Toys v2 Design System */
+/* CSS Variables - Tiny Earth Toys v2 Design System 
+        Color variables need to be assigned to the corresponding rgb values without rgb(). This allows us access it in different instances of rbga format.
+*/
 
 :root {
     /* Base Colors */
     
-        --te-base-white: rgb(255,255,255);
-        --te-base-black: rgb(34,31,32);
-        --te-base-cream-light: rgb(252,251,250);
-        --te-base-cream-dark: rgb(242,238,232);
+        --te-base-white: 255,255,255;
+        --te-base-black: 34,31,32;
+        --te-base-cream-light: 252,251,250;
+        --te-base-cream-dark: 242,238,232;
     
     /* Grayscale */
     
-        --te-gray-25: rgb(253,253,252);
-        --te-gray-50: rgb(250,250,249);
-        --te-gray-100: rgb(245,245,244);
-        --te-gray-200: rgb(231,229,228);
-        --te-gray-300: rgb(215,211,208);
-        --te-gray-400: rgb(169,162,157);
-        --te-gray-500: rgb(121,113,107);
-        --te-gray-600: rgb(87,83,78);
-        --te-gray-700: rgb(68,64,60);
-        --te-gray-800: rgb(41,37,36);
-        --te-gray-900: rgb(28,25,23);
+        --te-gray-25: 253,253,252;
+        --te-gray-50: 250,250,249;
+        --te-gray-100: 245,245,244;
+        --te-gray-200: 231,229,228;
+        --te-gray-300: 215,211,208;
+        --te-gray-400: 169,162,157;
+        --te-gray-500: 121,113,107;
+        --te-gray-600: 87,83,78;
+        --te-gray-700: 68,64,60;
+        --te-gray-800: 41,37,36;
+        --te-gray-900: 28,25,23;
     
     /* Primary Color */
     
-        --te-teal-25: rgb(245,248,249);
-        --te-teal-50: rgb(204,221,223);
-        --te-teal-100: rgb(163,194,197);
-        --te-teal-200: rgb(122,166,171);
-        --te-teal-300: rgb(82,137,144);
-        --te-teal-400: rgb(41,108,117);
-        --te-teal-500: rgb(0,78,89);
-        --te-teal-600: rgb(0,66,79);
-        --te-teal-700: rgb(0,55,69);
-        --te-teal-800: rgb(0,44,59);
-        --te-teal-900: rgb(0,34,48);
+        --te-teal-25: 245,248,249;
+        --te-teal-50: 204,221,223;
+        --te-teal-100: 163,194,197;
+        --te-teal-200: 122,166,171;
+        --te-teal-300: 82,137,144;
+        --te-teal-400: 41,108,117;
+        --te-teal-500: 0,78,89;
+        --te-teal-600: 0,66,79;
+        --te-teal-700: 0,55,69;
+        --te-teal-800: 0,44,59;
+        --te-teal-900: 0,34,48;
     
     /* Accent Colors - Frequently Used */
     
-        --te-silver-25: rgb(254,253,252);
-        --te-silver-50: rgb(249,243,240);
-        --te-silver-100: rgb(243,233,229);
-        --te-silver-200: rgb(238,224,217);
-        --te-silver-300: rgb(232,214,206);
-        --te-silver-400: rgb(226,205,195);
-        --te-silver-500: rgb(220,196,184);
-        --te-silver-600: rgb(193,173,160);
-        --te-silver-700: rgb(166,149,137);
-        --te-silver-800: rgb(139,125,114);
-        --te-silver-900: rgb(111,101,91);
+        --te-silver-25: 254,253,252;
+        --te-silver-50: 249,243,240;
+        --te-silver-100: 243,233,229;
+        --te-silver-200: 238,224,217;
+        --te-silver-300: 232,214,206;
+        --te-silver-400: 226,205,195;
+        --te-silver-500: 220,196,184;
+        --te-silver-600: 193,173,160;
+        --te-silver-700: 66,149,137;
+        --te-silver-800: 139,125,114;
+        --te-silver-900: 111,101,91;
     
-        --te-moss-25: rgb(250,251,249);
-        --te-moss-50: rgb(229,236,223);
-        --te-moss-100: rgb(208,220,197);
-        --te-moss-200: rgb(187,204,172);
-        --te-moss-300: rgb(166,188,147);
-        --te-moss-400: rgb(144,171,122);
-        --te-moss-500: rgb(123,154,98);
-        --te-moss-600: rgb(106,136,85);
-        --te-moss-700: rgb(89,117,72);
-        --te-moss-800: rgb(72,98,59);
-        --te-moss-900: rgb(57,79,47);
+        --te-moss-25: 250,251,249;
+        --te-moss-50: 229,236,223;
+        --te-moss-100: 208,220,197;
+        --te-moss-200: 187,204,172;
+        --te-moss-300: 166,188,147;
+        --te-moss-400: 144,171,122;
+        --te-moss-500: 123,154,98;
+        --te-moss-600: 106,136,85;
+        --te-moss-700: 89,117,72;
+        --te-moss-800: 72,98,59;
+        --te-moss-900: 57,79,47;
     
-        --te-aqua-25: rgb(245,252,252);
-        --te-aqua-50: rgb(204,238,241);
-        --te-aqua-100: rgb(163,224,228);
-        --te-aqua-200: rgb(122,208,215);
-        --te-aqua-300: rgb(82,192,200);
-        --te-aqua-400: rgb(41,174,185);
-        --te-aqua-500: rgb(0,155,169);
-        --te-aqua-600: rgb(0,132,151);
-        --te-aqua-700: rgb(0,110,131);
-        --te-aqua-800: rgb(0,88,111);
-        --te-aqua-900: rgb(0,68,90);
+        --te-aqua-25: 45,252,252;
+        --te-aqua-50: 204,238,241;
+        --te-aqua-100: 163,224,228;
+        --te-aqua-200: 122,208,215;
+        --te-aqua-300: 82,192,200;
+        --te-aqua-400: 41,174,185;
+        --te-aqua-500: 0,155,169;
+        --te-aqua-600: 0,132,151;
+        --te-aqua-700: 0,110,131;
+        --te-aqua-800: 0,88,111;
+        --te-aqua-900: 0,68,90;
     
-        --te-baby-blue-25: rgb(250,252,254);
-        --te-baby-blue-50: rgb(228,240,250);
-        --te-baby-blue-100: rgb(206,228,245);
-        --te-baby-blue-200: rgb(185,215,240);
-        --te-baby-blue-300: rgb(165,202,235);
-        --te-baby-blue-400: rgb(145,189,229);
-        --te-baby-blue-500: rgb(126,176,222);
-        --te-baby-blue-600: rgb(109,151,196);
-        --te-baby-blue-700: rgb(92,126,169);
-        --te-baby-blue-800: rgb(76,103,142);
-        --te-baby-blue-900: rgb(60,80,114);
+        --te-baby-blue-25: 250,252,254;
+        --te-baby-blue-50: 228,240,250;
+        --te-baby-blue-100: 206,228,245;
+        --te-baby-blue-200: 185,215,240;
+        --te-baby-blue-300: 165,202,235;
+        --te-baby-blue-400: 145,189,229;
+        --te-baby-blue-500: 126,176,222;
+        --te-baby-blue-600: 109,151,196;
+        --te-baby-blue-700: 92,126,169;
+        --te-baby-blue-800: 76,103,142;
+        --te-baby-blue-900: 60,80,114;
     
     /*Accent Colors - Less Frequently Used */
     
-        --te-lime-25: rgb(254,254,249);
-        --te-lime-50: rgb(252,251,226);
-        --te-lime-100: rgb(248,247,204);
-        --te-lime-200: rgb(244,243,182);
-        --te-lime-300: rgb(240,239,161);
-        --te-lime-400: rgb(235,234,140);
-        --te-lime-500: rgb(235,234,140);
-        --te-lime-600: rgb(198,202,103);
-        --te-lime-700: rgb(168,175,87);
-        --te-lime-800: rgb(138,147,71);
-        --te-lime-900: rgb(109,118,56);
+        --te-lime-25: 254,254,249;
+        --te-lime-50: 252,251,226;
+        --te-lime-100: 248,247,204;
+        --te-lime-200: 244,243,182;
+        --te-lime-300: 240,239,161;
+        --te-lime-400: 235,234,140;
+        --te-lime-500: 235,234,140;
+        --te-lime-600: 198,202,103;
+        --te-lime-700: 168,175,87;
+        --te-lime-800: 138,147,71;
+        --te-lime-900: 109,118,56;
     
-        --te-honey-25: rgb(255,252,246);
-        --te-honey-50: rgb(253,242,210);
-        --te-honey-100: rgb(250,231,175);
-        --te-honey-200: rgb(246,220,141);
-        --te-honey-300: rgb(242,209,107);
-        --te-honey-400: rgb(236,198,75);
-        --te-honey-500: rgb(229,186,44);
-        --te-honey-600: rgb(203,171,36);
-        --te-honey-700: rgb(177,153,28);
-        --te-honey-800: rgb(149,134,21);
-        --te-honey-900: rgb(121,112,16);
+        --te-honey-25: 255,252,246;
+        --te-honey-50: 253,242,210;
+        --te-honey-100: 250,231,175;
+        --te-honey-200: 246,220,141;
+        --te-honey-300: 242,209,107;
+        --te-honey-400: 236,198,75;
+        --te-honey-500: 229,186,44;
+        --te-honey-600: 203,171,36;
+        --te-honey-700: 177,153,28;
+        --te-honey-800: 149,134,21;
+        --te-honey-900: 121,112,16;
     
-        --te-pink-25: rgb(254,253,253);
-        --te-pink-50: rgb(249,245,246);
-        --te-pink-100: rgb(244,237,240);
-        --te-pink-200: rgb(239,229,233);
-        --te-pink-300: rgb(234,221,226);
-        --te-pink-400: rgb(228,214,219);
-        --te-pink-500: rgb(223,206,212);
-        --te-pink-600: rgb(195,180,185);
-        --te-pink-700: rgb(168,154,158);
-        --te-pink-800: rgb(140,128,131);
-        --te-pink-900: rgb(112,102,104);
+        --te-pink-25: 254,253,253;
+        --te-pink-50: 249,245,246;
+        --te-pink-100: 244,237,240;
+        --te-pink-200: 239,229,233;
+        --te-pink-300: 234,221,226;
+        --te-pink-400: 228,214,219;
+        --te-pink-500: 223,206,212;
+        --te-pink-600: 195,180,185;
+        --te-pink-700: 168,154,158;
+        --te-pink-800: 140,128,131;
+        --te-pink-900: 112,102,104;
     
-        --te-coral-25: rgb(255,248,248);
-        --te-coral-50: rgb(252,219,219);
-        --te-coral-100: rgb(249,192,190);
-        --te-coral-200: rgb(245,166,163);
-        --te-coral-300: rgb(241,140,136);
-        --te-coral-400: rgb(235,116,110);
-        --te-coral-500: rgb(229,92,85);
-        --te-coral-600: rgb(203,83,72);
-        --te-coral-700: rgb(176,74,60);
-        --te-coral-800: rgb(148,64,48);
-        --te-coral-900: rgb(120,54,38);
+        --te-coral-25: 255,248,248;
+        --te-coral-50: 252,219,219;
+        --te-coral-100: 249,192,190;
+        --te-coral-200: 245,166,163;
+        --te-coral-300: 241,140,136;
+        --te-coral-400: 235,116,110;
+        --te-coral-500: 229,92,85;
+        --te-coral-600: 203,83,72;
+        --te-coral-700: 176,74,60;
+        --te-coral-800: 148,64,48;
+        --te-coral-900: 120,54,38;
     
     /* Feedback Colors */
     
-        --te-error-red-25: rgb(255,251,250);
-        --te-error-red-50: rgb(254,243,242);
-        --te-error-red-100: rgb(254,228,226);
-        --te-error-red-200: rgb(254,205,202);
-        --te-error-red-300: rgb(253,162,155);
-        --te-error-red-400: rgb(249,112,102);
-        --te-error-red-500: rgb(240,68,56);
-        --te-error-red-600: rgb(217,45,32);
-        --te-error-red-700: rgb(180,35,24);
-        --te-error-red-800: rgb(145,32,24);
-        --te-error-red-900: rgb(122,39,26);
+        --te-error-red-25: 255,251,250;
+        --te-error-red-50: 254,243,242;
+        --te-error-red-100: 254,228,226;
+        --te-error-red-200: 254,205,202;
+        --te-error-red-300: 253,162,155;
+        --te-error-red-400: 249,112,102;
+        --te-error-red-500: 240,68,56;
+        --te-error-red-600: 217,45,32;
+        --te-error-red-700: 180,35,24;
+        --te-error-red-800: 145,32,24;
+        --te-error-red-900: 122,39,26;
     
-        --te-warning-yellow-25: rgb(255,252,245);
-        --te-warning-yellow-50: rgb(255,250,235);
-        --te-warning-yellow-100: rgb(254,240,199);
-        --te-warning-yellow-200: rgb(254,223,137);
-        --te-warning-yellow-300: rgb(254,200,75);
-        --te-warning-yellow-400: rgb(253,176,34);
-        --te-warning-yellow-500: rgb(247,144,9);
-        --te-warning-yellow-600: rgb(220,104,3);
-        --te-warning-yellow-700: rgb(181,71,8);
-        --te-warning-yellow-800: rgb(147,55,13);
-        --te-warning-yellow-900: rgb(147,55,13);
+        --te-warning-yellow-25: 255,252,245;
+        --te-warning-yellow-50: 255,250,235;
+        --te-warning-yellow-100: 254,240,199;
+        --te-warning-yellow-200: 254,223,137;
+        --te-warning-yellow-300: 254,200,75;
+        --te-warning-yellow-400: 253,176,34;
+        --te-warning-yellow-500: 247,144,9;
+        --te-warning-yellow-600: 220,104,3;
+        --te-warning-yellow-700: 181,71,8;
+        --te-warning-yellow-800: 147,55,13;
+        --te-warning-yellow-900: 147,55,13;
     
-        --te-success-green-25: rgb(246,254,249);
-        --te-success-green-50: rgb(236,253,243);
-        --te-success-green-100: rgb(209,250,223);
-        --te-success-green-200: rgb(166,244,197);
-        --te-success-green-300: rgb(108,233,166);
-        --te-success-green-400: rgb(50,213,131);
-        --te-success-green-500: rgb(18,183,106);
-        --te-success-green-600: rgb(3,152,85);
-        --te-success-green-700: rgb(2,122,72);
-        --te-success-green-800: rgb(5,96,58);
-        --te-success-green-900: rgb(5,79,49);
+        --te-success-green-25: 246,254,249;
+        --te-success-green-50: 236,253,243;
+        --te-success-green-100: 209,250,223;
+        --te-success-green-200: 166,244,197;
+        --te-success-green-300: 108,233,166;
+        --te-success-green-400: 50,213,131;
+        --te-success-green-500: 18,183,106;
+        --te-success-green-600: 3,152,85;
+        --te-success-green-700: 2,122,72;
+        --te-success-green-800: 5,96,58;
+        --te-success-green-900: 5,79,49;
     
     /* Set Base Background and Base Text colors here: using variables defined in base-variables.css */
         --te-base-background: var(--te-base-cream-light);
