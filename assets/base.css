@@ -386,6 +386,14 @@ table:not([class]) th {
   opacity: 0.7;
 }
 
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
 a:empty,
 ul:empty,
 dl:empty,
