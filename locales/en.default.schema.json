@@ -326,19 +326,19 @@
           "label": "Default"
         },
         "te-color-cream-dark": {
-          "label": "Cream/dark"
+          "label": "Cream\/dark"
         },
         "te-color-teal-light": {
-          "label": "Teal/light"
+          "label": "Teal\/light"
         },
         "te-color-teal-dark": {
-          "label": "Teal/dark"
+          "label": "Teal\/dark"
         },
         "te-color-silver-light": {
-          "label": "Silver/light"
+          "label": "Silver\/light"
         },
         "te-color-silver-dark": {
-          "label": "Silver/dark"
+          "label": "Silver\/dark"
         },
         "te-color-black-white": {
           "label": "Black & White"
@@ -2168,7 +2168,7 @@
         "title": {
           "label": "Heading"
         },
-        "subtitle":{
+        "subtitle": {
           "label": "Subtitle"
         },
         "image_width": {
