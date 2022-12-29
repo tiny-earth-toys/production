@@ -76,7 +76,7 @@
                   {% else %}
                     href="{{ block.settings.button_link }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  class="te-button te-button--{{ block.settings.color }}"
                   {{ block.shopify_attributes }}
                 >
                   {{ block.settings.button_label | escape }}
@@ -433,27 +433,31 @@
           "label": "t:sections.te-image-with-text.blocks.button.settings.button_color.label",
           "options": [
             {
-              "value": "--te-moss-600",
+              "value": "green",
               "label": "Green"
             },
             {
-              "value": "--te-baby-blue-900",
+              "value": "blue",
               "label": "Blue"
             },
             {
-              "value": "--te-base-black",
-              "label": "Black"
+              "value": "line-gray",
+              "label": "Line Gray"
             },
             {
-              "value": "--te-base-white",
-              "label": "White"
+              "value": "solid-gray",
+              "label": "Solid Gray"
             },
             {
-              "value": "--te-base-cream-light",
-              "label": "Cream"
+              "value": "line-white",
+              "label": "Line White"
+            },
+            {
+              "value": "solid-white",
+              "label": "Solid White"
             }
           ],
-          "default": "--te-moss-600"
+          "default": "green"
         }
       ]
     }
