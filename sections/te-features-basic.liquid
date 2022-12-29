@@ -18,28 +18,28 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container {{ section.settings.color_scheme }} {% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div>
+<section id="{{ section.id }}" class="feat-basic {{ section.settings.color_scheme }} ">
+  <div class="title-container">
+    <div class="section__title">
       {% unless section.settings.section_title == blank %}
-        <h1 class="center">{{ section.settings.section_title }}</h1>
+        <h1 class="te-display-md">{{ section.settings.section_title }}</h1>
       {% endunless %}
       {% unless section.settings.section_text == blank %}
         {{ section.settings.section_text | escape }}
       {% endunless %}
     </div>
-    <div class="rich-text__blocks">
-      {%- for block in section.blocks -%}
-        <div class="feature-card">
-          <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-            <p>{{ block.settings.card_title | escape }}</p>
-          </h2>
-          <p class="feature-text">{{ block.settings.card_text }}</p>
-        </div>
-      {%- endfor -%}
-    </div>
   </div>
-</div>
+  <div class="blocks-container">
+    {%- for block in section.blocks -%}
+      <div class="feature-card">
+        <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+          <p>{{ block.settings.card_title | escape }}</p>
+        </h2>
+        <p class="feature-text">{{ block.settings.card_text }}</p>
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
 
 {% schema %}
 {
@@ -103,33 +103,6 @@
       "id": "section_text",
       "label": "Section Text",
       "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat."
-    },
-
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-
-    {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 40
-    },
-
-    {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 52
     }
   ],
 
