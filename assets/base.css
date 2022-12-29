@@ -1,5 +1,8 @@
 
 /* base */
+html {
+  font-size: 16px;
+}
 
 .no-js:not(html) {
   display: none !important;

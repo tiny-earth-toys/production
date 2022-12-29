@@ -513,69 +513,82 @@
 
 
 /*these need to be moved into the base.css or create TE base css file*/
-
-.te-display-2xl {
-    font-family: var(--te-font-heading-family);
-    font-size: 72px;
-    line-height: 90px;
+.te-display {
+  font-family: var(--te-font-heading-family);
+  font-weight: 400;
 }
 
-.te-display-xl {
-    font-family: var(--te-font-heading-family);
-    font-size: 60px;
-    line-height: 72px;
+.te-text {
+  font-family: var(--te-font-body-family);
 }
 
-.te-display-lg {
-    font-family: var(--te-font-heading-family);
-    font-size: 48px;
-    line-height: 60px;
+.te-display--2xl {
+    font-size: 4.5rem;
+    line-height: 5.625rem;
 }
 
-.te-display-md {
-    font-family: var(--te-font-heading-family);
-    font-size: 36px;
-    line-height: 44px;
+.te-display--xl {
+    font-size: 3.75rem;
+    line-height: 4.5rem;
 }
 
-.te-display-sm {
-    font-family: var(--te-font-heading-family);
-    font-size: 30px;
-    line-height: 38px;
+.te-display--lg {
+    font-size: 3rem;
+    line-height: 3.75rem;
 }
 
-.te-display-xs {
-    font-family: var(--te-font-heading-family);
-    font-size: 24px;
-    line-height: 32px;
+.te-display--md {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
 }
 
+.te-display--sm {
+    font-size: 1.875rem;
+    line-height: 2.375rem;
+}
+
+.te-display--xs {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.te-display--light {
+  font-weight: 300;
+}
+
+.te-display--medium {
+  font-weight: 500;
+}
+
+.te-display--semibold {
+  font-weight: 600;
+}
+
+.te-display--bold {
+  font-weight: 700;
+}
 .te-text-xl {
-    font-family: var(--te-font-body-family);
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
 }
 
 .te-text-lg {
-    font-family: var(--te-font-body-family);
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
 }
 
 .te-text-md {
-    font-family: var(--te-font-body-family);
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
 }
 
 .te-text-sm {
-    font-family: var(--te-font-body-family);
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
 }
 
 .te-text-xs {
-    font-family: var(--te-font-body-family);
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
 }
+
