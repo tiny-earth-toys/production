@@ -1,0 +1,42 @@
+
+// Input settings for development easy access
+
+
+
+//Section background color
+{
+    "type": "select",
+    "id": "color_scheme",
+    "options": [
+      {
+        "value": "te-color-default",
+        "label": "t:sections.all.colors.te-color-default.label"
+      },
+      {
+        "value": "te-color-cream-dark",
+        "label": "t:sections.all.colors.te-color-cream-dark.label"
+      },
+      {
+        "value": "te-color-teal-light",
+        "label": "t:sections.all.colors.te-color-teal-light.label"
+      },
+      {
+        "value": "te-color-teal-dark",
+        "label": "t:sections.all.colors.te-color-teal-dark.label"
+      },
+      {
+        "value": "te-color-silver-light",
+        "label": "t:sections.all.colors.te-color-silver-light.label"
+      },
+      {
+        "value": "te-color-silver-dark",
+        "label": "t:sections.all.colors.te-color-silver-dark.label"
+      },
+      {
+        "value": "te-color-black-white",
+        "label": "t:sections.all.colors.te-color-black-white.label"
+      }
+    ],
+    "default": "te-color-default",
+    "label": "t:sections.all.colors.label"
+}
