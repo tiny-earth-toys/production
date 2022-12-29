@@ -1,10 +1,6 @@
+[
 
-// Input settings for development easy access
-
-
-
-//Section background color
-{
+  {
     "type": "select",
     "id": "color_scheme",
     "options": [
@@ -39,57 +35,39 @@
     ],
     "default": "te-color-default",
     "label": "t:sections.all.colors.label"
-},
+  },
 
-// Buttons
-{
-    "type": "button",
-    "name": "t:sections.te-section.blocks.button.name",
-    "limit": 1,
-    "settings": [
+  {
+    "type": "select",
+    "id": "icon_select",
+    "label": "Icon",
+    "options": [
       {
-        "type": "text",
-        "id": "button_label",
-        "default": "Button label",
-        "label": "t:sections.te-image-with-text.blocks.button.settings.button_label.label",
-        "info": "t:sections.te-image-with-text.blocks.button.settings.button_label.info"
+        "value": "icon1",
+        "label": "Icon 1"
       },
       {
-        "type": "url",
-        "id": "button_link",
-        "label": "t:sections.te-image-with-text.blocks.button.settings.button_link.label"
+        "value": "icon2",
+        "label": "Icon 2"
       },
       {
-        "type": "select",
-        "id": "color",
-        "label": "t:sections.te-image-with-text.blocks.button.settings.button_color.label",
-        "options": [
-          {
-            "value": "green",
-            "label": "Green"
-          },
-          {
-            "value": "blue",
-            "label": "Blue"
-          },
-          {
-            "value": "line-gray",
-            "label": "Line Gray"
-          },
-          {
-            "value": "solid-gray",
-            "label": "Solid Gray"
-          },
-          {
-            "value": "line-white",
-            "label": "Line White"
-          },
-          {
-            "value": "solid-white",
-            "label": "Solid White"
-          }
-        ],
-        "default": "green"
+        "value": "icon3",
+        "label": "Icon 3"
+      },
+      {
+        "value": "icon4",
+        "label": "Icon 4"
+      },
+      {
+        "value": "icon5",
+        "label": "Icon 5"
+      },
+      {
+        "value": "icon6",
+        "label": "Icon 6"
       }
-    ]
+    ],
+    "default": "icon1"
   }
+
+]

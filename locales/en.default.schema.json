@@ -2546,6 +2546,8 @@
         "name": "Rich text"
       }
     },
+
+
     "te-rich-text": {
       "name": "TE-Rich text",
       "settings": {
@@ -2589,9 +2591,58 @@
         }
       },
       "presets": {
-        "name": "Rich text"
+        "name": "TE-Rich text"
       }
     },
+
+    "te-features-basic": {
+      "name": "TE-Features Basic",
+      "settings": {
+        "full_width": {
+          "label": "Make section full width"
+        }
+      },
+      "blocks": {
+        "heading": {
+          "name": "Heading",
+          "settings": {
+            "heading": {
+              "label": "Heading"
+            }
+          }
+        },
+        "text": {
+          "name": "Text",
+          "settings": {
+            "text": {
+              "label": "Description"
+            }
+          }
+        },
+        "button": {
+          "name": "Button",
+          "settings": {
+            "button_label": {
+              "label": "Button label"
+            },
+            "button_link": {
+              "label": "Button link"
+            },
+            "button_style_secondary": {
+              "label": "Use outline button style"
+            },
+            "button_color": {
+              "label": "Button color"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "TE-Features Basic"
+      }
+    },
+
+
     "video": {
       "name": "Video",
       "settings": {

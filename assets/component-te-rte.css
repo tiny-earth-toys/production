@@ -53,7 +53,7 @@
   
   .rte a:hover {
     color: rgb(var(--color-link));
-    text-decoration-thickness: 0.2rem;
+    text-decoration-thickness: 0.3rem;
   }
   
   .rte blockquote {

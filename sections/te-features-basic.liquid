@@ -1,8 +1,8 @@
 <link rel="stylesheet" href="{{ 'component-te-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-te-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-te-features-basic.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-te-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-te-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-te-features-basic.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -20,12 +20,20 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container {{ section.settings.color_scheme }} {% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+    <div>
+      {% unless section.settings.section_title == blank %}
+        <h1 class="center">{{ section.settings.section_title }}</h1>
+      {% endunless %}
+      {% unless section.settings.section_text == blank %}
+        <p>{{ section.settings.section_text }}</p>
+      {% endunless %}
+    </div>
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              {{ block.settings.heading | escape }}TINY EARTH
+              {{ block.settings.heading | escape }}
             </h2>
           {%- when 'text' -%}
             <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
@@ -89,16 +97,33 @@
       "default": "te-color-default",
       "label": "t:sections.all.colors.label"
     },
+
     {
       "type": "checkbox",
       "id": "full_width",
       "default": true,
-      "label": "t:sections.rich-text.settings.full_width.label"
+      "label": "t:sections.te-features-basic.settings.full_width.label"
     },
+
+    {
+      "type": "richtext",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "<p>Basic Features Section</p>"
+    },
+
+    {
+      "type": "textarea",
+      "id": "section_text",
+      "label": "Section Text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat."
+    },
+
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
     },
+
     {
       "type": "range",
       "id": "padding_top",
@@ -109,6 +134,7 @@
       "label": "t:sections.all.padding.padding_top",
       "default": 40
     },
+
     {
       "type": "range",
       "id": "padding_bottom",
@@ -120,116 +146,57 @@
       "default": 52
     }
   ],
+
   "blocks": [
     {
-      "type": "heading",
-      "name": "t:sections.rich-text.blocks.heading.name",
-      "limit": 1,
+      "type": "feature_card",
+      "name": "t:sections.te-features-basic.blocks.feature_card.name",
+      "limit": 6,
       "settings": [
-        {
-          "type": "text",
-          "id": "heading",
-          "default": "Talk about your brand",
-          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
-        },
         {
           "type": "select",
-          "id": "heading_size",
+          "id": "icon_select",
+          "label": "Icon",
           "options": [
             {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
+              "value": "icon1",
+              "label": "Icon 1"
             },
             {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
+              "value": "icon2",
+              "label": "Icon 2"
             },
             {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
+              "value": "icon3",
+              "label": "Icon 3"
+            },
+            {
+              "value": "icon4",
+              "label": "Icon 4"
+            },
+            {
+              "value": "icon5",
+              "label": "Icon 5"
+            },
+            {
+              "value": "icon6",
+              "label": "Icon 6"
             }
           ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "t:sections.rich-text.blocks.text.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-          "label": "t:sections.rich-text.blocks.text.settings.text.label"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "name": "t:sections.te-rich-text.blocks.button.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.te-rich-text.blocks.button.settings.button_label.label"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "t:sections.te-rich-text.blocks.button.settings.button_link.label"
-        },
-        {
-          "type": "select",
-          "id": "color",
-          "label": "t:sections.te-rich-text.blocks.button.settings.button_color.label",
-          "options": [
-            {
-              "value": "green",
-              "label": "Green"
-            },
-            {
-              "value": "blue",
-              "label": "Blue"
-            },
-            {
-              "value": "line-gray",
-              "label": "Line Gray"
-            },
-            {
-              "value": "solid-gray",
-              "label": "Solid Gray"
-            },
-            {
-              "value": "line-white",
-              "label": "Line White"
-            },
-            {
-              "value": "solid-white",
-              "label": "Solid White"
-            }
-          ],
-          "default": "green"
+          "default": "icon1"
         }
       ]
     }
   ],
+
   "presets": [
     {
       "name": "TE-Features Basic",
       "blocks": [
         {
-          "type": "heading"
-        },
-        {
-          "type": "text"
-        },
-        {
-          "type": "button"
+          "type": "feature_card",
+          "type": "feature_card",
+          "type": "feature_card"
         }
       ]
     }

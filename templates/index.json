@@ -1,74 +1,12 @@
 {
   "sections": {
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
-      "type": "te-rich-text",
-      "blocks": {
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0",
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1",
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2"
-      ],
+    "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {
+      "type": "te-features-basic",
       "settings": {
-        "color_scheme": "te-color-teal-dark",
+        "color_scheme": "te-color-default",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "c838c5bc-baab-4787-8b4b-6b8af1449e1a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-0",
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-1",
-        "template--16658355257589__c838c5bc-baab-4787-8b4b-6b8af1449e1a-16723328781e897ccc-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
+        "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
+        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -176,12 +114,131 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0",
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1",
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2"
+      ],
+      "settings": {
+        "color_scheme": "te-color-teal-dark",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "8069baa3-c517-4573-ba5f-36556c9a1e43": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "280425f8-0859-4a04-b948-84a1f0fa9d98": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "76b726fb-75c7-4b08-84b9-35f05d66dfd2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-0",
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-1",
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2",
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-3",
+        "280425f8-0859-4a04-b948-84a1f0fa9d98",
+        "76b726fb-75c7-4b08-84b9-35f05d66dfd2"
+      ],
+      "settings": {
+        "caption": "Anything else you might want to know",
+        "heading": "Frequently asked questions",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82",
-    "c838c5bc-baab-4787-8b4b-6b8af1449e1a",
+    "47f89405-5d30-4bc9-bd9c-b915b59dbaf6",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
-    "f0905a4a-f8b1-47fd-8897-66f6c34773d1"
+    "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82",
+    "8069baa3-c517-4573-ba5f-36556c9a1e43"
   ]
 }
