@@ -1,54 +1,46 @@
 {
   "sections": {
-    "multicolumn": {
-      "type": "multicolumn",
+    "e54d6479-ae88-4e11-a33b-6869a44146cc": {
+      "type": "te-image-with-text",
       "blocks": {
-        "column1": {
-          "type": "column",
+        "d2da5dba-3d8a-473e-b90e-b8428dba72fa": {
+          "type": "heading",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "heading": "Get 60% off your starter box and a free gift",
+            "heading_size": "h1"
           }
         },
-        "column2": {
-          "type": "column",
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1": {
+          "type": "text",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
+            "text_style": "subtitle"
           }
         },
-        "column3": {
-          "type": "column",
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2": {
+          "type": "button",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "button_label": "Get Started",
+            "button_link": "",
+            "color": "green"
           }
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3"
+        "d2da5dba-3d8a-473e-b90e-b8428dba72fa",
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1",
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "te-color-default",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -104,54 +96,62 @@
         "background_style": "primary",
         "button_label": "See Plans and Pricing",
         "button_link": "shopify:\/\/pages\/memberships",
-        "color_scheme": "te-color-teal-dark",
+        "color_scheme": "te-color-default",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "e54d6479-ae88-4e11-a33b-6869a44146cc": {
-      "type": "te-image-with-text",
+    "multicolumn": {
+      "type": "multicolumn",
       "blocks": {
-        "d2da5dba-3d8a-473e-b90e-b8428dba72fa": {
-          "type": "heading",
+        "column1": {
+          "type": "column",
           "settings": {
-            "heading": "Get 60% off your starter box and a free gift",
-            "heading_size": "h1"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1": {
-          "type": "text",
+        "column2": {
+          "type": "column",
           "settings": {
-            "text": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
-            "text_style": "subtitle"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2": {
-          "type": "button",
+        "column3": {
+          "type": "column",
           "settings": {
-            "button_label": "Get Started",
-            "button_link": "",
-            "color": "green"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "d2da5dba-3d8a-473e-b90e-b8428dba72fa",
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1",
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2"
+        "column1",
+        "column2",
+        "column3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "te-color-default",
-        "mobile_content_alignment": "left",
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -201,9 +201,9 @@
     }
   },
   "order": [
-    "multicolumn",
-    "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
+    "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
+    "multicolumn",
     "d000486b-2a6d-4200-9e08-df23ee335c72"
   ]
 }
