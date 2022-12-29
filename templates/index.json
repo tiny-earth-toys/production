@@ -2,13 +2,44 @@
   "sections": {
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {
       "type": "te-features-basic",
+      "blocks": {
+        "3a56d954-1200-4e92-9efa-09eece7c639b": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon1",
+            "card_title": "My <i>card<\/i> <b>title<\/b>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "b7bb109f-9e6e-48f5-b404-45b8b62cb39e": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon1",
+            "card_title": "My <em>card<\/em> <strong>title<\/strong>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "5076428e-d89e-425c-b218-a9e8a55f42de": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon1",
+            "card_title": "My <em>card<\/em> <strong>title<\/strong>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        }
+      },
+      "block_order": [
+        "3a56d954-1200-4e92-9efa-09eece7c639b",
+        "b7bb109f-9e6e-48f5-b404-45b8b62cb39e",
+        "5076428e-d89e-425c-b218-a9e8a55f42de"
+      ],
       "settings": {
-        "color_scheme": "te-color-default",
+        "color_scheme": "te-color-teal-light",
         "full_width": true,
         "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
         "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 32
       }
     },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
