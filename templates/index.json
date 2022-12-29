@@ -3,35 +3,35 @@
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {
       "type": "te-features-basic",
       "blocks": {
-        "3a56d954-1200-4e92-9efa-09eece7c639b": {
+        "373713e5-b934-4e0d-a901-a02dee51f7cd": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon1",
-            "card_title": "My <i>card<\/i> <b>title<\/b>",
+            "card_title": "My card title",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
-        "b7bb109f-9e6e-48f5-b404-45b8b62cb39e": {
+        "4484b872-808c-47b5-9bd6-72cd879a36eb": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon1",
-            "card_title": "My <em>card<\/em> <strong>title<\/strong>",
+            "card_title": "My card title",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
-        "5076428e-d89e-425c-b218-a9e8a55f42de": {
+        "965f3355-7020-48cf-8b30-568de8bedb48": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon1",
-            "card_title": "My <em>card<\/em> <strong>title<\/strong>",
+            "card_title": "My card title",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         }
       },
       "block_order": [
-        "3a56d954-1200-4e92-9efa-09eece7c639b",
-        "b7bb109f-9e6e-48f5-b404-45b8b62cb39e",
-        "5076428e-d89e-425c-b218-a9e8a55f42de"
+        "373713e5-b934-4e0d-a901-a02dee51f7cd",
+        "4484b872-808c-47b5-9bd6-72cd879a36eb",
+        "965f3355-7020-48cf-8b30-568de8bedb48"
       ],
       "settings": {
         "color_scheme": "te-color-teal-light",

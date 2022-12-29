@@ -25,14 +25,14 @@
         <h1 class="center">{{ section.settings.section_title }}</h1>
       {% endunless %}
       {% unless section.settings.section_text == blank %}
-        <p>{{ section.settings.section_text }}</p>
+        {{ section.settings.section_text | escape }}
       {% endunless %}
     </div>
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         <div class="feature-card">
           <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-            {{ block.settings.card_title | escape }}
+            <p>{{ block.settings.card_title | escape }}</p>
           </h2>
           <p class="feature-text">{{ block.settings.card_text }}</p>
         </div>
@@ -175,7 +175,7 @@
         {
           "type": "inline_richtext",
           "id": "card_title",
-          "default": "My <i>card</i> <b>title</b>",
+          "default": "My card title",
           "label": "Card Title"
         },
 
