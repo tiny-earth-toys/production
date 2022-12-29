@@ -75,6 +75,13 @@
     "id": "card_title",
     "default": "My <i>card</i> <b>title</b>",
     "label": "Inline rich text"
+  },
+
+  {
+    "type": "textarea",
+    "id": "card_text",
+    "label": "Card text",
+    "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
   }
 
 ]
