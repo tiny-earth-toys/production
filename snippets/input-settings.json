@@ -68,6 +68,13 @@
       }
     ],
     "default": "icon1"
+  },
+
+  {
+    "type": "inline_richtext",
+    "id": "card_title",
+    "default": "My <i>card</i> <b>title</b>",
+    "label": "Inline rich text"
   }
 
 ]
