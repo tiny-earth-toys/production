@@ -2222,6 +2222,9 @@
         "button_label": {
           "label": "Button label"
         },
+        "button_color": {
+          "label": "Button color"
+        },
         "button_link": {
           "label": "Button link"
         },

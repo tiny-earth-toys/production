@@ -37,7 +37,10 @@
           </div>
         {%- endunless -%}
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
-          <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
+          <a
+            href="{{ section.settings.button_link }}"
+            class="te-button te-button--{{ section.settings.button_color }} large-up-hide"
+          >
             {{- section.settings.button_label | escape -}}
           </a>
         {%- endif -%}
@@ -164,7 +167,7 @@
     <div class="center{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
       {%- if section.settings.button_label != blank -%}
         <a
-          class="button button--primary"
+          class="te-button te-button--{{ section.settings.button_color }}"
           {% if section.settings.button_link == blank %}
             role="link" aria-disabled="true"
           {% else %}
@@ -326,6 +329,38 @@
       "id": "button_label",
       "default": "Button label",
       "label": "t:sections.te-multicolumn.settings.button_label.label"
+    },
+    {
+      "type": "select",
+      "id": "button_color",
+      "label": "t:sections.te-multicolumn.settings.button_color.label",
+      "options": [
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "blue",
+          "label": "Blue"
+        },
+        {
+          "value": "line-gray",
+          "label": "Line Gray"
+        },
+        {
+          "value": "solid-gray",
+          "label": "Solid Gray"
+        },
+        {
+          "value": "line-white",
+          "label": "Line White"
+        },
+        {
+          "value": "solid-white",
+          "label": "Solid White"
+        }
+      ],
+      "default": "line-gray"
     },
     {
       "type": "url",
