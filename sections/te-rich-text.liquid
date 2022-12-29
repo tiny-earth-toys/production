@@ -19,7 +19,7 @@
 {%- endstyle -%}
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
+  <div class="rich-text content-container {{ section.settings.color_scheme }} {% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__blocks">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
@@ -169,25 +169,51 @@
     },
     {
       "type": "button",
-      "name": "t:sections.rich-text.blocks.button.name",
+      "name": "t:sections.te-rich-text.blocks.button.name",
       "limit": 1,
       "settings": [
         {
           "type": "text",
           "id": "button_label",
           "default": "Button label",
-          "label": "t:sections.rich-text.blocks.button.settings.button_label.label"
+          "label": "t:sections.te-rich-text.blocks.button.settings.button_label.label"
         },
         {
           "type": "url",
           "id": "button_link",
-          "label": "t:sections.rich-text.blocks.button.settings.button_link.label"
+          "label": "t:sections.te-rich-text.blocks.button.settings.button_link.label"
         },
         {
-          "type": "checkbox",
-          "id": "button_style_secondary",
-          "default": false,
-          "label": "t:sections.rich-text.blocks.button.settings.button_style_secondary.label"
+          "type": "select",
+          "id": "color",
+          "label": "t:sections.te-rich-text.blocks.button.settings.button_color.label",
+          "options": [
+            {
+              "value": "green",
+              "label": "Green"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "line-gray",
+              "label": "Line Gray"
+            },
+            {
+              "value": "solid-gray",
+              "label": "Solid Gray"
+            },
+            {
+              "value": "line-white",
+              "label": "Line White"
+            },
+            {
+              "value": "solid-white",
+              "label": "Solid White"
+            }
+          ],
+          "default": "green"
         }
       ]
     }
