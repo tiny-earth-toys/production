@@ -626,27 +626,27 @@
   font-weight: 700;
 }
 
-.te-text-xl {
+.te-text--xl {
     font-size: 1.25rem;
     line-height: 1.875rem;
 }
 
-.te-text-lg {
+.te-text--lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
 
-.te-text-md {
+.te-text--md {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.te-text-sm {
+.te-text--sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
 }
 
-.te-text-xs {
+.te-text--xs {
     font-size: 0.75rem;
     line-height: 1.125rem;
 }

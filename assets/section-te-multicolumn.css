@@ -76,6 +76,7 @@
   .multicolumn-list h3,
   .multicolumn-list p {
     margin: 0;
+    font-size: 0.875rem;
   }
   
   .multicolumn-card-spacing {
@@ -91,6 +92,7 @@
   .multicolumn-list__item.center .media--adapt,
   .multicolumn-list__item .media--adapt .multicolumn-card__image {
     width: auto;
+    border-radius: 16px;
   }
   
   .multicolumn-list__item.center .media--adapt img {
@@ -201,13 +203,12 @@
   }
   
   .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
-    border-top-left-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
-    border-top-right-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
+    border-radius: 16px;
     overflow: hidden;
   }
   
   .multicolumn.background-none .multicolumn-card {
-    border-radius: 0;
+    border-radius: 16px;
   }
   
   .multicolumn-card__info .link {

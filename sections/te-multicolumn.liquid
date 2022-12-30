@@ -1,4 +1,4 @@
-{{ 'section-te-multicolumn.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'section-te-multicolumn.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -32,7 +32,7 @@
           {{ section.settings.title | escape }}
         </h2>
         {%- unless section.settings.subtitle == blank -%}
-          <div class="subtitle-wrapper">
+          <div class="subtitle-wrapper te-text--md">
             {{ section.settings.subtitle | newline_to_br }}
           </div>
         {%- endunless -%}
