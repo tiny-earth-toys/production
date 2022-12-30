@@ -1,42 +1,5 @@
 {
   "sections": {
-    "759155dc-effe-4e2e-90e3-db4d75bc4efb": {
-      "type": "te-feature-with-image",
-      "blocks": {
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-0",
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-1",
-        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {
       "type": "te-features-basic",
       "blocks": {
@@ -355,7 +318,6 @@
     }
   },
   "order": [
-    "759155dc-effe-4e2e-90e3-db4d75bc4efb",
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",

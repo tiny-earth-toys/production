@@ -20,7 +20,7 @@
 
 <section id="{{ section.id }}" class="feat-basic {{ section.settings.color_scheme }} ">
   <div class="title-wrapper">
-    <div class="title center">
+    <div class="title title--primary center">
       {% unless section.settings.section_title == blank %}
         <h1 class="te-display--lg">{{ section.settings.section_title }}</h1>
       {% endunless %}
@@ -31,9 +31,9 @@
       </div>
     </div>
   </div>
-  <div class="blocks-container">
+  <div class="blocks-container grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
     {%- for block in section.blocks -%}
-      <div class="feature-card">
+      <div class="grid__item">
         <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
           <p>{{ block.settings.card_title | escape }}</p>
         </h2>
@@ -105,6 +105,33 @@
       "id": "section_text",
       "label": "Section Text",
       "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat."
+    },
+
+    {
+      "type": "range",
+      "id": "columns_desktop",
+      "min": 1,
+      "max": 5,
+      "step": 1,
+      "default": 3,
+      "label": "t:sections.main-list-collections.settings.columns_desktop.label"
+    },
+
+    {
+      "type": "select",
+      "id": "columns_mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "t:sections.main-list-collections.settings.columns_mobile.options__1.label"
+        },
+        {
+          "value": "2",
+          "label": "t:sections.main-list-collections.settings.columns_mobile.options__2.label"
+        }
+      ],
+      "default": "1",
+      "label": "t:sections.main-list-collections.settings.columns_mobile.label"
     }
   ],
 
