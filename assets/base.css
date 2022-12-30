@@ -25,10 +25,6 @@ body {
   font-weight: 300;
 }
 
-@media screen and (min-width: 750px) {
-  body {
-    font-size: 1.6rem;
-  }
 
 
 .no-js:not(html) {
