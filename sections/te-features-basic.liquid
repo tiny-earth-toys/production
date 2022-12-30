@@ -34,6 +34,22 @@
   <div class="blocks-container grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
     {%- for block in section.blocks -%}
       <div class="grid__item">
+        <span class="icon-wrap">
+          {% case block.settings.icon_select %}
+            {% when 'icon_1' %}
+              {% render 'icon-arrow' %}
+            {% when 'icon_2' %}
+              {% render 'icon-caret' %}
+            {% when 'icon_3' %}
+              {% render 'icon-facebook' %}
+            {% when 'icon_4' %}
+              {% render 'icon-instagram' %}
+            {% when 'icon_5' %}
+              {% render 'icon-pinterest' %}
+            {% when 'icon_6' %}
+              {% render 'icon-snapchat' %}
+          {% endcase %}
+        </span>
         <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
           <p>{{ block.settings.card_title | escape }}</p>
         </h2>
@@ -147,31 +163,31 @@
           "label": "Icon",
           "options": [
             {
-              "value": "icon1",
+              "value": "icon_1",
               "label": "Icon 1"
             },
             {
-              "value": "icon2",
+              "value": "icon_2",
               "label": "Icon 2"
             },
             {
-              "value": "icon3",
+              "value": "icon_3",
               "label": "Icon 3"
             },
             {
-              "value": "icon4",
+              "value": "icon_4",
               "label": "Icon 4"
             },
             {
-              "value": "icon5",
+              "value": "icon_5",
               "label": "Icon 5"
             },
             {
-              "value": "icon6",
+              "value": "icon_6",
               "label": "Icon 6"
             }
           ],
-          "default": "icon1"
+          "default": "icon_1"
         },
 
         {
