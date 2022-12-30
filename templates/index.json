@@ -1,5 +1,42 @@
 {
   "sections": {
+    "759155dc-effe-4e2e-90e3-db4d75bc4efb": {
+      "type": "te-feature-with-image",
+      "blocks": {
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-0",
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-1",
+        "template--16658355257589__759155dc-effe-4e2e-90e3-db4d75bc4efb-1672416346cafa4e91-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {
       "type": "te-features-basic",
       "blocks": {
@@ -37,9 +74,7 @@
         "color_scheme": "te-color-teal-light",
         "full_width": true,
         "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
-        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
-        "padding_top": 40,
-        "padding_bottom": 32
+        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat."
       }
     },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
@@ -263,13 +298,69 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4bf1b00e-a0eb-441d-9b26-7309fa1c49f8": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "06bdd738-424c-4c6c-bb07-2f59abe31879": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "0399d836-4c11-4f4f-b70b-546e90e7b020": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-0",
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-1",
+        "template--16658355257589__4bf1b00e-a0eb-441d-9b26-7309fa1c49f8-1672416327a495db6c-2",
+        "06bdd738-424c-4c6c-bb07-2f59abe31879",
+        "0399d836-4c11-4f4f-b70b-546e90e7b020"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "759155dc-effe-4e2e-90e3-db4d75bc4efb",
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
-    "8069baa3-c517-4573-ba5f-36556c9a1e43"
+    "8069baa3-c517-4573-ba5f-36556c9a1e43",
+    "4bf1b00e-a0eb-441d-9b26-7309fa1c49f8"
   ]
 }

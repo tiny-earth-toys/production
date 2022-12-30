@@ -185,6 +185,7 @@
     
         --te-font-body-family: 'Raleway';
         --te-font-heading-family: 'Poppins';
+
     /* Grids & Spacing - v2 Design System */
     
         --te-spacing-1: .25rem;
@@ -227,7 +228,63 @@
       --te-shadow--2xl: 0px 24px 48px -12px rgba(16, 24, 40, 0.18);
       --te-shadow--3xl: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
 
+
+      /* Variables Previously set by the theme editor-- moved from theme.liquid */
+
+      --media-padding: 8px;
+      --media-border-opacity: 0.25;
+      --media-border-width: 0px;
+      --media-radius: 16px;
+
+      --page-width: 144rem;
+      --page-width-margin: 0rem;
+
+      --card-image-padding: 0.5rem;
+      --card-corner-radius: 1rem;
+      --card-text-alignment: center;
+      --card-border-width: 1rem;
+      --card-border-opacity: 0;
+
+      --badge-corner-radius: 40px;
+
+      --popup-border-width: 16px;
+      --popup-border-opacity: 1;
+      --popup-corner-radius: 16px;
+
+      --drawer-border-width: 1px;
+      --drawer-border-opacity: 1;
+      --drawer-shadow-opacity: 1;
+
+      --spacing-sections-desktop: 2rem;
+      --spacing-sections-mobile: 1.5rem;
+
+      --grid-desktop-vertical-spacing: 96px;
+      --grid-desktop-horizontal-spacing: 32px;
+      --grid-mobile-vertical-spacing: 48px;
+      --grid-mobile-horizontal-spacing: 16px;
+
+      --text-boxes-border-opacity: 0;
+      --text-boxes-border-width: 1px;
+      --text-boxes-radius: 16px;
+      --text-boxes-shadow-opacity: 0;
+
+      --buttons-radius: 40px;
+      --buttons-radius-outset: 0px;
+      --buttons-border-width: 1px;
+      --buttons-border-opacity: 1;
+      --buttons-shadow-opacity: 1;
+
+      --inputs-radius: 40px;
+      --inputs-border-width: 1px;
+      --inputs-border-opacity: 1;
+      --inputs-shadow-opacity: 0;
+
+      --variant-pills-radius: 40px;
+      --variant-pills-border-width: 1px;
+      --variant-pills-border-opacity: 1;
+      --variant-pills-shadow-opacity: 0;
 }
+
     /* Buttons - v2 Design System */
 
 .te-button {
