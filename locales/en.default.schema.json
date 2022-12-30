@@ -2588,6 +2588,24 @@
       "settings": {
         "full_width": {
           "label": "Make section full width"
+        },
+        "section_title": {
+          "label": "Section title"
+        },
+        "section_text": {
+          "label": "Section text"
+        },
+        "columns_desktop": {
+          "label": "Number of columns on desktop"
+        },
+        "columns_mobile": {
+          "label": "Number of columns on mobile",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          }
         }
       },
       "blocks": {
