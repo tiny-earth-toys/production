@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 96px 0px;
+  padding: 6rem 2rem;
   gap: 64px;
 }
 
@@ -38,11 +38,25 @@
 
 
 
-.te-icon-small {
+.te-icon-sm {
   display: inline-flex;
   justify-content: center;
   text-align: center;
-  height: 54px;
+  height: var(--te-spacing-12);
+}
+
+.te-icon-md {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  height: var(--te-spacing-16);
+}
+
+.te-icon-lg {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  height: var(--te-spacing-20);
 }
 
 .feat-basic__blocks {

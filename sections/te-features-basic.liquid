@@ -36,7 +36,7 @@
   <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
     {%- for block in section.blocks -%}
       <div class=" card grid__item">
-        <span class="te-icon-small icon-wrap ">
+        <span class="te-icon-sm icon-wrap ">
           {% case block.settings.icon_select %}
             {% when 'icon_1' %}
               {% render 'icon-arrow' %}
