@@ -20,13 +20,15 @@
 
 <section id="{{ section.id }}" class="feat-basic {{ section.settings.color_scheme }} ">
   <div class="title-container">
-    <div class="section__title">
+    <div class="title center">
       {% unless section.settings.section_title == blank %}
-        <h1 class="te-display-md">{{ section.settings.section_title }}</h1>
+        <h1 class="te-display--lg">{{ section.settings.section_title }}</h1>
       {% endunless %}
-      {% unless section.settings.section_text == blank %}
-        {{ section.settings.section_text | escape }}
-      {% endunless %}
+      <div class="subtitle subtitle--small">
+        {% unless section.settings.section_text == blank %}
+          {{ section.settings.section_text | escape }}
+        {% endunless %}
+      </div>
     </div>
   </div>
   <div class="blocks-container">

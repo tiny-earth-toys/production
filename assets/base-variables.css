@@ -520,6 +520,7 @@
 
 .te-text {
   font-family: var(--te-font-body-family);
+  font-weight: 500;
 }
 
 .te-display--2xl {
@@ -567,6 +568,7 @@
 .te-display--bold {
   font-weight: 700;
 }
+
 .te-text-xl {
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -592,3 +594,14 @@
     line-height: 1.125rem;
 }
 
+.te-text--regular {
+  font-weight: 400;
+}
+
+.te-text--semibold {
+  font-weight: 600;
+}
+
+.te-text--bold {
+  font-weight: 700;
+}
