@@ -4,6 +4,7 @@
 
 <noscript>{{ 'component-te-rte.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'section-te-features-basic.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -32,10 +33,10 @@
       </div>
     </div>
   </div>
-  <div class="blocks-container grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
+  <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
     {%- for block in section.blocks -%}
-      <div class="grid__item">
-        <span class="icon-wrap">
+      <div class=" card grid__item">
+        <span class="te-icon-small icon-wrap ">
           {% case block.settings.icon_select %}
             {% when 'icon_1' %}
               {% render 'icon-arrow' %}

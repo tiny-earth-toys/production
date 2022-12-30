@@ -29,7 +29,20 @@
 }
 
 .blocks-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2em;
+  gap: 4em;
+}
 
+
+
+.te-icon-small {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  height: 54px;
 }
 
 .feat-basic__blocks {
