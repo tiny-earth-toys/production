@@ -265,7 +265,7 @@
 
       --text-boxes-border-opacity: 0;
       --text-boxes-border-width: 1px;
-      --text-boxes-radius: 16px;
+      --text-boxes-radius: 0px;
       --text-boxes-shadow-opacity: 0;
 
       --buttons-radius: 40px;
