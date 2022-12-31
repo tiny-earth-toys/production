@@ -49,14 +49,14 @@
           "type": "heading",
           "settings": {
             "heading": "Get 60% off your starter box and a free gift",
-            "heading_size": "h1"
+            "heading_size": "h3"
           }
         },
         "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1": {
           "type": "text",
           "settings": {
             "text": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
         "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2": {
