@@ -1,8 +1,11 @@
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-rich-text.css' | asset_url }}" media="print" onload="this.media='all'">
+<link
+  rel="stylesheet"
+  href="{{ 'section-te-feature-w-image.css' | asset_url }}"
+  media="print"
+  onload="this.media='all'"
+>
 
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-rich-text.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-te-feature-w-image.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -18,41 +21,77 @@
   }
 {%- endstyle -%}
 
-<div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
-  <div>
-    <h2>TINY feature with image</h2>
-  </div>
-  <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__blocks">
-      {%- for block in section.blocks -%}
-        {%- case block.type -%}
-          {%- when 'heading' -%}
-            <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-              {{ block.settings.heading | escape }}
-            </h2>
-          {%- when 'text' -%}
-            <div class="rich-text__text rte" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-          {%- when 'button' -%}
-            <a
-              {% if block.settings.button_link == blank %}
-                role="link" aria-disabled="true"
-              {% else %}
-                href="{{ block.settings.button_link }}"
-              {% endif %}
-              class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-              {{ block.shopify_attributes }}
-            >
-              {{ block.settings.button_label | escape }}
-            </a>
-        {%- endcase -%}
-      {%- endfor -%}
+<section class="isolate {% unless section.settings.full_width %} page-width{% endunless %} sect-te-feature-w-image">
+  <div class="fwi-container">
+    <div class="fwi-title-container">
+      <div class="fwi-title-content">
+        <h2 class="fwi-heading te-display--md te-display--light">
+          The right learning materials at just the right <b><i>time</i></b>
+        </h2>
+        <p class="fwi-subtitle">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <div class="fwi-card-container">
+      <div class="fwi-col-1">
+        <div class="card">
+          {% render 'icon-hexagon-block' %}
+          <h5 class="fwi-card-title left">Card Title</h5>
+          <p class="fwi-card-text left">
+            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa at turpis.
+            In ipsum nibh.
+          </p>
+        </div>
+        <div class="card">
+          {% render 'icon-star-block' %}
+          <h5 class="fwi-card-title left">Card Title</h5>
+          <p class="fwi-card-text left">
+            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa at turpis.
+            In ipsum nibh.
+          </p>
+        </div>
+      </div>
+      <div class="fwi-img-wrapper">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0640/3099/8773/files/mother-son-montessori-shelf.jpg?v=1672513615"
+          alt="Mother and son in front of montessori shelf"
+          width="480"
+          height="384"
+          loading="lazy"
+        >
+      </div>
+      <div class="fwi-col-2">
+        <div class="card">
+          {% render 'icon-triangle-block' %}
+          <h5 class="fwi-card-title left">Card Title</h5>
+          <p class="fwi-card-text left">
+            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa at turpis.
+            In ipsum nibh.
+          </p>
+        </div>
+        <div class="card">
+          {% render 'icon-octagon-block' %}
+          <h5 class="fwi-card-title left">Card Title</h5>
+          <p class="fwi-card-text left">
+            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa at turpis.
+            In ipsum nibh.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="fwi-cta-container">
+      <a class="te-button te-button--green">Gift a Kit</a>
     </div>
   </div>
-</div>
+</section>
 
 {% schema %}
 {
-  "name": "TE Feature with Image",
+  "name": "TE Feature w Image",
   "tag": "section",
   "class": "section",
   "settings": [

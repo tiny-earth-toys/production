@@ -1,0 +1,69 @@
+
+.sect-te-feature-w-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 5rem;
+  width: 100%;
+  font-size: 1rem;
+  background-color: rgb(var(--te-silver-200));
+}
+
+.fwi-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  width: 100%;
+  border: black solid;
+}
+
+.fwi-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 16em;
+  gap: 3em;
+  width: 100%;
+  border: rgb(var(--te-gray-600)) dotted;
+}
+
+.fwi-title-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 1.25em;
+  width: 100%;
+  border: rgb(var(--te-moss-600)) dotted;
+}
+
+.fwi-heading,
+.fwi-subtitle {
+  text-align: center;
+}
+
+
+
+.fwi-card-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 2em;
+  gap: 6em;
+  width: 100%;
+  border: rgb(var(--te-teal--600)) solid;
+}
+
+.fwi-card-container img{
+  border-radius: var(--te-media-border-radius);
+}
+
+.fwi-cta-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  border: rgb(var(--te-moss-600)) dotted
+}

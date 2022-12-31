@@ -50,7 +50,7 @@ html.no-js .no-js-hidden {
 .page-width {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0rem;
 }
 
 .page-width-desktop {
@@ -100,6 +100,7 @@ html.no-js .no-js-hidden {
 @media screen and (min-width: 750px) {
   .section + .section {
     margin-top: var(--spacing-sections-desktop);
+
   }
 }
 
@@ -221,7 +222,7 @@ h5,
 .h5 {
   font-family: var(--te-font-heading-family);
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 0.06rem;
   color: rgb(var(--color-foreground));
   word-break: break-word;
@@ -231,6 +232,15 @@ h5,
 .h0 {
   font-size: 4.5rem;
   line-height: 5.625rem;
+}
+
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+h6 b {
+  font-weight: 600;
 }
 
 @media only screen and (min-width: 750px) {
