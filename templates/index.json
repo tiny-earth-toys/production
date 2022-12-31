@@ -1,40 +1,64 @@
 {
   "sections": {
-    "9c42f17c-5ced-4f92-8115-ab79cdb3a9bf": {
-      "type": "te-multi-gallery",
+    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c": {
+      "type": "te-multigallery",
       "blocks": {
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-0": {
-          "type": "heading",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0": {
+          "type": "multigroup",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "multigroup_name": "12-18 months"
           }
         },
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-1": {
-          "type": "text",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1": {
+          "type": "multigroup",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "multigroup_name": "12-18 months"
           }
         },
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-2": {
-          "type": "button",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2": {
+          "type": "multigroup",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "12-18 months"
           }
         }
       },
       "block_order": [
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-0",
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-1",
-        "template--16662906110197__9c42f17c-5ced-4f92-8115-ab79cdb3a9bf-1672525997d1d53733-2"
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "te-color-teal-dark",
+        "multigallery_section_heading": "Educator curated toys that grow with your child",
+        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
       }
     },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
@@ -310,7 +334,7 @@
     }
   },
   "order": [
-    "9c42f17c-5ced-4f92-8115-ab79cdb3a9bf",
+    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
