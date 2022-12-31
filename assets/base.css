@@ -221,75 +221,84 @@ h5,
 .h5 {
   font-family: var(--te-font-heading-family);
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.06rem;
   color: rgb(var(--color-foreground));
-  line-height: 2.75rem;
   word-break: break-word;
+  margin: 0.25rem;
 }
 
 .h0 {
-  font-size: 3.75rem;
+  font-size: 4.5rem;
+  line-height: 5.625rem;
 }
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    font-size: 4.5rem;
+    line-height: 5.625rem;
   }
 }
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: 3.75rem;
+  line-height: 4.5rem;
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: 3.75rem;
+    line-height: 4.5rem;
   }
 }
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: 3rem;
+  line-height: 3.75rem;
 }
 
 @media only screen and (min-width: 750px) {
   h2,
   .h2 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 }
 
 h3,
 .h3 {
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
+  font-size: 2.25rem;
+  line-height: 2.75rem;
 }
 
 @media only screen and (min-width: 750px) {
   h3,
   .h3 {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: 2.25rem;
+    line-height: 2.75rem;
   }
 }
 
 h4,
 .h4 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  font-size: 1.875rem;
+  line-height: 2.375rem;
 }
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scale) * 1.3rem);
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
 
