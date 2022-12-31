@@ -3,38 +3,49 @@
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa": {
       "type": "te-feature-w-image",
       "blocks": {
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-0": {
-          "type": "heading",
+        "33f43241-ba04-4057-aab8-7f31daec095e": {
+          "type": "feature_card__A",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
           }
         },
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-1": {
-          "type": "text",
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7": {
+          "type": "feature_card__B",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
           }
         },
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-2": {
-          "type": "button",
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
+          "type": "feature_card__C",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
+          "type": "feature_card__D",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
           }
         }
       },
       "block_order": [
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-0",
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-1",
-        "template--16662906110197__fe64a3ae-435e-4e1c-aa08-7536040e90aa-1672504745bc7a5c88-2"
+        "33f43241-ba04-4057-aab8-7f31daec095e",
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7",
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12",
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac"
       ],
       "settings": {
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "fwi_section_heading": "The right learning materials at just the right time",
+        "fwi_section_subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
       }
     },
     "47f89405-5d30-4bc9-bd9c-b915b59dbaf6": {

@@ -71,6 +71,12 @@
   gap: 1.25em;
 }
 
+  .fwi-icon-wrap {
+  white-space: nowrap;
+  transition: transform var(--duration-short) ease;
+  overflow: hidden;
+}
+
 .fwi-card-text {
   margin-top: 0;
   margin-bottom: 1.5em;

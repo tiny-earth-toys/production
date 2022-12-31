@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 6rem 2rem;
-  gap: 64px;
+  gap: 4rem;
 }
 
 .feat-basic.feat-basic--full-width {
