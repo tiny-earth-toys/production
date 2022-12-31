@@ -51,7 +51,6 @@
                   {{ block.settings.card_text }}
                 </p>
               </div>
-
             {% when 'feature_card__B' %}
               <div class="fwi-card">
                 <span class="fwi-icon-wrap">{% render 'icon-star-block' %}</span>
@@ -67,13 +66,18 @@
       </div>
 
       <div class="fwi-img-wrapper">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0640/3099/8773/files/mother-son-montessori-shelf.jpg?v=1672513615"
-          alt="Mother and son in front of montessori shelf"
-          width="480"
-          height="384"
-          loading="lazy"
-        >
+        {%- if section.settings.fwi_image != blank -%}
+          <img
+            src="{{ section.settings.fwi_image | image_url: width: 480 }}"
+            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="480"
+            height="384"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
       </div>
 
       <div class="fwi-column">
