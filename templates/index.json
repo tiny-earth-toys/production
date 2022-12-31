@@ -14,7 +14,7 @@
         "4484b872-808c-47b5-9bd6-72cd879a36eb": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_5",
+            "icon_select": "icon_2",
             "card_title": "My card title",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
@@ -22,7 +22,7 @@
         "965f3355-7020-48cf-8b30-568de8bedb48": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_6",
+            "icon_select": "icon_4",
             "card_title": "My card title",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }

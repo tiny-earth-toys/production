@@ -17,9 +17,9 @@ body {
   grid-template-rows: auto auto 1fr auto;
   grid-template-columns: 100%;
   min-height: 100%;
-  font-size: 0.875rem;
+  font-size: 1rem;
   letter-spacing: 0.09rem;
-  line-height: 1.5rem;
+  line-height: 1.25rem;
   font-family: var(--te-font-body-family);
   font-style: normal;
   font-weight: 300;

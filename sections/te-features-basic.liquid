@@ -28,7 +28,7 @@
       {% endunless %}
       <div class="subtitle subtitle--small">
         {% unless section.settings.section_text == blank %}
-          {{ section.settings.section_text | escape }}
+          {{ section.settings.section_text }}
         {% endunless %}
       </div>
     </div>
@@ -36,16 +36,16 @@
   <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
     {%- for block in section.blocks -%}
       <div class=" card grid__item">
-        <span class="te-icon-sm icon-wrap ">
+        <span class="te-icon-lg icon-wrap ">
           {% case block.settings.icon_select %}
             {% when 'icon_1' %}
-              {% render 'icon-arrow' %}
+              {% render 'icon-triangle-block' %}
             {% when 'icon_2' %}
-              {% render 'icon-caret' %}
+              {% render 'icon-star-block' %}
             {% when 'icon_3' %}
-              {% render 'icon-facebook' %}
+              {% render 'icon-hexagon-block' %}
             {% when 'icon_4' %}
-              {% render 'icon-instagram' %}
+              {% render 'icon-octagon-block' %}
             {% when 'icon_5' %}
               {% render 'icon-pinterest' %}
             {% when 'icon_6' %}
@@ -53,7 +53,7 @@
           {% endcase %}
         </span>
         <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-          <p>{{ block.settings.card_title | escape }}</p>
+          <p>{{ block.settings.card_title }}</p>
         </h2>
         <p class="feature-text">{{ block.settings.card_text }}</p>
       </div>
