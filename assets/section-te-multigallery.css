@@ -103,6 +103,7 @@
   text-decoration: none;
   background-color: rgba(var(--te-base--white),0.1);
   color: rgba(var(--te-base--white),1);
+  text-align: center;
   font-family: var(--te-font-family--body);
   font-weight: 500;
 }
