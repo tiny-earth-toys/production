@@ -2,6 +2,18 @@
 
 <noscript>{{ 'section-te-multigallery.css' | asset_url | stylesheet_tag }}</noscript>
 
+{% for block in section.blocks %}
+  {% capture group_name %}
+    {{ block.settings.multigroup_name }}
+  {% endcapture %}
+  <h2>{{ group_name }}</h2>
+{% endfor %}
+
+{% capture selected_group %}
+  none-selected
+{% endcapture %}
+<h2>{{ selected_group }}</h2>
+
 <section class="isolate te-multigallery {{ section.settings.color_scheme }}">
   <div class="multi-title-container">
     <div class="mtc-content">
@@ -16,7 +28,6 @@
     </div>
   </div>
   <div class="multi-gallery-container">
-    {% assign group_id = block.settings.id %}
     <div class="mgc--img-container">
       <div class="mg-image-wrapper--1">img 1</div>
       <div class="mg-image-wrapper--2">img 2</div>
@@ -25,13 +36,9 @@
     </div>
 
     <div class="mgc--btn-container">
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
-      <button class="mg-btn">Age Group</button>
+      {% for block in section.blocks %}
+        <a class="mg-btn">{{ block.settings.multigroup_name }}</a>
+      {% endfor %}
     </div>
   </div>
 </section>
