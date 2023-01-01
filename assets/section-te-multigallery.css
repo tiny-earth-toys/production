@@ -108,6 +108,13 @@
   font-weight: 500;
 }
 
+.mg-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 /* Content 1 */
 .mg-image-wrapper--1{
   position: absolute;

@@ -30,7 +30,7 @@
   <div class="multi-gallery-container">
     {% for block in section.blocks %}
       <div class="mgc--img-container">
-        <div class="mg-image-wrapper--1">
+        <div class="mg-image-wrapper mg-image-wrapper--1">
           <img
             src="{{ block.settings.multigroup_image_1 | image_url: width: 480 }}"
             sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -40,7 +40,7 @@
             height="384"
           >
         </div>
-        <div class="mg-image-wrapper--2">
+        <div class="mg-image-wrapper mg-image-wrapper--2">
           <img
             src="{{ block.settings.multigroup_image_2 | image_url: width: 480 }}"
             sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -50,7 +50,7 @@
             height="384"
           >
         </div>
-        <div class="mg-image-wrapper--3">
+        <div class="mg-image-wrapper mg-image-wrapper--3">
           <img
             src="{{ block.settings.multigroup_image_3 | image_url: width: 480 }}"
             sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -60,7 +60,7 @@
             height="384"
           >
         </div>
-        <div class="mg-image-wrapper--4">
+        <div class="mg-image-wrapper mg-image-wrapper--4">
           <img
             src="{{ block.settings.multigroup_image_4 | image_url: width: 480 }}"
             sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
@@ -75,7 +75,7 @@
 
     <div class="mgc--btn-container">
       {% for block in section.blocks %}
-        <a href="#" class="mg-button">{{ block.settings.multigroup_name }}</a>
+        <button class="te-button mg-button">{{ block.settings.multigroup_name }}</button>
       {% endfor %}
     </div>
   </div>
