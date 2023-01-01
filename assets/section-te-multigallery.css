@@ -1,4 +1,5 @@
-section .te-multigallery {
+/* features section */
+.te-multigallery {
   padding: 6rem 0;
   display: flex;
   flex-direction: column;
@@ -6,18 +7,102 @@ section .te-multigallery {
 
 }
 
+/* first container */
 .multi-title-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0 2em;
   width: calc(100%-10rem);
+  gap: 2em;
 }
 
-.multi-button-container {
+/* second container */
+.multi-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2em;
+  gap: 3em;
+  border: lightcoral solid;
+  isolation: isolate;
+}
+
+/* Frame 10 */
+.multi-content-container--img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  isolation: isolate;
+  width: 454px;
+  height: 384px;
+  transform: rotate(0deg);
+
+  border: white dotted;
+}
+
+/* Frame 7 */
+.multi-content-container--btn-container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 1.5em;
-  width: calc(100% - 4em);
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1216px;
+  height: 48px;
+
+  border: white solid;
 }
+
+/* Content 1 */
+.multi-image-wrapper--1{
+  position: absolute;
+  width: 416px;
+  height: 270px;
+  left: -416px;
+  top: 0px;
+  background: rgb(var(--te-baby-blue-200));
+  border-radius: 1rem;
+}
+
+/* Content 2 */
+.multi-image-wrapper--2{
+  position: absolute;
+  width: 488px;
+  height: 308px;
+  left: -72px;
+  top: 64px;
+  transform: rotate(deg);
+  border-radius: 1rem;
+  box-shadow: var(--te-shadow-2xl);
+  background: rgb(var(--te-baby-blue-400));
+  order: 2;
+  z-index: 2;
+}
+
+/* Content 3 */
+.multi-image-wrapper--3{
+  position: absolute;
+  width: 414px;
+  height: 270px;
+  left: 346px;
+  top: 0px;
+  background: rgb(var(--te-baby-blue-600));
+  border-radius: 1rem;
+}
+
+/* Content 4 */
+.multi-image-wrapper--4{
+  position: absolute;
+  width: 240px;
+  height: 196px;
+  left: 628px;
+  bottom: 12px;
+  background: rgb(var(--te-baby-blue-800));
+  border-radius: 1rem;
+}
+
