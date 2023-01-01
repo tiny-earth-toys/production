@@ -1,0 +1,23 @@
+section .te-multigallery {
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.multi-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2em;
+  width: calc(100%-10rem);
+}
+
+.multi-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1.5em;
+  width: calc(100% - 4em);
+}

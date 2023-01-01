@@ -3,8 +3,17 @@
 <noscript>{{ 'section-te-multigallery.css' | asset_url | stylesheet_tag }}</noscript>
 
 <section class="te-multigallery {{ section.settings.color_scheme }}">
-  <div class="">
-    <h2>TINY Multi Gallery</h2>
+  <div class="multi-title-container">
+    <h2>Tiny Multi Gallery</h2>
+    <h3>{{ section.settings.multigallery_section_heading }}</h3>
+    {{ section.settings.multigallery_section_subtitle }}
+  </div>
+  <div class="multi-content-container">
+    <div class="multi-button-container">
+      {% for block in section.blocks %}
+        <button class="te-button">{{ block.settings.multigroup_name }}</button>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
