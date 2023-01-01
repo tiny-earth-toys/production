@@ -4,21 +4,34 @@
 
 <section class="isolate te-multigallery {{ section.settings.color_scheme }}">
   <div class="multi-title-container">
-    <h2>Tiny Multi Gallery</h2>
-    <h3>{{ section.settings.multigallery_section_heading }}</h3>
-    {{ section.settings.multigallery_section_subtitle }}
+    <div class="mtc-content">
+      <div class="mtc-content-headings-container">
+        <h3 class="mtc-content-title te-display-xl te-display--bold">
+          {{ section.settings.multigallery_section_heading }}
+        </h3>
+        <p class="te-text--xl mtc-content-subtitle ">
+          {{ section.settings.multigallery_section_subtitle }}
+        </p>
+      </div>
+    </div>
   </div>
-  <div class="multi-content-container">
+  <div class="multi-gallery-container">
     {% assign group_id = block.settings.id %}
-    <div class="multi-content-container--img-container">
-      <div class="multi-image-wrapper--1">img 1</div>
-      <div class="multi-image-wrapper--2">img 2</div>
-      <div class="multi-image-wrapper--3">img 3</div>
-      <div class="multi-image-wrapper--4">img 4</div>
+    <div class="mgc--img-container">
+      <div class="mg-image-wrapper--1">img 1</div>
+      <div class="mg-image-wrapper--2">img 2</div>
+      <div class="mg-image-wrapper--3">img 3</div>
+      <div class="mg-image-wrapper--4">img 4</div>
     </div>
 
-    <div class="multi-content-container--btn-container">
-      <button class="te-button">{{ block.settings.multigroup_name }}</button>
+    <div class="mgc--btn-container">
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
+      <button class="mg-btn">Age Group</button>
     </div>
   </div>
 </section>
