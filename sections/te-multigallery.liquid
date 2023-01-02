@@ -6,13 +6,13 @@
   {% capture group_name %}
     {{ block.settings.multigroup_name }}
   {% endcapture %}
-  <h2>{{ group_name }}</h2>
+  <!-- <h2>{{ group_name }}</h2> -->
 {% endfor %}
 
 {% capture selected_group %}
   none-selected
 {% endcapture %}
-<h2>{{ selected_group }}</h2>
+<!-- <h2>{{ selected_group }}</h2> -->
 
 <section class="isolate te-multigallery {{ section.settings.color_scheme }}">
   <div class="multi-title-container">
@@ -75,7 +75,9 @@
 
     <div class="mgc--btn-container">
       {% for block in section.blocks %}
-        <button class="te-button mg-button">{{ block.settings.multigroup_name }}</button>
+        <button id="{{ block.id }}" type="button" class="te-button mg-button">
+          {{ block.settings.multigroup_name }}
+        </button>
       {% endfor %}
     </div>
   </div>

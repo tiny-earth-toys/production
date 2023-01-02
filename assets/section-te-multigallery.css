@@ -99,8 +99,6 @@
   gap: .75em;
   border: none;
   border-radius: 40px;
-  box-shadow: var(--te-shadow--xs);
-  text-decoration: none;
   background-color: rgba(var(--te-base--white),0.1);
   color: rgba(var(--te-base--white),1);
   text-align: center;
@@ -109,11 +107,15 @@
 }
 
 .mg-image-wrapper img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 1rem;
 }
+
+/*button:active {
+}*/
 
 /* Content 1 */
 .mg-image-wrapper--1{

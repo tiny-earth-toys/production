@@ -134,6 +134,55 @@
         "padding_bottom": 36
       }
     },
+    "fe64a3ae-435e-4e1c-aa08-7536040e90aa": {
+      "type": "te-feature-w-image",
+      "blocks": {
+        "33f43241-ba04-4057-aab8-7f31daec095e": {
+          "type": "feature_card__A",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7": {
+          "type": "feature_card__B",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
+          "type": "feature_card__C",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
+          "type": "feature_card__D",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        }
+      },
+      "block_order": [
+        "33f43241-ba04-4057-aab8-7f31daec095e",
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7",
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12",
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "fwi_section_heading": "The right learning materials at just the right time",
+        "fwi_section_subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
+      }
+    },
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1": {
       "type": "te-multicolumn",
       "blocks": {
@@ -193,55 +242,6 @@
         "padding_bottom": 36
       }
     },
-    "fe64a3ae-435e-4e1c-aa08-7536040e90aa": {
-      "type": "te-feature-w-image",
-      "blocks": {
-        "33f43241-ba04-4057-aab8-7f31daec095e": {
-          "type": "feature_card__A",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7": {
-          "type": "feature_card__B",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
-          "type": "feature_card__C",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
-          "type": "feature_card__D",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        }
-      },
-      "block_order": [
-        "33f43241-ba04-4057-aab8-7f31daec095e",
-        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7",
-        "756d2b6d-25d6-4545-bb06-c86c29d4cf12",
-        "75116256-ed49-43fd-be6c-8b2a66e8f3ac"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "fwi_section_heading": "The right learning materials at just the right time",
-        "fwi_section_subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
-      }
-    },
     "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
       "type": "te-rich-text",
       "blocks": {
@@ -285,54 +285,63 @@
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-0": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How often do I get toys and when am I billed?",
+            "icon": "none",
+            "row_content": "<p>You are billed monthly for your subscription. You can exchange your toys every 2 months. That gives your child the time to fully explore the toys and skills associated and reduces our carbon footprint.<\/p>",
             "page": ""
           }
         },
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I buy the toys?",
+            "icon": "none",
+            "row_content": "<p>If you are a monthly subscriber and fall in love with a toy, you can purchase it when you exchange for 15% off the retail price. Unfortunately, we don’t sell our toys outside of our subscriptions.<\/p>",
             "page": ""
           }
         },
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Is there a trial or can I cancel anytime?",
+            "icon": "none",
+            "row_content": "<p>We know renting toys is a new concept. That’s why there are no hidden contracts and you can cancel at any time without penalty in your subscription account.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I want toys for multiple children?",
+            "icon": "none",
+            "row_content": "<p>First off, congrats! We offer 5, 8 or 10 toy membership options. Select the one that best suits your family.<br\/><br\/>When you checkout you have the option to give us the ages of multiple children and let us know any toy preferences. We will select a mix for each of your children.<\/p>",
             "page": ""
           }
         },
         "280425f8-0859-4a04-b948-84a1f0fa9d98": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How do exchanges work?",
+            "icon": "none",
+            "row_content": "<p>You receive an email reminder every 2 months reminding you it is time to exchange with a link to the exchange form where you can list any preferences for your next set of toys. Keep your kit until the new one arrives and then use the included, free pre-paid return label and recyclable tape to seal the original box back up. Drop it at your nearest FedEx or participating Walgreens location.<\/p>",
             "page": ""
           }
         },
         "76b726fb-75c7-4b08-84b9-35f05d66dfd2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How do you clean the toys?",
+            "icon": "none",
+            "row_content": "<p>We safety-inspect, clean and reseal every returned toy.<br\/><br\/>To clean we use Force of Nature. “Force of Nature is an EPA-registered disinfectant & sanitizer that kills 99.9% of <a href=\"https:\/\/www.forceofnatureclean.com\/lp-cleaning-disinfecting-test-results\/\" target=\"_blank\">germs<\/a>*, even Staph, MRSA, Norovirus, Influenza A, Salmonella, and Listeria when used as directed. It’s on EPA’s list of Disinfectants for Use Against SARS-CoV-2, the cause of COVID-19.” It is made without the use of toxic chemicals, added fragrance, dyes, preservatives or surfactants.<br\/><br\/>When necessary, we reseal using pure beeswax.<\/p><p>Toys are then air-dried, carefully repackaged and shipped where they spend between 3 - 5 days in transit.<\/p>",
+            "page": ""
+          }
+        },
+        "16244874-e508-43b7-b715-84042245a9b0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I lose a piece of a toy?",
+            "icon": "none",
+            "row_content": "<p>We do not charge for missing pieces or light damage. We just ask that if you find the missing piece, you send it back in your next exchange!<\/p>",
             "page": ""
           }
         }
@@ -340,17 +349,18 @@
       "block_order": [
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-0",
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-1",
-        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2",
         "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-3",
+        "template--16658355257589__8069baa3-c517-4573-ba5f-36556c9a1e43-1672343076585cab74-2",
         "280425f8-0859-4a04-b948-84a1f0fa9d98",
-        "76b726fb-75c7-4b08-84b9-35f05d66dfd2"
+        "76b726fb-75c7-4b08-84b9-35f05d66dfd2",
+        "16244874-e508-43b7-b715-84042245a9b0"
       ],
       "settings": {
         "caption": "Anything else you might want to know",
         "heading": "Frequently asked questions",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "section",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "open_first_collapsible_row": false,
@@ -364,8 +374,8 @@
   "order": [
     "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
-    "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
+    "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
     "8069baa3-c517-4573-ba5f-36556c9a1e43"
   ]
