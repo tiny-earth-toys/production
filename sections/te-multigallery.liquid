@@ -29,7 +29,7 @@
   </div>
   <div class="multi-gallery-container">
     {% for block in section.blocks %}
-      <div class="mgc--img-container">
+      <div id="{{ block.id }}" class="mgc--img-container">
         <div class="mg-image-wrapper mg-image-wrapper--1">
           <img
             src="{{ block.settings.multigroup_image_1 | image_url: width: 480 }}"
