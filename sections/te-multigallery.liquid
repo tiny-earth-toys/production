@@ -9,10 +9,10 @@
   <!-- <h2>{{ group_name }}</h2> -->
 {% endfor %}
 
-{% capture selected_group %}
+{% capture selected_block %}
   none-selected
 {% endcapture %}
-<!-- <h2>{{ selected_group }}</h2> -->
+<!-- <h2>{{ selected_block }}</h2> -->
 
 <section class="isolate te-multigallery {{ section.settings.color_scheme }}">
   <div class="multi-title-container">
@@ -29,48 +29,50 @@
   </div>
   <div class="multi-gallery-container">
     {% for block in section.blocks %}
-      <div id="{{ block.id }}" class="mgc--img-container">
-        <div class="mg-image-wrapper mg-image-wrapper--1">
-          <img
-            src="{{ block.settings.multigroup_image_1 | image_url: width: 480 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy"
-            width="480"
-            height="384"
-          >
+      {% if selected_block = {{ block.id}} %}
+        <div id="{{ block.id }}" class="mgc--img-container">
+          <div class="mg-image-wrapper mg-image-wrapper--1">
+            <img
+              src="{{ block.settings.multigroup_image_1 | image_url: width: 480 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="480"
+              height="384"
+            >
+          </div>
+          <div class="mg-image-wrapper mg-image-wrapper--2">
+            <img
+              src="{{ block.settings.multigroup_image_2 | image_url: width: 480 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="480"
+              height="384"
+            >
+          </div>
+          <div class="mg-image-wrapper mg-image-wrapper--3">
+            <img
+              src="{{ block.settings.multigroup_image_3 | image_url: width: 480 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="480"
+              height="384"
+            >
+          </div>
+          <div class="mg-image-wrapper mg-image-wrapper--4">
+            <img
+              src="{{ block.settings.multigroup_image_4 | image_url: width: 480 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ block.settings.image.alt | escape }}"
+              loading="lazy"
+              width="480"
+              height="384"
+            >
+          </div>
         </div>
-        <div class="mg-image-wrapper mg-image-wrapper--2">
-          <img
-            src="{{ block.settings.multigroup_image_2 | image_url: width: 480 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy"
-            width="480"
-            height="384"
-          >
-        </div>
-        <div class="mg-image-wrapper mg-image-wrapper--3">
-          <img
-            src="{{ block.settings.multigroup_image_3 | image_url: width: 480 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy"
-            width="480"
-            height="384"
-          >
-        </div>
-        <div class="mg-image-wrapper mg-image-wrapper--4">
-          <img
-            src="{{ block.settings.multigroup_image_4 | image_url: width: 480 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ block.settings.image.alt | escape }}"
-            loading="lazy"
-            width="480"
-            height="384"
-          >
-        </div>
-      </div>
+      {% endif %}
     {% endfor %}
 
     <div class="mgc--btn-container">
