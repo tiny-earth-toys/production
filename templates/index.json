@@ -134,55 +134,6 @@
         "padding_bottom": 36
       }
     },
-    "fe64a3ae-435e-4e1c-aa08-7536040e90aa": {
-      "type": "te-feature-w-image",
-      "blocks": {
-        "33f43241-ba04-4057-aab8-7f31daec095e": {
-          "type": "feature_card__A",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7": {
-          "type": "feature_card__B",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
-          "type": "feature_card__C",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        },
-        "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
-          "type": "feature_card__D",
-          "settings": {
-            "icon_select": "icon_1",
-            "card_title": "Card Title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
-          }
-        }
-      },
-      "block_order": [
-        "33f43241-ba04-4057-aab8-7f31daec095e",
-        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7",
-        "756d2b6d-25d6-4545-bb06-c86c29d4cf12",
-        "75116256-ed49-43fd-be6c-8b2a66e8f3ac"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "fwi_section_heading": "The right learning materials at just the right time",
-        "fwi_section_subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-        "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
-      }
-    },
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1": {
       "type": "te-multicolumn",
       "blocks": {
@@ -240,6 +191,55 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "fe64a3ae-435e-4e1c-aa08-7536040e90aa": {
+      "type": "te-feature-w-image",
+      "blocks": {
+        "33f43241-ba04-4057-aab8-7f31daec095e": {
+          "type": "feature_card__A",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7": {
+          "type": "feature_card__B",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
+          "type": "feature_card__C",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        },
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
+          "type": "feature_card__D",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "Card Title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis hendrerit dolor magna eget."
+          }
+        }
+      },
+      "block_order": [
+        "33f43241-ba04-4057-aab8-7f31daec095e",
+        "f7e168ad-ea1e-4bcc-b954-3b33dfafddd7",
+        "756d2b6d-25d6-4545-bb06-c86c29d4cf12",
+        "75116256-ed49-43fd-be6c-8b2a66e8f3ac"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "fwi_section_heading": "The right learning materials at just the right time",
+        "fwi_section_subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
       }
     },
     "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
@@ -374,8 +374,8 @@
   "order": [
     "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
-    "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
+    "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
     "8069baa3-c517-4573-ba5f-36556c9a1e43"
   ]
