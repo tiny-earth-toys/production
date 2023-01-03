@@ -146,23 +146,31 @@
               "menu": "footer-about"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "a1ba1755-97be-4265-8085-4d444a9c8b14": {
+            "type": "link_list",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Get Started",
+              "menu": "footer-get-started"
+            }
+          },
+          "b045a247-1899-4e02-a166-c70e8c3e953d": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Get Help",
+              "menu": "footer-support"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "a1ba1755-97be-4265-8085-4d444a9c8b14",
+          "b045a247-1899-4e02-a166-c70e8c3e953d"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
