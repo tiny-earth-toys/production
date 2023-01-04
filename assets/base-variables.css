@@ -345,37 +345,37 @@
 
 /* Background Color Options available to the theme editor.  Use variables defined in base-variables.css */
 :root,
-.te-color-default {
+.color--te-default {
   --color-foreground: var(--te-base--text);
   --color-background: var(--te-base--background);
 }
 
-.te-color-black-white {
+.color--te-black-white {
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-base--white);
 }
 
-.te-color-teal-dark {
+.color--te-teal-dark {
   --color-foreground: var(--te-base--white);
   --color-background: var(--te-teal--800);
 }
 
-.te-color-teal-light {
+.color--te-teal-light {
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-teal--50);
 }
 
-.te-color-cream-dark {
+.color--te-cream-dark {
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-base--cream-dark);
 }
 
-.te-color-silver-light {
+.color--te-silver-light {
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-silver--300);
 }
 
-.te-color-silver-dark {
+.color--te-silver-dark {
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-silver--600);
 }

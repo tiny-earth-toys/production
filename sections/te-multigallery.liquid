@@ -15,8 +15,8 @@
 <!-- <h2>{{ selected_block }}</h2> -->
 
 <section
-  class="isolate te-multigallery {{ section.settings.color_scheme }}"
-  data-section-type="tet-custom"
+  class="isolate te-multigallery color--{{ section.settings.color_scheme }}"
+  data-section-type="{{ section.name }}"
   data-section-id="{{ section.id }}"
 >
   <div class="multi-title-container">
@@ -98,35 +98,35 @@
       "id": "color_scheme",
       "options": [
         {
-          "value": "te-color-default",
+          "value": "te-default",
           "label": "t:sections.all.colors.te-color-default.label"
         },
         {
-          "value": "te-color-cream-dark",
+          "value": "te-cream-dark",
           "label": "t:sections.all.colors.te-color-cream-dark.label"
         },
         {
-          "value": "te-color-teal-light",
+          "value": "te-teal-light",
           "label": "t:sections.all.colors.te-color-teal-light.label"
         },
         {
-          "value": "te-color-teal-dark",
+          "value": "te-teal-dark",
           "label": "t:sections.all.colors.te-color-teal-dark.label"
         },
         {
-          "value": "te-color-silver-light",
+          "value": "te-silver-light",
           "label": "t:sections.all.colors.te-color-silver-light.label"
         },
         {
-          "value": "te-color-silver-dark",
+          "value": "te-silver-dark",
           "label": "t:sections.all.colors.te-color-silver-dark.label"
         },
         {
-          "value": "te-color-black-white",
+          "value": "te-black-white",
           "label": "t:sections.all.colors.te-color-black-white.label"
         }
       ],
-      "default": "te-color-default",
+      "default": "te-default",
       "label": "t:sections.all.colors.label"
     },
     {
