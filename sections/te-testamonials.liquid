@@ -25,7 +25,18 @@
       </div>
       <div class="tc-content--attribution"></div>
     </div>
-    <div class="tc-image-wrapper"></div>
+    <div class="tc-image-wrapper">
+      {%- unless section.settings.testamonial_image == blank -%}
+        <img
+          src="{{ section.settings.testamonial_image | image_url: width: 592 }}"
+          loading="lazy"
+          width="592"
+          height=""
+        >
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+      {%- endunless -%}
+    </div>
   </div>
 </section>
 
@@ -85,6 +96,47 @@
       "type": "image_picker",
       "id": "testamonial_image",
       "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.image-with-text.settings.height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.height.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.height.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.image-with-text.settings.height.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_image_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "t:sections.image-with-text.settings.desktop_image_width.label",
+      "info": "t:sections.image-with-text.settings.desktop_image_width.info"
     }
   ],
   "blocks": [
