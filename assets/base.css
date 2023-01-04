@@ -115,13 +115,13 @@ html.no-js .no-js-hidden {
 }
 
 body,
-.te-color-default,
-.te-color-cream-dark,
-.te-color-teal-light,
-.te-color-teal-dark,
-.te-color-silver-light,
-.te-color-silver-dark,
-.te-color-black-white {
+.color--te-color-default,
+.color--te-cream-dark,
+.color--te-teal-light,
+.color--te-teal-dark,
+.color--te-silver-light,
+.color--te-silver-dark,
+.color--te-black-white {
   color: rgb(var(--color-foreground));
   background-color: rgb(var(--color-background));
 }
