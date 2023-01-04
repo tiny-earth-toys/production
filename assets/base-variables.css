@@ -206,6 +206,8 @@
         --te-spacing-56: 14rem;
         --te-spacing-64: 16rem;
     
+
+        /* continer sizes */
         --te-container-sm: 40rem;
         --te-container-md: 48rem;
         --te-container-lg: 64rem;
@@ -336,7 +338,7 @@
     
     
     
-    
+
 
     /* Color custom properties */
 

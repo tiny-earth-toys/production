@@ -1,0 +1,12 @@
+.section-te-testamonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0;
+  width: 1440px;
+}
+
+.testamonials-container {
+  width: var(--te-container-xl);
+}
