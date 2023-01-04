@@ -1,3 +1,4 @@
+
 .section-te-testamonials {
   display: flex;
   flex-direction: column;
@@ -5,7 +6,8 @@
   align-items: center;
   font-size: 1rem;
   padding: 6rem 0;
-  width: 1440px;
+  width: 100%;
+  border: 1px solid black;
 }
 
 .testamonials-container {

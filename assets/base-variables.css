@@ -238,7 +238,7 @@
       --media-border-width: 0px;
       --media-radius: 16px;
 
-      --page-width: 144rem;
+      --page-width: 1440px;
       --page-width-margin: 0rem;
 
       --card-image-padding: 0.5rem;
@@ -665,6 +665,3 @@
   font-weight: 700;
 }
 
-.te-style--italic {
-  font-style: italic;
-}
