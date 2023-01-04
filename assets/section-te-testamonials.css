@@ -31,8 +31,49 @@
 }
 
 .tc-content--attribution {
-
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  width: 100%;
+  gap: 0.75em;
 }
+
+.attribution-author {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1em;
+}
+
+.attribution-author--avatar {
+  border-radius: 200px;
+}
+
+.attribution-author--text{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25em;
+}
+
+.attribution-author--text h6,
+.attribution-author--text p {
+  order: 1;
+  flex-grow: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.attribution-arrows {
+  display: flex;
+  flex-direction: row;
+  align-items: ;
+  gap: 2em;
+}
+
 .tc-image-wrapper{
   width: 100%;
 }
