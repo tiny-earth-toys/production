@@ -109,6 +109,13 @@
     ],
     "default": "2",
     "label": "t:sections.main-list-collections.settings.columns_mobile.label"
+  },
+
+  {
+    "type": "image_picker",
+    "id": "testamonial_image",
+    "label": "Image"
   }
+  
 
 ]
