@@ -10,7 +10,22 @@
   data-section-id="{{ section.id }}"
 >
   <div class="testamonials-container">
-    <h2>Tiny Testamonials</h2>
+    <div class="tc-content">
+      <div class="tc-content--stars">
+        {% render 'icon-star' -%}
+        {%- render 'icon-star' -%}
+        {%- render 'icon-star' -%}
+        {%- render 'icon-star' -%}
+        {%- render 'icon-star' %}
+      </div>
+      <div class="tc-content--quote">
+        <h2 class="te-display--lg te-weight--med">
+          Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.
+        </h2>
+      </div>
+      <div class="tc-content--attribution"></div>
+    </div>
+    <div class="tc-image-wrapper"></div>
   </div>
 </section>
 

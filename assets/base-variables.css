@@ -597,7 +597,7 @@
     line-height: 3.75rem;
 }
 
-.te-display--md {
+.te-display--med {
     font-size: 2.25rem;
     line-height: 2.75rem;
 }
@@ -612,19 +612,19 @@
     line-height: 2rem;
 }
 
-.te-display--light {
+.te-weight--display-light {
   font-weight: 300;
 }
 
-.te-display--medium {
+.te-weight--display-med {
   font-weight: 500;
 }
 
-.te-display--semibold {
+.te-weight--display-semibold {
   font-weight: 600;
 }
 
-.te-display--bold {
+.te-weight--display-bold {
   font-weight: 700;
 }
 
@@ -653,14 +653,18 @@
     line-height: 1.125rem;
 }
 
-.te-text--regular {
+.te-weight--text-regular {
   font-weight: 400;
 }
 
-.te-text--semibold {
+.te-weight--text-semibold {
   font-weight: 600;
 }
 
-.te-text--bold {
+.te-weight--text-bold {
   font-weight: 700;
+}
+
+.te-style--italic {
+  font-style: italic;
 }
