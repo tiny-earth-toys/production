@@ -2590,8 +2590,8 @@ details-disclosure > details {
 }
 
 .gradient {
-  background: rgb(var(--color-background));
-  background: rgb(var(--gradient-background));
+  background: var( --gradient-linear-gray-45-800-600);
+  color: rgb(var(--te--base-white));
   background-attachment: fixed;
 }
 
@@ -2696,7 +2696,7 @@ details-disclosure > details {
 .global-media-settings--full-width,
 .global-media-settings--full-width img {
   border-radius: 0px;
-  border-left: none;
+  border-left: none;-
   border-right: none;
 }
 

@@ -1,7 +1,7 @@
 {%- for block in section.blocks -%}
   {%- case block.type -%}
     {%- when 'announcement' -%}
-      <div class="announcement-bar color-{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
+      <div class="announcement-bar color--{{ block.settings.color_scheme }} gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}" {{ block.shopify_attributes }}>
         {%- if block.settings.text != blank -%}
           {%- if block.settings.link != blank -%}
             <a href="{{ block.settings.link }}" class="announcement-bar__link link link--text focus-inset animate-arrow">
@@ -37,32 +37,40 @@
         },
         {
           "type": "select",
-          "id": "color_scheme",
-          "options": [
-            {
-              "value": "accent-1",
-              "label": "t:sections.all.colors.accent_1.label"
-            },
-            {
-              "value": "accent-2",
-              "label": "t:sections.all.colors.accent_2.label"
-            },
-            {
-              "value": "background-1",
-              "label": "t:sections.all.colors.background_1.label"
-            },
-            {
-              "value": "background-2",
-              "label": "t:sections.all.colors.background_2.label"
-            },
-            {
-              "value": "inverse",
-              "label": "t:sections.all.colors.inverse.label"
-            }
-          ],
-          "default": "accent-1",
-          "label": "t:sections.all.colors.label"
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
         },
+        {
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
+        },
+        {
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
+        },
+        {
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
+        },
+        {
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
+        }
+      ],
+      "default": "te-default",
+      "label": "t:sections.all.colors.label"
+    },
         {
           "type": "url",
           "id": "link",
