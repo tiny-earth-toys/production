@@ -180,6 +180,25 @@
         --te-base--background: var(--te-base--cream-light);
         --te-base--text: var(--te-gray--700);
 
+    /* Gradients - v2 Design System */
+
+        --gradient-conic-gray-600: conic-gradient(from 259.08deg at 50% 50%, #57534E 0deg, rgba(87, 83, 78, 0) 360deg);
+        --gradient-conic-teal-600: conic-gradient(from 259.08deg at 50% 50%, #004E59 0deg, rgba(0, 78, 89, 0) 360deg);
+
+        --gradient-linear-gray-90-600-500: linear-gradient(90deg, #57534E 0%, #79716B 100%);
+        --gradient-linear-gray-45-700-600: linear-gradient(45deg, #44403C 0%, #57534E 100%);
+        --gradient-linear-gray-45-800-600: linear-gradient(45deg, #292524 0%, #57534E 100%);
+        --gradient-linear-gray-90-800-600: linear-gradient(63.44deg, #292524 16.72%, #57534E 83.39%);
+        --gradient-linear-gray-26-800-700: linear-gradient(26.57deg, #292524 8.33%, #44403C 91.67%);
+        --gradient-linear-gray-45-900-600: linear-gradient(45deg, #1C1917 0%, #57534E 100%);
+
+        --gradient-linear-teal-90-600-400: linear-gradient(90deg, #00424F 0%, #296C75 100%);
+        --gradient-linear-teal-45-700-500: linear-gradient(45deg, #003745 0%, #004E59 100%);
+        --gradient-linear-teal-45-800-600: linear-gradient(45deg, #002C3B 0%, #00424F 100%);
+        --gradient-linear-teal-90-800-600: linear-gradient(63.44deg, #002C3B 16.72%, #00424F 83.39%);
+        --gradient-linear-teal-26-900-700: linear-gradient(26.57deg, #002230 8.33%, #003745 91.67%);
+        --gradient-linear-teal-45-900-600: linear-gradient(45deg, #002230 0%, #00424F 100%);
+
 
     /* Typography - v2 Design System */
     
@@ -286,6 +305,8 @@
       --variant-pills-border-opacity: 1;
       --variant-pills-shadow-opacity: 0;
 }
+
+
 
     /* Buttons - v2 Design System */
 
