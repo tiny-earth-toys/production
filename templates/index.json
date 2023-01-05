@@ -33,7 +33,9 @@
       "settings": {
         "color_scheme": "te-teal-light",
         "full_width": true,
-        "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg"
+        "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium"
       }
     },
     "ae1f2c75-ff09-44fb-a302-bca6cdf4000c": {
@@ -136,13 +138,6 @@
             "heading_size": "h3"
           }
         },
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
-            "text_style": "body"
-          }
-        },
         "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2": {
           "type": "button",
           "settings": {
@@ -150,12 +145,19 @@
             "button_link": "",
             "color": "green"
           }
+        },
+        "e191888b-4b3a-474f-bc65-dfebf4ac63a0": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
         "d2da5dba-3d8a-473e-b90e-b8428dba72fa",
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-1",
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2"
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2",
+        "e191888b-4b3a-474f-bc65-dfebf4ac63a0"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
@@ -165,10 +167,7 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "te-color-default",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "color_scheme": "te-color-default"
       }
     },
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1": {
