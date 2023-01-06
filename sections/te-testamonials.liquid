@@ -2,11 +2,7 @@
 
 <noscript>{{ 'section-te-testamonials.css' | asset_url | stylesheet_tag }}</noscript>
 
-<section
-  class="color--{{ section.settings.color_scheme }} section-te-testamonials"
-  data-section-type="{{ section.name }}"
-  data-section-id="{{ section.id }}"
->
+<div class="section-te-testamonials">
   <div class="testamonials-container">
     <div class="tc-content">
       <div class="tc-content--stars">
@@ -48,13 +44,13 @@
       {%- endunless -%}
     </div>
   </div>
-</section>
+</div>
 
 {% schema %}
 {
   "name": "TE Testamonials",
   "tag": "section",
-  "class": "section",
+  "class": "te-section-container",
   "settings": [
     {
       "type": "select",

@@ -2591,7 +2591,7 @@ details-disclosure > details {
 
 .te-gradient {
   background: var( --gradient-linear-gray-45-800-600);
-  color: rgb(var(--te--base-white));
+  color: rgb(var(--te-base--white));
   background-attachment: fixed;
 }
 

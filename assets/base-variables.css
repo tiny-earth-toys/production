@@ -227,10 +227,10 @@
     
 
         /* continer sizes */
-        --te-container-sm: 40rem;
-        --te-container-md: 48rem;
-        --te-container-lg: 64rem;
-        --te-container-xl: 80rem;
+        --te-container--sm: 40rem;
+        --te-container--md: 48rem;
+        --te-container--lg: 64rem;
+        --te-container--xl: 80rem;
     
     
         --te-media-border-radius: 16px;
@@ -306,6 +306,13 @@
       --variant-pills-shadow-opacity: 0;
 }
 
+.te-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  width: 100%;
+}
 
 
     /* Buttons - v2 Design System */
