@@ -10,12 +10,18 @@
   <div class="section--te-double-column-container">
     <div class="double-column__header--container">
       <div class="double-column__header--titles">
-        <h3 class="te-text te-text--md te-weight--text-semibold">{{ section.settings.subtitle }}</h3>
-        <h2 class="te-display te-display--med te-weight--display-semibold">{{ section.settings.title }}</h2>
+        {%- unless section.settings.subtitle == blank -%}
+          <h3 class="te-text te-text--md te-weight--text-semibold">{{ section.settings.subtitle }}</h3>
+        {%- endunless -%}
+        {%- unless section.settings.title == blank -%}
+          <h2 class="te-display te-display--med te-weight--display-semibold">{{ section.settings.title }}</h2>
+        {%- endunless -%}
       </div>
-      <div class="header--caption">
-        <h5 class="te-text te-text--xl te-weight--text-normal">{{ section.settings.caption }}</h5>
-      </div>
+      {%- unless section.settings.caption == blank -%}
+        <div class="header--caption">
+          <h5 class="te-text te-text--xl te-weight--text-normal">{{ section.settings.caption }}</h5>
+        </div>
+      {%- endunless -%}
     </div>
     <div class="double-column__content-container">
       {%- for block in section.blocks -%}
