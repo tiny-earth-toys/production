@@ -1,133 +1,5 @@
 {
   "sections": {
-    "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
-      "type": "te-testamonials",
-      "blocks": {
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0",
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1",
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2"
-      ],
-      "settings": {
-        "color_scheme": "te-teal-light",
-        "full_width": true,
-        "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium"
-      }
-    },
-    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c": {
-      "type": "te-multigallery",
-      "disabled": true,
-      "blocks": {
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "0-6 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A1816_V1_95f99db7-e927-43fc-9663-51d364e28891.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "6-12 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A3714_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A3081_V1_1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A3299_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "12-18 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A2711_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A2941_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "24-30 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "30-36 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4488_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A5302_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "3-4 years",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5674_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "4-5 years",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A6371_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5817_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6"
-      ],
-      "settings": {
-        "color_scheme": "te-color-teal-dark",
-        "multigallery_section_heading": "Educator curated toys that grow with your child",
-        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
-      }
-    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -145,19 +17,11 @@
             "button_link": "",
             "color": "green"
           }
-        },
-        "e191888b-4b3a-474f-bc65-dfebf4ac63a0": {
-          "type": "caption",
-          "settings": {
-            "caption": "<p>For a limited time, get 60% off your first box plus a wooden toy.<\/p>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "d2da5dba-3d8a-473e-b90e-b8428dba72fa",
-        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2",
-        "e191888b-4b3a-474f-bc65-dfebf4ac63a0"
+        "template--16658355257589__e54d6479-ae88-4e11-a33b-6869a44146cc-16722624178dfd8581-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
@@ -278,41 +142,131 @@
         "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
       }
     },
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
-      "type": "te-rich-text",
+    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c": {
+      "type": "te-multigallery",
       "blocks": {
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0": {
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "0-6 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A1816_V1_95f99db7-e927-43fc-9663-51d364e28891.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "6-12 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A3714_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A3081_V1_1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A3299_V1.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "12-18 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A2711_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A2941_V1.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "24-30 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "30-36 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4488_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A5302_V1.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "3-4 years",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5674_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg"
+          }
+        },
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6": {
+          "type": "multigroup",
+          "settings": {
+            "multigroup_name": "4-5 years",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A6371_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5817_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5",
+        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "multigallery_section_heading": "Educator curated toys that grow with your child",
+        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+      }
+    },
+    "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
+      "type": "te-testamonials",
+      "blocks": {
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0": {
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1": {
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1": {
           "type": "text",
           "settings": {
             "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         },
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2": {
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
             "button_link": "",
-            "color": "green"
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0",
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1",
-        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2"
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0",
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1",
+        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2"
       ],
       "settings": {
-        "color_scheme": "te-color-teal-dark",
+        "color_scheme": "te-default",
         "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium"
       }
     },
     "8069baa3-c517-4573-ba5f-36556c9a1e43": {
@@ -405,15 +359,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0",
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1",
+        "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-light",
+        "full_width": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
-    "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
-    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82",
-    "8069baa3-c517-4573-ba5f-36556c9a1e43"
+    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
+    "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
+    "8069baa3-c517-4573-ba5f-36556c9a1e43",
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82"
   ]
 }
