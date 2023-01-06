@@ -8,8 +8,11 @@
   data-section-id="{{ section.id }}"
 >
   <div class="section--te-dbl-col-feature">
-    <h2>Tiny Double Column</h2>
+    <h3>{{ section.settings.subtitle }}</h3>
+    <h2>{{ section.settings.title }}</h2>
+    <h5>{{ section.settings.caption }}</h5>
   </div>
+  <div class="text-container"></div>
 </div>
 
 {% schema %}
@@ -18,6 +21,10 @@
   "tag": "section",
   "class": "te-section-container",
   "settings": [
+    {
+      "type": "header",
+      "content": "Background Colors"
+    },
     {
       "type": "select",
       "id": "color_scheme",
@@ -57,8 +64,137 @@
     {
       "type": "header",
       "content": "Headers"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Our Story"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Etiam egestas in nec sed et"
+    },
+    {
+      "type": "text",
+      "id": "caption",
+      "label": "Caption",
+      "default": " In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
     }
   ],
+  "max_blocks": 2,
+  "blocks": [
+    {
+      "type": "column__text",
+      "name": "Paragraph column",
+      "settings": [
+        {
+          "type": "textarea",
+          "id": "column__textarea",
+          "label": "Text area",
+          "default": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+        }
+      ]
+    },
+    {
+      "type": "column__image",
+      "name": "Image column",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "column__image",
+          "label": "Image"
+        }
+      ]
+    },
+    {
+      "type": "column__bullet",
+      "name": "Bullet column",
+      "settings": [
+        {
+          "type": "select",
+          "id": "bullet__icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "one",
+              "label": "Top"
+            },
+            {
+              "value": "two",
+              "label": "midddle"
+            },
+            {
+              "value": "three",
+              "label": "Bottom"
+            },
+            {
+              "value": "none",
+              "label": "none"
+            }
+          ],
+          "default": "none"
+        },
+        {
+          "type": "text",
+          "id": "bullet__title",
+          "label": "Bullet title",
+          "default": "Aliquam ac euismod quam"
+        },
+        {
+          "type": "textarea",
+          "id": "bullet__message",
+          "label": "Bullet Content",
+          "default": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+        }
+      ]
+    },
+    {
+      "type": "column__title",
+      "name": "Title Column",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title__title",
+          "label": "Title",
+          "default": "Why two months?"
+        },
+        {
+          "type": "textarea",
+          "id": "title__message",
+          "label": "Text area",
+          "default": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet."
+        },
+        {
+          "type": "select",
+          "id": "title__icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "one",
+              "label": "Top"
+            },
+            {
+              "value": "two",
+              "label": "midddle"
+            },
+            {
+              "value": "three",
+              "label": "Bottom"
+            },
+            {
+              "value": "none",
+              "label": "none"
+            }
+          ],
+          "default": "none"
+        }
+      ]
+    }
+  ],
+
   "presets": [
     {
       "name": "TE Double Column"
