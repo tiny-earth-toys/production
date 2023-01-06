@@ -2,8 +2,29 @@
   "sections": {
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
       "type": "te-dbl-col-feature",
+      "blocks": {
+        "c79843e2-9d3f-465a-8630-6641af0db823": {
+          "type": "column__text",
+          "settings": {
+            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.\nNunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus."
+          }
+        },
+        "d159f70c-61df-4bae-b0ff-20f292efcf55": {
+          "type": "column__text",
+          "settings": {
+            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.\nNunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus."
+          }
+        }
+      },
+      "block_order": [
+        "c79843e2-9d3f-465a-8630-6641af0db823",
+        "d159f70c-61df-4bae-b0ff-20f292efcf55"
+      ],
       "settings": {
-        "color_scheme": "te-default"
+        "color_scheme": "te-default",
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
       }
     },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {

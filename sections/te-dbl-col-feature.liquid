@@ -7,130 +7,135 @@
   data-section-type="{{ section.settings.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="section--te-dbl-col-feature">
-    <h3>{{ section.settings.subtitle }}</h3>
-    <h2>{{ section.settings.title }}</h2>
-    <h5>{{ section.settings.caption }}</h5>
-  </div>
-  <div class="column-container">
-    {%- for block in section.blocks -%}
-      {%- case block.type -%}
-          <!-- -----   column text block   ------- -->
+  <div class="section--te-double-column-container">
+    <div class="double-column__header--container">
+      <div class="double-column__header--titles">
+        <h3 class="te-text te-text--md te-weight--text-semibold">{{ section.settings.subtitle }}</h3>
+        <h2 class="te-display te-display--med te-weight--display-semibold">{{ section.settings.title }}</h2>
+      </div>
+      <div class="header--caption">
+        <h5 class="te-text te-text--xl te-weight--text-normal">{{ section.settings.caption }}</h5>
+      </div>
+    </div>
+    <div class="double-column__content-container">
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+            <!-- -----   column text block   ------- -->
 
-        {%- when 'column__text' -%}
-          <div class="column__text-container" {{ block.shopify_attributes }}>
-            <p>paragraph block</p>
-            <p>{{ block.settings.column__textarea }}</p>
-          </div>
+          {%- when 'column__text' -%}
+            <div class="double-column__block-container column__text-container" {{ block.shopify_attributes }}>
+              <p class="te-text te-text--lg te-weight--text-normal">{{ block.settings.column__textarea }}</p>
+            </div>
 
-          <!-- -----   end column text   ---------- -->
-          <!-- -----   column image block   ------- -->
+            <!-- -----   end column text   ---------- -->
+            <!-- -----   column image block   ------- -->
 
-        {%- when 'column__image' -%}
-          <div class="column__image-container" {{ block.shopify_attributes }}>
-            <p>image block</p>
-            <img src="{{ block.settings.column__image }}">
-          </div>
+          {%- when 'column__image' -%}
+            <div class="column__image-container" {{ block.shopify_attributes }}>
+              <p>image block</p>
+              <img src="{{ block.settings.column__image }}">
+            </div>
 
-          <!-- ----   end column image   ------- -->
-          <!-- ----  column bullet block ------- -->
+            <!-- ----   end column image   ------- -->
+            <!-- ----  column bullet block ------- -->
 
-        {%- when 'column__bullet' -%}
-          {%- assign first-bullet = block.settings['bullet__title-1'] -%}
-          {%- assign second-bullet = block.settings['bullet__title-2'] -%}
-          {%- assign third-bullet = block.settings['bullet__title-3'] -%}
+          {%- when 'column__bullet' -%}
+            {%- assign first-bullet = block.settings['bullet__title-1'] -%}
+            {%- assign second-bullet = block.settings['bullet__title-2'] -%}
+            {%- assign third-bullet = block.settings['bullet__title-3'] -%}
 
-          <div class="column__bullet-container" {{ block.shopify_attributes }}>
-            {%- unless first-bullet == blank -%}
-              {% capture icon %}{{ block.settings.bullet__icon-1 }}{% endcapture %}
-              <div class="column__bullet-content-container">
-                <p>first bullet</p>
-                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-1 != true %}hidden{% endif %}">
-                  {%- if icon == 'option_a' -%}
-                    {%- render 'icon-triangle-block' -%}
-                  {%- elsif icon == 'option_b' -%}
-                    {%- render 'icon-star-block' -%}
-                  {%- elsif icon == 'option_c' -%}
-                    {%- render 'icon-octagon-block' -%}
-                  {%- else -%}
-                    {%- render 'icon-hexagon-block' -%}
-                  {%- endif -%}
+            <div class="column__bullet-container" {{ block.shopify_attributes }}>
+              {%- unless first-bullet == blank -%}
+                {% capture icon %}{{ block.settings.bullet__icon-1 }}{% endcapture %}
+                <div class="column__bullet-content-container">
+                  <p>first bullet</p>
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-1 != true %}hidden{% endif %}">
+                    {%- if icon == 'option_a' -%}
+                      {%- render 'icon-triangle-block' -%}
+                    {%- elsif icon == 'option_b' -%}
+                      {%- render 'icon-star-block' -%}
+                    {%- elsif icon == 'option_c' -%}
+                      {%- render 'icon-octagon-block' -%}
+                    {%- else -%}
+                      {%- render 'icon-hexagon-block' -%}
+                    {%- endif -%}
+                  </div>
+                  <h5>{{ block.settings['bullet__title-1'] }}</h5>
+                  <p>{{ block.settings['bullet__message-1'] }}</p>
                 </div>
-                <h5>{{ block.settings['bullet__title-1'] }}</h5>
-                <p>{{ block.settings['bullet__message-1'] }}</p>
-              </div>
-            {%- endunless -%}
+              {%- endunless -%}
 
-            {%- unless second-bullet == blank -%}
-              {% capture icon %}{{ block.settings.bullet__icon-2 }}{% endcapture %}
-              <div class="column__bullet-content-container">
-                <p>first bullet</p>
-                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-2 != true %}hidden{% endif %}">
-                  {%- if icon == 'option_a' -%}
-                    {%- render 'icon-triangle-block' -%}
-                  {%- elsif icon == 'option_b' -%}
-                    {%- render 'icon-star-block' -%}
-                  {%- elsif icon == 'option_c' -%}
-                    {%- render 'icon-octagon-block' -%}
-                  {%- else -%}
-                    {%- render 'icon-hexagon-block' -%}
-                  {%- endif -%}
+              {%- unless second-bullet == blank -%}
+                {% capture icon %}{{ block.settings.bullet__icon-2 }}{% endcapture %}
+                <div class="column__bullet-content-container">
+                  <p>first bullet</p>
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-2 != true %}hidden{% endif %}">
+                    {%- if icon == 'option_a' -%}
+                      {%- render 'icon-triangle-block' -%}
+                    {%- elsif icon == 'option_b' -%}
+                      {%- render 'icon-star-block' -%}
+                    {%- elsif icon == 'option_c' -%}
+                      {%- render 'icon-octagon-block' -%}
+                    {%- else -%}
+                      {%- render 'icon-hexagon-block' -%}
+                    {%- endif -%}
+                  </div>
+                  <h5>{{ block.settings['bullet__title-2'] }}</h5>
+                  <p>{{ block.settings['bullet__message-2'] }}</p>
                 </div>
-                <h5>{{ block.settings['bullet__title-2'] }}</h5>
-                <p>{{ block.settings['bullet__message-2'] }}</p>
-              </div>
-            {%- endunless -%}
+              {%- endunless -%}
 
-            {%- unless third-bullet == blank -%}
-              {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
-              <div class="column__bullet-content-container">
-                <p>first bullet</p>
-                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-3 != true %}hidden{% endif %}">
-                  {%- if icon == 'option_a' -%}
-                    {%- render 'icon-triangle-block' -%}
-                  {%- elsif icon == 'option_b' -%}
-                    {%- render 'icon-star-block' -%}
-                  {%- elsif icon == 'option_c' -%}
-                    {%- render 'icon-octagon-block' -%}
-                  {%- else -%}
-                    {%- render 'icon-hexagon-block' -%}
-                  {%- endif -%}
+              {%- unless third-bullet == blank -%}
+                {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
+                <div class="column__bullet-content-container">
+                  <p>first bullet</p>
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-3 != true %}hidden{% endif %}">
+                    {%- if icon == 'option_a' -%}
+                      {%- render 'icon-triangle-block' -%}
+                    {%- elsif icon == 'option_b' -%}
+                      {%- render 'icon-star-block' -%}
+                    {%- elsif icon == 'option_c' -%}
+                      {%- render 'icon-octagon-block' -%}
+                    {%- else -%}
+                      {%- render 'icon-hexagon-block' -%}
+                    {%- endif -%}
+                  </div>
+                  <h5>{{ block.settings['bullet__title-3'] }}</h5>
+                  <p>{{ block.settings['bullet__message-3'] }}</p>
                 </div>
-                <h5>{{ block.settings['bullet__title-3'] }}</h5>
-                <p>{{ block.settings['bullet__message-3'] }}</p>
-              </div>
-            {%- endunless -%}
-          </div>
+              {%- endunless -%}
+            </div>
 
-          <!-- ----  end column bullet  ------- -->
-          <!-- ----  column title block  ------- -->
+            <!-- ----  end column bullet  ------- -->
+            <!-- ----  column title block  ------- -->
 
-        {%- when 'column__title' -%}
-          {%- assign icon = block.settings.title__icon -%}
-          <div class="column__title-container">
-            <p>title block</p>
-            {%- if icon == 'option_a' -%}
-              <div class="column__title-icon-wrapper">
-                {%- render 'icon-triangle-block' -%}
-              </div>
-            {%- elsif icon == 'option_b' -%}
-              <div class="column__title-icon-wrapper">
-                {%- render 'icon-star-block' -%}
-              </div>
-            {%- elsif icon == 'option_c' -%}
-              <div class="column__title-icon-wrapper">
-                {%- render 'icon-octagon-block' -%}
-              </div>
-            {%- else -%}
-              <div class="column__title-icon-wrapper"></div>
-            {%- endif -%}
-            <h3>{{ block.settings.title__title }}</h3>
-            <p>{{ block.settings.title__message }}</p>
-          </div>
+          {%- when 'column__title' -%}
+            {%- assign icon = block.settings.title__icon -%}
+            <div class="column__title-container">
+              <p>title block</p>
+              {%- if icon == 'option_a' -%}
+                <div class="column__title-icon-wrapper">
+                  {%- render 'icon-triangle-block' -%}
+                </div>
+              {%- elsif icon == 'option_b' -%}
+                <div class="column__title-icon-wrapper">
+                  {%- render 'icon-star-block' -%}
+                </div>
+              {%- elsif icon == 'option_c' -%}
+                <div class="column__title-icon-wrapper">
+                  {%- render 'icon-octagon-block' -%}
+                </div>
+              {%- else -%}
+                <div class="column__title-icon-wrapper"></div>
+              {%- endif -%}
+              <h3>{{ block.settings.title__title }}</h3>
+              <p>{{ block.settings.title__message }}</p>
+            </div>
 
-          <!-- ----  end column title  ------- -->
-      {%- endcase -%}
-    {%- endfor -%}
+            <!-- ----  end column title  ------- -->
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
   </div>
 </div>
 
