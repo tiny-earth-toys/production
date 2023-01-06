@@ -55,7 +55,7 @@
                 {% capture icon %}{{ block.settings.bullet__icon-1 }}{% endcapture %}
                 <div class="column__bullet-content-container">
                   <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-1 != true %}hidden{% endif %}">
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-1 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
@@ -75,7 +75,7 @@
                 {% capture icon %}{{ block.settings.bullet__icon-2 }}{% endcapture %}
                 <div class="column__bullet-content-container">
                   <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-2 != true %}hidden{% endif %}">
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-2 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
@@ -95,7 +95,7 @@
                 {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
                 <div class="column__bullet-content-container">
                   <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-3 != true %}hidden{% endif %}">
+                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-3 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
@@ -116,24 +116,20 @@
             <!-- ----  column title block  ------- -->
 
           {%- when 'column__title' -%}
-            {%- assign icon = block.settings.title__icon -%}
+            {% capture icon %}{{ block.settings.title__icon }}{% endcapture %}
             <div class="column__title-container">
-              <p>title block</p>
-              {%- if icon == 'option_a' -%}
-                <div class="column__title-icon-wrapper">
+              <div class="column__title-icon-wrapper {% if block.settings.title__hide-icon == true %}hidden{% endif %}">
+                {%- if icon == 'option_a' -%}
                   {%- render 'icon-triangle-block' -%}
-                </div>
-              {%- elsif icon == 'option_b' -%}
-                <div class="column__title-icon-wrapper">
+                {%- elsif icon == 'option_b' -%}
                   {%- render 'icon-star-block' -%}
-                </div>
-              {%- elsif icon == 'option_c' -%}
-                <div class="column__title-icon-wrapper">
+                {%- elsif icon == 'option_c' -%}
                   {%- render 'icon-octagon-block' -%}
-                </div>
-              {%- else -%}
-                <div class="column__title-icon-wrapper"></div>
-              {%- endif -%}
+                {%- else -%}
+                  {%- render 'icon-hexagon-block' -%}
+                {%- endif -%}
+              </div>
+              <h5>{{ block.settings.title__subtitle }}</h5>
               <h3>{{ block.settings.title__title }}</h3>
               <p>{{ block.settings.title__message }}</p>
             </div>
@@ -249,9 +245,9 @@
         },
         {
           "type": "checkbox",
-          "id": "bullet__show-icon-1",
-          "label": "Show icon",
-          "default": true
+          "id": "bullet__hide-icon-1",
+          "label": "Hide icon",
+          "default": false
         },
         {
           "type": "select",
@@ -295,9 +291,9 @@
         },
         {
           "type": "checkbox",
-          "id": "bullet__show-icon-2",
-          "label": "Show icon",
-          "default": true
+          "id": "bullet__hide-icon-2",
+          "label": "Hide icon",
+          "default": false
         },
         {
           "type": "select",
@@ -341,9 +337,9 @@
         },
         {
           "type": "checkbox",
-          "id": "bullet__show-icon-3",
-          "label": "Show icon",
-          "default": true
+          "id": "bullet__hide-icon-3",
+          "label": "Hide icon",
+          "default": false
         },
         {
           "type": "select",
@@ -389,15 +385,27 @@
       "settings": [
         {
           "type": "text",
+          "id": "title__subtitle",
+          "label": "Subtitle",
+          "default": "Choose conscious"
+        },
+        {
+          "type": "text",
           "id": "title__title",
           "label": "Title",
-          "default": "Why two months?"
+          "default": "Save your sanity and the planet"
         },
         {
           "type": "textarea",
           "id": "title__message",
           "label": "Text area",
-          "default": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet."
+          "default": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non."
+        },
+        {
+          "type": "checkbox",
+          "id": "title__hide-icon",
+          "label": "Hide icon",
+          "default": false
         },
         {
           "type": "select",
@@ -417,11 +425,11 @@
               "label": "Icon D"
             },
             {
-              "value": "none",
-              "label": "none"
+              "value": "option_d",
+              "label": "Icon D"
             }
           ],
-          "default": "none"
+          "default": "option_a"
         }
       ]
     }
