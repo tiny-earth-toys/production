@@ -1,5 +1,11 @@
 {
   "sections": {
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
+      "type": "te-dbl-col-feature",
+      "settings": {
+        "color_scheme": "te-default"
+      }
+    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -399,6 +405,7 @@
     }
   },
   "order": [
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
