@@ -15,23 +15,96 @@
   <div class="column-container">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
+          <!-- -----   column text block   ------- -->
+
         {%- when 'column__text' -%}
-          <div class="column__text-container">
+          <div class="column__text-container" {{ block.shopify_attributes }}>
             <p>paragraph block</p>
             <p>{{ block.settings.column__textarea }}</p>
           </div>
+
+          <!-- -----   end column text   ---------- -->
+          <!-- -----   column image block   ------- -->
+
         {%- when 'column__image' -%}
-          <div class="column__image-container">
+          <div class="column__image-container" {{ block.shopify_attributes }}>
             <p>image block</p>
             <img src="{{ block.settings.column__image }}">
           </div>
+
+          <!-- ----   end column image   ------- -->
+          <!-- ----  column bullet block ------- -->
+
         {%- when 'column__bullet' -%}
-          <div class="column__bullet-container">
-            <p>bullet block</p>
-            {{ block.settings.bullet__icon }}
-            <h5>{{ block.settings.bullet__title }}</h5>
-            <p>{{ block.settings.bullet__message }}</p>
+          {%- assign first-bullet = block.settings['bullet__title-1'] -%}
+          {%- assign second-bullet = block.settings['bullet__title-2'] -%}
+          {%- assign third-bullet = block.settings['bullet__title-3'] -%}
+
+          <div class="column__bullet-container" {{ block.shopify_attributes }}>
+            {%- unless first-bullet == blank -%}
+              {% capture icon %}{{ block.settings.bullet__icon-1 }}{% endcapture %}
+              <div class="column__bullet-content-container">
+                <p>first bullet</p>
+                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-1 != true %}hidden{% endif %}">
+                  {%- if icon == 'option_a' -%}
+                    {%- render 'icon-triangle-block' -%}
+                  {%- elsif icon == 'option_b' -%}
+                    {%- render 'icon-star-block' -%}
+                  {%- elsif icon == 'option_c' -%}
+                    {%- render 'icon-octagon-block' -%}
+                  {%- else -%}
+                    {%- render 'icon-hexagon-block' -%}
+                  {%- endif -%}
+                </div>
+                <h5>{{ block.settings['bullet__title-1'] }}</h5>
+                <p>{{ block.settings['bullet__message-1'] }}</p>
+              </div>
+            {%- endunless -%}
+
+            {%- unless second-bullet == blank -%}
+              {% capture icon %}{{ block.settings.bullet__icon-2 }}{% endcapture %}
+              <div class="column__bullet-content-container">
+                <p>first bullet</p>
+                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-2 != true %}hidden{% endif %}">
+                  {%- if icon == 'option_a' -%}
+                    {%- render 'icon-triangle-block' -%}
+                  {%- elsif icon == 'option_b' -%}
+                    {%- render 'icon-star-block' -%}
+                  {%- elsif icon == 'option_c' -%}
+                    {%- render 'icon-octagon-block' -%}
+                  {%- else -%}
+                    {%- render 'icon-hexagon-block' -%}
+                  {%- endif -%}
+                </div>
+                <h5>{{ block.settings['bullet__title-2'] }}</h5>
+                <p>{{ block.settings['bullet__message-2'] }}</p>
+              </div>
+            {%- endunless -%}
+
+            {%- unless third-bullet == blank -%}
+              {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
+              <div class="column__bullet-content-container">
+                <p>first bullet</p>
+                <div class="column__bullet-icon-wrapper {% if block.settings.bullet__show-icon-3 != true %}hidden{% endif %}">
+                  {%- if icon == 'option_a' -%}
+                    {%- render 'icon-triangle-block' -%}
+                  {%- elsif icon == 'option_b' -%}
+                    {%- render 'icon-star-block' -%}
+                  {%- elsif icon == 'option_c' -%}
+                    {%- render 'icon-octagon-block' -%}
+                  {%- else -%}
+                    {%- render 'icon-hexagon-block' -%}
+                  {%- endif -%}
+                </div>
+                <h5>{{ block.settings['bullet__title-3'] }}</h5>
+                <p>{{ block.settings['bullet__message-3'] }}</p>
+              </div>
+            {%- endunless -%}
           </div>
+
+          <!-- ----  end column bullet  ------- -->
+          <!-- ----  column title block  ------- -->
+
         {%- when 'column__title' -%}
           {%- assign icon = block.settings.title__icon -%}
           <div class="column__title-container">
@@ -54,6 +127,8 @@
             <h3>{{ block.settings.title__title }}</h3>
             <p>{{ block.settings.title__message }}</p>
           </div>
+
+          <!-- ----  end column title  ------- -->
       {%- endcase -%}
     {%- endfor -%}
   </div>
@@ -158,38 +233,140 @@
       "name": "Bullet column",
       "settings": [
         {
+          "type": "header",
+          "content": "First Bullet"
+        },
+        {
+          "type": "checkbox",
+          "id": "bullet__show-icon-1",
+          "label": "Show icon",
+          "default": true
+        },
+        {
           "type": "select",
-          "id": "bullet__icon",
+          "id": "bullet__icon-1",
           "label": "Icon",
           "options": [
             {
-              "value": "one",
-              "label": "Top"
+              "value": "option_a",
+              "label": "Icon A"
             },
             {
-              "value": "two",
-              "label": "midddle"
+              "value": "option_b",
+              "label": "Icon B"
             },
             {
-              "value": "three",
-              "label": "Bottom"
+              "value": "option_c",
+              "label": "Icon C"
             },
             {
-              "value": "none",
-              "label": "none"
+              "value": "option_d",
+              "label": "option D"
             }
           ],
-          "default": "none"
+          "default": "option_a"
         },
         {
           "type": "text",
-          "id": "bullet__title",
+          "id": "bullet__title-1",
           "label": "Bullet title",
           "default": "Aliquam ac euismod quam"
         },
         {
           "type": "textarea",
-          "id": "bullet__message",
+          "id": "bullet__message-1",
+          "label": "Bullet Content",
+          "default": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+        },
+        {
+          "type": "header",
+          "content": "Second Bullet"
+        },
+        {
+          "type": "checkbox",
+          "id": "bullet__show-icon-2",
+          "label": "Show icon",
+          "default": true
+        },
+        {
+          "type": "select",
+          "id": "bullet__icon-2",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "option_a",
+              "label": "Icon A"
+            },
+            {
+              "value": "option_b",
+              "label": "Icon B"
+            },
+            {
+              "value": "option_c",
+              "label": "Icon C"
+            },
+            {
+              "value": "option_d",
+              "label": "Icon D"
+            }
+          ],
+          "default": "option_a"
+        },
+        {
+          "type": "text",
+          "id": "bullet__title-2",
+          "label": "Bullet title",
+          "default": "Aliquam ac euismod quam"
+        },
+        {
+          "type": "textarea",
+          "id": "bullet__message-2",
+          "label": "Bullet Content",
+          "default": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+        },
+        {
+          "type": "header",
+          "content": "Third Bullet"
+        },
+        {
+          "type": "checkbox",
+          "id": "bullet__show-icon-3",
+          "label": "Show icon",
+          "default": true
+        },
+        {
+          "type": "select",
+          "id": "bullet__icon-3",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "option_a",
+              "label": "Icon A"
+            },
+            {
+              "value": "option_b",
+              "label": "Icon B"
+            },
+            {
+              "value": "option_c",
+              "label": "Icon C"
+            },
+            {
+              "value": "option_d",
+              "label": "Icon D"
+            }
+          ],
+          "default": "option_a"
+        },
+        {
+          "type": "text",
+          "id": "bullet__title-3",
+          "label": "Bullet title",
+          "default": "Aliquam ac euismod quam"
+        },
+        {
+          "type": "textarea",
+          "id": "bullet__message-3",
           "label": "Bullet Content",
           "default": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
         }
