@@ -33,9 +33,24 @@
             <p>{{ block.settings.bullet__message }}</p>
           </div>
         {%- when 'column__title' -%}
+          {%- assign icon = block.settings.title__icon -%}
           <div class="column__title-container">
             <p>title block</p>
-            {{ block.settings.title__icon }}
+            {%- if icon == 'option_a' -%}
+              <div class="column__title-icon-wrapper">
+                {%- render 'icon-triangle-block' -%}
+              </div>
+            {%- elsif icon == 'option_b' -%}
+              <div class="column__title-icon-wrapper">
+                {%- render 'icon-star-block' -%}
+              </div>
+            {%- elsif icon == 'option_c' -%}
+              <div class="column__title-icon-wrapper">
+                {%- render 'icon-octagon-block' -%}
+              </div>
+            {%- else -%}
+              <div class="column__title-icon-wrapper"></div>
+            {%- endif -%}
             <h3>{{ block.settings.title__title }}</h3>
             <p>{{ block.settings.title__message }}</p>
           </div>
@@ -202,16 +217,16 @@
           "label": "Icon",
           "options": [
             {
-              "value": "one",
-              "label": "Top"
+              "value": "option_a",
+              "label": "Icon A"
             },
             {
-              "value": "two",
-              "label": "midddle"
+              "value": "option_b",
+              "label": "Icon B"
             },
             {
-              "value": "three",
-              "label": "Bottom"
+              "value": "option_c",
+              "label": "Icon D"
             },
             {
               "value": "none",
