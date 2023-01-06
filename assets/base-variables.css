@@ -310,11 +310,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6rem 0;
   width: 100%;
 }
 
-
+.te-section-container--full-width {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem 0;
+  width: 100%;
+}
     /* Buttons - v2 Design System */
 
 .te-button {

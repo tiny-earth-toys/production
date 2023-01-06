@@ -14,13 +14,13 @@
 {% endcapture %}
 <!-- <h2>{{ selected_block }}</h2> -->
 
-<section
-  class="isolate te-multigallery color--{{ section.settings.color_scheme }}"
-  data-section-type="{{ section.name }}"
+<div
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
+  data-section-type="{{ section.settings.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="multi-title-container">
-    <div class="mtc-content">
+  <div class=" section--te-multigallery">
+    <div class="te-multigallery-container">
       <div class="mtc-content-headings-container">
         <h3 class="mtc-content-title te-display-xl te-display--bold">
           {{ section.settings.multigallery_section_heading }}
@@ -85,13 +85,13 @@
       {% endfor %}
     </div>
   </div>
-</section>
+</div>
 
 {% schema %}
 {
   "name": "TE Multi Gallery",
   "tag": "section",
-  "class": "section",
+  "class": "te-section-container",
   "settings": [
     {
       "type": "select",

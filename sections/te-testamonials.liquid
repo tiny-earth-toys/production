@@ -2,46 +2,52 @@
 
 <noscript>{{ 'section-te-testamonials.css' | asset_url | stylesheet_tag }}</noscript>
 
-<div class="section--te-testamonials">
-  <div class="testamonials-container">
-    <div class="tc-content">
-      <div class="tc-content--stars">
-        {% render 'icon-star' -%}
-        {%- render 'icon-star' -%}
-        {%- render 'icon-star' -%}
-        {%- render 'icon-star' -%}
-        {%- render 'icon-star' %}
-      </div>
-      <div class="tc-content--quote">
-        <h2 class="te-display--lg te-weight--med">
-          Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.
-        </h2>
-      </div>
-      <div class="tc-content--attribution">
-        <div class="attribution-author">
-          <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
-          <div class="attribution-author--text te-text">
-            <h6 class="te-text--lg te-weight--text-semibold">Laura Smith</h6>
-            <p class="te-text--md te-weight--text-regular">Montessori therapist</p>
+<div
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
+  data-section-type="{{ section.settings.name }}"
+  data-section-id="{{ section.id }}"
+>
+  <div class="section--te-testamonials">
+    <div class="testamonials-container">
+      <div class="tc-content">
+        <div class="tc-content--stars">
+          {% render 'icon-star' -%}
+          {%- render 'icon-star' -%}
+          {%- render 'icon-star' -%}
+          {%- render 'icon-star' -%}
+          {%- render 'icon-star' %}
+        </div>
+        <div class="tc-content--quote">
+          <h2 class="te-display--lg te-weight--med">
+            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.
+          </h2>
+        </div>
+        <div class="tc-content--attribution">
+          <div class="attribution-author">
+            <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
+            <div class="attribution-author--text te-text">
+              <h6 class="te-text--lg te-weight--text-semibold">Laura Smith</h6>
+              <p class="te-text--md te-weight--text-regular">Montessori therapist</p>
+            </div>
+          </div>
+          <div class="attribution-arrows">
+            <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
+            <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
           </div>
         </div>
-        <div class="attribution-arrows">
-          <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
-          <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
-        </div>
       </div>
-    </div>
-    <div class="tc-image-wrapper">
-      {%- unless section.settings.testamonial_image == blank -%}
-        <img
-          src="{{ section.settings.testamonial_image | image_url: width: 592 }}"
-          loading="lazy"
-          width="592"
-          height=""
-        >
-      {%- else -%}
-        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-      {%- endunless -%}
+      <div class="tc-image-wrapper">
+        {%- unless section.settings.testamonial_image == blank -%}
+          <img
+            src="{{ section.settings.testamonial_image | image_url: width: 592 }}"
+            loading="lazy"
+            width="592"
+            height=""
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endunless -%}
+      </div>
     </div>
   </div>
 </div>

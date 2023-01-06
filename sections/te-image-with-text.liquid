@@ -1,49 +1,55 @@
 {{ 'component-te-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'section-te-image-with-text.css' | asset_url | stylesheet_tag }}
 
-<div class="section--te-image-with-text">
-  <div class="te-image-with-text__content-container">
-    <div class="left-column">
-      <div class="left-column__content-container">
-        <div class="left-column__text">
-          {%- for block in section.blocks -%}
-            {%- case block.type -%}
-              {%- when 'heading' -%}
-                <h2>{{ block.settings.heading }}</h2>
-              {%- when 'caption' -%}
-                <p class="" {{ block.shopify_attributes }}>{{ block.settings.caption }}</p>
-            {%- endcase -%}
-          {%- endfor -%}
-        </div>
-        <div class="">
-          <a class="te-button te-button--green">Get Started</a>
+<div
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
+  data-section-type="{{ section.settings.name }}"
+  data-section-id="{{ section.id }}"
+>
+  <div class="section--te-image-with-text">
+    <div class="te-image-with-text__content-container">
+      <div class="left-column">
+        <div class="left-column__content-container">
+          <div class="left-column__text">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'heading' -%}
+                  <h2>{{ block.settings.heading }}</h2>
+                {%- when 'caption' -%}
+                  <p class="" {{ block.shopify_attributes }}>{{ block.settings.caption }}</p>
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+          <div class="">
+            <a class="te-button te-button--green">Get Started</a>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="right-column">
-      <div class="right-column__media-container">
-        {%- if section.settings.image != blank -%}
-          <img
-            srcset="
-              {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
-              {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
-              {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
-              {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
-              {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
-            "
-            src="{{ section.settings.image | image_url: width: 1500 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ section.settings.image.alt | escape }}"
-            loading="lazy"
-            width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
+      <div class="right-column">
+        <div class="right-column__media-container">
+          {%- if section.settings.image != blank -%}
+            <img
+              srcset="
+                {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+              "
+              src="{{ section.settings.image | image_url: width: 1500 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
       </div>
     </div>
   </div>
@@ -179,35 +185,35 @@
       "id": "color_scheme",
       "options": [
         {
-          "value": "te-color-default",
+          "value": "te-default",
           "label": "t:sections.all.colors.te-color-default.label"
         },
         {
-          "value": "te-color-cream-dark",
+          "value": "te-cream-dark",
           "label": "t:sections.all.colors.te-color-cream-dark.label"
         },
         {
-          "value": "te-color-teal-light",
+          "value": "te-teal-light",
           "label": "t:sections.all.colors.te-color-teal-light.label"
         },
         {
-          "value": "te-color-teal-dark",
+          "value": "te-teal-dark",
           "label": "t:sections.all.colors.te-color-teal-dark.label"
         },
         {
-          "value": "te-color-silver-light",
+          "value": "te-silver-light",
           "label": "t:sections.all.colors.te-color-silver-light.label"
         },
         {
-          "value": "te-color-silver-dark",
+          "value": "te-silver-dark",
           "label": "t:sections.all.colors.te-color-silver-dark.label"
         },
         {
-          "value": "te-color-black-white",
+          "value": "te-black-white",
           "label": "t:sections.all.colors.te-color-black-white.label"
         }
       ],
-      "default": "te-color-default",
+      "default": "te-default",
       "label": "t:sections.all.colors.label"
     },
     {

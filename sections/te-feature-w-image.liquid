@@ -7,112 +7,100 @@
 
 <noscript>{{ 'section-te-feature-w-image.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
 <div
-  class="color--{{ section.color_scheme }} section--te-feature-w-image"
-  data-section-type="{{ section.name }}"
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
+  data-section-type="{{ section.settings.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="fwi-container">
-    <div class="fwi-title-container">
-      <div class="fwi-title-content">
-        {% unless section.settings.fwi_section_heading == blank %}
-          <h2 class="fwi-heading te-display--md te-display--light">
-            {{ section.settings.fwi_section_heading }}
-          </h2>
-        {% endunless %}
-        {% unless section.settings.fwi_section_subheading == blank %}
-          <p class="fwi-subtitle">
-            {{ section.settings.fwi_section_subheading }}
-          </p>
-        {% endunless %}
-      </div>
-    </div>
-
-    <div class="fwi-card-container">
-      <div class="fwi-column">
-        {% for block in section.blocks %}
-          {% assign column_A = block.type %}
-          {% case column_A %}
-            {% when 'feature_card__A' %}
-              <div class="fwi-card">
-                {% render 'icon-hexagon-block' %}
-                <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
-                <p class="fwi-card-text left">
-                  {{ block.settings.card_text }}
-                </p>
-              </div>
-            {% when 'feature_card__B' %}
-              <div class="fwi-card">
-                <span class="fwi-icon-wrap">{% render 'icon-star-block' %}</span>
-                <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
-                <p class="fwi-card-text left">
-                  {{ block.settings.card_text }}
-                </p>
-              </div>
-            {% else %}
-
-          {% endcase %}
-        {% endfor %}
+  <div class="section--te-feature-w-image">
+    <div class="fwi-container">
+      <div class="fwi-title-container">
+        <div class="fwi-title-content">
+          {% unless section.settings.fwi_section_heading == blank %}
+            <h2 class="fwi-heading te-display--md te-display--light">
+              {{ section.settings.fwi_section_heading }}
+            </h2>
+          {% endunless %}
+          {% unless section.settings.fwi_section_subheading == blank %}
+            <p class="fwi-subtitle">
+              {{ section.settings.fwi_section_subheading }}
+            </p>
+          {% endunless %}
+        </div>
       </div>
 
-      <div class="fwi-img-wrapper">
-        {%- if section.settings.fwi_image != blank -%}
-          <img
-            src="{{ section.settings.fwi_image | image_url: width: 480 }}"
-            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-            alt="{{ section.settings.image.alt | escape }}"
-            loading="lazy"
-            width="480"
-            height="384"
-          >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-        {%- endif -%}
+      <div class="fwi-card-container">
+        <div class="fwi-column">
+          {% for block in section.blocks %}
+            {% assign column_A = block.type %}
+            {% case column_A %}
+              {% when 'feature_card__A' %}
+                <div class="fwi-card">
+                  {% render 'icon-hexagon-block' %}
+                  <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
+                  <p class="fwi-card-text left">
+                    {{ block.settings.card_text }}
+                  </p>
+                </div>
+              {% when 'feature_card__B' %}
+                <div class="fwi-card">
+                  <span class="fwi-icon-wrap">{% render 'icon-star-block' %}</span>
+                  <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
+                  <p class="fwi-card-text left">
+                    {{ block.settings.card_text }}
+                  </p>
+                </div>
+              {% else %}
+
+            {% endcase %}
+          {% endfor %}
+        </div>
+
+        <div class="fwi-img-wrapper">
+          {%- if section.settings.fwi_image != blank -%}
+            <img
+              src="{{ section.settings.fwi_image | image_url: width: 480 }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="480"
+              height="384"
+            >
+          {%- else -%}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {%- endif -%}
+        </div>
+
+        <div class="fwi-column">
+          {% for block in section.blocks %}
+            {% assign column_B = block.type %}
+            {% case column_B %}
+              {% when 'feature_card__C' %}
+                <div class="fwi-card">
+                  {% render 'icon-triangle-block' %}
+                  <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
+                  <p class="fwi-card-text left">
+                    {{ block.settings.card_text }}
+                  </p>
+                </div>
+              {% when 'feature_card__D' %}
+                <div class="fwi-card">
+                  {% render 'icon-octagon-block' %}
+                  <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
+                  <p class="fwi-card-text left">
+                    {{ block.settings.card_text }}
+                  </p>
+                </div>
+              {% else %}
+
+            {% endcase %}
+          {% endfor %}
+        </div>
       </div>
 
-      <div class="fwi-column">
-        {% for block in section.blocks %}
-          {% assign column_B = block.type %}
-          {% case column_B %}
-            {% when 'feature_card__C' %}
-              <div class="fwi-card">
-                {% render 'icon-triangle-block' %}
-                <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
-                <p class="fwi-card-text left">
-                  {{ block.settings.card_text }}
-                </p>
-              </div>
-            {% when 'feature_card__D' %}
-              <div class="fwi-card">
-                {% render 'icon-octagon-block' %}
-                <h5 class="fwi-card-title left">{{ block.settings.card_title }}</h5>
-                <p class="fwi-card-text left">
-                  {{ block.settings.card_text }}
-                </p>
-              </div>
-            {% else %}
-
-          {% endcase %}
-        {% endfor %}
+      <div class="fwi-cta-container">
+        <a class="te-button te-button--green">Gift a Kit</a>
       </div>
-    </div>
-
-    <div class="fwi-cta-container">
-      <a class="te-button te-button--green">Gift a Kit</a>
     </div>
   </div>
 </div>
