@@ -23,16 +23,17 @@
     assign show_mobile_slider = true
   endif
 -%}
-<section
-  class="color--{{ section.settings.color_scheme }}"
+
+<div
+  class="color--{{ section.settings.color_scheme }} section--te-multicolumn"
   data-section-type="{{ section.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="multicolumn {{ section.settings.color_scheme }} {% if section.settings.title == blank %} no-heading{% endif %}">
-    <div class="page-width section-{{ section.id }}-padding isolate">
+  <div class="te-multicolumn-container">
+    <div class="">
       {%- unless section.settings.title == blank -%}
         <div class="title-wrapper {{ section.settings.heading_alignment }}">
-          <h2 class="title {{ section.settings.heading_size }}">
+          <h2 class=" {{ section.settings.heading_size }}">
             {{ section.settings.title | escape }}
           </h2>
           {%- unless section.settings.subtitle == blank -%}
@@ -184,12 +185,12 @@
       </div>
     </div>
   </div>
-</section>
+</div>
 
 {% schema %}
 {
   "name": "t:sections.te-multicolumn.name",
-  "class": "section",
+  "class": "te-section-container",
   "tag": "section",
   "settings": [
     {

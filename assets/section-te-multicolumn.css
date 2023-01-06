@@ -1,3 +1,21 @@
+.section--te-multicolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  width: var(--te-container--xl);
+}
+
+.te-multicolumn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  gap: 4em;
+}
+
 .multicolumn .title {
     margin: 0;
   }

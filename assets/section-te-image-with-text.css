@@ -1,13 +1,19 @@
+.section--te-image-with-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  width: var(--te-container--xl);
+}
+
 .te-image-with-text__content-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 0px 32px;
-  gap: 32px;
-  width: calc(var(--page-width) - 10rem );
-
-
+  padding: 0px 2em;
+  gap: 2em;
 }
 
 .left-column {
