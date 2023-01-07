@@ -1,47 +1,5 @@
 {
   "sections": {
-    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
-      "type": "te-dbl-col-feature",
-      "blocks": {
-        "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
-          "type": "column__title",
-          "settings": {
-            "title__subtitle": "Choose conscious",
-            "title__title": "Why two months?",
-            "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
-            "title__hide-icon": true,
-            "title__icon": "none"
-          }
-        },
-        "32729669-97d9-42fe-ba98-009eb4f66d6b": {
-          "type": "column__bullet",
-          "settings": {
-            "bullet__hide-icon-1": false,
-            "bullet__icon-1": "option_a",
-            "bullet__title-1": "Aliquam ac euismod quam",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-2": false,
-            "bullet__icon-2": "option_a",
-            "bullet__title-2": "Aliquam ac euismod quam",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "",
-            "bullet__message-3": ""
-          }
-        }
-      },
-      "block_order": [
-        "f0991c3a-9d7e-45db-a728-57ec9efeebbb",
-        "32729669-97d9-42fe-ba98-009eb4f66d6b"
-      ],
-      "settings": {
-        "color_scheme": "te-teal-dark",
-        "subtitle": "",
-        "title": "",
-        "caption": ""
-      }
-    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -273,6 +231,48 @@
         "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
       }
     },
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
+      "type": "te-dbl-col-feature",
+      "blocks": {
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "Choose conscious",
+            "title__title": "Save your sanity and the planet",
+            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
+            "title__hide-icon": true,
+            "title__icon": "none"
+          }
+        },
+        "32729669-97d9-42fe-ba98-009eb4f66d6b": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_e",
+            "bullet__title-1": "Vestibulum porta finibus",
+            "bullet__message-1": "Mauris pellentesque, felis in consequat pulvinar, turpis neque pharetra erat, et feugiat ex eros nec leo.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_f",
+            "bullet__title-2": "Maecenas sagittis quam",
+            "bullet__message-2": "Mauris vestibulum ultricies congue. Integer pharetra libero a ligula pretium, quis dignissim orci congue.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb",
+        "32729669-97d9-42fe-ba98-009eb4f66d6b"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
       "type": "te-testamonials",
       "blocks": {
@@ -441,11 +441,11 @@
     }
   },
   "order": [
-    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
     "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82"
