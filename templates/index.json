@@ -3,22 +3,37 @@
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
       "type": "te-dbl-col-feature",
       "blocks": {
-        "c79843e2-9d3f-465a-8630-6641af0db823": {
-          "type": "column__text",
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
+          "type": "column__title",
           "settings": {
-            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.\nNunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus."
+            "title__subtitle": "Choose conscious",
+            "title__title": "Why two months?",
+            "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
+            "title__hide-icon": true,
+            "title__icon": "none"
           }
         },
-        "d159f70c-61df-4bae-b0ff-20f292efcf55": {
-          "type": "column__text",
+        "32729669-97d9-42fe-ba98-009eb4f66d6b": {
+          "type": "column__bullet",
           "settings": {
-            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse.\nNunc sed faucibus bibendum feugiat sed interdum. Ipsum egestas condimentum mi massa. In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in nec sed et. Quis lobortis at sit dictum eget nibh tortor commodo cursus."
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Aliquam ac euismod quam",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "Aliquam ac euismod quam",
+            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
           }
         }
       },
       "block_order": [
-        "c79843e2-9d3f-465a-8630-6641af0db823",
-        "d159f70c-61df-4bae-b0ff-20f292efcf55"
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb",
+        "32729669-97d9-42fe-ba98-009eb4f66d6b"
       ],
       "settings": {
         "color_scheme": "te-teal-dark",

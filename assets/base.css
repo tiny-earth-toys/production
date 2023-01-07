@@ -343,6 +343,7 @@ blockquote {
 }
 
 .caption-with-letter-spacing {
+  font-family: var(--te-font-family--body);
   font-size: 1rem;
   letter-spacing: 0.13rem;
   line-height: 1.5rem;
@@ -350,12 +351,14 @@ blockquote {
 }
 
 .caption-with-letter-spacing--medium {
+  font-family: var(--te-font-family--body);
   font-size: 1.125rem;
   line-height: 1.75rem;
   letter-spacing: .16rem;
 }
 
 .caption-with-letter-spacing--large {
+  font-family: var(--te-font-family--body);
   font-size: 1.25rem;
   line-height: 1.875rem;
   letter-spacing: 0.18rem;

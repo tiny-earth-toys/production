@@ -11,7 +11,7 @@
     <div class="double-column__header--container">
       <div class="double-column__header--titles">
         {%- unless section.settings.subtitle == blank -%}
-          <h3 class="te-text te-text--md te-weight--text-semibold">{{ section.settings.subtitle }}</h3>
+          <h3 class="caption-with-letter-spacing">{{ section.settings.subtitle }}</h3>
         {%- endunless -%}
         {%- unless section.settings.title == blank -%}
           <h2 class="te-display te-display--med te-weight--display-semibold">{{ section.settings.title }}</h2>
@@ -50,64 +50,91 @@
             {%- assign second-bullet = block.settings['bullet__title-2'] -%}
             {%- assign third-bullet = block.settings['bullet__title-3'] -%}
 
-            <div class="column__bullet-container" {{ block.shopify_attributes }}>
+            <div class="double-column__block-container" {{ block.shopify_attributes }}>
               {%- unless first-bullet == blank -%}
                 {% capture icon %}{{ block.settings.bullet__icon-1 }}{% endcapture %}
-                <div class="column__bullet-content-container">
-                  <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-1 == true %}hidden{% endif %}">
+                <div class="double-column__bullet">
+                  <div class="bullet__icon-wrapper {% if block.settings.bullet__hide-icon-1 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
                       {%- render 'icon-star-block' -%}
                     {%- elsif icon == 'option_c' -%}
                       {%- render 'icon-octagon-block' -%}
+                    {%- elsif icon == 'option_e' -%}
+                      {%- render 'icon-recycle-block' -%}
+                    {%- elsif icon == 'option_f' -%}
+                      {%- render 'icon-planet-block' -%}
                     {%- else -%}
                       {%- render 'icon-hexagon-block' -%}
                     {%- endif -%}
                   </div>
-                  <h5>{{ block.settings['bullet__title-1'] }}</h5>
-                  <p>{{ block.settings['bullet__message-1'] }}</p>
+                  <div class="bullet__content-container">
+                    <h5 class="te-display te-display--xs te-weight--display-med">
+                      {{ block.settings['bullet__title-1'] }}
+                    </h5>
+                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                      {{ block.settings['bullet__message-1'] }}
+                    </p>
+                  </div>
                 </div>
               {%- endunless -%}
 
               {%- unless second-bullet == blank -%}
                 {% capture icon %}{{ block.settings.bullet__icon-2 }}{% endcapture %}
-                <div class="column__bullet-content-container">
-                  <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-2 == true %}hidden{% endif %}">
+                <div class="double-column__bullet">
+                  <div class="bullet__icon-wrapper {% if block.settings.bullet__hide-icon-2 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
                       {%- render 'icon-star-block' -%}
                     {%- elsif icon == 'option_c' -%}
                       {%- render 'icon-octagon-block' -%}
+                    {%- elsif icon == 'option_e' -%}
+                      {%- render 'icon-recycle-block' -%}
+                    {%- elsif icon == 'option_f' -%}
+                      {%- render 'icon-planet-block' -%}
                     {%- else -%}
                       {%- render 'icon-hexagon-block' -%}
                     {%- endif -%}
                   </div>
-                  <h5>{{ block.settings['bullet__title-2'] }}</h5>
-                  <p>{{ block.settings['bullet__message-2'] }}</p>
+                  <div class="bullet__content-container">
+                    <h5 class="te-display te-display--xs te-weight--display-med">
+                      {{ block.settings['bullet__title-2'] }}
+                    </h5>
+                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                      {{ block.settings['bullet__message-2'] }}
+                    </p>
+                  </div>
                 </div>
               {%- endunless -%}
 
               {%- unless third-bullet == blank -%}
                 {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
-                <div class="column__bullet-content-container">
-                  <p>first bullet</p>
-                  <div class="column__bullet-icon-wrapper {% if block.settings.bullet__hide-icon-3 == true %}hidden{% endif %}">
+                <div class="double-column__bullet">
+                  <div class="bullet__icon-wrapper{% if block.settings.bullet__hide-icon-3 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
                       {%- render 'icon-star-block' -%}
                     {%- elsif icon == 'option_c' -%}
                       {%- render 'icon-octagon-block' -%}
+                    {%- elsif icon == 'option_e' -%}
+                      {%- render 'icon-recycle-block' -%}
+                    {%- elsif icon == 'option_f' -%}
+                      {%- render 'icon-planet-block' -%}
                     {%- else -%}
                       {%- render 'icon-hexagon-block' -%}
                     {%- endif -%}
                   </div>
-                  <h5>{{ block.settings['bullet__title-3'] }}</h5>
-                  <p>{{ block.settings['bullet__message-3'] }}</p>
+                  <div class="bullet__content-container">
+                    <h5 class="te-display te-display--xs te-weight--display-med">
+                      {{ block.settings['bullet__title-3'] }}
+                    </h5>
+                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                      {{ block.settings['bullet__message-3'] }}
+                    </p>
+                  </div>
                 </div>
               {%- endunless -%}
             </div>
@@ -117,21 +144,29 @@
 
           {%- when 'column__title' -%}
             {% capture icon %}{{ block.settings.title__icon }}{% endcapture %}
-            <div class="column__title-container">
-              <div class="column__title-icon-wrapper {% if block.settings.title__hide-icon == true %}hidden{% endif %}">
-                {%- if icon == 'option_a' -%}
-                  {%- render 'icon-triangle-block' -%}
-                {%- elsif icon == 'option_b' -%}
-                  {%- render 'icon-star-block' -%}
-                {%- elsif icon == 'option_c' -%}
-                  {%- render 'icon-octagon-block' -%}
-                {%- else -%}
-                  {%- render 'icon-hexagon-block' -%}
-                {%- endif -%}
+            <div class="double-column__block-container--row">
+              <div class="title-column">
+                <div class="column__title-icon-wrapper {% if block.settings.title__hide-icon == true %}hidden{% endif %}">
+                  {%- if icon == 'option_a' -%}
+                    {%- render 'icon-triangle-block' -%}
+                  {%- elsif icon == 'option_b' -%}
+                    {%- render 'icon-star-block' -%}
+                  {%- elsif icon == 'option_c' -%}
+                    {%- render 'icon-octagon-block' -%}
+                  {%- else -%}
+                    {%- render 'icon-hexagon-block' -%}
+                  {%- endif -%}
+                </div>
+                <div class="title-column__headers">
+                  <h3 class="caption-with-letter-spacing">{{ block.settings.title__subtitle }}</h3>
+                  <h2 class="te-display te-display--med te-weight--display-semibold">
+                    {{ block.settings.title__title }}
+                  </h2>
+                </div>
+                <h5 class="te-text te-text--xl te-weight--text-normal font-te-teal--50">
+                  {{ block.settings.title__message }}
+                </h5>
               </div>
-              <h5>{{ block.settings.title__subtitle }}</h5>
-              <h3>{{ block.settings.title__title }}</h3>
-              <p>{{ block.settings.title__message }}</p>
             </div>
 
             <!-- ----  end column title  ------- -->
@@ -268,7 +303,15 @@
             },
             {
               "value": "option_d",
-              "label": "option D"
+              "label": "Icon D"
+            },
+            {
+              "value": "option_e",
+              "label": "Recycle/White"
+            },
+            {
+              "value": "option_f",
+              "label": "Planet/White"
             }
           ],
           "default": "option_a"
@@ -315,6 +358,14 @@
             {
               "value": "option_d",
               "label": "Icon D"
+            },
+            {
+              "value": "option_e",
+              "label": "Recycle/White"
+            },
+            {
+              "value": "option_f",
+              "label": "Planet/White"
             }
           ],
           "default": "option_a"
@@ -361,6 +412,14 @@
             {
               "value": "option_d",
               "label": "Icon D"
+            },
+            {
+              "value": "option_e",
+              "label": "Recycle/White"
+            },
+            {
+              "value": "option_f",
+              "label": "Planet/White"
             }
           ],
           "default": "option_a"

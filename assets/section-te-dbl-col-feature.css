@@ -22,19 +22,32 @@
   gap: 0.75em;
 }
 
-.double-column__header--titles {
-  text-transform: uppercase;
-}
 
+/*---------  this is the container for the two content columns -----------*/
 .double-column__content-container{
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   padding: 0 2em;
   gap: 4em;
-  border: 1px solid white;
 }
 
 .double-column__block-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  border: 1px palevioletred dotted;
+
+.title-column{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25em;
+}
+
+
+
+.double-column__bullet {
+  display: flex;
+  align-items: flex-start;
+  gap: 1em;
 }

@@ -305,7 +305,9 @@
       --variant-pills-border-opacity: 1;
       --variant-pills-shadow-opacity: 0;
 }
-
+.font-te-teal--50{
+  color: rgb(var(--te-teal--50));
+}
 .te-section-container{
   display: flex;
   flex-direction: column;
