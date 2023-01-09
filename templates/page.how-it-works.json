@@ -120,10 +120,28 @@
             "title__hide-icon": false,
             "title__icon": "option_d"
           }
+        },
+        "ca97d222-ffdf-4d51-afae-c76f9e723e2b": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Etiam ac mi mattis",
+            "bullet__message-1": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante id lobortis mollis.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "Aliquam ac euismod quam",
+            "bullet__message-2": "Maecenas luctus eget quam at feugiat. Proin vulputate, nisi a vehicula ultricies, neque mi aliquet neque, at venenatis mauris nulla vitae ante.",
+            "bullet__hide-icon-3": false,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "Maecenas luctus eget quam",
+            "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+          }
         }
       },
       "block_order": [
-        "fbd86672-c98e-46e2-9ee4-db0f7bead4af"
+        "fbd86672-c98e-46e2-9ee4-db0f7bead4af",
+        "ca97d222-ffdf-4d51-afae-c76f9e723e2b"
       ],
       "settings": {
         "color_scheme": "te-default",
