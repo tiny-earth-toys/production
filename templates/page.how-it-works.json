@@ -181,24 +181,24 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "Aliquam hendrerit metus",
+            "card_text": "Donec vitae erat lacinia mi laoreet fringilla tristique eget ligula. Nullam lacinia, nunc vitae mollis scelerisque, quam risus rutrum nisl,."
           }
         },
         "8216621b-64c3-4300-8a3b-a06518859182": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "Ut bibendum vitae erat",
+            "card_text": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante."
           }
         },
         "c553b176-b225-4b56-aadd-cddfd012a290": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "Vestibulum molestie sagittis ante",
+            "card_text": "Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante, at auctor lacus maximus scelerisque."
           }
         }
       },
