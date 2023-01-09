@@ -164,7 +164,7 @@
         "template--16666773717237__fb0495b5-984f-49f1-bfca-caf71187396b-1673297886da42dec3-1": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "card_title": "Nam viverra fermentum",
             "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
@@ -172,7 +172,7 @@
         "template--16666773717237__fb0495b5-984f-49f1-bfca-caf71187396b-1673297886da42dec3-2": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "card_title": "Sed tincidunt nunc vitae",
             "card_text": "Sed efficitur enim vitae mattis mollis. Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante."
           }
@@ -180,7 +180,7 @@
         "16786f56-d7c5-47cf-99ac-dfce2d10cd36": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "card_title": "Aliquam hendrerit metus",
             "card_text": "Donec vitae erat lacinia mi laoreet fringilla tristique eget ligula. Nullam lacinia, nunc vitae mollis scelerisque, quam risus rutrum nisl,."
           }
@@ -188,7 +188,7 @@
         "8216621b-64c3-4300-8a3b-a06518859182": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_3",
             "card_title": "Ut bibendum vitae erat",
             "card_text": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante."
           }
@@ -196,7 +196,7 @@
         "c553b176-b225-4b56-aadd-cddfd012a290": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "card_title": "Vestibulum molestie sagittis ante",
             "card_text": "Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante, at auctor lacus maximus scelerisque."
           }
