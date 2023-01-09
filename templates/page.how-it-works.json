@@ -107,12 +107,37 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "deaa274e-7613-4f15-b6b5-2fac7e8cad4b": {
+      "type": "te-dbl-col-feature",
+      "blocks": {
+        "fbd86672-c98e-46e2-9ee4-db0f7bead4af": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "",
+            "title__title": "Why two months?",
+            "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
+            "title__hide-icon": false,
+            "title__icon": "option_d"
+          }
+        }
+      },
+      "block_order": [
+        "fbd86672-c98e-46e2-9ee4-db0f7bead4af"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
     }
   },
   "order": [
     "8321c7e1-4ef7-4334-996d-3b2cb8f50007",
     "0c76832d-d0b7-4a7b-b99a-0a75af198d47",
     "aece45b2-0414-4b1b-864d-0a191e1aa569",
-    "main"
+    "main",
+    "deaa274e-7613-4f15-b6b5-2fac7e8cad4b"
   ]
 }
