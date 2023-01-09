@@ -1,5 +1,33 @@
 {
   "sections": {
+    "8321c7e1-4ef7-4334-996d-3b2cb8f50007": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "How it works",
+            "heading_size": "h1"
+          }
+        },
+        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Etiam ac mi mattis, eleifend quam at, consequat turpis. Nam dignissim pulvinar pharetra. Ut eget odio fermentum magna ultrices varius eu nec nisl.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-0",
+        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-1"
+      ],
+      "settings": {
+        "color_scheme": "te-silver-light",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -53,48 +81,11 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "8321c7e1-4ef7-4334-996d-3b2cb8f50007": {
-      "type": "te-rich-text",
-      "blocks": {
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "How it works",
-            "heading_size": "h1"
-          }
-        },
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "color": "green"
-          }
-        }
-      },
-      "block_order": [
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-0",
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-1",
-        "template--16666773717237__8321c7e1-4ef7-4334-996d-3b2cb8f50007-16732964662e4a92e9-2"
-      ],
-      "settings": {
-        "color_scheme": "te-silver-light",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
+    "8321c7e1-4ef7-4334-996d-3b2cb8f50007",
     "main",
-    "0c76832d-d0b7-4a7b-b99a-0a75af198d47",
-    "8321c7e1-4ef7-4334-996d-3b2cb8f50007"
+    "0c76832d-d0b7-4a7b-b99a-0a75af198d47"
   ]
 }
