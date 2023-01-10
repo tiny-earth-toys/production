@@ -232,7 +232,7 @@
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
-      "type": "te-dbl-col-feature",
+      "type": "te-double-column",
       "blocks": {
         "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
           "type": "column__title",
@@ -309,6 +309,48 @@
         "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium"
+      }
+    },
+    "c2fa0b24-bacb-41fe-9f57-7107d17e0d95": {
+      "type": "te-double-column",
+      "blocks": {
+        "54535794-567a-4d6d-9252-d9edd77408a6": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "Choose conscious",
+            "title__title": "Save your sanity and the planet",
+            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
+            "title__hide-icon": true,
+            "title__icon": "option_a"
+          }
+        },
+        "44edebb1-8c2f-47b3-be4d-2c196086271f": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Vestibulum porta finibus",
+            "bullet__message-1": "Mauris pellentesque, felis in consequat pulvinar, turpis neque pharetra erat, et feugiat ex eros nec leo.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "Maecenas sagittis quam",
+            "bullet__message-2": "Mauris vestibulum ultricies congue. Integer pharetra libero a ligula pretium, quis dignissim orci congue.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "54535794-567a-4d6d-9252-d9edd77408a6",
+        "44edebb1-8c2f-47b3-be4d-2c196086271f"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "subtitle": "",
+        "title": "",
+        "caption": ""
       }
     },
     "8069baa3-c517-4573-ba5f-36556c9a1e43": {
@@ -447,6 +489,7 @@
     "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
+    "c2fa0b24-bacb-41fe-9f57-7107d17e0d95",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82"
   ]
