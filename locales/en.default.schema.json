@@ -150,11 +150,11 @@
       "name": "Typography",
       "settings": {
         "type_header_font": {
-          "label": " Display/Header Font",
+          "label": " Display\/Header Font",
           "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         },
         "type_body_font": {
-          "label": "Body/Text Font",
+          "label": "Body\/Text Font",
           "info": "Selecting a different font can affect the speed of your store. [Learn more about system fonts.](https:\/\/help.shopify.com\/manual\/online-store\/os\/store-speed\/improving-speed#fonts)"
         }
       }
@@ -2534,8 +2534,6 @@
         "name": "Rich text"
       }
     },
-
-
     "te-rich-text": {
       "name": "TE-Rich text",
       "settings": {
@@ -2582,7 +2580,6 @@
         "name": "TE-Rich text"
       }
     },
-
     "te-features-basic": {
       "name": "TE-Features Basic",
       "settings": {
@@ -2647,8 +2644,6 @@
         "name": "TE-Features Basic"
       }
     },
-
-
     "video": {
       "name": "Video",
       "settings": {
