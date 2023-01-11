@@ -9,9 +9,12 @@
 >
   <h2>Cards</h2>
 </div>
+
 {% schema %}
 {
   "name": "TE- Cards Simple",
+  "tag": "section",
+  "class": "te-section-container",
   "settings": [
     {
       "type": "select",
@@ -50,9 +53,91 @@
       "label": "t:sections.all.colors.label"
     }
   ],
+  "blocks": [
+    {
+      "type": "block--headings",
+      "name": "Section headings",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Section title",
+          "default": "<p>Need something?</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "subtitle",
+          "label": "Section subtitle",
+          "default": "<p>We are here to help</p?>"
+        }
+      ]
+    },
+    {
+      "type": "block--card",
+      "name": "Section Card",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "block--card_title",
+          "label": "Card title",
+          "default": "<p>Card title</p>"
+        },
+        {
+          "type": "textarea",
+          "id": "block--primary-text",
+          "label": "Primary text",
+          "default": "hello@tinyearthtoys.com"
+        },
+        {
+          "type": "textarea",
+          "id": "block--secondary-text",
+          "label": "Secondary text",
+          "default": "Phasellus rhoncus augue non felis."
+        },
+        {
+          "type": "select",
+          "id": "block--icon-select",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "icon_a",
+              "label": "Icon A"
+            },
+            {
+              "value": "icon_b",
+              "label": "Icon B"
+            },
+            {
+              "value": "icon_c",
+              "label": "Icon D"
+            },
+            {
+              "value": "icon_d",
+              "label": "Icon D"
+            }
+          ],
+          "default": "icon_a"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
-      "name": "TE Cards - Simple"
+      "name": "TE Cards - Simple",
+      "blocks": [
+        {
+          "type": "block--headings"
+        },
+        {
+          "type": "block--card"
+        },
+        {
+          "type": "block--card"
+        },
+        {
+          "type": "block--card"
+        }
+      ]
     }
   ]
 }
