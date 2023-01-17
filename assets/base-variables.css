@@ -202,8 +202,7 @@
 
     /* Typography - v2 Design System */
     
-        --te-font-family--body: 'Raleway';
-        --te-font-family--heading: 'Poppins';
+
 
     /* Grids & Spacing - v2 Design System */
     
@@ -608,12 +607,12 @@
 
 /*these need to be moved into the base.css or create TE base css file*/
 .te-display {
-  font-family: var(--te-font-family--heading);
+  font-family: var(--font-header-family);
   font-weight: 400;
 }
 
 .te-text {
-  font-family: var(--te-font-family--body);
+  font-family: var(--font-body-family);
   font-weight: 500;
 }
 

@@ -16,6 +16,15 @@
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
+    <link href="{{ settings.type_body_font.family | font_url }}" rel="preload" as="font" type="font/woff2" crossorigin>
+    <link
+      href="{{ settings.type_header_font.family | font_url }}"
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    >
+
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -48,17 +57,11 @@
       :root {
         --font-body-family: {{ settings.type_body_font.family }}, {{ settings.type_body_font.fallback_families }};
         --font-heading-family: {{ settings.type_header_font.family }}, {{ settings.type_header_font.fallback_families }};
+      }
     {% endstyle %}
 
     {{ 'base-variables.css' | asset_url | stylesheet_tag }}
     {{ 'base.css' | asset_url | stylesheet_tag }}
-
-    {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
-    {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
-    {%- endunless -%}
 
     {%- if settings.predictive_search_enabled -%}
       <link

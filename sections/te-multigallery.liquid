@@ -33,7 +33,12 @@
   </div>
   <div class="multi-gallery-container">
     {% for block in section.blocks %}
-      <div id="{{ block.id }}" class="mgc--img-container" data-block-type="tet-custom" data-block-id="{{ block.id }}">
+      <div
+        id="{{ block.id }}"
+        class="mgc--img-container hidden"
+        data-block-type="tet-custom"
+        data-block-id="{{ block.id }}"
+      >
         <div class="mg-image-wrapper mg-image-wrapper--1">
           <img
             src="{{ block.settings.multigroup_image_1 | image_url: width: 480 }}"
@@ -86,6 +91,8 @@
     </div>
   </div>
 </div>
+
+<script></script>
 
 {% schema %}
 {
