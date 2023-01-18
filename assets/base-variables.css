@@ -202,7 +202,8 @@
 
     /* Typography - v2 Design System */
     
-
+        --te-font-family--body: var(--font-body-family);
+        --te-font-family--display: var(--font-header-family);
 
     /* Grids & Spacing - v2 Design System */
     

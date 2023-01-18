@@ -20,7 +20,7 @@ body {
   font-size: 1rem;
   letter-spacing: 0.09rem;
   line-height: 1.25rem;
-  font-family: var(--font-body-family);
+  font-family: var(--te-font-family--body);
   font-style: normal;
   font-weight: 300;
   width: auto;
@@ -218,7 +218,7 @@ h5,
 .h3,
 .h4,
 .h5 {
-  font-family: var(--font-heading-family);
+  font-family: var(--font-header-family);
   font-style: normal;
   font-weight: 300;
   letter-spacing: 0.06rem;
