@@ -41,8 +41,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "8 Toy Kit",
+            "text": "<ul><li>Average kit value of $25<\/li><li>Exchanges every 2 months<\/li><li> Rent for $35 a month<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
@@ -51,8 +51,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "8 Toy Kit",
+            "text": "<ul><li>Average kit value of $25<\/li><li>Exchanges every 2 months<\/li><li> Rent for $35 a month<\/li><\/ul>",
             "link_label": "",
             "link": ""
           }
