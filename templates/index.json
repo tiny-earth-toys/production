@@ -480,6 +480,68 @@
         "padding_top": 60,
         "padding_bottom": 60
       }
+    },
+    "24050b1b-3921-4729-80f8-1336ff845536": {
+      "type": "te-multigallery",
+      "disabled": true,
+      "blocks": {
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-0": {
+          "type": "multigroup-1",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-1": {
+          "type": "multigroup-2",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-2": {
+          "type": "multigroup-3",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-3": {
+          "type": "multigroup-4",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-4": {
+          "type": "multigroup-5",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-5": {
+          "type": "multigroup-6",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        },
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-6": {
+          "type": "multigroup-7",
+          "settings": {
+            "multigroup_name": "12-18 months"
+          }
+        }
+      },
+      "block_order": [
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-0",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-1",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-2",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-3",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-4",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-5",
+        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-6"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "multigallery_section_heading": "Educator curated toys that grow with your child",
+        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+      }
     }
   },
   "order": [
@@ -491,6 +553,7 @@
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "c2fa0b24-bacb-41fe-9f57-7107d17e0d95",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82"
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82",
+    "24050b1b-3921-4729-80f8-1336ff845536"
   ]
 }
