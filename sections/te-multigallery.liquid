@@ -6,20 +6,20 @@
   {% capture group_name %}
     {{ block.settings.multigroup_name }}
   {% endcapture %}
-  <!-- <h2>{{ group_name }}</h2> -->
+  <h5>group_name: {{ group_name }}</h5>
 {% endfor %}
 
 {% capture selected_block %}
   none-selected
 {% endcapture %}
 <!-- <h2>{{ selected_block }}</h2> -->
-
+<style></style>
 <div
   class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
   data-section-type="{{ section.settings.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class=" section--te-multigallery">
+  <div class="section--te-multigallery">
     <div class="te-multigallery-container">
       <div class="mtc-content-headings-container">
         <h3 class="mtc-content-title te-display-xl te-display--bold">
@@ -34,8 +34,8 @@
   <div class="multi-gallery-container">
     {% for block in section.blocks %}
       <div
-        id="{{ block.id }}"
-        class="mgc--img-container hidden"
+        id="{{ group_name }}--image-container"
+        class="mgc--img-container"
         data-block-type="tet-custom"
         data-block-id="{{ block.id }}"
       >
@@ -84,9 +84,8 @@
 
     <div class="mgc--btn-container">
       {% for block in section.blocks %}
-        <button id="{{ block.id }}" type="button" class="te-button mg-btn">
-          {{ block.settings.multigroup_name }}
-        </button>
+        <input type="radio" id="toggle-{{ block.id }}" name="selected_group">
+        <label for="toggle-{{ block.id }}">{{ block.settings.multigroup_name }}</label>
       {% endfor %}
     </div>
   </div>
@@ -151,9 +150,207 @@
   ],
   "blocks": [
     {
-      "type": "multigroup",
-      "name": "Grouping",
-      "limit": 7,
+      "type": "multigroup-1",
+      "name": "Group 1",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-2",
+      "name": "Group 2",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-3",
+      "name": "Group 3",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-4",
+      "name": "Group 4",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-5",
+      "name": "Group 5",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-6",
+      "name": "Group 6",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "multigroup_name",
+          "default": "12-18 months",
+          "label": "Age Group"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_1",
+          "label": "Image 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "multigroup_image_4",
+          "label": "Image 4"
+        }
+      ]
+    },
+    {
+      "type": "multigroup-7",
+      "name": "Group 7",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
@@ -189,25 +386,25 @@
       "name": "TE Multi Gallery",
       "blocks": [
         {
-          "type": "multigroup"
+          "type": "multigroup-1"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-2"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-3"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-4"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-5"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-6"
         },
         {
-          "type": "multigroup"
+          "type": "multigroup-7"
         }
       ]
     }

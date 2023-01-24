@@ -1,5 +1,94 @@
 {
   "sections": {
+    "cb733804-8b69-486f-847a-3918672ba111": {
+      "type": "te-multigallery",
+      "blocks": {
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-0": {
+          "type": "multigroup-1",
+          "settings": {
+            "multigroup_name": "0-6 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A1816_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-1": {
+          "type": "multigroup-2",
+          "settings": {
+            "multigroup_name": "6-12 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A3714_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A3081_V1_1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A3299_V1.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-2": {
+          "type": "multigroup-3",
+          "settings": {
+            "multigroup_name": "12-18 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A2711_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4488_V1.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-3": {
+          "type": "multigroup-4",
+          "settings": {
+            "multigroup_name": "18-24 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-4": {
+          "type": "multigroup-5",
+          "settings": {
+            "multigroup_name": "24-30 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4331_V1.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-5": {
+          "type": "multigroup-6",
+          "settings": {
+            "multigroup_name": "30-36 Months",
+            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5674_V1.jpg",
+            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A5817_V1.jpg",
+            "multigroup_image_4": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg"
+          }
+        },
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-6": {
+          "type": "multigroup-7",
+          "settings": {
+            "multigroup_name": "3-5 Years",
+            "multigroup_image_1": "shopify:\/\/shop_images\/TinyEarth_insta_profile_yellow_1.png",
+            "multigroup_image_2": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
+            "multigroup_image_3": "shopify:\/\/shop_images\/Logo_Primary_White_1.png",
+            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-0",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-1",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-2",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-3",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-4",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-5",
+        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-6"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "multigallery_section_heading": "Educator curated toys that grow with your child",
+        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+      }
+    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -140,95 +229,6 @@
         "fwi_section_heading": "The right learning materials at just the right time",
         "fwi_section_subheading": "The beauty of renting with Tiny Earth is that our toys grow with your child. Always have what’s age appropriate and send back what isn’t.",
         "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
-      }
-    },
-    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c": {
-      "type": "te-multigallery",
-      "blocks": {
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "0-6 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A1816_V1_95f99db7-e927-43fc-9663-51d364e28891.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "6-12 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A3714_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A3081_V1_1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A3299_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "12-18 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A2711_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A2941_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "24-30 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "30-36 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4488_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A5302_V1.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "3-4 years",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5674_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg"
-          }
-        },
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6": {
-          "type": "multigroup",
-          "settings": {
-            "multigroup_name": "4-5 years",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A6371_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5817_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-0",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-1",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-2",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-3",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-4",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-5",
-        "template--16662906110197__ae1f2c75-ff09-44fb-a302-bca6cdf4000c-16725279454311a9e3-6"
-      ],
-      "settings": {
-        "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "Educator curated toys that grow with your child",
-        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -483,10 +483,10 @@
     }
   },
   "order": [
+    "cb733804-8b69-486f-847a-3918672ba111",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
-    "ae1f2c75-ff09-44fb-a302-bca6cdf4000c",
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "c2fa0b24-bacb-41fe-9f57-7107d17e0d95",
