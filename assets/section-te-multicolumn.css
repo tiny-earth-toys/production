@@ -16,6 +16,10 @@
   gap: 4em;
 }
 
+.te-multicolumn-container ul {
+  list-style-type: none;
+}
+
 .multicolumn .title {
     margin: 0;
   }
@@ -27,6 +31,8 @@
   .multicolumn .title-wrapper-with-link {
     margin-top: 0;
   }
+
+  
   
   @media screen and (max-width: 749px) {
     .multicolumn .title-wrapper-with-link {
