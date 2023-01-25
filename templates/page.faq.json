@@ -20,22 +20,13 @@
         "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "color": "green"
+            "text": "<p>Donec rutrum eu dolor non tincidunt. Etiam nec tortor nec dolor cursus.<\/p>"
           }
         }
       },
       "block_order": [
         "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-0",
-        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-1",
-        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-2"
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-1"
       ],
       "settings": {
         "color_scheme": "te-default",
