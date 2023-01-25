@@ -1,87 +1,87 @@
 {
   "sections": {
-    "cb733804-8b69-486f-847a-3918672ba111": {
+    "50f035ad-e557-4d11-a2c7-641f09cdc8cb": {
       "type": "te-multigallery",
       "blocks": {
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-0": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-0": {
           "type": "multigroup-1",
           "settings": {
-            "multigroup_name": "0-6 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A1816_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
+            "multigroup_name": "0-6 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A1554_V1.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A1816_V1_95f99db7-e927-43fc-9663-51d364e28891.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A1845_V1.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-1": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-1": {
           "type": "multigroup-2",
           "settings": {
-            "multigroup_name": "6-12 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A3714_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A3081_V1_1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A3299_V1.jpg"
+            "multigroup_name": "6-12 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A2711_V1.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-2": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-2": {
           "type": "multigroup-3",
           "settings": {
-            "multigroup_name": "12-18 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A2711_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4488_V1.jpg"
+            "multigroup_name": "12-18 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A3299_V1.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A3299_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A3513_V1.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-3": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-3": {
           "type": "multigroup-4",
           "settings": {
-            "multigroup_name": "18-24 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
+            "multigroup_name": "18-24 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A5302_V1.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-4": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-4": {
           "type": "multigroup-5",
           "settings": {
-            "multigroup_name": "24-30 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A4331_V1.jpg"
+            "multigroup_name": "24-30 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A4488_V1.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-5": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-5": {
           "type": "multigroup-6",
           "settings": {
-            "multigroup_name": "30-36 Months",
-            "multigroup_image_1": "shopify:\/\/shop_images\/AM8A5674_V1.jpg",
-            "multigroup_image_2": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/AM8A5817_V1.jpg",
-            "multigroup_image_4": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg"
+            "multigroup_name": "3-4 years",
+            "image_a": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A5319_V1.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A4331_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
           }
         },
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-6": {
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-6": {
           "type": "multigroup-7",
           "settings": {
-            "multigroup_name": "3-5 Years",
-            "multigroup_image_1": "shopify:\/\/shop_images\/TinyEarth_insta_profile_yellow_1.png",
-            "multigroup_image_2": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "multigroup_image_3": "shopify:\/\/shop_images\/Logo_Primary_White_1.png",
-            "multigroup_image_4": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
+            "multigroup_name": "12-18 months",
+            "image_a": "shopify:\/\/shop_images\/AM8A6371_V1.jpg",
+            "image_b": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+            "image_c": "shopify:\/\/shop_images\/AM8A6867_V1.jpg",
+            "image_d": "shopify:\/\/shop_images\/AM8A5674_V1.jpg"
           }
         }
       },
       "block_order": [
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-0",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-1",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-2",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-3",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-4",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-5",
-        "template--16679093141749__cb733804-8b69-486f-847a-3918672ba111-1674592133fa1c1c1d-6"
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-0",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-1",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-2",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-3",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-4",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-5",
+        "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-6"
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
@@ -483,7 +483,7 @@
     }
   },
   "order": [
-    "cb733804-8b69-486f-847a-3918672ba111",
+    "50f035ad-e557-4d11-a2c7-641f09cdc8cb",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
