@@ -84,7 +84,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "Pellentesque auctor commodo",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -92,7 +92,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "Sed tincidunt nunc vitae",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -138,10 +138,10 @@
         "08c7d120-f113-4e66-84ca-35ab12acfba1"
       ],
       "settings": {
-        "color_scheme": "te-default",
+        "color_scheme": "te-silver-light",
         "full_width": true,
-        "section_title": "<p>Basic Features Section<\/p>",
-        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
+        "section_title": "<p>All memberships include<\/p>",
+        "section_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies.",
         "columns_desktop": 3,
         "columns_mobile": "1"
       }
