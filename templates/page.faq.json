@@ -7,6 +7,43 @@
         "padding_bottom": 28
       }
     },
+    "11d34b27-9a57-4147-ada3-2b08b3c6712b": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Frequently asked questions",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-0",
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-1",
+        "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-2"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "4bc003e5-307d-488d-85ea-276e9307c0dd": {
       "type": "te-image-with-text",
       "blocks": {
@@ -64,11 +101,11 @@
             "text": "<p>Donec condimentum suscipit scelerisque. Etiam posuere metus vitae blandit iaculis.<\/p>"
           }
         },
-        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-2": {
+        "5622635c-9808-4448-9045-cb916245d259": {
           "type": "button",
           "settings": {
-            "button_label": "Contact Us",
-            "button_link": "",
+            "button_label": "Contact us",
+            "button_link": "shopify:\/\/pages\/contact",
             "color": "line-gray"
           }
         }
@@ -76,7 +113,7 @@
       "block_order": [
         "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-1",
         "6e6cd821-1791-4285-a88a-7ec364fc7d7d",
-        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-2"
+        "5622635c-9808-4448-9045-cb916245d259"
       ],
       "settings": {
         "color_scheme": "te-cream-dark",
@@ -88,6 +125,7 @@
   },
   "order": [
     "main",
+    "11d34b27-9a57-4147-ada3-2b08b3c6712b",
     "4bc003e5-307d-488d-85ea-276e9307c0dd",
     "96def509-13c1-4845-a765-6890b2716c07"
   ]
