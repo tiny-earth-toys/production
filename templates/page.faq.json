@@ -6,9 +6,52 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "4bc003e5-307d-488d-85ea-276e9307c0dd": {
+      "type": "te-image-with-text",
+      "blocks": {
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quisque id est eu quam",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-1": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Vestibulum sed feugiat odio. Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum, in gravida est commodo. Mauris pellentesque, felis in consequat pulvinar, turpis neque pharetra erat, et feugiat ex eros nec leo.<\/p><p>Praesent tempor malesuada viverra. Sed non lobortis dolor, vel blandit magna. Maecenas porttitor eget nisi sit amet vehicula. Mauris sollicitudin ipsum a mi condimentum efficitur. Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa at turpis.<\/p><p>Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non. Quisque id est eu quam pretium dignissim eget eget dolor. Maecenas ornare sem eros, a accumsan tortor eleifend non.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-0",
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-1",
+        "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "4bc003e5-307d-488d-85ea-276e9307c0dd"
   ]
 }
