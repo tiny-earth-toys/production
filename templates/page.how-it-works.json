@@ -85,7 +85,7 @@
           "settings": {
             "icon_select": "icon_1",
             "card_title": "Pellentesque auctor commodo",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
         },
         "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-1": {
@@ -108,7 +108,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "Aliquam hendrerit metus",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -116,7 +116,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "Ut bibendum vitae erat",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -124,7 +124,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "Vestibulum molestie sagittis ante",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         }
