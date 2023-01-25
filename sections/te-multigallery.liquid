@@ -2,16 +2,6 @@
 
 <noscript>{{ 'section-te-multigallery.css' | asset_url | stylesheet_tag }}</noscript>
 
-{% for block in section.blocks %}
-  {% capture group_name %}
-    {{ block.settings.multigroup_name }}
-  {% endcapture %}
-  <h5>group_name: {{ group_name }}</h5>
-{% endfor %}
-
-{% capture selected_block %}
-  none-selected
-{% endcapture %}
 <!-- <h2>{{ selected_block }}</h2> -->
 <style></style>
 <div
