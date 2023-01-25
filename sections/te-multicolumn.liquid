@@ -21,7 +21,7 @@
         {%- unless section.settings.title == blank -%}
           <div class="title-wrapper {{ section.settings.heading_alignment }}">
             <h2 class=" {{ section.settings.heading_size }}">
-              {{ section.settings.title | escape }}
+              {{ section.settings.title }}
             </h2>
             {%- unless section.settings.subtitle == blank -%}
               <div class="subtitle-wrapper te-text--md">
@@ -182,9 +182,9 @@
   "tag": "section",
   "settings": [
     {
-      "type": "text",
+      "type": "richtext",
       "id": "title",
-      "default": "TE-Multicolumn",
+      "default": "<p>TE Multicolumn</p>",
       "label": "t:sections.te-multicolumn.settings.title.label"
     },
     {
@@ -228,9 +228,9 @@
       "label": "t:sections.all.heading_alignment.label"
     },
     {
-      "type": "textarea",
+      "type": "richtext",
       "id": "subtitle",
-      "default": "Subtitle",
+      "default": "<p>Subtitle</p>",
       "label": "t:sections.te-multicolumn.settings.subtitle.label"
     },
     {

@@ -6,7 +6,7 @@
         "d2da5dba-3d8a-473e-b90e-b8428dba72fa": {
           "type": "heading",
           "settings": {
-            "heading": "Get 60% off your starter box and a free gift",
+            "heading": "<p>Get 60% off your starter box and a free gift<\/p>",
             "heading_size": "h3"
           }
         },
@@ -74,10 +74,10 @@
         "template--16658355257589__f0905a4a-f8b1-47fd-8897-66f6c34773d1-16716516068fda9c7b-2"
       ],
       "settings": {
-        "title": "Discover the kits",
+        "title": "<p><em><strong>Choose<\/strong><\/em> your kit<\/p>",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "subtitle": "proin sed libero enim sed faucibus turpis in eu mi bibendum\nYour membership give you access to our entire collection of educator-curated, age-appropriate toys. Explore which kit is the best fit for you fam.",
+        "subtitle": "<p>proin sed libero enim sed faucibus turpis in eu mi bibendum<br\/>Your membership give you access to our entire collection of educator-curated, age-appropriate toys. Explore which kit is the best fit for you fam.<\/p>",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -100,7 +100,7 @@
           "type": "feature_card__A",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "Educator curated",
+            "card_title": "<p><strong>Educator curated<\/strong><\/p>",
             "card_text": "Our team of early childhood education experts curate a selection of toys that maximize the educational value for your little one at each stage of their development."
           }
         },
@@ -108,7 +108,7 @@
           "type": "feature_card__B",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "Gentler on the planet",
+            "card_title": "<p><strong>Gentler on the planet<\/strong><\/p>",
             "card_text": "Our toys are enjoyed 4-5 times longer than those purchased outright, reducing your environmental impact."
           }
         },
@@ -116,7 +116,7 @@
           "type": "feature_card__C",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "Less clutter, less stress",
+            "card_title": "<p><strong>Less clutter, less stress<\/strong><\/p>",
             "card_text": "Having too much stuff has been shown to negatively impact you and your child. We help you cut down on clutter, so you can focus on what is most important... time with your little one."
           }
         },
@@ -124,7 +124,7 @@
           "type": "feature_card__D",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "Save time & money",
+            "card_title": "<p><strong>Save time & money<\/strong><\/p>",
             "card_text": "We do all the leg work for you by selecting toys from the best manufacturers in the business.  You get to rent them all for a fraction of the retail cost.  No more guessing what your child needs or, what materials are safe."
           }
         }
@@ -137,7 +137,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "fwi_section_heading": "The right learning materials at just the right time",
+        "fwi_section_heading": "<p><em><strong>The right<\/strong><\/em> learning materials at just the right <em><strong>time<\/strong><\/em><\/p>",
         "fwi_section_subheading": "The beauty of renting with Tiny Earth is that our toys grow with your child. Always have what’s age appropriate and send back what isn’t.",
         "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
       }

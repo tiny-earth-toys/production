@@ -416,6 +416,12 @@
   --color-foreground: var(--te-base--black);
   --color-background: var(--te-silver--300);
 }
+
+/* Font Color Options available to the theme editor.  Use variables defined in base-variables.css */
+ 
+
+
+
 /*-----------
 .color-background-1 {
   --color-foreground: var(--te-base--text);
@@ -700,3 +706,59 @@
   font-weight: 700;
 }
 
+.te-font-color--lt-gray{
+  color: rgb(var(--te-gray--100));
+}
+
+.te-font-color--dk-gray{
+  color: rgb(var(--te-gray--700));
+}
+
+.te-font-color--lt-silver{
+  color: rgb(var(--te-silver--100));
+}
+
+.te-font-color--dk-silver{
+  color: rgb(var(--te-silver--800));
+}
+
+.te-font-color--lt-aqua{
+  color: rgb(var(--te-aqua--100));
+}
+
+.te-font-color--dk-aqua{
+  color: rgb(var(--te-aqua--800));
+}
+
+.te-font-color--lt-blue{
+  color: rgb(var(--te-baby-blue--100));
+}
+
+
+.te-font-color--dk-blue{
+  color: rgb(var(--te-baby-blue--800));
+}
+
+.te-font-color--lt-moss{
+  color: rgb(var(--te-moss--100));
+}
+
+.te-font-color--dk-moss{
+  color: rgb(var(--te-moss--800));
+}
+
+.te-font-color--lt-teal{
+  color: rgb(var(--te-teal--100));
+}
+
+.te-font-color--dk-teal {
+  color: rgb(var(--te-teal--500));
+}
+
+.te-font-color--white{
+  color: rgb(var(--te-gray--100));
+}
+
+.te-font-color--black{
+  color: rgb(var(--te-gray--900));
+}
