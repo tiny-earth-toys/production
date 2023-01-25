@@ -22,20 +22,11 @@
           "settings": {
             "text": "<p>Etiam ac mi mattis, eleifend quam at, consequat turpis. Nam dignissim pulvinar pharetra. Ut eget odio fermentum magna ultrices varius eu nec nisl.<\/p>"
           }
-        },
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "color": "green"
-          }
         }
       },
       "block_order": [
         "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-0",
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-1",
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-2"
+        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-1"
       ],
       "settings": {
         "color_scheme": "te-silver-dark",
@@ -85,11 +76,81 @@
         "columns_desktop": 3,
         "columns_mobile": "1"
       }
+    },
+    "32d8e748-ef68-488f-9324-6e21f6fb6b22": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "6e220576-a3ba-4b42-89aa-d28dd7746352": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "9f248a0b-fd09-47f5-bb06-3e37520deb91": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "08c7d120-f113-4e66-84ca-35ab12acfba1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "My card title",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        }
+      },
+      "block_order": [
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-0",
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-1",
+        "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-2",
+        "6e220576-a3ba-4b42-89aa-d28dd7746352",
+        "9f248a0b-fd09-47f5-bb06-3e37520deb91",
+        "08c7d120-f113-4e66-84ca-35ab12acfba1"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "section_title": "<p>Basic Features Section<\/p>",
+        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
+        "columns_desktop": 3,
+        "columns_mobile": "1"
+      }
     }
   },
   "order": [
     "main",
     "f5299a3a-a376-42e8-82a7-21ceafe74f66",
-    "9bab2570-0bb4-4857-86f6-8d0be8eb42e2"
+    "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
+    "32d8e748-ef68-488f-9324-6e21f6fb6b22"
   ]
 }
