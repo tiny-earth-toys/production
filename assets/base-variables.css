@@ -409,12 +409,12 @@
 
 .color--te-silver-light {
   --color-foreground: var(--te-base--black);
-  --color-background: var(--te-silver--300);
+  --color-background: var(--te-silver--100);
 }
 
 .color--te-silver-dark {
   --color-foreground: var(--te-base--black);
-  --color-background: var(--te-silver--600);
+  --color-background: var(--te-silver--300);
 }
 /*-----------
 .color-background-1 {
