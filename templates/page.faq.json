@@ -48,10 +48,47 @@
         "content_layout": "no-overlap",
         "color_scheme": "te-default"
       }
+    },
+    "96def509-13c1-4845-a765-6890b2716c07": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Didn't find what you were looking for?<\/strong><\/p>"
+          }
+        },
+        "6e6cd821-1791-4285-a88a-7ec364fc7d7d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Donec condimentum suscipit scelerisque. Etiam posuere metus vitae blandit iaculis.<\/p>"
+          }
+        },
+        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "",
+            "color": "line-gray"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-1",
+        "6e6cd821-1791-4285-a88a-7ec364fc7d7d",
+        "template--16679329759477__96def509-13c1-4845-a765-6890b2716c07-167460709844647af9-2"
+      ],
+      "settings": {
+        "color_scheme": "te-cream-dark",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "4bc003e5-307d-488d-85ea-276e9307c0dd"
+    "4bc003e5-307d-488d-85ea-276e9307c0dd",
+    "96def509-13c1-4845-a765-6890b2716c07"
   ]
 }
