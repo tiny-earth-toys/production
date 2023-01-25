@@ -13,16 +13,16 @@
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-0": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
-            "card_title": "<strong>Prasent <\/strong>dapibus tincidunt",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "icon_select": "icon_4",
+            "card_title": "<strong>Prasent  <\/strong>dapibus tincidunt",
+            "card_text": "Etiam velit risus, tincidunt vitae risus quis, imperdiet tristique ligula. Sed iaculis mi id nunc blandit aliquam."
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "<strong>Vivamus<\/strong>  ut nisl vitae",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -30,8 +30,8 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "<strong>Pellentesque<\/strong>  pellentesque",
+            "card_text": "Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus ipsum mollis.  Proin vulputate, nisi a vehicula."
           }
         }
       },
