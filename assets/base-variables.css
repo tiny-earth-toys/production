@@ -257,7 +257,7 @@
       --media-border-width: 0px;
       --media-radius: 16px;
 
-      --page-width: 1440px;
+      --page-width: 1280px;
       --page-width-margin: 0rem;
 
       --card-image-padding: 0.5rem;
@@ -276,8 +276,8 @@
       --drawer-border-opacity: 1;
       --drawer-shadow-opacity: 1;
 
-      --spacing-sections-desktop: 2rem;
-      --spacing-sections-mobile: 1.5rem;
+      --spacing-sections-desktop: var(--te-spacing--8);
+      --spacing-sections-mobile: var(--te-spacing--6);
 
       --grid-desktop-vertical-spacing: 96px;
       --grid-desktop-horizontal-spacing: 32px;
@@ -305,6 +305,15 @@
       --variant-pills-border-opacity: 1;
       --variant-pills-shadow-opacity: 0;
 }
+
+/* margin padding reset*/
+ .m0 {
+  margin: 0;
+ }
+
+ .p0 {
+  padding: 0;
+ }
 
 /* Grid Classes - v2 Design System */
 
@@ -359,14 +368,13 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  max-width: 1280px;
+  margin: auto;
 }
 
 .te-section-container--full-width {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 6rem 0;
   width: 100%;
+
 }
     /* Buttons - v2 Design System */
 

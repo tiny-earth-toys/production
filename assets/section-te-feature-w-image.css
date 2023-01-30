@@ -40,14 +40,11 @@
 }
 
 
-
 .fwi-card-container{
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 6em;
   justify-content: center;
-  align-items: flex-start;
-  padding: 0 2em;
-  gap: 6em;
   width: 100%;
 }
 
@@ -56,18 +53,14 @@
 }
 
 .fwi-column {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: rem;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 3em;
+
 }
 
 .fwi-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
+  display: block;
   gap: 1.25em;
 }
 
@@ -77,14 +70,17 @@
   overflow: hidden;
 }
 
-.fwi-card-text {
-  margin-top: 0;
-  margin-bottom: 1.5em;
-}
+
 
 .fwi-cta-container {
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
+  padding: 0 0 2em;
+}
+
+.fwi-img-wrapper {
+  display: flex;
   align-items: center;
 }
