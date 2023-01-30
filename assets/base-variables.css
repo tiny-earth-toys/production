@@ -207,23 +207,23 @@
 
     /* Grids & Spacing - v2 Design System */
     
-        --te-spacing-1: .25rem;
-        --te-spacing-2: .5rem;
-        --te-spacing-3: .75rem;
-        --te-spacing-4: 1rem;
-        --te-spacing-5: 1.25rem;
-        --te-spacing-6: 1.5rem;
-        --te-spacing-8: 2rem;
-        --te-spacing-10: 2.5rem;
-        --te-spacing-12: 3rem;
-        --te-spacing-16: 4rem;
-        --te-spacing-20: 5rem;
-        --te-spacing-24: 6rem;
-        --te-spacing-32: 8rem;
-        --te-spacing-40: 10rem;
-        --te-spacing-48: 12rem;
-        --te-spacing-56: 14rem;
-        --te-spacing-64: 16rem;
+        --te-spacing--1: .25rem;
+        --te-spacing--2: .5rem;
+        --te-spacing--3: .75rem;
+        --te-spacing--4: 1rem;
+        --te-spacing--5: 1.25rem;
+        --te-spacing--6: 1.5rem;
+        --te-spacing--8: 2rem;
+        --te-spacing--10: 2.5rem;
+        --te-spacing--12: 3rem;
+        --te-spacing--16: 4rem;
+        --te-spacing--20: 5rem;
+        --te-spacing--24: 6rem;
+        --te-spacing--32: 8rem;
+        --te-spacing--40: 10rem;
+        --te-spacing--48: 12rem;
+        --te-spacing--56: 14rem;
+        --te-spacing--64: 16rem;
     
 
         /* continer sizes */
@@ -305,9 +305,55 @@
       --variant-pills-border-opacity: 1;
       --variant-pills-shadow-opacity: 0;
 }
+
+/* Grid Classes - v2 Design System */
+
+.te_grid-container{
+  display: grid;
+  width: 100%;
+}
+
+.te_grid-container--1-row {
+  grid-template-rows: 6em; /* grid-template-rows: var(--te-spacing--24);  or 96px */
+  align-content: start;
+}
+
+.te_grid-container--2-col {
+  grid-template-columns: 2em 2em; /* grid-template-columns: var(--te-spacing--8); or 32px */
+  justify-content: space-between;
+}
+
+.te_grid-container--12-col-auto {
+  grid-template-columns: repeat(12, auto);
+  justify-content: space-between;
+}
+
+.te_grid-container--6-col-auto {
+  grid-template-columns: repeat(6, auto);
+  justify-content: space-between;
+}
+
+.te_grid-container--5-col-auto {
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-between;
+}
+
+.te_grid-container--3-col-auto {
+  grid-template-columns: repeat(3, auto);
+  justify-content: space-between;
+}
+
+.te_grid-container--2-col-auto {
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
 .font-te-teal--50{
   color: rgb(var(--te-teal--50));
 }
+
+
+
 .te-section-container{
   display: flex;
   flex-direction: column;

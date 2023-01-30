@@ -42,7 +42,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<strong>Prasent  <\/strong>dapibus tincidunt",
+            "card_title": "<p><strong>Prasent  <\/strong>dapibus tincidunt</p>",
             "card_text": "Etiam velit risus, tincidunt vitae risus quis, imperdiet tristique ligula. Sed iaculis mi id nunc blandit aliquam."
           }
         },
@@ -50,7 +50,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<strong>Vivamus<\/strong>  ut nisl vitae",
+            "card_title": "<p><strong>Vivamus<\/strong> ut nisl vitae</p>",
             "card_text": "Maecenas luctus eget quam at feugiat. Proin vulputate, nisi a vehicula ultricies, neque mi aliquet neque, at mauris."
           }
         },
@@ -58,7 +58,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<strong>Pellentesque<\/strong>  pellentesque",
+            "card_title": "<p><strong>Pellentesque<\/strong> pellentesque</p>",
             "card_text": "Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus ipsum mollis.  Proin vulputate, nisi a vehicula."
           }
         }
@@ -84,7 +84,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Pellentesque auctor commodo",
+            "card_title": "<p>Pellentesque auctor commodo</p>",
             "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
         },
@@ -92,7 +92,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Sed tincidunt nunc vitae",
+            "card_title": "<p>Sed tincidunt nunc vitae</p>",
             "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
         },
@@ -100,7 +100,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Nam viverra fermentum",
+            "card_title": "<p>Nam viverra fermentum</p>",
             "card_text": "Sed efficitur enim vitae mattis mollis. Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante."
           }
         },
@@ -108,7 +108,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Aliquam hendrerit metus",
+            "card_title": "<p>Aliquam hendrerit metus</p>",
             "card_text": "Donec vitae erat lacinia mi laoreet fringilla tristique eget ligula. Nullam lacinia, nunc vitae mollis scelerisque, quam risus rutrum nisl,."
           }
         },
@@ -116,7 +116,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Ut bibendum vitae erat",
+            "card_title": "<p>Ut bibendum vitae erat</p>",
             "card_text": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante."
           }
         },
@@ -124,7 +124,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "Vestibulum molestie sagittis ante",
+            "card_title": "<p>Vestibulum molestie sagittis ante<p>",
             "card_text": "Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante, at auctor lacus maximus scelerisque."
           }
         }
@@ -153,7 +153,7 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "",
-            "title__title": "Why two months",
+            "title__title": "<p><Why two months</p>",
             "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
             "title__hide-icon": false,
             "title__icon": "option_a"
@@ -195,7 +195,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "<p>My card title</p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -203,7 +203,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "<p>My card title</p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -211,7 +211,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "My card title",
+            "card_title": "<p>My card title</p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         }

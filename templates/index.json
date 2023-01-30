@@ -6,7 +6,7 @@
         "d2da5dba-3d8a-473e-b90e-b8428dba72fa": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Get 60% off your starter box and a free gift<\/p>",
+            "heading": "<p>Get 60% off your starter box and a free gift</p>",
             "heading_size": "h3"
           }
         },
@@ -227,8 +227,8 @@
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "Educator curated toys that grow with your child",
-        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+        "multigallery_section_heading": "<p>Educator curated toys that grow with your child</p>",
+        "multigallery_section_subtitle": "<p>Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum.</p>"
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -238,7 +238,7 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "Choose conscious",
-            "title__title": "Save your sanity and the planet",
+            "title__title": "<p>Save your sanity and the planet</p>",
             "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
             "title__hide-icon": true,
             "title__icon": "none"
@@ -497,7 +497,7 @@
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "Educator curated toys that grow with your child",
+        "multigallery_section_heading": "<p>Educator curated toys that grow with your child</p>",
         "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
       }
     }
