@@ -1,18 +1,11 @@
-.section--te-multigallery {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  width: var(--te-container--xl);
-}
 
 .te-multigallery-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px 2em;
+  padding: 3em 2em;
   gap: 2em;
+  max-width: var(--te-container--xl);
 }
 
 

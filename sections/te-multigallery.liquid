@@ -9,393 +9,391 @@
   data-section-type="{{ section.settings.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="section--te-multigallery">
-    <div class="te-multigallery-container">
-      <div class="mtc-content-headings-container">
-        <h3 class="mtc-content-title te-display-xl te-display--bold">
-          {{ section.settings.multigallery_section_heading }}
-        </h3>
-        <p class="mtc-content-subtitle ">
-          {{ section.settings.multigallery_section_subtitle }}
-        </p>
-      </div>
-      <div class="multi-gallery-container">
-        <div class="mgc-content-container">
-          {% for block in section.blocks %}
-            {% assign btn_grouping = block.type %}
-            {% case btn_grouping %}
-              {% when 'multigroup-1' %}
-                <input type="radio" id="toggle--multigroup-1" class="mg-btn" name="select_group" checked>
-                <label for="toggle--multigroup-1">{{ block.settings.multigroup_name }}</label>
+  <div class="te-multigallery-container">
+    <div class="mtc-content-headings-container">
+      <h3 class="mtc-content-title te-display-xl te-display--bold">
+        {{ section.settings.multigallery_section_heading }}
+      </h3>
+      <p class="mtc-content-subtitle ">
+        {{ section.settings.multigallery_section_subtitle }}
+      </p>
+    </div>
+    <div class="multi-gallery-container">
+      <div class="mgc-content-container">
+        {% for block in section.blocks %}
+          {% assign btn_grouping = block.type %}
+          {% case btn_grouping %}
+            {% when 'multigroup-1' %}
+              <input type="radio" id="toggle--multigroup-1" class="mg-btn" name="select_group" checked>
+              <label for="toggle--multigroup-1">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-2' %}
-                <input type="radio" id="toggle--multigroup-2" name="select_group">
-                <label for="toggle--multigroup-2">{{ block.settings.multigroup_name }}</label>
+            {% when 'multigroup-2' %}
+              <input type="radio" id="toggle--multigroup-2" name="select_group">
+              <label for="toggle--multigroup-2">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-3' %}
-                <input type="radio" id="toggle--multigroup-3" name="select_group">
-                <label for="toggle--multigroup-3">{{ block.settings.multigroup_name }}</label>
+            {% when 'multigroup-3' %}
+              <input type="radio" id="toggle--multigroup-3" name="select_group">
+              <label for="toggle--multigroup-3">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-4' %}
-                <input type="radio" id="toggle--multigroup-4" name="select_group">
-                <label for="toggle--multigroup-4">{{ block.settings.multigroup_name }}</label>
+            {% when 'multigroup-4' %}
+              <input type="radio" id="toggle--multigroup-4" name="select_group">
+              <label for="toggle--multigroup-4">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-5' %}
-                <input type="radio" id="toggle--multigroup-5" name="select_group">
-                <label for="toggle--multigroup-5">{{ block.settings.multigroup_name }}</label>
+            {% when 'multigroup-5' %}
+              <input type="radio" id="toggle--multigroup-5" name="select_group">
+              <label for="toggle--multigroup-5">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-6' %}
-                <input type="radio" id="toggle--multigroup-6" name="select_group">
-                <label for="toggle--multigroup-6">{{ block.settings.multigroup_name }}</label>
+            {% when 'multigroup-6' %}
+              <input type="radio" id="toggle--multigroup-6" name="select_group">
+              <label for="toggle--multigroup-6">{{ block.settings.multigroup_name }}</label>
 
-              {% when 'multigroup-7' %}
-                <input type="radio" id="toggle--multigroup-7" name="select_group">
-                <label for="toggle--multigroup-7">{{ block.settings.multigroup_name }}</label>
-            {% endcase %}
-          {% endfor %}
+            {% when 'multigroup-7' %}
+              <input type="radio" id="toggle--multigroup-7" name="select_group">
+              <label for="toggle--multigroup-7">{{ block.settings.multigroup_name }}</label>
+          {% endcase %}
+        {% endfor %}
 
-          {% for block in section.blocks %}
-            {% assign image_grouping = block.type %}
-            {% case image_grouping %}
-              {% when 'multigroup-1' %}
-                <div
-                  id="multigroup-1--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+        {% for block in section.blocks %}
+          {% assign image_grouping = block.type %}
+          {% case image_grouping %}
+            {% when 'multigroup-1' %}
+              <div
+                id="multigroup-1--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-2' %}
-                <div
-                  id="multigroup-2--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-3' %}
-                <div
-                  id="multigroup-3--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-4' %}
-                <div
-                  id="multigroup-4--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-5' %}
-                <div
-                  id="multigroup-5--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+              </div>
+            {% when 'multigroup-2' %}
+              <div
+                id="multigroup-2--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-6' %}
-                <div
-                  id="multigroup-6--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-              {% when 'multigroup-7' %}
-                <div
-                  id="multigroup-7--image-container"
-                  class="mgc--img-container"
-                  data-block-type="tet-custom"
-                  data-block-id="{{ block.id }}"
-                >
-                  <div class="mg-image-wrapper mg-image-wrapper--1">
-                    <img
-                      src="{{ block.settings.image_a | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--2">
-                    <img
-                      src="{{ block.settings.image_b | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--3">
-                    <img
-                      src="{{ block.settings.image_c | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
-                  <div class="mg-image-wrapper mg-image-wrapper--4">
-                    <img
-                      src="{{ block.settings.image_d | image_url: width: 480 }}"
-                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="480"
-                      height="384"
-                    >
-                  </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
                 </div>
-            {% endcase %}
-          {% endfor %}
-        </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+            {% when 'multigroup-3' %}
+              <div
+                id="multigroup-3--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+            {% when 'multigroup-4' %}
+              <div
+                id="multigroup-4--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+            {% when 'multigroup-5' %}
+              <div
+                id="multigroup-5--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+            {% when 'multigroup-6' %}
+              <div
+                id="multigroup-6--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+            {% when 'multigroup-7' %}
+              <div
+                id="multigroup-7--image-container"
+                class="mgc--img-container"
+                data-block-type="tet-custom"
+                data-block-id="{{ block.id }}"
+              >
+                <div class="mg-image-wrapper mg-image-wrapper--1">
+                  <img
+                    src="{{ block.settings.image_a | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--2">
+                  <img
+                    src="{{ block.settings.image_b | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--3">
+                  <img
+                    src="{{ block.settings.image_c | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+                <div class="mg-image-wrapper mg-image-wrapper--4">
+                  <img
+                    src="{{ block.settings.image_d | image_url: width: 480 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ block.settings.image.alt | escape }}"
+                    loading="lazy"
+                    width="480"
+                    height="384"
+                  >
+                </div>
+              </div>
+          {% endcase %}
+        {% endfor %}
       </div>
     </div>
   </div>
