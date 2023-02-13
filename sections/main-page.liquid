@@ -4,11 +4,10 @@
 <noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- style -%}
-{%- endstyle -%}
-
-<div class="rte">
-  {{ page.content }}
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <div class="rte">
+    {{ page.content }}
+  </div>
 </div>
 
 {% schema %}
