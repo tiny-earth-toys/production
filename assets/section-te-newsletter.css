@@ -1,0 +1,25 @@
+.newsletter__input-fields {
+  border: 1px solid rgb(var(--te-base--black));
+  border-radius: 40px;
+}
+
+.newsletter__input-fields form {
+ display: flex;
+ padding: 0;
+}
+
+
+#newsletter__input-email {
+  width: 100%;
+  background: none;
+  border-radius: 40px;
+  padding: 0;
+  z-index: 1;
+}
+
+#newsletter__input-submit{
+  background: rbga(var(--te-base--black), 1);
+  border-radius: 40px;
+  padding: 0;
+  z-index: 2;
+}

@@ -226,7 +226,7 @@
         --te-spacing--64: 16rem;
     
 
-        /* continer sizes */
+        /* continer sizes */-
         --te-container--sm: 40rem;
         --te-container--md: 48rem;
         --te-container--lg: 64rem;
@@ -327,7 +327,7 @@
   align-content: start;
 }
 
-.te_grid-container--2-col {
+.te_grid-container--2-col {shop
   grid-template-columns: 2em 2em; /* grid-template-columns: var(--te-spacing--8); or 32px */
   justify-content: space-between;
 }

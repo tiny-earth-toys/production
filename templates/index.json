@@ -6,7 +6,7 @@
         "d2da5dba-3d8a-473e-b90e-b8428dba72fa": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Get 60% off your starter box and a free gift</p>",
+            "heading": "<p>Get 60% off your starter box and a free gift<\/p>",
             "heading_size": "h3"
           }
         },
@@ -227,8 +227,8 @@
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "<p>Educator curated toys that grow with your child</p>",
-        "multigallery_section_subtitle": "<p>Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum.</p>"
+        "multigallery_section_heading": "<p>Educator curated toys that grow with your child<\/p>",
+        "multigallery_section_subtitle": "<p>Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum.<\/p>"
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -238,7 +238,7 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "Choose conscious",
-            "title__title": "<p>Save your sanity and the planet</p>",
+            "title__title": "<p>Save your sanity and the planet<\/p>",
             "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
             "title__hide-icon": true,
             "title__icon": "none"
@@ -439,66 +439,32 @@
         "padding_bottom": 0
       }
     },
-    "24050b1b-3921-4729-80f8-1336ff845536": {
-      "type": "te-multigallery",
-      "disabled": true,
+    "fa5d8f62-3a0b-4cab-a42f-d9991b177d62": {
+      "type": "te-newsletter",
       "blocks": {
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-0": {
-          "type": "multigroup-1",
+        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-0": {
+          "type": "newsletter-title",
           "settings": {
-            "multigroup_name": "12-18 months"
+            "newsletter-title__header": "<p>Subscribe to our newsletter to stay updated with all of our special offers<\/p>",
+            "newsletter-title__caption": "Phasellus rhoncus augue non felis hendrerit pellentesque."
           }
         },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-1": {
-          "type": "multigroup-2",
+        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-1": {
+          "type": "newsletter-form",
           "settings": {
-            "multigroup_name": "12-18 months"
-          }
-        },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-2": {
-          "type": "multigroup-3",
-          "settings": {
-            "multigroup_name": "12-18 months"
-          }
-        },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-3": {
-          "type": "multigroup-4",
-          "settings": {
-            "multigroup_name": "12-18 months"
-          }
-        },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-4": {
-          "type": "multigroup-5",
-          "settings": {
-            "multigroup_name": "12-18 months"
-          }
-        },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-5": {
-          "type": "multigroup-6",
-          "settings": {
-            "multigroup_name": "12-18 months"
-          }
-        },
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-6": {
-          "type": "multigroup-7",
-          "settings": {
-            "multigroup_name": "12-18 months"
+            "newsletter-form__placeholder-text": "Enter your email",
+            "newsletter-form__button-text": "Subscribe",
+            "newsletter-form__disclaimer": "Phasellus sollicitudin ut augue non pharetra."
           }
         }
       },
       "block_order": [
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-0",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-1",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-2",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-3",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-4",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-5",
-        "template--16657630068981__24050b1b-3921-4729-80f8-1336ff845536-1674593879495c7f4c-6"
+        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-0",
+        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-1"
       ],
       "settings": {
-        "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "<p>Educator curated toys that grow with your child</p>",
-        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+        "color_scheme": "te-cream-dark",
+        "newsletter_full-width": false
       }
     }
   },
@@ -511,6 +477,6 @@
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
-    "24050b1b-3921-4729-80f8-1336ff845536"
+    "fa5d8f62-3a0b-4cab-a42f-d9991b177d62"
   ]
 }

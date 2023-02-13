@@ -30,14 +30,18 @@
     assign posts_displayed = section.settings.post_limit
   endif
 -%}
-<div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
+<div class="blog color--{{ section.settings.color_scheme }} {%comment %}gradient {% endcomment %}{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="page-width-desktop isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding">
     {%- unless section.settings.heading == blank -%}
       <div class="title-wrapper-with-link{% if posts_displayed > 2 %} title-wrapper--self-padded-tablet-down{% else %} title-wrapper--self-padded-mobile{% endif %} title-wrapper--no-top-margin">
         <h2 class="blog__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
 
-        {%- if section.settings.blog != blank and section.settings.show_view_all and section.settings.post_limit < section.settings.blog.articles_count -%}
-          <a href="{{ section.settings.blog.url }}"
+        {%- if section.settings.blog != blank
+          and section.settings.show_view_all
+          and section.settings.post_limit < section.settings.blog.articles_count
+        -%}
+          <a
+            href="{{ section.settings.blog.url }}"
             class="link underlined-link large-up-hide"
           >
             {{ 'sections.featured_blog.view_all' | t }}
@@ -47,26 +51,52 @@
     {%- endunless -%}
     {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
       <slider-component class="slider-mobile-gutter">
-        <ul id="Slider-{{ section.id }}"
+        <ul
+          id="Slider-{{ section.id }}"
           class="blog__posts articles-wrapper contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
           role="list"
         >
           {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
-            <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
-              {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
+            <li
+              id="Slide-{{ section.id }}-{{ forloop.index }}"
+              class="blog__post grid__item article slider__slide slider__slide--full-width"
+            >
+              {% render 'article-card',
+                blog: section.settings.blog,
+                article: article,
+                media_aspect_ratio: 1.66,
+                show_image: section.settings.show_image,
+                show_date: section.settings.show_date,
+                show_author: section.settings.show_author,
+                show_excerpt: true
+              %}
             </li>
           {%- endfor -%}
         </ul>
         {%- if posts_exceed_limit -%}
           <div class="slider-buttons no-js-hidden{% if section.settings.post_limit < 3 %} medium-hide{% endif %}{% if section.settings.post_limit < 2 %} small-hide{% endif %}">
-            <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
             <div class="slider-counter caption">
               <span class="slider-counter--current">1</span>
               <span aria-hidden="true"> / </span>
               <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
               <span class="slider-counter--total">{{ section.settings.post_limit }}</span>
             </div>
-            <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
           </div>
         {%- endif -%}
       </slider-component>
@@ -152,33 +182,44 @@
       "label": "t:sections.featured-blog.settings.columns_desktop.label"
     },
     {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
       "type": "select",
       "id": "color_scheme",
       "options": [
         {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
         },
         {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
         },
         {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
         },
         {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
         },
         {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
         }
       ],
-      "default": "background-1",
-      "label": "t:sections.all.colors.label",
-      "info": "t:sections.all.colors.has_cards_info"
+      "default": "te-default",
+      "label": "t:sections.all.colors.label"
     },
     {
       "type": "checkbox",

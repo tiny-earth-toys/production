@@ -1,17 +1,17 @@
 {%- style -%}
-.section-{{ section.id }}-padding {
-  padding-top: calc({{ section.settings.padding_top }}px * 0.75);
-  padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
-}
-
-@media screen and (min-width: 750px) {
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top }}px;
-    padding-bottom: {{ section.settings.padding_bottom }}px;
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
   }
-}
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
 {%- endstyle -%}
-<div class="color-{{ section.settings.color_scheme }} gradient">
+<div class="color--{{ section.settings.color_scheme }} {% comment %} gradient {% endcomment %}">
   <div class="section-{{ section.id }}-padding">
     {{ section.settings.custom_liquid }}
   </div>
@@ -30,31 +30,43 @@
       "info": "t:sections.custom-liquid.settings.custom_liquid.info"
     },
     {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
       "type": "select",
       "id": "color_scheme",
       "options": [
         {
-          "value": "accent-1",
-          "label": "t:sections.all.colors.accent_1.label"
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
         },
         {
-          "value": "accent-2",
-          "label": "t:sections.all.colors.accent_2.label"
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
         },
         {
-          "value": "background-1",
-          "label": "t:sections.all.colors.background_1.label"
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
         },
         {
-          "value": "background-2",
-          "label": "t:sections.all.colors.background_2.label"
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
         },
         {
-          "value": "inverse",
-          "label": "t:sections.all.colors.inverse.label"
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
         }
       ],
-      "default": "background-1",
+      "default": "te-default",
       "label": "t:sections.all.colors.label"
     },
     {
