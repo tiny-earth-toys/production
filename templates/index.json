@@ -1,5 +1,43 @@
 {
   "sections": {
+    "da81d20a-81fd-45ed-b8d7-886b1015dfb0": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-0": {
+          "type": "caption",
+          "settings": {
+            "banner__caption": "Etiam egestas in nec sed et"
+          }
+        },
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p>Banner Section Main Title<\/p>"
+          }
+        },
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-2": {
+          "type": "subtitle",
+          "settings": {
+            "banner__subtitle": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+          }
+        },
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/AM8A5302_V1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-0",
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-1",
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-2",
+        "template--16695766319349__da81d20a-81fd-45ed-b8d7-886b1015dfb0-1676746272755a497b-3"
+      ],
+      "settings": {
+        "color_scheme": "te-default"
+      }
+    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -469,6 +507,7 @@
     }
   },
   "order": [
+    "da81d20a-81fd-45ed-b8d7-886b1015dfb0",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
