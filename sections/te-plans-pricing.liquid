@@ -1,8 +1,227 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Membership Plans",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
+        },
+        {
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
+        },
+        {
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
+        },
+        {
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
+        },
+        {
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
+        }
+      ],
+      "default": "te-default",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "Section Titles"
+    },
+    {
+      "type": "richtext",
+      "id": "plans-pricing__title",
+      "default": "<p>Main Header for Pricing</p>",
+      "label": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "plans-pricing__subtitle",
+      "default": "Esse quam videri",
+      "label": "Section subheader"
+    },
+    {
+      "type": "header",
+      "content": "First Variant Details"
+    },
+    {
+      "type": "text",
+      "id": "variant-1__caption",
+      "label": "First variant caption",
+      "default": "Monthly"
+    },
+    {
+      "type": "richtext",
+      "id": "variant-1__includes",
+      "label": "First variant feature text",
+      "default": "<p>Our introductory plan includes...</p>"
+    },
+    {
+      "type": "text",
+      "id": "variant-1__feat-1",
+      "label": "1st variant feature",
+      "default": "Sed et pellentesque dui"
+    },
+    {
+      "type": "text",
+      "id": "variant-1__feat-2",
+      "label": "2nd variant feature",
+      "default": "Nam in nunc et eros"
+    },
+    {
+      "type": "text",
+      "id": "variant-1__feat-3",
+      "label": "3rd variant feature",
+      "default": "Pellentesque congue congue"
+    },
+    {
+      "type": "header",
+      "content": "Second Variant Details"
+    },
+    {
+      "type": "text",
+      "id": "variant-2__caption",
+      "label": "Second variant caption",
+      "default": "Half-yearly"
+    },
+    {
+      "type": "richtext",
+      "id": "variant-2__includes",
+      "label": "Second variant feature text",
+      "default": "<p>Everything in 5 toy plan plus...</p>"
+    },
+    {
+      "type": "text",
+      "id": "variant-2__feat-1",
+      "label": "1st variant feature",
+      "default": "Sed et pellentesque dui"
+    },
+    {
+      "type": "text",
+      "id": "variant-2__feat-2",
+      "label": "2nd variant feature",
+      "default": "Nam in nunc et eros"
+    },
+    {
+      "type": "text",
+      "id": "variant-2__feat-3",
+      "label": "3rd variant feature",
+      "default": "Pellentesque congue congue"
+    },
+    {
+      "type": "header",
+      "content": "Third Variant Details"
+    },
+    {
+      "type": "text",
+      "id": "variant-3__caption",
+      "label": "Third variant caption",
+      "default": "Annual"
+    },
+    {
+      "type": "richtext",
+      "id": "variant-3__includes",
+      "label": "First variant feature text",
+      "default": "<p>Everything in 8 toys plus...</p>"
+    },
+    {
+      "type": "text",
+      "id": "variant-3__feat-1",
+      "label": "1st variant feature",
+      "default": "Sed et pellentesque dui"
+    },
+    {
+      "type": "text",
+      "id": "variant-3__feat-2",
+      "label": "2nd variant feature",
+      "default": "Nam in nunc et eros"
+    },
+    {
+      "type": "text",
+      "id": "variant-3__feat-3",
+      "label": "3rd variant feature",
+      "default": "Pellentesque congue congue"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product-selector--1",
+      "name": "First Product",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "product",
+          "id": "plan-1",
+          "label": "Select 1st plan"
+        },
+        {
+          "type": "text",
+          "id": "plan-1__title",
+          "label": "Plan title",
+          "default": "Monthly"
+        }
+      ]
+    },
+    {
+      "type": "product-selector--2",
+      "name": "Second Product",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "product",
+          "id": "product-2",
+          "label": "Select 2nd product"
+        }
+      ]
+    },
+    {
+      "type": "product-selector--3",
+      "name": "Third Product",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "product",
+          "id": "product-3",
+          "label": "Select 3rd product"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Plans and Pricing",
+      "blocks": [
+        {
+          "type": "product-selector--1"
+        },
+        {
+          "type": "product-selector--2"
+        },
+        {
+          "type": "product-selector--3"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
