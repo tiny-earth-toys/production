@@ -1,14 +1,12 @@
-.feat-basic {
+.section--te-features-basic-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 6rem 2rem;
-  gap: 4rem;
-}
-
-.feat-basic.feat-basic--full-width {
-  max-width: initial;
-  width: 100%;
+  font-size: 1rem;
+  padding-top: 4em;
+  padding-bottom: 2em;;
+  width: var(--te-container--xl);
 }
 
 .title-container {
@@ -20,12 +18,19 @@
   max-width: 768px;
 }
 
+.features-basic--single-column {
+  width: var(--te-container--md);
+}
+
 .section__title {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px;
   gap: 20px;
+}
+.section__subtitle {
+  padding: 0 2em;
 }
 
 .blocks-container{

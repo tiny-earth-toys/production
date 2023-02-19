@@ -7,32 +7,35 @@
         "padding_bottom": 28
       }
     },
-    "f5299a3a-a376-42e8-82a7-21ceafe74f66": {
-      "type": "te-rich-text",
+    "b45be050-f1b5-4f73-95bf-309e612a79ba": {
+      "type": "te-image-banner",
       "blocks": {
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-0": {
-          "type": "heading",
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-1": {
+          "type": "title",
           "settings": {
-            "heading": "How it works",
-            "heading_size": "h1"
+            "banner__title": "<p><em><strong>How <\/strong><\/em>it works<\/p>"
           }
         },
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-1": {
-          "type": "text",
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-2": {
+          "type": "subtitle",
           "settings": {
-            "text": "<p>Etiam ac mi mattis, eleifend quam at, consequat turpis. Nam dignissim pulvinar pharetra. Ut eget odio fermentum magna ultrices varius eu nec nisl.<\/p>"
+            "banner__subtitle": "Etiam ac mi mattis, eleifend quam at, consequat turpis. Nam dignissim pulvinar pharetra. Ut eget odio fermentum magna ultrices varius eu nec nisl."
+          }
+        },
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/AM8A5302_V1.jpg"
           }
         }
       },
       "block_order": [
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-0",
-        "template--16679329693941__f5299a3a-a376-42e8-82a7-21ceafe74f66-1674664449a775f3cf-1"
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-1",
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-2",
+        "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-3"
       ],
       "settings": {
-        "color_scheme": "te-silver-dark",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 32
+        "color_scheme": "te-silver-dark"
       }
     },
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2": {
@@ -42,7 +45,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p><strong>Prasent  <\/strong>dapibus tincidunt</p>",
+            "card_title": "<p><strong>Prasent  <\/strong>dapibus tincidunt<\/p>",
             "card_text": "Etiam velit risus, tincidunt vitae risus quis, imperdiet tristique ligula. Sed iaculis mi id nunc blandit aliquam."
           }
         },
@@ -50,7 +53,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p><strong>Vivamus<\/strong> ut nisl vitae</p>",
+            "card_title": "<p><strong>Vivamus<\/strong> ut nisl vitae<\/p>",
             "card_text": "Maecenas luctus eget quam at feugiat. Proin vulputate, nisi a vehicula ultricies, neque mi aliquet neque, at mauris."
           }
         },
@@ -58,7 +61,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<p><strong>Pellentesque<\/strong> pellentesque</p>",
+            "card_title": "<p><strong>Pellentesque<\/strong> pellentesque<\/p>",
             "card_text": "Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus ipsum mollis.  Proin vulputate, nisi a vehicula."
           }
         }
@@ -84,7 +87,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Pellentesque auctor commodo</p>",
+            "card_title": "<p>Pellentesque auctor commodo<\/p>",
             "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
         },
@@ -92,7 +95,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Sed tincidunt nunc vitae</p>",
+            "card_title": "<p>Sed tincidunt nunc vitae<\/p>",
             "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
           }
         },
@@ -100,7 +103,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Nam viverra fermentum</p>",
+            "card_title": "<p>Nam viverra fermentum<\/p>",
             "card_text": "Sed efficitur enim vitae mattis mollis. Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante."
           }
         },
@@ -108,7 +111,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Aliquam hendrerit metus</p>",
+            "card_title": "<p>Aliquam hendrerit metus<\/p>",
             "card_text": "Donec vitae erat lacinia mi laoreet fringilla tristique eget ligula. Nullam lacinia, nunc vitae mollis scelerisque, quam risus rutrum nisl,."
           }
         },
@@ -116,7 +119,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Ut bibendum vitae erat</p>",
+            "card_title": "<p>Ut bibendum vitae erat<\/p>",
             "card_text": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante."
           }
         },
@@ -153,7 +156,7 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "",
-            "title__title": "<p><Why two months</p>",
+            "title__title": "<p><why two months><\/why><\/p>",
             "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
             "title__hide-icon": false,
             "title__icon": "option_a"
@@ -195,7 +198,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title</p>",
+            "card_title": "<p>My card title<\/p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -203,7 +206,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title</p>",
+            "card_title": "<p>My card title<\/p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         },
@@ -211,7 +214,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title</p>",
+            "card_title": "<p>My card title<\/p>",
             "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
           }
         }
@@ -233,7 +236,7 @@
   },
   "order": [
     "main",
-    "f5299a3a-a376-42e8-82a7-21ceafe74f66",
+    "b45be050-f1b5-4f73-95bf-309e612a79ba",
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",

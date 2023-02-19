@@ -22,56 +22,58 @@
   }
 {%- endstyle -%}
 
-<section
-  class="feat-basic color--{{ section.settings.color_scheme }}"
+<div
+  class="color--{{ section.settings.color_scheme }}  te-section-container--full-width "
   data-section-type="{{ section.name }}"
   data-section-id="{{ section.id }}"
 >
-  <div class="title-wrapper">
-    <div class="title title--primary center">
-      {% unless section.settings.section_title == blank %}
-        <h1 class="te-display--lg">{{ section.settings.section_title }}</h1>
-      {% endunless %}
-      <div class="subtitle subtitle--small">
-        {% unless section.settings.section_text == blank %}
-          {{ section.settings.section_text }}
+  <div class="section--te-features-basic-container {% if section.settings.columns_desktop == 1 %}features-basic--single-column{% endif %}">
+    <div class="title-wrapper">
+      <div class="section__title center">
+        {% unless section.settings.section_title == blank %}
+          <h1 class="te-display--lg">{{ section.settings.section_title }}</h1>
         {% endunless %}
+        <div class="section__subtitle subtitle--small">
+          {% unless section.settings.section_text == blank %}
+            {{ section.settings.section_text }}
+          {% endunless %}
+        </div>
       </div>
     </div>
+    <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
+      {%- for block in section.blocks -%}
+        <div class=" card grid__item">
+          <span class="te-icon-lg icon-wrap ">
+            {% case block.settings.icon_select %}
+              {% when 'icon_1' %}
+                {% render 'icon-triangle-block' %}
+              {% when 'icon_2' %}
+                {% render 'icon-star-block' %}
+              {% when 'icon_3' %}
+                {% render 'icon-hexagon-block' %}
+              {% when 'icon_4' %}
+                {% render 'icon-octagon-block' %}
+              {% when 'icon_5' %}
+                {% render 'icon-pinterest' %}
+              {% when 'icon_6' %}
+                {% render 'icon-snapchat' %}
+            {% endcase %}
+          </span>
+          <h4 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <p class="te-display--xs">{{ block.settings.card_title }}</p>
+          </h4>
+          <p class="feature-text">{{ block.settings.card_text }}</p>
+        </div>
+      {%- endfor -%}
+    </div>
   </div>
-  <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
-    {%- for block in section.blocks -%}
-      <div class=" card grid__item">
-        <span class="te-icon-lg icon-wrap ">
-          {% case block.settings.icon_select %}
-            {% when 'icon_1' %}
-              {% render 'icon-triangle-block' %}
-            {% when 'icon_2' %}
-              {% render 'icon-star-block' %}
-            {% when 'icon_3' %}
-              {% render 'icon-hexagon-block' %}
-            {% when 'icon_4' %}
-              {% render 'icon-octagon-block' %}
-            {% when 'icon_5' %}
-              {% render 'icon-pinterest' %}
-            {% when 'icon_6' %}
-              {% render 'icon-snapchat' %}
-          {% endcase %}
-        </span>
-        <h4 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-          <p class="te-display--xs">{{ block.settings.card_title }}</p>
-        </h4>
-        <p class="feature-text">{{ block.settings.card_text }}</p>
-      </div>
-    {%- endfor -%}
-  </div>
-</section>
+</div>
 
 {% schema %}
 {
   "name": "TE-Features Basic",
   "tag": "section",
-  "class": "section",
+  "class": "te-section-container",
   "settings": [
     {
       "type": "select",
