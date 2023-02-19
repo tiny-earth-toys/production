@@ -45,24 +45,24 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p><strong>Prasent  <\/strong>dapibus tincidunt<\/p>",
-            "card_text": "Etiam velit risus, tincidunt vitae risus quis, imperdiet tristique ligula. Sed iaculis mi id nunc blandit aliquam."
+            "card_title": "<p><strong>Rent<\/strong><\/p>",
+            "card_text": "Pick the plan that works for your fam.  We'll send your first set of age-appropriate toys, curated specifically for your little one, straight to your doorstep."
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p><strong>Vivamus<\/strong> ut nisl vitae<\/p>",
-            "card_text": "Maecenas luctus eget quam at feugiat. Proin vulputate, nisi a vehicula ultricies, neque mi aliquet neque, at mauris."
+            "card_title": "<p><strong>Play<\/strong><\/p>",
+            "card_text": "The fun part!  Enjoy spending quality time with your child as they engage with their new toys. Rest assured knowing they are getting the safest and highest quality toys on the market."
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-2": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<p><strong>Pellentesque<\/strong> pellentesque<\/p>",
-            "card_text": "Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus ipsum mollis.  Proin vulputate, nisi a vehicula."
+            "card_title": "<p><strong>Rotate\/Exchange<\/strong><\/p>",
+            "card_text": "Every two months you'll swap out your current toys for a fresh set. Can't bear to part with one of your toys?  You always have the option to purchase any time at a discounted rate."
           }
         }
       },
@@ -87,48 +87,48 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Pellentesque auctor commodo<\/p>",
-            "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
+            "card_title": "",
+            "card_text": "High quality wooden toys curated for your child's abilities"
           }
         },
         "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Sed tincidunt nunc vitae<\/p>",
-            "card_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies, non dapibus."
+            "card_title": "",
+            "card_text": "Free shipping and exchanges every two months"
           }
         },
         "template--16679329693941__32d8e748-ef68-488f-9324-6e21f6fb6b22-167466404830fd5ee2-2": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Nam viverra fermentum<\/p>",
-            "card_text": "Sed efficitur enim vitae mattis mollis. Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante."
+            "card_title": "",
+            "card_text": "Educator curation from early childhood experts"
           }
         },
         "6e220576-a3ba-4b42-89aa-d28dd7746352": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Aliquam hendrerit metus<\/p>",
-            "card_text": "Donec vitae erat lacinia mi laoreet fringilla tristique eget ligula. Nullam lacinia, nunc vitae mollis scelerisque, quam risus rutrum nisl,."
+            "card_title": "",
+            "card_text": "Option to purchase any item from your kit at a 10-30% discount off it's retail price"
           }
         },
         "9f248a0b-fd09-47f5-bb06-3e37520deb91": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Ut bibendum vitae erat<\/p>",
-            "card_text": "Sed tincidunt nunc vitae libero suscipit, convallis ornare justo ultricies. Sed ac erat massa. Ut ut mauris mauris. Nulla maximus ante."
+            "card_title": "",
+            "card_text": "Rigorous cleaning and inspection of each toy before it reaches its next family"
           }
         },
         "08c7d120-f113-4e66-84ca-35ab12acfba1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
-            "card_title": "<p>Vestibulum molestie sagittis ante<p>",
-            "card_text": "Phasellus facilisis mollis enim, ac viverra sapien tincidunt et. Vestibulum molestie sagittis ante, at auctor lacus maximus scelerisque."
+            "card_title": "<p><\/p><p><\/p>",
+            "card_text": "No charge for lost or damaged pieces - it happens!"
           }
         }
       },
@@ -143,8 +143,8 @@
       "settings": {
         "color_scheme": "te-silver-light",
         "full_width": true,
-        "section_title": "<p>All memberships include<\/p>",
-        "section_text": "Aliquam hendrerit metus eget erat ullamcorper rhoncus. Aenean consectetur cursus facilisis. Nam pulvinar turpis vel nisi ultricies.",
+        "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
+        "section_text": "",
         "columns_desktop": 3,
         "columns_mobile": "1"
       }
@@ -155,8 +155,8 @@
         "ab2e42e9-0c18-4878-873c-108bcbb087c8": {
           "type": "column__title",
           "settings": {
-            "title__subtitle": "",
-            "title__title": "<p><why two months><\/why><\/p>",
+            "title__subtitle": "Better for learning & the planet",
+            "title__title": "Why two months?",
             "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
             "title__hide-icon": false,
             "title__icon": "option_a"
@@ -167,11 +167,11 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Aliquam ac euismod quam",
+            "bullet__title-1": "Repetition is valuable",
             "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Aliquam ac euismod quam",
+            "bullet__title-2": "Shifting the paradigm of overconsumption",
             "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_f",
@@ -232,6 +232,43 @@
         "columns_desktop": 1,
         "columns_mobile": "1"
       }
+    },
+    "c8bd799f-48c4-4b5b-b44b-9d7030a61b12": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ready to sign up?",
+            "heading_size": "h1"
+          }
+        },
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "color": "solid-white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-0",
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-1",
+        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-2"
+      ],
+      "settings": {
+        "color_scheme": "te-silver-light",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -240,6 +277,7 @@
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",
-    "0232d1a1-c205-4d71-8bc0-405c011675ba"
+    "0232d1a1-c205-4d71-8bc0-405c011675ba",
+    "c8bd799f-48c4-4b5b-b44b-9d7030a61b12"
   ]
 }
