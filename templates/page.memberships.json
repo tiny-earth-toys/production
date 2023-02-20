@@ -13,20 +13,19 @@
         "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-0": {
           "type": "product-selector--1",
           "settings": {
-            "plan-1": "",
-            "plan-1__title": "Monthly"
+            "plan-1": "monthly"
           }
         },
         "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-1": {
           "type": "product-selector--2",
           "settings": {
-            "product-2": ""
+            "product-2": "prepay-6"
           }
         },
         "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-2": {
           "type": "product-selector--3",
           "settings": {
-            "product-3": ""
+            "product-3": "prepay-12"
           }
         }
       },
