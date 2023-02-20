@@ -6,9 +6,59 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "bfd25286-3893-413e-863c-d3fa2e345035": {
+      "type": "te-plans-pricing",
+      "blocks": {
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-0": {
+          "type": "product-selector--1",
+          "settings": {
+            "plan-1": "",
+            "plan-1__title": "Monthly"
+          }
+        },
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-1": {
+          "type": "product-selector--2",
+          "settings": {
+            "product-2": ""
+          }
+        },
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-2": {
+          "type": "product-selector--3",
+          "settings": {
+            "product-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-0",
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-1",
+        "template--16695766974709__bfd25286-3893-413e-863c-d3fa2e345035-1676906460f60341b3-2"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "plans-pricing__title": "<p>Main Header for Pricing<\/p>",
+        "plans-pricing__subtitle": "Esse quam videri",
+        "variant-1__caption": "Monthly",
+        "variant-1__includes": "<p>Our introductory plan includes...<\/p>",
+        "variant-1__feat-1": "Sed et pellentesque dui",
+        "variant-1__feat-2": "Nam in nunc et eros",
+        "variant-1__feat-3": "Pellentesque congue congue",
+        "variant-2__caption": "Half-yearly",
+        "variant-2__includes": "<p>Everything in 5 toy plan plus...<\/p>",
+        "variant-2__feat-1": "Sed et pellentesque dui",
+        "variant-2__feat-2": "Nam in nunc et eros",
+        "variant-2__feat-3": "Pellentesque congue congue",
+        "variant-3__caption": "Annual",
+        "variant-3__includes": "<p>Everything in 8 toys plus...<\/p>",
+        "variant-3__feat-1": "Sed et pellentesque dui",
+        "variant-3__feat-2": "Nam in nunc et eros",
+        "variant-3__feat-3": "Pellentesque congue congue"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bfd25286-3893-413e-863c-d3fa2e345035"
   ]
 }
