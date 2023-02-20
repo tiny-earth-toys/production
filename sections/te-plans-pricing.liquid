@@ -32,13 +32,22 @@
       </div>
       <div class="plans-pricing__tabs te_grid-container te_grid-container--3-col-auto"">
         <div id="plan-1__tab" class="plans-pricing__tab">
-          <p>{{ section.settings['variant-1__caption'] }}</p>
+          <label>
+            <input type="radio" name="frequency" value="tab--1">
+            <span>{{ section.settings['variant-1__caption'] }}</span>
+          </label>
         </div>
         <div id="plan-2__tab" class="plans-pricing__tab">
-          <p>{{ section.settings['variant-2__caption'] }}</p>
+          <label>
+            <input type="radio" name="frequency" value="tab--2">
+            <span>{{ section.settings['variant-2__caption'] }}</span>
+          </label>
         </div>
         <div id="plan-3__tab" class="plans-pricing__tab">
-          <p>{{ section.settings['variant-3__caption'] }}</p>
+          <label>
+            <input type="radio" name="frequency" value="tab--3">
+            <span>{{ section.settings['variant-3__caption'] }}</span>
+          </label>
         </div>
       </div>
     </div>
