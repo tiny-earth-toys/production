@@ -327,7 +327,7 @@
   align-content: start;
 }
 
-.te_grid-container--2-col {shop
+.te_grid-container--2-col {
   grid-template-columns: 2em 2em; /* grid-template-columns: var(--te-spacing--8); or 32px */
   justify-content: space-between;
 }
@@ -766,7 +766,7 @@
 }
 
 .te-font-color--dk-gray{
-  color: rgb(var(--te-gray--700));
+  color: rgb(var(--te-gray--600));
 }
 
 .te-font-color--lt-silver{
