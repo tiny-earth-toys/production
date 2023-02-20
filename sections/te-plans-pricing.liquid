@@ -5,18 +5,48 @@
   data-section-type="{{ section.name }}"
   data-section-id="{{ section.id }}"
 >
+
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'product-selector--1'%}
+      {% assign plan-1 = all_products[block.settings.plan-1] %}
+    {% when 'product-selector--2'%}
+      {% assign plan-2 = all_products[block.settings.plan-2] %}
+    {% when 'product-selector--3'%}
+      {% assign plan-3 = all_products[block.settings.plan-3] %}
+  {% endcase %}
+{% endfor %}
+
+<p>{{ plan-1.title }}</p>
+<p>{{ plan-2.title }}</p>
+<p>{{ plan-3.title }}</p>
+
   <div class="section--te-plans-pricing">
     <div class="plans-pricing__header-container">
-      <div class="header-container__titles">
+      <div class="plans-pricing__titles">
         <h2>{{ section.settings['plans-pricing__title'] }}</h2>
         <h4>{{ section.settings['plans-pricing__subtitle'] }}</h4>
       </div>
-      <div class="header-container__tabs">
-        <p>tabs go here</p>
+      <div class="plans-pricing__tabs te_grid-container te_grid-container--3-col-auto"">
+        <p>{{ section.settings['variant-1__caption'] }}</p>
+        <p>{{ section.settings['variant-2__caption'] }}</p>
+        <p>{{ section.settings['variant-3__caption'] }}</p>
       </div>
     </div>
-    <div class="plans-pricing__card-container">
-      <p>cards go here</p>
+    <div class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto">
+
+        <div class="plans-pricing__product-card">
+          <div class="product-card__header">
+            <p>product information goes here</p>
+
+          </div>
+          <div class="product-card__features">
+            <p>features</p>
+            <p>features</p>
+            <p>features</p>
+          </div>
+        </div>
+
     </div>
   </div>
 </div>
@@ -204,7 +234,7 @@
       "settings": [
         {
           "type": "product",
-          "id": "product-2",
+          "id": "plan-2",
           "label": "Select 2nd product"
         }
       ]
@@ -216,7 +246,7 @@
       "settings": [
         {
           "type": "product",
-          "id": "product-3",
+          "id": "plan-3",
           "label": "Select 3rd product"
         }
       ]
