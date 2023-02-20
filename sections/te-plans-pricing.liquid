@@ -17,10 +17,13 @@
   {% endcase %}
 {% endfor %}
 
+{% assign selected-plan = plan-2 %}
+<p>Selected plan is: <strong>{{ selected-plan.title }}</strong></p>
+{% comment %}
 <p>{{ plan-1.title }}</p>
 <p>{{ plan-2.title }}</p>
 <p>{{ plan-3.title }}</p>
-
+{% endcomment %}
   <div class="section--te-plans-pricing">
     <div class="plans-pricing__header-container">
       <div class="plans-pricing__titles">
@@ -28,24 +31,67 @@
         <h4>{{ section.settings['plans-pricing__subtitle'] }}</h4>
       </div>
       <div class="plans-pricing__tabs te_grid-container te_grid-container--3-col-auto"">
-        <p>{{ section.settings['variant-1__caption'] }}</p>
-        <p>{{ section.settings['variant-2__caption'] }}</p>
-        <p>{{ section.settings['variant-3__caption'] }}</p>
+        <div id="plan-1__tab" class="plans-pricing__tab">
+          <p>{{ section.settings['variant-1__caption'] }}</p>
+        </div>
+        <div id="plan-2__tab" class="plans-pricing__tab">
+          <p>{{ section.settings['variant-2__caption'] }}</p>
+        </div>
+        <div id="plan-3__tab" class="plans-pricing__tab">
+          <p>{{ section.settings['variant-3__caption'] }}</p>
+        </div>
       </div>
     </div>
     <div class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto">
 
-        <div class="plans-pricing__product-card">
+        <div id="plan-1__card" class="plans-pricing__product-card">
           <div class="product-card__header">
+            <p>{{ selected-plan.variants[0].title }}</p>
+            <p>{{ selected-plan.variants[0].price | money}}</p>
+            <p>{{ section.settings.variant-1__blurb }}</p>
             <p>product information goes here</p>
-
           </div>
+
           <div class="product-card__features">
-            <p>features</p>
-            <p>features</p>
-            <p>features</p>
+            <p>{{ section.settings.variant-1__includes }}</p>
+            <p>{{ section.settings.variant-1__feat-1}}</p>
+            <p>{{ section.settings.variant-1__feat-2}}</p>
+            <p>{{ section.settings.variant-1__feat-3}}</p>
           </div>
         </div>
+
+        <div id="plan-2__card" class="plans-pricing__product-card">
+          <div class="product-card__header">
+            <p>{{ selected-plan.variants[1].title }}</p>
+            <p>{{ selected-plan.variants[1].price | money}}</p>
+            <p>{{ section.settings.variant-2__blurb }}</p>
+            <p>product information goes here</p>
+          </div>
+          
+          <div class="product-card__features">
+            <p>{{ section.settings.variant-2__includes }}</p>
+            <p>{{ section.settings.variant-2__feat-1}}</p>
+            <p>{{ section.settings.variant-2__feat-2}}</p>
+            <p>{{ section.settings.variant-2__feat-3}}</p>
+          </div>
+        </div>
+
+        <div id="plan-3__card" class="plans-pricing__product-card">
+          <div class="product-card__header">
+            <p>{{ selected-plan.variants[2].title }}</p>
+            <p>{{ selected-plan.variants[2].price | money}}</p>
+            <p>{{ section.settings.variant-3__blurb }}</p>
+            <p>product information goes here</p>
+          </div>
+          
+          <div class="product-card__features">
+            <p>{{ section.settings.variant-3__includes }}</p>
+            <p>{{ section.settings.variant-3__feat-1}}</p>
+            <p>{{ section.settings.variant-3__feat-2}}</p>
+            <p>{{ section.settings.variant-3__feat-3}}</p>
+          </div>
+        </div>
+
 
     </div>
   </div>
@@ -118,13 +164,19 @@
     {
       "type": "text",
       "id": "variant-1__caption",
-      "label": "First variant caption",
+      "label": "Caption",
       "default": "Monthly"
+    },
+    {
+      "type": "text",
+      "id": "variant-1__blurb",
+      "label": "Supporting text",
+      "default": "Avg. kit value = $$$"
     },
     {
       "type": "richtext",
       "id": "variant-1__includes",
-      "label": "First variant feature text",
+      "label": "Features title",
       "default": "<p>Our introductory plan includes...</p>"
     },
     {
@@ -152,13 +204,19 @@
     {
       "type": "text",
       "id": "variant-2__caption",
-      "label": "Second variant caption",
+      "label": "Caption",
       "default": "Half-yearly"
+    },
+    {
+      "type": "text",
+      "id": "variant-2__blurb",
+      "label": "Supporting text",
+      "default": "Avg. kit value = $$$"
     },
     {
       "type": "richtext",
       "id": "variant-2__includes",
-      "label": "Second variant feature text",
+      "label": "Features title",
       "default": "<p>Everything in 5 toy plan plus...</p>"
     },
     {
@@ -186,13 +244,19 @@
     {
       "type": "text",
       "id": "variant-3__caption",
-      "label": "Third variant caption",
+      "label": "Caption",
       "default": "Annual"
+    },
+    {
+      "type": "text",
+      "id": "variant-3__blurb",
+      "label": "Supporting text",
+      "default": "Avg. kit value = $$$"
     },
     {
       "type": "richtext",
       "id": "variant-3__includes",
-      "label": "First variant feature text",
+      "label": "Features title",
       "default": "<p>Everything in 8 toys plus...</p>"
     },
     {
