@@ -14,22 +14,23 @@
 
 
 .plans-pricing__tabs-container {
-  display: flex;
-  width: 52%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  width: 48%;
   margin: auto;
   align-items: center;
-  padding: 6px;
-  gap: 8px;
+  padding: 6px 0;
 
   background: rgba(var(--te-base--white), 0.5);
   border: 1px solid rgb(var(--te-gray--100));
-  border-radius: 0.5em;
+  border-radius: 8px;
 }
 
 .plans-pricing__tab {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  padding: 10px 14px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
   border-radius: 6px;
 }
 
@@ -38,6 +39,7 @@ input[type="radio"] {
 }
 
 .plans-pricing__tab label {
+  width: auto;
   font-family: 'Raleway';
   color: rgb(var(--te-gray--400));
   font-weight: 400;
@@ -46,10 +48,11 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
+  width: auto;
   font-weight: 600;
   box-shadow: var(--te-shadow--sm);
   color: rgb(var(--te-gray--600));
-  padding: 10px 14px;
+  padding: 10px 2em;
 }
 
 
