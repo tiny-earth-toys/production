@@ -1,3 +1,26 @@
+{{ 'section-te-plans-pricing.css' | asset_url | stylesheet_tag }}
+
+<div
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
+  data-section-type="{{ section.name }}"
+  data-section-id="{{ section.id }}"
+>
+  <div class="section--te-plans-pricing">
+    <div class="plans-pricing__header-container">
+      <div class="header-container__titles">
+        <h2>{{ section.settings['plans-pricing__title'] }}</h2>
+        <h4>{{ section.settings['plans-pricing__subtitle'] }}</h4>
+      </div>
+      <div class="header-container__tabs">
+        <p>tabs go here</p>
+      </div>
+    </div>
+    <div class="plans-pricing__card-container">
+      <p>cards go here</p>
+    </div>
+  </div>
+</div>
+
 {% schema %}
 {
   "name": "Membership Plans",
