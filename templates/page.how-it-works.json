@@ -206,8 +206,8 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "<p>New Toys Arrive<\/p>",
+            "card_text": "Your new set of educator-curated toys will automatically arrive at your door.  These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
           }
         },
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-2": {
