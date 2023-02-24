@@ -214,8 +214,8 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "<p>Repack & Return<\/p>",
+            "card_text": "Once your new toys arrive, use the included return shipping materials (prepaid label, tape) and the original packaging to pack your kit. Within 7 days of receiving your new toys, drop your return set off at your local FedEx location."
           }
         }
       },
