@@ -198,8 +198,8 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "<p>Get Alerted<\/p>",
+            "card_text": "Every two months, you will receive an email letting you know your exchange is being prepared. You have 3 days to modify your exchange if needed. Modifications include toy modifications or rescheduling your exchange date."
           }
         },
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-1": {
