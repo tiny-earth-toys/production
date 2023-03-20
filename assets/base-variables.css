@@ -604,11 +604,11 @@
 :root,
 .color-background-1,
 .color-background-2 {
-  --color-card-hover: var(--color-base-text);
+  --color-card-hover: rgb(var(--te-base--text));
 }
 
 .color-inverse {
-  --color-card-hover: var(--color-base-background-1);
+  --color-card-hover: rgb(var(--te-base--background-1));
 }
 
 .color-accent-1,

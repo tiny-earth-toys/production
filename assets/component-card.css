@@ -142,6 +142,7 @@
   object-fit: cover;
   object-position: center center;
   width: 100%;
+  box-shadow: var(--te-shadow--md);
 }
 
 .card__inner:not(.ratio) > .card__content {
