@@ -137,6 +137,8 @@
       ],
       "settings": {
         "color_scheme": "background-1",
+        "padding_top": 4,
+        "padding_bottom": 92,
         "fwi_section_heading": "<p><em><strong>The right<\/strong><\/em> learning materials at just the right <em><strong>time<\/strong><\/em><\/p>",
         "fwi_section_subheading": "The beauty of renting with Tiny Earth is that our toys grow with your child. Always have what’s age appropriate and send back what isn’t.",
         "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
