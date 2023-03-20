@@ -23,7 +23,7 @@
 {%- endstyle -%}
 
 <div
-  class="color--{{ section.settings.color_scheme }}  te-section-container--full-width "
+  class="color--{{ section.settings.color_scheme }} te-section-container--full-width section-{{ section.id }}-padding"
   data-section-type="{{ section.name }}"
   data-section-id="{{ section.id }}"
 >
@@ -70,6 +70,20 @@
       {%- endfor -%}
     </div>
   </div>
+  {% unless section.settings.button_link == blank %}
+    <div class="features-basic__cta-container">
+      <a
+        {% if section.settings.button_link == blank %}
+          role="link" aria-disabled="true"
+        {% else %}
+          href="{{ section.settings.button_link }}"
+        {% endif %}
+        class="te-button te-button--{{ section.settings.button_color }}"
+      >
+        {{ section.settings.button_label | escape }}
+      </a>
+    </div>
+  {% endunless %}
 </div>
 
 {% schema %}
@@ -78,6 +92,10 @@
   "tag": "section",
   "class": "te-section-container",
   "settings": [
+    {
+      "type": "header",
+      "content": "Color scheme"
+    },
     {
       "type": "select",
       "id": "color_scheme",
@@ -114,7 +132,30 @@
       "default": "te-default",
       "label": "t:sections.all.colors.label"
     },
-
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    },
     {
       "type": "checkbox",
       "id": "full_width",
@@ -170,6 +211,49 @@
       ],
       "default": "1",
       "label": "t:sections.te-features-basic.settings.columns_mobile.label"
+    },
+    {
+      "type": "select",
+      "id": "button_color",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "green",
+          "label": "Green"
+        },
+        {
+          "value": "blue",
+          "label": "Blue"
+        },
+        {
+          "value": "line-gray",
+          "label": "Line Gray"
+        },
+        {
+          "value": "solid-gray",
+          "label": "Solid Gray"
+        },
+        {
+          "value": "line-white",
+          "label": "Line White"
+        },
+        {
+          "value": "solid-white",
+          "label": "Solid White"
+        }
+      ],
+      "default": "green"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Get Started",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "button link"
     }
   ],
 
@@ -224,6 +308,55 @@
           "id": "card_text",
           "label": "Card text",
           "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+        }
+      ]
+    },
+    {
+      "type": "feature_button",
+      "name": "CTA",
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_label",
+          "default": "Button label",
+          "label": "Cta label"
+        },
+        {
+          "type": "url",
+          "id": "button_url",
+          "label": "Cta url"
+        },
+        {
+          "type": "select",
+          "id": "color",
+          "label": "Button color",
+          "options": [
+            {
+              "value": "green",
+              "label": "Green"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "line-gray",
+              "label": "Line Gray"
+            },
+            {
+              "value": "solid-gray",
+              "label": "Solid Gray"
+            },
+            {
+              "value": "line-white",
+              "label": "Line White"
+            },
+            {
+              "value": "solid-white",
+              "label": "Solid White"
+            }
+          ],
+          "default": "green"
         }
       ]
     }
