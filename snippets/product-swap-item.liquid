@@ -1,0 +1,35 @@
+<!-- /snippets/product-grid-item.liquid -->
+
+<div
+  id="{{ product.handle | upcase }}- id"
+  data-value="{{ product.handle | upcase }}-"
+  class="product-grid-item block  relative "
+>
+  {%- assign featured_media = product.featured_media.preview_image -%}
+  {% unless featured_media == blank %}
+    <div class="relative grid-item-image ">
+      {%- assign ratio = preview_image.aspect_ratio -%}
+      {%- assign force_crop = false -%}
+      {%- if ratio < 0.5 -%}
+        {%- assign force_crop = true -%}
+        {%- assign ratio = 1 -%}
+      {%- endif -%}
+
+      {%-
+        render 'responsive-image' with
+        image: featured_media
+        max_width: 2000,
+        max_height: 2000,
+        section_color: section_color,
+        responsive_image_counter: loop_index,
+        image_id: product.featured_media.id,
+      -%}
+    </div>
+  {% endunless %}
+
+  <div class="grid-item-info">
+    <p class="color--tertiary-text m0 font-size__basic titles">{{ product.title }}</p>
+    <p class="color--{{ section_color }}-meta m0 font-size__basic">{{ product.vendor }}</p>
+    <p class="price-product  m0 mt1  font-size__basic">Retail Price: {{ product.compare_at_price | money }}</p>
+  </div>
+</div>
