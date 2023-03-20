@@ -125,9 +125,9 @@
       ],
       "settings": {
         "color_scheme": "te-default",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 20
       }
     }
   },
