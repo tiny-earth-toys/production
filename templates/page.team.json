@@ -6,9 +6,37 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "b145fd43-278a-4167-b24d-a4f55d8527d2": {
+      "type": "te-double-column",
+      "blocks": {
+        "80cc1734-e52f-47f0-95e9-03bebd2d70b0": {
+          "type": "column__text",
+          "settings": {
+            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+          }
+        },
+        "0dd2688f-4b8c-4b80-a6d3-c3d69b9845c9": {
+          "type": "column__text",
+          "settings": {
+            "column__textarea": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+          }
+        }
+      },
+      "block_order": [
+        "80cc1734-e52f-47f0-95e9-03bebd2d70b0",
+        "0dd2688f-4b8c-4b80-a6d3-c3d69b9845c9"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b145fd43-278a-4167-b24d-a4f55d8527d2"
   ]
 }
