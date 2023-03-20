@@ -260,10 +260,10 @@
       --page-width: 1280px;
       --page-width-margin: 0rem;
 
-      --card-image-padding: 0.5rem;
+      --card-image-padding: 0rem;
       --card-corner-radius: 1rem;
       --card-text-alignment: center;
-      --card-border-width: 1rem;
+      --card-border-width: 0.5rem;
       --card-border-opacity: 0;
 
       --badge-corner-radius: 40px;
