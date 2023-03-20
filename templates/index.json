@@ -31,7 +31,9 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "overlap",
-        "color_scheme": "te-color-default"
+        "color_scheme": "te-color-default",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1": {
