@@ -92,12 +92,50 @@
         "columns_desktop": 3,
         "columns_mobile": "1"
       }
+    },
+    "a6558910-0eef-42d7-b448-2bdad2474de8": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join our Family",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Duis ullamcorper dolor vitae augue molestie, porttitor convallis.<\/p>"
+          }
+        },
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "color": "line-gray"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-0",
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-1",
+        "template--16679765704949__a6558910-0eef-42d7-b448-2bdad2474de8-1679334599b075d6b5-2"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "b145fd43-278a-4167-b24d-a4f55d8527d2",
     "6e3729dd-bd1e-464c-a409-73a82f17791e",
-    "6822e7d3-1235-480c-af62-ef686455d1be"
+    "6822e7d3-1235-480c-af62-ef686455d1be",
+    "a6558910-0eef-42d7-b448-2bdad2474de8"
   ]
 }
