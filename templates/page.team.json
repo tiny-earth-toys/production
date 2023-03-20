@@ -3,7 +3,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "padding_top": 28,
+        "padding_top": 24,
         "padding_bottom": 28
       }
     },
@@ -28,7 +28,7 @@
         "0dd2688f-4b8c-4b80-a6d3-c3d69b9845c9"
       ],
       "settings": {
-        "color_scheme": "te-default",
+        "color_scheme": "te-cream-dark",
         "subtitle": "Our Story",
         "title": "Etiam egestas in nec sed et",
         "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
@@ -49,11 +49,55 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "6822e7d3-1235-480c-af62-ef686455d1be": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_4",
+            "card_title": "<h5>Proin vitae sem porta<\/h5>",
+            "card_text": "Ut at metus id dui ornare gravida sed eu dolor. Quisque eget pretium lorem. Pellentesque lacus nunc, vestibulum eget massa et."
+          }
+        },
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<h5>Nunc purus tortor<\/h5>",
+            "card_text": "Suspendisse sed dictum quam. Morbi velit libero, tempus quis finibus id, fringilla nec urna. Fusce elementum pharetra semper."
+          }
+        },
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_2",
+            "card_title": "<h5>Quisque eget pretium lorem<\/h5>",
+            "card_text": "Vivamus fermentum, mauris ac dictum accumsan, dui mi eleifend augue, sit amet commodo massa velit nec leo."
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-0",
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-1",
+        "template--16679765704949__6822e7d3-1235-480c-af62-ef686455d1be-1679334195fe4313ea-2"
+      ],
+      "settings": {
+        "color_scheme": "te-cream-dark",
+        "full_width": true,
+        "subtitle": "Our Values",
+        "section_title": "<p><strong> <\/strong><em><strong>Nisl at <\/strong><\/em><em>scelerisque amet<\/em><\/p>",
+        "section_text": "In tincidunt pharetra consectetur sed duis facilisis metus.",
+        "columns_desktop": 3,
+        "columns_mobile": "1"
+      }
     }
   },
   "order": [
     "main",
     "b145fd43-278a-4167-b24d-a4f55d8527d2",
-    "6e3729dd-bd1e-464c-a409-73a82f17791e"
+    "6e3729dd-bd1e-464c-a409-73a82f17791e",
+    "6822e7d3-1235-480c-af62-ef686455d1be"
   ]
 }
