@@ -229,8 +229,10 @@
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
-        "multigallery_section_heading": "<p>Educator curated toys that grow with your child<\/p>",
-        "multigallery_section_subtitle": "<p>Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum.<\/p>"
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "multigallery_section_heading": "<p><em><strong>Educator<\/strong><\/em> curated toys that grow with your <em><strong>child<\/strong><\/em><\/p>",
+        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
