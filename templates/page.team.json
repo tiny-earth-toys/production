@@ -34,20 +34,21 @@
         "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
       }
     },
-    "6e3729dd-bd1e-464c-a409-73a82f17791e": {
-      "type": "image-banner",
+    "d1b399f8-9491-449d-914c-89675f472e3a": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16716357042421__d1b399f8-9491-449d-914c-89675f472e3a-16793392818ad12f97-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/team-group.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16716357042421__d1b399f8-9491-449d-914c-89675f472e3a-16793392818ad12f97-3"
+      ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/team-group.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "te-default",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "color_scheme": "te-cream-dark"
       }
     },
     "6822e7d3-1235-480c-af62-ef686455d1be": {
@@ -134,7 +135,7 @@
   "order": [
     "main",
     "b145fd43-278a-4167-b24d-a4f55d8527d2",
-    "6e3729dd-bd1e-464c-a409-73a82f17791e",
+    "d1b399f8-9491-449d-914c-89675f472e3a",
     "6822e7d3-1235-480c-af62-ef686455d1be",
     "a6558910-0eef-42d7-b448-2bdad2474de8"
   ]
