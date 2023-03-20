@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  padding-top: 6rem;
+  padding-top: 1rem;
   max-width: var(--te-container--xl);
 }
 
@@ -23,7 +23,7 @@
 
 
 .banner__image {
-  padding: 4em 0;
+  padding: 2em;
 }
 .banner__image img {
   border-radius: var(--media-radius);
