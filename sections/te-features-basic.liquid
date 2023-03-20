@@ -30,6 +30,9 @@
   <div class="section--te-features-basic-container {% if section.settings.columns_desktop == 1 %}features-basic--single-column{% endif %}">
     <div class="title-wrapper">
       <div class="section__title center">
+        {%- unless section.settings.subtitle == blank -%}
+          <h3 class="caption-with-letter-spacing">{{ section.settings.subtitle }}</h3>
+        {%- endunless -%}
         {% unless section.settings.section_title == blank %}
           <h1 class="te-display--lg">{{ section.settings.section_title }}</h1>
         {% endunless %}
@@ -118,7 +121,16 @@
       "default": true,
       "label": "t:sections.te-features-basic.settings.full_width.label"
     },
-
+    {
+      "type": "header",
+      "content": "Headers"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Our Story"
+    },
     {
       "type": "richtext",
       "id": "section_title",
