@@ -279,6 +279,89 @@
         "caption": ""
       }
     },
+    "766dac87-d81b-463e-ba77-a9f931767ada": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-0": {
+          "type": "caption",
+          "settings": {
+            "banner__caption": ""
+          }
+        },
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p><em><strong>Minimal<\/strong><\/em> and<\/p><p>Clutter-Free<\/p>"
+          }
+        },
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-2": {
+          "type": "subtitle",
+          "settings": {
+            "banner__subtitle": "Sed non lobortis dolor, vel blandit magna. Maecenas porttitor eget nisi sit amet vehicula. Mauris sollicitudin ipsum a mi condimentum efficitur."
+          }
+        },
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/mother-daughter.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-0",
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1",
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-2",
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-light",
+        "padding_top": 60,
+        "padding_bottom": 0
+      }
+    },
+    "1c22a260-a7fe-4906-89ee-744ecd0899b9": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_3",
+            "card_title": "<h5><strong> Vivamus feugiat, nunc sed<\/strong><\/h5>",
+            "card_text": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum, in gravida est commodo."
+          }
+        },
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<h5><strong>Pellentesque habitant morbi<\/strong><\/h5>",
+            "card_text": "Mauris pellentesque, felis in consequat pulvinar, turpis neque pharetra erat, et feugiat ex eros nec leo. Aenean auctor."
+          }
+        },
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_3",
+            "card_title": "<h5><strong> Vivamus feugiat, nunc sed<\/strong><\/h5>",
+            "card_text": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum, in gravida est commodo."
+          }
+        }
+      },
+      "block_order": [
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-0",
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-1",
+        "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-2"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-light",
+        "full_width": true,
+        "subtitle": "",
+        "section_title": "",
+        "section_text": "",
+        "columns_desktop": 3,
+        "columns_mobile": "1"
+      }
+    },
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
       "type": "te-testamonials",
       "blocks": {
@@ -480,6 +563,8 @@
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
     "50f035ad-e557-4d11-a2c7-641f09cdc8cb",
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
+    "766dac87-d81b-463e-ba77-a9f931767ada",
+    "1c22a260-a7fe-4906-89ee-744ecd0899b9",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
