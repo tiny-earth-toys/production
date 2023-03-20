@@ -354,12 +354,17 @@
       ],
       "settings": {
         "color_scheme": "te-teal-light",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "full_width": true,
         "subtitle": "",
         "section_title": "",
         "section_text": "",
         "columns_desktop": 3,
-        "columns_mobile": "1"
+        "columns_mobile": "1",
+        "button_color": "line-gray",
+        "button_label": "Get Started",
+        "button_link": "shopify:\/\/pages\/memberships"
       }
     },
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
