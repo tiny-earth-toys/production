@@ -33,10 +33,59 @@
         "title": "Etiam egestas in nec sed et",
         "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
       }
+    },
+    "6e3729dd-bd1e-464c-a409-73a82f17791e": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-0",
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-1",
+        "template--16679765704949__6e3729dd-bd1e-464c-a409-73a82f17791e-167933368010b8b49b-2"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/team-group.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
-    "b145fd43-278a-4167-b24d-a4f55d8527d2"
+    "b145fd43-278a-4167-b24d-a4f55d8527d2",
+    "6e3729dd-bd1e-464c-a409-73a82f17791e"
   ]
 }
