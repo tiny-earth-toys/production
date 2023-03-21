@@ -44,19 +44,14 @@
                 {%- if block.settings.banner__image.width >= 550 -%}{{ block.settings.banner__image | image_url: width: 550 }} 550w,{%- endif -%}
                 {%- if block.settings.banner__image.width >= 750 -%}{{ block.settings.banner__image | image_url: width: 750 }} 750w,{%- endif -%}
                 {%- if block.settings.banner__image.width >= 1100 -%}{{ block.settings.banner__image | image_url: width: 1100 }} 1100w,{%- endif -%}
-                {%- if block.settings.banner__image.width >= 1500 -%}{{ block.settings.banner__image | image_url: width: 1500 }} 1500w,{%- endif -%}
-                {%- if block.settings.banner__image.width >= 1780 -%}{{ block.settings.banner__image | image_url: width: 1780 }} 1780w,{%- endif -%}
-                {%- if block.settings.banner__image.width >= 2000 -%}{{ block.settings.banner__image | image_url: width: 2000 }} 2000w,{%- endif -%}
-                {%- if block.settings.banner__image.width >= 3000 -%}{{ block.settings.banner__image | image_url: width: 3000 }} 3000w,{%- endif -%}
-                {%- if block.settings.banner__image.width >= 3840 -%}{{ block.settings.banner__image | image_url: width: 3840 }} 3840w,{%- endif -%}
-                {{ block.settings.image | image_url }} {{ block.settings.banner__image.width }}w
+                {%- if block.settings.banner__image.width >= 1280 -%}{{ block.settings.banner__image | image_url: width: 1280 }} 1280w,{%- endif -%}
               "
-              sizes="{% if section.settings.image_2 != blank and section.settings.stack_images_on_mobile %}(min-width: 750px) 50vw, 100vw{% elsif section.settings.image_2 != blank %}50vw{% else %}100vw{% endif %}"
-              src="{{ block.settings.banner__image | image_url: width: 1500 }}"
+              sizes="100vw"
+              src="{{ block.settings.banne__image | image_url: width: 1280 }}"
               loading="lazy"
               alt="{{ block.settings.banner__image.alt | escape }}"
               width="{{ block.settings.banner__image.width }}"
-              height="{{ block.settings.banner__image.width | divided_by: section.settings.image.aspect_ratio }}"
+              height="{{ block.settings.banner__image.width | divided_by: block.settings.banner__image.aspect_ratio }}"
               {% if section.settings.image_2 != blank %}
                 class="banner__media-image-half"
               {% endif %}

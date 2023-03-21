@@ -35,7 +35,9 @@
         "template--16695766810869__b45be050-f1b5-4f73-95bf-309e612a79ba-167675142444ad1917-3"
       ],
       "settings": {
-        "color_scheme": "te-silver-dark"
+        "color_scheme": "te-silver-dark",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2": {
@@ -73,11 +75,17 @@
       ],
       "settings": {
         "color_scheme": "te-silver-dark",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "full_width": true,
+        "subtitle": "Our Story",
         "section_title": "",
         "section_text": "",
         "columns_desktop": 3,
-        "columns_mobile": "1"
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
       }
     },
     "32d8e748-ef68-488f-9324-6e21f6fb6b22": {
@@ -142,11 +150,17 @@
       ],
       "settings": {
         "color_scheme": "te-silver-light",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "full_width": true,
+        "subtitle": "Our Story",
         "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
         "section_text": "",
         "columns_desktop": 3,
-        "columns_mobile": "1"
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
       }
     },
     "30c37563-3e81-426e-8aeb-9649230b044d": {
@@ -158,8 +172,8 @@
             "title__subtitle": "Better for learning & the planet",
             "title__title": "Why two months?",
             "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
-            "title__hide-icon": false,
-            "title__icon": "option_a"
+            "title__hide-icon": true,
+            "title__icon": "option_b"
           }
         },
         "225aed89-4d3b-43f5-89d6-c65315adc702": {
@@ -168,11 +182,11 @@
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
             "bullet__title-1": "Repetition is valuable",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__message-1": "Children learn through repetition.  Circling back to old favorites boosts confidence and can have a settling effect. Finding new ways to play with familiar toys encourages creativity, innovation and active concentration.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Shifting the paradigm of overconsumption",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-2": "Team earth",
+            "bullet__message-2": "Part of our mission is to decrease the negative impact we parents have on the planet our children will inherit. Together, we are helping decrease demand for plastic toy production. We are helping decrease the amount of toys that end up in landfills and we hope to do so with minimal carbon footprint.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_f",
             "bullet__title-3": "",
@@ -186,9 +200,30 @@
       ],
       "settings": {
         "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "subtitle": "",
         "title": "",
         "caption": "."
+      }
+    },
+    "dcef4f2d-a4ed-4675-8e1f-32c2d7447761": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16716356583669__dcef4f2d-a4ed-4675-8e1f-32c2d7447761-167940959819f52fbd-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/AM8A5319_V1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16716356583669__dcef4f2d-a4ed-4675-8e1f-32c2d7447761-167940959819f52fbd-3"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "0232d1a1-c205-4d71-8bc0-405c011675ba": {
@@ -226,11 +261,17 @@
       ],
       "settings": {
         "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
         "full_width": true,
+        "subtitle": "",
         "section_title": "<p><em><strong>Easy <\/strong><\/em>exchanges<\/p>",
-        "section_text": "Donec consequat lectus non neque bibendum consectetur. Integer elit nibh, elementum id eros ut, cursus accumsan mi.",
+        "section_text": "We handle logistics so you can focus on the fun",
         "columns_desktop": 1,
-        "columns_mobile": "1"
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
       }
     },
     "c8bd799f-48c4-4b5b-b44b-9d7030a61b12": {
@@ -246,7 +287,7 @@
         "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>See how simple it is to join the rental revolution. Get started to customize the plan that works best for your family and find out which toys we recommend for your little one.<\/p>"
           }
         },
         "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-2": {
@@ -277,6 +318,7 @@
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",
+    "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
     "0232d1a1-c205-4d71-8bc0-405c011675ba",
     "c8bd799f-48c4-4b5b-b44b-9d7030a61b12"
   ]
