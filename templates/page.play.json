@@ -50,6 +50,23 @@
     "beb6aa28-dd50-4950-a521-305b23113ca0": {
       "type": "te-double-column",
       "blocks": {
+        "4fae37ba-7c07-408a-b0c3-1001bc8d085a": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Child powered",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        },
         "d808ccb3-9474-494d-8cc6-d81a7ae37733": {
           "type": "column__image",
           "settings": {
@@ -57,6 +74,7 @@
         }
       },
       "block_order": [
+        "4fae37ba-7c07-408a-b0c3-1001bc8d085a",
         "d808ccb3-9474-494d-8cc6-d81a7ae37733"
       ],
       "settings": {
@@ -70,13 +88,41 @@
     },
     "c57b265f-5637-40f4-a136-1dcecefc8170": {
       "type": "te-double-column",
+      "blocks": {
+        "76d23eff-d673-483e-88a6-5ecb90eee722": {
+          "type": "column__image",
+          "settings": {
+          }
+        },
+        "1261e131-6fa1-4804-b794-8cc57a81bd97": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Beautifully natural",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "76d23eff-d673-483e-88a6-5ecb90eee722",
+        "1261e131-6fa1-4804-b794-8cc57a81bd97"
+      ],
       "settings": {
         "color_scheme": "te-default",
-        "padding_top": 40,
+        "padding_top": 36,
         "padding_bottom": 52,
-        "subtitle": "Our Story",
-        "title": "Etiam egestas in nec sed et",
-        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+        "subtitle": "",
+        "title": "",
+        "caption": ""
       }
     },
     "51a288a0-33ac-4605-b840-cb2cc311a3d6": {
