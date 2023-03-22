@@ -127,13 +127,46 @@
     },
     "51a288a0-33ac-4605-b840-cb2cc311a3d6": {
       "type": "te-double-column",
+      "blocks": {
+        "46bbc2ca-6e91-4092-b655-6661bff90035": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "Choose conscious",
+            "title__title": "Save your sanity and the planet",
+            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
+            "title__hide-icon": false,
+            "title__icon": "option_a"
+          }
+        },
+        "19ea59d2-4cc5-4088-93e1-6c99a3f5e094": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Fun and functional",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "46bbc2ca-6e91-4092-b655-6661bff90035",
+        "19ea59d2-4cc5-4088-93e1-6c99a3f5e094"
+      ],
       "settings": {
         "color_scheme": "te-default",
         "padding_top": 40,
         "padding_bottom": 52,
-        "subtitle": "Our Story",
-        "title": "Etiam egestas in nec sed et",
-        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+        "subtitle": "",
+        "title": "",
+        "caption": ""
       }
     }
   },
