@@ -134,15 +134,15 @@
         "d32c9fbf-af1f-468e-b650-d9fcf348be56": {
           "type": "column__bullet",
           "settings": {
-            "bullet__hide-icon-1": false,
+            "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Aliquam ac euismod quam",
+            "bullet__title-1": "Skill oriented",
             "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-2": false,
+            "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Aliquam ac euismod quam",
+            "bullet__title-2": "Open ended",
             "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-3": false,
+            "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
             "bullet__title-3": "Aliquam ac euismod quam",
             "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
@@ -159,51 +159,7 @@
         "padding_bottom": 52,
         "subtitle": "Our Story",
         "title": "Etiam egestas in nec sed et",
-        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
-      }
-    },
-    "ab4ec586-5dfa-41f1-9c29-5cab0e226979": {
-      "type": "te-double-column",
-      "blocks": {
-        "2ac6a320-fda8-4912-a2f0-5969a8e853ed": {
-          "type": "column__title",
-          "settings": {
-            "title__subtitle": "We believe",
-            "title__title": "Education",
-            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
-            "title__hide-icon": true,
-            "title__icon": "option_a"
-          }
-        },
-        "fa021afc-6e41-4a32-bcda-aa75d2835f00": {
-          "type": "column__bullet",
-          "settings": {
-            "bullet__hide-icon-1": true,
-            "bullet__icon-1": "option_a",
-            "bullet__title-1": "Aliquam ac euismod quam",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-2": true,
-            "bullet__icon-2": "option_a",
-            "bullet__title-2": "Aliquam ac euismod quam",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "Aliquam ac euismod quam",
-            "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
-          }
-        }
-      },
-      "block_order": [
-        "2ac6a320-fda8-4912-a2f0-5969a8e853ed",
-        "fa021afc-6e41-4a32-bcda-aa75d2835f00"
-      ],
-      "settings": {
-        "color_scheme": "te-default",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "subtitle": "Our Story",
-        "title": "Etiam egestas in nec sed et",
-        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+        "caption": "Our educational philosophy is reflected in every toy we send to our members.  Our selections are specifically curated to support optimal early childhood learning at home."
       }
     },
     "d7af27f1-df85-4437-beb8-9d95da817975": {
@@ -256,7 +212,6 @@
     "52a83d38-c7ca-49aa-9c58-215efb66ab22",
     "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc",
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4",
-    "ab4ec586-5dfa-41f1-9c29-5cab0e226979",
     "d7af27f1-df85-4437-beb8-9d95da817975"
   ]
 }
