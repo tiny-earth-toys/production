@@ -25,12 +25,13 @@
         "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-2": {
           "type": "subtitle",
           "settings": {
-            "banner__subtitle": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+            "banner__subtitle": ""
           }
         },
         "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-3": {
           "type": "image",
           "settings": {
+            "banner__image": "shopify:\/\/shop_images\/loft-donna.jpg"
           }
         }
       },
