@@ -6,9 +6,85 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "40304770-665c-4079-ab03-58ad2ee6edae": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p><em><strong>Developmentally<\/strong><\/em> mindful play<\/p>"
+          }
+        },
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-0": {
+          "type": "caption",
+          "settings": {
+            "banner__caption": "Montessori-inspired toys for growing minds"
+          }
+        },
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-2": {
+          "type": "subtitle",
+          "settings": {
+            "banner__subtitle": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+          }
+        },
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-3": {
+          "type": "image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-1",
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-0",
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-2",
+        "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-3"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "beb6aa28-dd50-4950-a521-305b23113ca0": {
+      "type": "te-double-column",
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+      }
+    },
+    "c57b265f-5637-40f4-a136-1dcecefc8170": {
+      "type": "te-double-column",
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+      }
+    },
+    "51a288a0-33ac-4605-b840-cb2cc311a3d6": {
+      "type": "te-double-column",
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "40304770-665c-4079-ab03-58ad2ee6edae",
+    "beb6aa28-dd50-4950-a521-305b23113ca0",
+    "c57b265f-5637-40f4-a136-1dcecefc8170",
+    "51a288a0-33ac-4605-b840-cb2cc311a3d6"
   ]
 }
