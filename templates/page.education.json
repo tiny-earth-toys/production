@@ -6,9 +6,210 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "52a83d38-c7ca-49aa-9c58-215efb66ab22": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p>Developmentally Minded Play<\/p>"
+          }
+        },
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-0": {
+          "type": "caption",
+          "settings": {
+            "banner__caption": "Montessori-inspired toys for growing minds"
+          }
+        },
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-2": {
+          "type": "subtitle",
+          "settings": {
+            "banner__subtitle": "Morbi sed imperdiet in ipsum, adipiscing elit dui lectus. Tellus id scelerisque est ultricies ultricies. Duis est sit sed leo nisl, blandit elit sagittis. Quisque tristique consequat quam sed. Nisl at scelerisque amet nulla purus habitasse."
+          }
+        },
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/loft-donna.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1",
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-0",
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-2",
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-3"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "c3802bad-cd73-41df-8a62-05eeee600621": {
+      "type": "te-double-column",
+      "blocks": {
+        "35b70166-f0f9-4b88-a61d-26dbf208bff9": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Child powered",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        },
+        "8c7c4867-e6fb-4717-9a4d-9faf2fd189ec": {
+          "type": "column__image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "35b70166-f0f9-4b88-a61d-26dbf208bff9",
+        "8c7c4867-e6fb-4717-9a4d-9faf2fd189ec"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "0a72af24-ee8e-4930-9657-cb3c78ba48f7": {
+      "type": "te-double-column",
+      "blocks": {
+        "0e67c39f-fe25-4ffe-9f46-24dc35cc4a69": {
+          "type": "column__image",
+          "settings": {
+          }
+        },
+        "2bd514ab-134c-4856-9199-66e56f0301bc": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Naturally beautiful",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "0e67c39f-fe25-4ffe-9f46-24dc35cc4a69",
+        "2bd514ab-134c-4856-9199-66e56f0301bc"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "c25e4c67-5f5d-4924-b0f3-a26a44864d15": {
+      "type": "te-double-column",
+      "blocks": {
+        "b2d0f255-607e-4f07-8166-d9b18e2ead10": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Fun and functional",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": false,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        },
+        "b3104344-7ce6-44a3-a820-22cfa89ce200": {
+          "type": "column__image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "b2d0f255-607e-4f07-8166-d9b18e2ead10",
+        "b3104344-7ce6-44a3-a820-22cfa89ce200"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "74d24da7-bf34-407f-a1c6-9c5a9f65db29": {
+      "type": "te-double-column",
+      "blocks": {
+        "65382d32-e42c-486d-8398-1880773142e6": {
+          "type": "column__image",
+          "settings": {
+          }
+        },
+        "ff2737f1-9f28-40df-99d1-4087a61bb201": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Educational",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "65382d32-e42c-486d-8398-1880773142e6",
+        "ff2737f1-9f28-40df-99d1-4087a61bb201"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "52a83d38-c7ca-49aa-9c58-215efb66ab22",
+    "c3802bad-cd73-41df-8a62-05eeee600621",
+    "0a72af24-ee8e-4930-9657-cb3c78ba48f7",
+    "c25e4c67-5f5d-4924-b0f3-a26a44864d15",
+    "74d24da7-bf34-407f-a1c6-9c5a9f65db29"
   ]
 }

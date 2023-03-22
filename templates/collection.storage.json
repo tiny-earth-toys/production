@@ -38,9 +38,9 @@
     "banner": {
       "type": "main-collection-banner",
       "settings": {
+        "color_scheme": "background-1",
         "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
+        "show_collection_image": false
       }
     },
     "product-grid": {
