@@ -49,6 +49,16 @@
     },
     "beb6aa28-dd50-4950-a521-305b23113ca0": {
       "type": "te-double-column",
+      "blocks": {
+        "d808ccb3-9474-494d-8cc6-d81a7ae37733": {
+          "type": "column__image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d808ccb3-9474-494d-8cc6-d81a7ae37733"
+      ],
       "settings": {
         "color_scheme": "te-default",
         "padding_top": 40,
