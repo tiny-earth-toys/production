@@ -86,56 +86,12 @@
         "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
       }
     },
-    "c57b265f-5637-40f4-a136-1dcecefc8170": {
-      "type": "te-double-column",
-      "blocks": {
-        "76d23eff-d673-483e-88a6-5ecb90eee722": {
-          "type": "column__image",
-          "settings": {
-          }
-        },
-        "1261e131-6fa1-4804-b794-8cc57a81bd97": {
-          "type": "column__bullet",
-          "settings": {
-            "bullet__hide-icon-1": true,
-            "bullet__icon-1": "option_a",
-            "bullet__title-1": "Beautifully natural",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-2": false,
-            "bullet__icon-2": "option_a",
-            "bullet__title-2": "",
-            "bullet__message-2": "",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "",
-            "bullet__message-3": ""
-          }
-        }
-      },
-      "block_order": [
-        "76d23eff-d673-483e-88a6-5ecb90eee722",
-        "1261e131-6fa1-4804-b794-8cc57a81bd97"
-      ],
-      "settings": {
-        "color_scheme": "te-default",
-        "padding_top": 36,
-        "padding_bottom": 52,
-        "subtitle": "",
-        "title": "",
-        "caption": ""
-      }
-    },
     "51a288a0-33ac-4605-b840-cb2cc311a3d6": {
       "type": "te-double-column",
       "blocks": {
-        "46bbc2ca-6e91-4092-b655-6661bff90035": {
-          "type": "column__title",
+        "2bee888e-e610-4cea-9f42-527951da78e1": {
+          "type": "column__image",
           "settings": {
-            "title__subtitle": "Choose conscious",
-            "title__title": "Save your sanity and the planet",
-            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
-            "title__hide-icon": false,
-            "title__icon": "option_a"
           }
         },
         "19ea59d2-4cc5-4088-93e1-6c99a3f5e094": {
@@ -157,8 +113,86 @@
         }
       },
       "block_order": [
-        "46bbc2ca-6e91-4092-b655-6661bff90035",
+        "2bee888e-e610-4cea-9f42-527951da78e1",
         "19ea59d2-4cc5-4088-93e1-6c99a3f5e094"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "c57b265f-5637-40f4-a136-1dcecefc8170": {
+      "type": "te-double-column",
+      "blocks": {
+        "1261e131-6fa1-4804-b794-8cc57a81bd97": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Beautifully natural",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        },
+        "76d23eff-d673-483e-88a6-5ecb90eee722": {
+          "type": "column__image",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1261e131-6fa1-4804-b794-8cc57a81bd97",
+        "76d23eff-d673-483e-88a6-5ecb90eee722"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 36,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "1c9d5b19-5db1-440c-945a-527aa14dc40c": {
+      "type": "te-double-column",
+      "blocks": {
+        "5e86c005-6450-4cf5-8dd0-c16d0a8bb696": {
+          "type": "column__image",
+          "settings": {
+          }
+        },
+        "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Engaging and educational",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "",
+            "bullet__message-2": "",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "5e86c005-6450-4cf5-8dd0-c16d0a8bb696",
+        "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320"
       ],
       "settings": {
         "color_scheme": "te-default",
@@ -174,7 +208,8 @@
     "main",
     "40304770-665c-4079-ab03-58ad2ee6edae",
     "beb6aa28-dd50-4950-a521-305b23113ca0",
+    "51a288a0-33ac-4605-b840-cb2cc311a3d6",
     "c57b265f-5637-40f4-a136-1dcecefc8170",
-    "51a288a0-33ac-4605-b840-cb2cc311a3d6"
+    "1c9d5b19-5db1-440c-945a-527aa14dc40c"
   ]
 }
