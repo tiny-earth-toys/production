@@ -90,11 +90,56 @@
         "title": "Etiam egestas in nec sed et",
         "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
       }
+    },
+    "d7af27f1-df85-4437-beb8-9d95da817975": {
+      "type": "te-image-with-text",
+      "blocks": {
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><em><strong>Age based <\/strong><\/em>learning guides<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-1": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>These quick reads support in-home learning and positive connection through play. They are written by a Certified Montessori teacher and are organized by age. As always, we encourage you to follow the child. Find the topic that is most relevant in your home right now and enjoy!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-0",
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-1",
+        "template--16679765737717__d7af27f1-df85-4437-beb8-9d95da817975-16795036225126a555-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/learning-guides.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "52a83d38-c7ca-49aa-9c58-215efb66ab22",
-    "ab4ec586-5dfa-41f1-9c29-5cab0e226979"
+    "ab4ec586-5dfa-41f1-9c29-5cab0e226979",
+    "d7af27f1-df85-4437-beb8-9d95da817975"
   ]
 }
