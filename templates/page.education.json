@@ -134,12 +134,88 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Early years are vital<\/p>",
+            "card_text": "Research suggests that early childhood is the most crucial time for a child's development, with clear links between early experiences and educational, social, emotional, and economic outcomes. The first six years of life are considered to be the most important for a person's overall education and wellbeing."
+          }
+        },
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>You matter<\/p>",
+            "card_text": "How adults interact with the children in their care is extremely important for early learning and development. While we provide wonderful, educationally rich toys, they're  no match for the power of your presence and interactions."
+          }
+        },
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Being with children<\/p>",
+            "card_text": "Guiding young children as they develop confidence, independence, curiosity, basic academic foundations and other essential skills is not always intuitive. This is why we provide caregiver\/parent support content to take the guesswork out of “best practices” for learning at home."
+          }
+        },
+        "511eca5f-96e2-4cbb-b6d3-c22d8a018a3e": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>The playspace<\/p>",
+            "card_text": "Our educational partner at home is the home learning area itself! Our toys work best in an environment that is conducive for learning. We provide resources and support to help you create and maintain the optimal playing and learning space."
+          }
+        },
+        "d2a7c98b-777a-42e6-af62-a91940a4dca3": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Beyond ABCs<\/p>",
+            "card_text": "Educational toys are often associated with letters or numbers, but essential learning during early childhood goes beyond these academic areas. We believe it's crucial to support children in developing active concentration and executive thinking skills."
+          }
+        },
+        "e336376e-fd2f-45e7-b58e-27149962c713": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Montessori at heart<\/p>",
+            "card_text": "Our support materials provide you with time-tested tools and tips for incorporating Montessori practices into your home learning environment.  We believe every family is unique, and encourage you to take what works best for your family by observing what your children respond best to."
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-0",
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-1",
+        "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-2",
+        "511eca5f-96e2-4cbb-b6d3-c22d8a018a3e",
+        "d2a7c98b-777a-42e6-af62-a91940a4dca3",
+        "e336376e-fd2f-45e7-b58e-27149962c713"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "full_width": true,
+        "subtitle": "Our Story",
+        "section_title": "<p>Basic Features Section<\/p>",
+        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum ut tristique et egestas. Ut ornare lectus sit amet est placerat in egestas erat.",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
+      }
     }
   },
   "order": [
     "main",
     "52a83d38-c7ca-49aa-9c58-215efb66ab22",
     "ab4ec586-5dfa-41f1-9c29-5cab0e226979",
-    "d7af27f1-df85-4437-beb8-9d95da817975"
+    "d7af27f1-df85-4437-beb8-9d95da817975",
+    "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc"
   ]
 }
