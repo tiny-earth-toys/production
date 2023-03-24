@@ -88,6 +88,19 @@
         "button_link": ""
       }
     },
+    "98cfb3db-5c4b-4033-8241-f2553fbee6c3": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "32d8e748-ef68-488f-9324-6e21f6fb6b22": {
       "type": "te-features-basic",
       "blocks": {
@@ -316,6 +329,7 @@
     "main",
     "b45be050-f1b5-4f73-95bf-309e612a79ba",
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
+    "98cfb3db-5c4b-4033-8241-f2553fbee6c3",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",
     "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
