@@ -251,6 +251,14 @@
 
 
       /* Variables Previously set by the theme editor-- moved from theme.liquid */
+      /* --font-body-family: Raleway, San Serif;
+      --font-body-style: normal;
+      --font-body-weight: 400;
+      --font-body-weight-bold: 700;
+
+      --font-heading-family: Poppins;
+      --font-heading-style: normal;
+      --font-heading-weight: 400; */
 
       --media-padding: 8px;
       --media-border-opacity: 0.25;
