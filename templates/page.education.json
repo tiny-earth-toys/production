@@ -205,6 +205,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5dc85401-f776-42ae-b01f-98e57d817cad": {
+      "type": "te-image-with-text",
+      "blocks": {
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>TE Image with text<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-1": {
+          "type": "caption",
+          "settings": {
+            "caption": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-0",
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-1",
+        "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mother-daughter.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -212,6 +256,7 @@
     "52a83d38-c7ca-49aa-9c58-215efb66ab22",
     "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc",
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4",
-    "d7af27f1-df85-4437-beb8-9d95da817975"
+    "d7af27f1-df85-4437-beb8-9d95da817975",
+    "5dc85401-f776-42ae-b01f-98e57d817cad"
   ]
 }
