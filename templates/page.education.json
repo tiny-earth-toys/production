@@ -212,14 +212,14 @@
         "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>TE Image with text<\/p>",
-            "heading_size": "h1"
+            "heading": "<p>Articles from experts<\/p>",
+            "heading_size": "h2"
           }
         },
         "template--16679765737717__5dc85401-f776-42ae-b01f-98e57d817cad-1679664878e72bd00e-1": {
           "type": "caption",
           "settings": {
-            "caption": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "<p>There is always so much more to learn! Our newsletter includes blog posts and articles from experts to help us all up our parenting knowledge and practice.<\/p>",
             "text_style": "body"
           }
         },
@@ -228,7 +228,7 @@
           "settings": {
             "button_label": "Button label",
             "button_link": "",
-            "color": "green"
+            "color": "line-gray"
           }
         }
       },
@@ -270,7 +270,7 @@
         "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Blog",
             "button_link": ""
           }
         }
