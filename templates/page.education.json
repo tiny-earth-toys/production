@@ -10,16 +10,16 @@
     "52a83d38-c7ca-49aa-9c58-215efb66ab22": {
       "type": "te-image-banner",
       "blocks": {
-        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1": {
-          "type": "title",
-          "settings": {
-            "banner__title": "<p>Education-<\/p>"
-          }
-        },
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-0": {
           "type": "caption",
           "settings": {
             "banner__caption": "Montessori-inspired toys for growing minds"
+          }
+        },
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p>Education-<\/p>"
           }
         },
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-2": {
@@ -36,8 +36,8 @@
         }
       },
       "block_order": [
-        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1",
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-0",
+        "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1",
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-2",
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-3"
       ],
