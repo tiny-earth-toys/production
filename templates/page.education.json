@@ -249,6 +249,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "ea837264-8ba7-4332-9559-2d10ec88db2b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Articles from experts",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There is always so much more to learn! Our newsletter includes blog posts and articles from experts to help us all up our parenting knowledge and practice. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-0",
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-1",
+        "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/education-experts.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -257,6 +301,7 @@
     "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc",
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4",
     "d7af27f1-df85-4437-beb8-9d95da817975",
-    "5dc85401-f776-42ae-b01f-98e57d817cad"
+    "5dc85401-f776-42ae-b01f-98e57d817cad",
+    "ea837264-8ba7-4332-9559-2d10ec88db2b"
   ]
 }
