@@ -37,7 +37,7 @@
       "settings": {
         "color_scheme": "te-silver-dark",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2": {
@@ -75,10 +75,10 @@
       ],
       "settings": {
         "color_scheme": "te-silver-dark",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52,
         "full_width": true,
-        "subtitle": "Our Story",
+        "subtitle": "",
         "section_title": "",
         "section_text": "",
         "columns_desktop": 3,
@@ -185,7 +185,7 @@
           "settings": {
             "title__subtitle": "Better for learning & the planet",
             "title__title": "Why two months?",
-            "title__message": "Nam viverra fermentum felis, sed scelerisque risus iaculis in. Etiam velit risus, tincidunt vitae risus quis, imperdiet.",
+            "title__message": "We offer free exchanges every two months to give your child time to fully explore and master new skills while reducing our carbon footprint from shipping.",
             "title__hide-icon": true,
             "title__icon": "option_b"
           }

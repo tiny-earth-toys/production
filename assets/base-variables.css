@@ -203,7 +203,7 @@
     /* Typography - v2 Design System */
     
         --te-font-family--body: var(--font-body-family);
-        --te-font-family--display: var(--font-header-family);
+        --te-font-family--display: var(--font-heading-family);
 
     /* Grids & Spacing - v2 Design System */
     
@@ -682,7 +682,7 @@
 }
 /*these need to be moved into the base.css or create TE base css file*/
 .te-display {
-  font-family: var(--font-header-family);
+  font-family: var(--font-heading-family);
   font-weight: 400;
 }
 

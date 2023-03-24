@@ -1,3 +1,4 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'section-te-double-column.css' | asset_url | stylesheet_tag }}
 
 <noscript>{{ 'section-te-double-column.css' | asset_url | stylesheet_tag }}</noscript>
@@ -51,9 +52,37 @@
             <!-- -----   column image block   ------- -->
 
           {%- when 'column__image' -%}
-            <div class="column__image-container" {{ block.shopify_attributes }}>
-              <p>image block</p>
-              <img src="{{ block.settings.column__image }}">
+            <div class="double-column__image-container" {{ block.shopify_attributes }}>
+              <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+                <div
+                  class="image-with-text__media image-with-text__media--{{ section.settings.height }} {% comment%} gradient {% endcomment %} color--{{ section.settings.color_scheme }} global-media-settings {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+                  {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+                    style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+                  {% endif %}
+                >
+                  {%- if block.settings.column__image != blank -%}
+                    <img
+                      srcset="
+                        {%- if block.settings.column__image.width >= 165 -%}{{ block.settings.column__image | image_url: width: 165 }} 165w,{%- endif -%}
+                        {%- if block.settings.column__image.width >= 360 -%}{{ block.settings.column__image | image_url: width: 360 }} 360w,{%- endif -%}
+                        {%- if block.settings.column__image.width >= 535 -%}{{ block.settings.column__image | image_url: width: 535 }} 535w,{%- endif -%}
+                        {%- if block.settings.column__image.width >= 750 -%}{{ block.settings.column__image | image_url: width: 750 }} 750w,{%- endif -%}
+                        {%- if block.settings.column__image.width >= 1070 -%}{{ block.settings.column__image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                        {%- if block.settings.column__image.width >= 1500 -%}{{ block.settings.column__image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                        {{ block.settings.column__image | image_url }} {{ block.settings.column__image.width }}w
+                      "
+                      src="{{ section.settings.image | image_url: width: 1500 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ section.settings.image.alt | escape }}"
+                      loading="lazy"
+                      width="{{ section.settings.image.width }}"
+                      height="{{ section.settings.image.height }}"
+                    >
+                  {%- else -%}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {%- endif -%}
+                </div>
+              </div>
             </div>
 
             <!-- ----   end column image   ------- -->
@@ -87,7 +116,7 @@
                     <h5 class="te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-1'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                    <p class="te-text te-text--md te-weight--text-normal ">
                       {{ block.settings['bullet__message-1'] }}
                     </p>
                   </div>
@@ -116,7 +145,7 @@
                     <h5 class="te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-2'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                    <p class="te-text te-text--md te-weight--text-normal ">
                       {{ block.settings['bullet__message-2'] }}
                     </p>
                   </div>
@@ -145,7 +174,7 @@
                     <h5 class="te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-3'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal font-te-teal--50">
+                    <p class="te-text te-text--md te-weight--text-normal">
                       {{ block.settings['bullet__message-3'] }}
                     </p>
                   </div>
@@ -177,7 +206,7 @@
                     {{ block.settings.title__title }}
                   </h2>
                 </div>
-                <h5 class="te-text te-text--xl te-weight--text-normal font-te-teal--50">
+                <h5 class="te-text te-text--xl te-weight--text-normal">
                   {{ block.settings.title__message }}
                 </h5>
               </div>
