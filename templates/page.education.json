@@ -125,12 +125,6 @@
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4": {
       "type": "te-double-column",
       "blocks": {
-        "d070c2a7-0dfb-455f-8167-30807684bce6": {
-          "type": "column__image",
-          "settings": {
-            "column__image": "shopify:\/\/shop_images\/superhero-musician.jpg"
-          }
-        },
         "d32c9fbf-af1f-468e-b650-d9fcf348be56": {
           "type": "column__bullet",
           "settings": {
@@ -147,17 +141,23 @@
             "bullet__title-3": "Aliquam ac euismod quam",
             "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
           }
+        },
+        "d070c2a7-0dfb-455f-8167-30807684bce6": {
+          "type": "column__image",
+          "settings": {
+            "column__image": "shopify:\/\/shop_images\/superhero-musician.jpg"
+          }
         }
       },
       "block_order": [
-        "d070c2a7-0dfb-455f-8167-30807684bce6",
-        "d32c9fbf-af1f-468e-b650-d9fcf348be56"
+        "d32c9fbf-af1f-468e-b650-d9fcf348be56",
+        "d070c2a7-0dfb-455f-8167-30807684bce6"
       ],
       "settings": {
         "color_scheme": "te-default",
         "padding_top": 40,
         "padding_bottom": 52,
-        "subtitle": "Our Story",
+        "subtitle": "",
         "title": "Beyond ABCs",
         "caption": "Our educational philosophy is reflected in every toy we send to our members.  Often educational toys are associated with letters and numbers, but essential learning during early childhood goes beyond these academic areas.  We believe it's crucial to support children in developing active concentration and executive thinking skills.  Our selections are specifically curated to support optimal early childhood learning at home."
       }
@@ -204,6 +204,39 @@
         "color_scheme": "te-default",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "5046e760-7ee5-4927-b3dc-fc03cfbbf1a0": {
+      "type": "te-quote",
+      "blocks": {
+        "template--16679765737717__5046e760-7ee5-4927-b3dc-fc03cfbbf1a0-167977328706cce7af-0": {
+          "type": "quote_caption",
+          "settings": {
+            "caption_text": "Vestibulum non gravida velit",
+            "caption_text--alignment": "center",
+            "caption_text--capitalize": true
+          }
+        },
+        "template--16679765737717__5046e760-7ee5-4927-b3dc-fc03cfbbf1a0-167977328706cce7af-1": {
+          "type": "quote_text",
+          "settings": {
+            "main_text": "Praesent consectetur velit enim, eget porta sem volutpat suscipit. Ut pretium faucibus tortor, quis condimentum urna elementum sit amet tincidunt.",
+            "main_text--alignment": "center",
+            "main_text--font-size": "te-display te-display--med",
+            "main_text--font-weight": "te-weight--display-regular",
+            "main_text--italics": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765737717__5046e760-7ee5-4927-b3dc-fc03cfbbf1a0-167977328706cce7af-0",
+        "template--16679765737717__5046e760-7ee5-4927-b3dc-fc03cfbbf1a0-167977328706cce7af-1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "color_scheme": "te-cream-dark",
+        "full_width": false
       }
     },
     "5dc85401-f776-42ae-b01f-98e57d817cad": {
@@ -301,6 +334,7 @@
     "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc",
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4",
     "d7af27f1-df85-4437-beb8-9d95da817975",
+    "5046e760-7ee5-4927-b3dc-fc03cfbbf1a0",
     "5dc85401-f776-42ae-b01f-98e57d817cad",
     "ea837264-8ba7-4332-9559-2d10ec88db2b"
   ]
