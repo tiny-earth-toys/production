@@ -1,5 +1,50 @@
 {
   "sections": {
+    "0000427b-81c3-4532-ba8e-cac0238595f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/memberships",
+            "color": "te-button--green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-0",
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-1",
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lifestyle-child-playing-wooden-toys_40b163d7-60ba-4b20-b963-8b89350eb1d2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "left",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "e54d6479-ae88-4e11-a33b-6869a44146cc": {
       "type": "te-image-with-text",
       "blocks": {
@@ -574,6 +619,7 @@
     }
   },
   "order": [
+    "0000427b-81c3-4532-ba8e-cac0238595f3",
     "e54d6479-ae88-4e11-a33b-6869a44146cc",
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
