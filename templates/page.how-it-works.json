@@ -167,7 +167,7 @@
         "padding_top": 40,
         "padding_bottom": 52,
         "full_width": true,
-        "subtitle": "Our Story",
+        "subtitle": "",
         "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
         "section_text": "",
         "columns_desktop": 3,
@@ -214,8 +214,8 @@
       ],
       "settings": {
         "color_scheme": "te-default",
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "subtitle": "",
         "title": "",
         "caption": "."
@@ -236,7 +236,7 @@
       ],
       "settings": {
         "color_scheme": "te-default",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52
       }
     },
@@ -275,8 +275,8 @@
       ],
       "settings": {
         "color_scheme": "te-default",
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 0,
+        "padding_bottom": 12,
         "full_width": true,
         "subtitle": "",
         "section_title": "<p><em><strong>Easy <\/strong><\/em>exchanges<\/p>",

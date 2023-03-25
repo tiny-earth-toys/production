@@ -1,8 +1,255 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{{ 'section-te-quote.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="section-{{ section.id }}-padding {% if section.settings.full_width == true %}color--{{ section.settings.color_scheme }} te-section-container--full-width{% endif %}">
+  <div class="color--{{ section.settings.color_scheme }} block-quote__container ">
+    <div class="block-quote__content">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'quote_caption' %}
+            <div class="content__caption {{ block.settings.caption_text--alignment }}">
+              {% if block.settings['caption_text--capitalize'] == true %}
+                {{ block.settings.caption_text | upcase }}
+              {% else %}
+                {{ block.settings.caption_text }}
+              {% endif %}
+            </div>
+          {% when 'quote_text' %}
+            <div class="content__text {{ block.settings.main_text--alignment }} {{ block.settings.main_text--font-size }} {{ block.settings.main_text--font-weight }} {% if block.settings.main_text--italics == true %}italic{% endif %}">
+              {{ block.settings.main_text }}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Block Quote",
+  "tag": "section",
+  "class": "te-section-container",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
+        },
+        {
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
+        },
+        {
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
+        },
+        {
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
+        },
+        {
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
+        }
+      ],
+      "default": "te-default",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "default": true,
+      "label": "Make section full width"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "quote_text",
+      "name": "Main Text",
+      "settings": [
+        {
+          "type": "text",
+          "id": "main_text",
+          "label": "Quote text",
+          "default": "Praesent consectetur velit enim, eget porta sem volutpat suscipit. Ut pretium faucibus tortor, quis condimentum urna elementum sit amet tincidunt."
+        },
+        {
+          "type": "select",
+          "id": "main_text--alignment",
+          "label": "Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "select",
+          "id": "main_text--font-size",
+          "label": "Text size",
+          "options": [
+            {
+              "value": "te-display te-display--xs",
+              "label": "Small"
+            },
+            {
+              "value": "te-display te-display--sm",
+              "label": "Medium"
+            },
+            {
+              "value": "te-display te-display--med",
+              "label": "Large"
+            },
+            {
+              "value": "te-display te-display--lg",
+              "label": "X-large"
+            }
+          ],
+          "default": "te-display te-display--med"
+        },
+        {
+          "type": "select",
+          "id": "main_text--font-weight",
+          "label": "Text Weight",
+          "options": [
+            {
+              "value": "te-weight--display-light",
+              "label": "Light"
+            },
+            {
+              "value": "te-weight--display-regular",
+              "label": "Regular"
+            },
+            {
+              "value": "te-weight--display-med",
+              "label": "Medium"
+            },
+            {
+              "value": "te-weight--display-semibold",
+              "label": "Bold"
+            }
+          ],
+          "default": "te-weight--display-regular"
+        },
+        {
+          "type": "checkbox",
+          "id": "main_text--italics",
+          "default": false,
+          "label": "Italics"
+        }
+      ]
+    },
+    {
+      "type": "quote_caption",
+      "name": "Caption",
+      "settings": [
+        {
+          "type": "text",
+          "id": "caption_text",
+          "label": "Caption text",
+          "default": "Vestibulum non gravida velit"
+        },
+        {
+          "type": "select",
+          "id": "caption_text--alignment",
+          "label": "Alignment",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            },
+            {
+              "value": "center",
+              "label": "Center"
+            }
+          ],
+          "default": "center"
+        },
+        {
+          "type": "checkbox",
+          "id": "caption_text--capitalize",
+          "default": true,
+          "label": "Captialize"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Block Quote",
+      "blocks": [
+        {
+          "type": "quote_caption"
+        },
+        {
+          "type": "quote_text"
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}

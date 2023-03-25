@@ -307,7 +307,7 @@
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-2": {
           "type": "subtitle",
           "settings": {
-            "banner__subtitle": "Sed non lobortis dolor, vel blandit magna. Maecenas porttitor eget nisi sit amet vehicula. Mauris sollicitudin ipsum a mi condimentum efficitur."
+            "banner__subtitle": ""
           }
         },
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3": {
@@ -336,24 +336,24 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<h5><strong> Vivamus feugiat, nunc sed<\/strong><\/h5>",
-            "card_text": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum, in gravida est commodo."
+            "card_title": "<h5><strong>Reduce Stress<\/strong><\/h5>",
+            "card_text": "When we have less possessions and a more organized living space children and parents both experience less stress and anxiety."
           }
         },
         "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "card_title": "<h5><strong>Pellentesque habitant morbi<\/strong><\/h5>",
-            "card_text": "Mauris pellentesque, felis in consequat pulvinar, turpis neque pharetra erat, et feugiat ex eros nec leo. Aenean auctor."
+            "card_title": "<h5><strong>Increase creativity<\/strong><\/h5>",
+            "card_text": "Fewer distractions provide children with the opportunity to engage in open ended or unstructured play that helps develop mental skills like creativity and focus."
           }
         },
         "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-2": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<h5><strong> Vivamus feugiat, nunc sed<\/strong><\/h5>",
-            "card_text": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum, in gravida est commodo."
+            "card_title": "<h5><strong>Priortize what matters<\/strong><\/h5>",
+            "card_text": "Managing less stuff creates greater space for connection and more time to focus on meaningful experiences with your little one."
           }
         }
       },

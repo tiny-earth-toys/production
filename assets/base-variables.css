@@ -232,7 +232,7 @@
         --te-container--lg: 64rem;
         --te-container--xl: 80rem;
     
-    
+        --te-border-radius: 16px;
         --te-media-border-radius: 16px;
         --te-button-border-radius: 40px;
     /* Logos - v2 Design System */
@@ -723,6 +723,10 @@
 
 .te-weight--display-light {
   font-weight: 300;
+}
+
+.te-weight--display-regular {
+  font-weight: 400;
 }
 
 .te-weight--display-med {
