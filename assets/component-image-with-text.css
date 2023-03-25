@@ -1,5 +1,9 @@
+.image-with-text__container {
+  width: var(--te-container--xl);
+}
 .image-with-text .grid {
   margin-bottom: 0;
+  padding: 0 2em;
 }
 
 .image-with-text .grid__item {
@@ -109,10 +113,7 @@
 .image-with-text .image-with-text__media-item > * {
   border-radius: var(--media-radius);
   overflow: hidden;
-  box-shadow: var(--media-shadow-horizontal-offset)
-    var(--media-shadow-vertical-offset)
-    var(--media-shadow-blur-radius)
-    rgba(var(--color-shadow), var(--media-shadow-opacity));
+  box-shadow: var(--te-shadow--sm);
 }
 
 .image-with-text .global-media-settings {
@@ -122,10 +123,6 @@
 .image-with-text .image-with-text__text-item > * {
   border-radius: var(--text-boxes-radius);
   overflow: hidden;
-  box-shadow: var(--text-boxes-shadow-horizontal-offset)
-    var(--text-boxes-shadow-vertical-offset)
-    var(--text-boxes-shadow-blur-radius)
-    rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
 }
 
 .image-with-text:not(.image-with-text--overlap) .image-with-text__media-item > *,
@@ -207,7 +204,6 @@
     width: calc(100% + 4rem);
     min-width: calc(100% + 4rem);
     margin-top: 0;
-    margin-left: -4rem;
   }
 
   .image-with-text--overlap .image-with-text__grid--reverse .image-with-text__content {
@@ -279,7 +275,7 @@
 
 @media screen and (min-width: 990px) {
   .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+    padding: 6rem 0rem;
   }
 }
 

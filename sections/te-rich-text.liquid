@@ -6,18 +6,19 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
-      padding-top: 2em;
-      padding-bottom: 2em;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
-<div class="color--{{ section.settings.color_scheme }} te-section-container--full-width">
-  <div class="">
+<div class="color--{{ section.settings.color_scheme }} ">
+  <div class="section-{{ section.id }}-padding ">
     <div class="rich-text  {% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
       <div class="rich-text__blocks">
         {%- for block in section.blocks -%}
