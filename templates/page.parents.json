@@ -104,11 +104,69 @@
         "title": "",
         "caption": ""
       }
+    },
+    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce": {
+      "type": "collage",
+      "blocks": {
+        "408d5bd5-74bb-4254-bd88-710c78552485": {
+          "type": "image",
+          "settings": {
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "408d5bd5-74bb-4254-bd88-710c78552485"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "te-default",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0ce55297-a17b-4590-a764-8a7222e7b711": {
+      "type": "te-quote",
+      "blocks": {
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0": {
+          "type": "quote_caption",
+          "settings": {
+            "caption_text": "Vestibulum non gravida velit",
+            "caption_text--alignment": "left",
+            "caption_text--capitalize": true
+          }
+        },
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1": {
+          "type": "quote_text",
+          "settings": {
+            "main_text": "Praesent consectetur velit enim, eget porta sem volutpat suscipit. Ut pretium faucibus tortor, quis condimentum urna elementum sit amet tincidunt.",
+            "main_text--alignment": "left",
+            "main_text--font-size": "te-display te-display--med",
+            "main_text--font-weight": "te-weight--display-regular",
+            "main_text--italics": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0",
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "color_scheme": "te-teal-light",
+        "full_width": true
+      }
     }
   },
   "order": [
     "main",
     "0c2dc0c0-80e1-4402-b041-6690cab3935d",
-    "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9"
+    "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
+    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce",
+    "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
 }
