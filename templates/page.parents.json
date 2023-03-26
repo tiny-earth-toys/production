@@ -77,15 +77,15 @@
         "5d8a2a0a-2673-466e-8834-42f44f8c35b3": {
           "type": "column__bullet",
           "settings": {
-            "bullet__hide-icon-1": false,
+            "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
             "bullet__title-1": "Aliquam ac euismod quam",
             "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-2": false,
+            "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
             "bullet__title-2": "Aliquam ac euismod quam",
             "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
-            "bullet__hide-icon-3": false,
+            "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
             "bullet__title-3": "Aliquam ac euismod quam",
             "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
