@@ -47,6 +47,43 @@
         "padding_bottom": 52
       }
     },
+    "3954815d-61c4-4a71-9989-05188667bbbd": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "How it works",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-0",
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-1",
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-2"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 32
+      }
+    },
     "beb6aa28-dd50-4950-a521-305b23113ca0": {
       "type": "te-double-column",
       "blocks": {
@@ -70,6 +107,7 @@
         "d808ccb3-9474-494d-8cc6-d81a7ae37733": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
           }
         }
       },
@@ -92,6 +130,7 @@
         "2bee888e-e610-4cea-9f42-527951da78e1": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/AM8A4331_V1.jpg"
           }
         },
         "19ea59d2-4cc5-4088-93e1-6c99a3f5e094": {
@@ -148,6 +187,7 @@
         "76d23eff-d673-483e-88a6-5ecb90eee722": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
           }
         }
       },
@@ -170,6 +210,7 @@
         "5e86c005-6450-4cf5-8dd0-c16d0a8bb696": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/AM8A6371_V1.jpg"
           }
         },
         "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320": {
@@ -207,6 +248,7 @@
   "order": [
     "main",
     "40304770-665c-4079-ab03-58ad2ee6edae",
+    "3954815d-61c4-4a71-9989-05188667bbbd",
     "beb6aa28-dd50-4950-a521-305b23113ca0",
     "51a288a0-33ac-4605-b840-cb2cc311a3d6",
     "c57b265f-5637-40f4-a136-1dcecefc8170",
