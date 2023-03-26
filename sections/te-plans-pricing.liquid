@@ -1,4 +1,5 @@
 {{ 'section-te-plans-pricing.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'plans-pricing.js' | asset_url }}" defer="defer"></script>
 
 <div
   class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
@@ -20,11 +21,7 @@
   <p>
     Selected plan is: <strong>{{ selected-plan.title }}</strong>
   </p>
-  {% comment %}
-    <p>{{ plan-1.title }}</p>
-    <p>{{ plan-2.title }}</p>
-    <p>{{ plan-3.title }}</p>
-  {% endcomment %}
+
   <div class="section--te-plans-pricing">
     <div class="plans-pricing__header-container">
       <div class="plans-pricing__titles">
@@ -33,137 +30,395 @@
       </div>
       <div class="plans-pricing__tabs-container">
         <div class="plans-pricing__tab">
-          <input id="plan-1__tab" type="radio" name="frequency-group" value="tab1" checked>
-          <label for="frequency-group">{{ section.settings['variant-1__caption'] }}</label>
+          <input id="plan-1__tab" type="radio" name="frequency-group" value="plan-1" checked="false">
+          <label for="plan-1__tab" class="radio-label">{{ section.settings['variant-1__caption'] }}</label>
         </div>
         <div class="plans-pricing__tab">
-          <input id="plan-2__tab" type="radio" name="frequency" value="tab2">
-          <label>{{ section.settings['variant-2__caption'] }}</label>
+          <input id="plan-2__tab" type="radio" name="frequency-group" value="plan-2" checked="true">
+          <label for="plan-2__tab" class="radio-label">{{ section.settings['variant-2__caption'] }}</label>
         </div>
         <div class="plans-pricing__tab">
-          <input id="plan-3__tab" type="radio" name="frequency" value="tab3">
-          <label>{{ section.settings['variant-3__caption'] }}</label>
+          <input id="plan-3__tab" type="radio" name="frequency-group" value="plan-3" checked="false">
+          <label for="plan-3__tab" class="radio-label">{{ section.settings['variant-3__caption'] }}</label>
         </div>
       </div>
     </div>
-    <div class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto">
-      <div id="plan-1__card" class="plans-pricing__product-card">
-        <div class="product-card__header">
-          <div class="card-header__content">
-            <div class="content__title-badge">
-              <span class="card__title">{{ selected-plan.variants[0].title }}</span>
-              <span class="card__badge">Popular</span>
-            </div>
-            <div>
-              <span class="te-display--lg te-weight--display-semibold">
-                {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
-              </span>
-              <span class="te-text--md te-font-color--dk-gray">per month</span>
-            </div>
-            <div>
-              <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
-                {{- section.settings['variant-1__blurb'] -}}
-              </span>
-            </div>
-          </div>
-          <div class="card-header__actions">
-            <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
-          </div>
-        </div>
 
-        <div class="product-card__features">
-          <div class="feat__intro">
-            <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
-            <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-              {{- section.settings['variant-1__includes'] -}}
-            </span>
-          </div>
-          <ul class="product-card__feat-list te-font-color--dk-gray">
-            <li>{{ section.settings['variant-1__feat-1'] }}</li>
-            <li>{{ section.settings['variant-1__feat-2'] }}</li>
-            <li>{{ section.settings['variant-1__feat-3'] }}</li>
-          </ul>
-        </div>
-      </div>
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'product-selector--1' %}
+          {% assign selected-plan = plan-1 %}
+          <div
+            id="plan-1__display"
+            class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
+          >
+            <div id="variant-1__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
 
-      <div id="plan-2__card" class="plans-pricing__product-card">
-        <div class="product-card__header">
-          <div class="card-header__content">
-            <div class="content__title-badge">
-              <span class="card__title">{{ selected-plan.variants[1].title }}</span>
-              <span class="card__badge">Popular</span>
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-1__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-1__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-3'] }}</li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <span class="te-display--lg te-weight--display-semibold">
-                {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
-              </span>
-              <span class="te-text--md te-font-color--dk-gray">per month</span>
-            </div>
-            <div>
-              <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
-                {{- section.settings['variant-2__blurb'] -}}
-              </span>
-            </div>
-          </div>
-          <div class="card-header__actions">
-            <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
-          </div>
-        </div>
 
-        <div class="product-card__features">
-          <div class="feat__intro">
-            <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
-            <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-              {{- section.settings['variant-2__includes'] -}}
-            </span>
-          </div>
-          <ul class="product-card__feat-list te-font-color--dk-gray">
-            <li>{{ section.settings['variant-2__feat-1'] }}</li>
-            <li>{{ section.settings['variant-2__feat-2'] }}</li>
-            <li>{{ section.settings['variant-2__feat-3'] }}</li>
-          </ul>
-        </div>
-      </div>
+            <div id="variant-2__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
 
-      <div id="plan-3__card" class="plans-pricing__product-card">
-        <div class="product-card__header">
-          <div class="card-header__content">
-            <div class="content__title-badge">
-              <span class="card__title">{{ selected-plan.variants[2].title }}</span>
-              <span class="card__badge">Popular</span>
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-2__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-2__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-3'] }}</li>
+                </ul>
+              </div>
             </div>
-            <div>
-              <span class="te-display--lg te-weight--display-semibold">
-                {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
-              </span>
-              <span class="te-text--md te-font-color--dk-gray">per month</span>
-            </div>
-            <div>
-              <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
-                {{- section.settings['variant-3__blurb'] -}}
-              </span>
-            </div>
-          </div>
-          <div class="card-header__actions">
-            <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
-          </div>
-        </div>
 
-        <div class="product-card__features">
-          <div class="feat__intro">
-            <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
-            <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-              {{- section.settings['variant-3__includes'] -}}
-            </span>
+            <div id="variant-3__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-3__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-3__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <ul class="product-card__feat-list te-font-color--dk-gray">
-            <li>{{ section.settings['variant-3__feat-1'] }}</li>
-            <li>{{ section.settings['variant-3__feat-2'] }}</li>
-            <li>{{ section.settings['variant-3__feat-3'] }}</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+
+        {% when 'product-selector--2' %}
+          {% assign selected-plan = plan-2 %}
+          <div
+            id="plan-2__display"
+            class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto"
+          >
+            <div id="variant-1__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-1__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-1__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="variant-2__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-2__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-2__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="variant-3__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-3__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-3__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        {% when 'product-selector--3' %}
+          {% assign selected-plan = plan-3 %}
+          <div
+            id="plan-3__display"
+            class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
+          >
+            <div id="variant-1__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-1__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-1__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-1__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="variant-2__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-2__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-2__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-2__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+
+            <div id="variant-3__card" class="plans-pricing__product-card">
+              <div class="product-card__header">
+                <div class="card-header__content">
+                  <div class="content__title-badge">
+                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__badge">Popular</span>
+                  </div>
+                  <div>
+                    <span class="te-display--lg te-weight--display-semibold">
+                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                    </span>
+                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                  </div>
+                  <div>
+                    <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__blurb'] -}}
+                    </span>
+                  </div>
+                </div>
+                <div class="card-header__actions">
+                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                </div>
+              </div>
+
+              <div class="product-card__features">
+                <div class="feat__intro">
+                  <span class="te-text te-text--md te-weight--text-semibold">FEATURES</span>
+                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                    {{- section.settings['variant-3__includes'] -}}
+                  </span>
+                </div>
+                <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>{{ section.settings['variant-3__feat-1'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-2'] }}</li>
+                  <li>{{ section.settings['variant-3__feat-3'] }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      {% endcase %}
+    {% endfor %}
   </div>
 </div>
 
@@ -404,9 +659,3 @@
   ]
 }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

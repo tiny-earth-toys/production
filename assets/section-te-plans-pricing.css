@@ -34,20 +34,22 @@
   border-radius: 6px;
 }
 
-input[type="radio"] {
+.plans-pricing__tab input[type="radio"] {
   display: none;
 }
 
-.plans-pricing__tab label {
+.radio-label {
+  display: inline-block;
   width: auto;
   font-family: 'Raleway';
   color: rgb(var(--te-gray--400));
   font-weight: 400;
   box-shadow: none;
-
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-input[type="radio"]:checked + label {
+.plans-pricing__tab input[type="radio"]:checked + label {
   width: auto;
   font-weight: 600;
   box-shadow: var(--te-shadow--sm);
