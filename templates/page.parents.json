@@ -108,15 +108,32 @@
     "b12e0b5e-43a3-4d58-909e-062fcadbd3ce": {
       "type": "collage",
       "blocks": {
+        "28d66976-b626-46b0-8f56-c61d28fda244": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A5366_V1_4717b7b5-5b25-4380-9748-0b284ea5b532.jpg",
+            "image_padding": false
+          }
+        },
         "408d5bd5-74bb-4254-bd88-710c78552485": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A4988_V1.jpg",
+            "image_padding": false
+          }
+        },
+        "3359cec4-0466-43f0-bbe3-bdb016e79c85": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
             "image_padding": false
           }
         }
       },
       "block_order": [
-        "408d5bd5-74bb-4254-bd88-710c78552485"
+        "28d66976-b626-46b0-8f56-c61d28fda244",
+        "408d5bd5-74bb-4254-bd88-710c78552485",
+        "3359cec4-0466-43f0-bbe3-bdb016e79c85"
       ],
       "settings": {
         "heading": "Multimedia collage",
