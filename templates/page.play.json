@@ -243,6 +243,34 @@
         "title": "",
         "caption": ""
       }
+    },
+    "b34c0254-db33-4218-9685-c425600df3c2": {
+      "type": "te-newsletter",
+      "blocks": {
+        "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-0": {
+          "type": "newsletter-title",
+          "settings": {
+            "newsletter-title__header": "<p>Subscribe to our newsletter to stay updated with all of our special offers<\/p>",
+            "newsletter-title__caption": "Phasellus rhoncus augue non felis hendrerit pellentesque."
+          }
+        },
+        "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-1": {
+          "type": "newsletter-form",
+          "settings": {
+            "newsletter-form__placeholder-text": "Enter your email",
+            "newsletter-form__button-text": "Subscribe",
+            "newsletter-form__disclaimer": "Phasellus sollicitudin ut augue non pharetra."
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-0",
+        "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-1"
+      ],
+      "settings": {
+        "color_scheme": "te-silver-dark",
+        "newsletter_full-width": false
+      }
     }
   },
   "order": [
@@ -252,6 +280,7 @@
     "beb6aa28-dd50-4950-a521-305b23113ca0",
     "51a288a0-33ac-4605-b840-cb2cc311a3d6",
     "c57b265f-5637-40f4-a136-1dcecefc8170",
-    "1c9d5b19-5db1-440c-945a-527aa14dc40c"
+    "1c9d5b19-5db1-440c-945a-527aa14dc40c",
+    "b34c0254-db33-4218-9685-c425600df3c2"
   ]
 }
