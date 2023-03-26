@@ -24,14 +24,6 @@
             "text_style": "body"
           }
         },
-        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "",
-            "color": "te-button--green"
-          }
-        },
         "9f28ac7f-92cf-41a4-9f53-e6ff4767d162": {
           "type": "button",
           "settings": {
@@ -39,18 +31,27 @@
             "button_link": "",
             "color": "te-button--solid-white"
           }
+        },
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "color": "te-button--green"
+          }
         }
       },
       "block_order": [
         "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-0",
         "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-1",
-        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2",
-        "9f28ac7f-92cf-41a4-9f53-e6ff4767d162"
+        "9f28ac7f-92cf-41a4-9f53-e6ff4767d162",
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/education-experts.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
