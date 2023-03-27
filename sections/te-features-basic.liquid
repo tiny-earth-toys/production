@@ -46,7 +46,7 @@
     <div class="grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down">
       {%- for block in section.blocks -%}
         <div class=" card grid__item">
-          <span class="te-icon-lg icon-wrap ">
+          <span class="te-icon-lg icon-wrap {% if block.settings.icon_hide == true %}hidden{% endif %}">
             {% case block.settings.icon_select %}
               {% when 'icon_1' %}
                 {% render 'icon-triangle-block' %}
@@ -294,6 +294,12 @@
             }
           ],
           "default": "icon_1"
+        },
+        {
+          "type": "checkbox",
+          "id": "icon_hide",
+          "label": "Hide icon",
+          "default": false
         },
 
         {
