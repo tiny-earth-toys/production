@@ -6,9 +6,184 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "0c2dc0c0-80e1-4402-b041-6690cab3935d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "For parents",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "9f28ac7f-92cf-41a4-9f53-e6ff4767d162": {
+          "type": "button",
+          "settings": {
+            "button_label": "How it works",
+            "button_link": "",
+            "color": "te-button--solid-white"
+          }
+        },
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "",
+            "color": "te-button--green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-0",
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-1",
+        "9f28ac7f-92cf-41a4-9f53-e6ff4767d162",
+        "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/education-experts.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9": {
+      "type": "te-double-column",
+      "blocks": {
+        "aaac298c-223e-44bb-b85f-72cf1f718a18": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "",
+            "title__title": "Minimalism Overview",
+            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
+            "title__hide-icon": true,
+            "title__icon": "option_a"
+          }
+        },
+        "5d8a2a0a-2673-466e-8834-42f44f8c35b3": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": true,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Aliquam ac euismod quam",
+            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-2": true,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "Aliquam ac euismod quam",
+            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "Aliquam ac euismod quam",
+            "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+          }
+        }
+      },
+      "block_order": [
+        "aaac298c-223e-44bb-b85f-72cf1f718a18",
+        "5d8a2a0a-2673-466e-8834-42f44f8c35b3"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
+      }
+    },
+    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce": {
+      "type": "collage",
+      "blocks": {
+        "28d66976-b626-46b0-8f56-c61d28fda244": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A5366_V1_4717b7b5-5b25-4380-9748-0b284ea5b532.jpg",
+            "image_padding": false
+          }
+        },
+        "408d5bd5-74bb-4254-bd88-710c78552485": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A4988_V1.jpg",
+            "image_padding": false
+          }
+        },
+        "3359cec4-0466-43f0-bbe3-bdb016e79c85": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "28d66976-b626-46b0-8f56-c61d28fda244",
+        "408d5bd5-74bb-4254-bd88-710c78552485",
+        "3359cec4-0466-43f0-bbe3-bdb016e79c85"
+      ],
+      "settings": {
+        "heading": "Less Clutter, Less Stress",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "te-default",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0ce55297-a17b-4590-a764-8a7222e7b711": {
+      "type": "te-quote",
+      "blocks": {
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0": {
+          "type": "quote_caption",
+          "settings": {
+            "caption_text": "Vestibulum non gravida velit",
+            "caption_text--alignment": "left",
+            "caption_text--capitalize": true
+          }
+        },
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1": {
+          "type": "quote_text",
+          "settings": {
+            "main_text": "Praesent consectetur velit enim, eget porta sem volutpat suscipit. Ut pretium faucibus tortor, quis condimentum urna elementum sit amet tincidunt.",
+            "main_text--alignment": "left",
+            "main_text--font-size": "te-display te-display--med",
+            "main_text--font-weight": "te-weight--display-regular",
+            "main_text--italics": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0",
+        "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "color_scheme": "te-teal-light",
+        "full_width": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "0c2dc0c0-80e1-4402-b041-6690cab3935d",
+    "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
+    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce",
+    "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
 }
