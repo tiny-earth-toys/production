@@ -113,10 +113,10 @@
                     {%- endif -%}
                   </div>
                   <div class="bullet__content-container">
-                    <h5 class="te-display te-display--xs te-weight--display-med">
+                    <h5 class="bullet-content__title te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-1'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal ">
+                    <p class="bullet-content__text te-text te-text--md te-weight--text-normal ">
                       {{ block.settings['bullet__message-1'] }}
                     </p>
                   </div>
@@ -142,10 +142,10 @@
                     {%- endif -%}
                   </div>
                   <div class="bullet__content-container">
-                    <h5 class="te-display te-display--xs te-weight--display-med">
+                    <h5 class="bullet-content__title te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-2'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal ">
+                    <p class="bullet-content__text te-text te-text--md te-weight--text-normal ">
                       {{ block.settings['bullet__message-2'] }}
                     </p>
                   </div>
@@ -155,7 +155,7 @@
               {%- unless third-bullet == blank -%}
                 {% capture icon %}{{ block.settings.bullet__icon-3 }}{% endcapture %}
                 <div class="double-column__bullet">
-                  <div class="bullet__icon-wrapper{% if block.settings.bullet__hide-icon-3 == true %}hidden{% endif %}">
+                  <div class="bullet__icon-wrapper {% if block.settings.bullet__hide-icon-3 == true %}hidden{% endif %}">
                     {%- if icon == 'option_a' -%}
                       {%- render 'icon-triangle-block' -%}
                     {%- elsif icon == 'option_b' -%}
@@ -171,10 +171,10 @@
                     {%- endif -%}
                   </div>
                   <div class="bullet__content-container">
-                    <h5 class="te-display te-display--xs te-weight--display-med">
+                    <h5 class="bullet-content__title te-display te-display--xs te-weight--display-med">
                       {{ block.settings['bullet__title-3'] }}
                     </h5>
-                    <p class="te-text te-text--md te-weight--text-normal">
+                    <p class="bullet-content__text te-text te-text--md te-weight--text-normal">
                       {{ block.settings['bullet__message-3'] }}
                     </p>
                   </div>
