@@ -41,7 +41,7 @@
         "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Quisque id est eu quam</p>",
+            "heading": "<p>Quisque id est eu quam<\/p>",
             "heading_size": "h1"
           }
         },
@@ -74,7 +74,9 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "te-default"
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "96def509-13c1-4845-a765-6890b2716c07": {
