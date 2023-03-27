@@ -1,3 +1,4 @@
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'section-te-testamonials.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-te-testamonials.css' | asset_url | stylesheet_tag }}</noscript>
@@ -37,17 +38,19 @@
           </h2>
         </div>
         <div class="tc-content--attribution">
-          <div class="attribution-author">
-            <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
-            <div class="attribution-author--text te-text">
-              <h6 class="te-text--lg te-weight--text-semibold">Laura Smith</h6>
-              <p class="te-text--md te-weight--text-normal">Montessori therapist</p>
+          <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
+            <div class="attribution-author">
+              <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
+              <div class="attribution-author--text te-text">
+                <h6 class="te-text--lg te-weight--text-semibold">Laura Smith</h6>
+                <p class="te-text--md te-weight--text-normal">Montessori therapist</p>
+              </div>
             </div>
-          </div>
-          <div class="attribution-arrows">
-            <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
-            <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
-          </div>
+            <div class="attribution-arrows">
+              <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
+              <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
+            </div>
+          </slider-component>
         </div>
       </div>
       <div class="tc-image-wrapper">
@@ -191,72 +194,63 @@
   ],
   "blocks": [
     {
-      "type": "heading",
-      "name": "t:sections.rich-text.blocks.heading.name",
-      "limit": 1,
+      "type": "testamonial-block",
+      "name": "Testamonial",
       "settings": [
         {
+          "type": "header",
+          "content": "Author Information"
+        },
+        {
           "type": "text",
-          "id": "heading",
-          "default": "Talk about your brand",
-          "label": "t:sections.rich-text.blocks.heading.settings.heading.label"
+          "id": "author_name",
+          "label": "Author's name",
+          "default": "Jane Smith"
+        },
+        {
+          "type": "text",
+          "id": "author_title",
+          "label": "Author's title or location",
+          "default": "Walla Walla, WA"
+        },
+        {
+          "type": "image_picker",
+          "id": "author_image",
+          "label": "Author image"
+        },
+        {
+          "type": "richtext",
+          "id": "testamonial_text",
+          "label": "Main text",
+          "default": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.</p>"
         },
         {
           "type": "select",
-          "id": "heading_size",
+          "id": "testamonial_rating",
           "options": [
             {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
+              "value": "*",
+              "label": "*"
             },
             {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
+              "value": "**",
+              "label": "**"
             },
             {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
+              "value": "***",
+              "label": "***"
+            },
+            {
+              "value": "****",
+              "label": "****"
+            },
+            {
+              "value": "*****",
+              "label": "*****"
             }
           ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
-        }
-      ]
-    },
-    {
-      "type": "text",
-      "name": "t:sections.rich-text.blocks.text.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "text",
-          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-          "label": "t:sections.rich-text.blocks.text.settings.text.label"
-        }
-      ]
-    },
-    {
-      "type": "button",
-      "name": "t:sections.rich-text.blocks.button.name",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "text",
-          "id": "button_label",
-          "default": "Button label",
-          "label": "t:sections.rich-text.blocks.button.settings.button_label.label"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "t:sections.rich-text.blocks.button.settings.button_link.label"
-        },
-        {
-          "type": "checkbox",
-          "id": "button_style_secondary",
-          "default": false,
-          "label": "t:sections.rich-text.blocks.button.settings.button_style_secondary.label"
+          "default": "*****",
+          "label": "Stars"
         }
       ]
     }
@@ -266,13 +260,13 @@
       "name": "TE Testamonials",
       "blocks": [
         {
-          "type": "heading"
+          "type": "testamonial-block"
         },
         {
-          "type": "text"
+          "type": "testamonial-block"
         },
         {
-          "type": "button"
+          "type": "testamonial-block"
         }
       ]
     }
