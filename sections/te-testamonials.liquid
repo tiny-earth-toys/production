@@ -25,33 +25,63 @@
   <div class="section--te-testamonials">
     <div class="testamonials-container">
       <div class="tc-content">
-        <div class="tc-content--stars">
-          {% render 'icon-star' -%}
-          {%- render 'icon-star' -%}
-          {%- render 'icon-star' -%}
-          {%- render 'icon-star' -%}
-          {%- render 'icon-star' %}
-        </div>
-        <div class="tc-content--quote">
-          <h2 class="te-display--lg te-weight--med">
-            Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.
-          </h2>
-        </div>
-        <div class="tc-content--attribution">
-          <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
-            <div class="attribution-author">
-              <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
-              <div class="attribution-author--text te-text">
-                <h6 class="te-text--lg te-weight--text-semibold">Laura Smith</h6>
-                <p class="te-text--md te-weight--text-normal">Montessori therapist</p>
+        <slider-component class="slider-mobile-gutter">
+          <ul
+            id="Slider-{{ section.id }}"
+            class="blog__posts articles-wrapper contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+            role="list"
+          >
+            {%- for block in section.blocks -%}
+              <li
+                id="Slide-{{ section.id }}-{{ forloop.index }}"
+                class="grid__item slider__slide slider__slide--full-width"
+              >
+                <div class="tc-content--quote">
+                  <h2 class="te-display--lg te-weight--med">
+                    Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.
+                  </h2>
+                </div>
+                <div class="tc-content--attribution">
+                  <div class="attribution-author">
+                    <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
+                    <div class="attribution-author--text te-text">
+                      <h6 class="te-text--lg te-weight--text-semibold">{{ block.settings.author_name }}</h6>
+                      <p class="te-text--md te-weight--text-normal">{{ block.settings.author_title }}</p>
+                    </div>
+                  </div>
+                  <div class="attribution-arrows">
+                    <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
+                    <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
+                  </div>
+                </div>
+              </li>
+            {%- endfor -%}
+            <div class="slider-buttons no-js-hidden">
+              <button
+                type="button"
+                class="slider-button slider-button--prev"
+                name="previous"
+                aria-label="{{ 'general.slider.previous_slide' | t }}"
+              >
+                {% render 'icon-caret' %}
+              </button>
+              <div class="slider-counter caption">
+                <span class="slider-counter--current">1</span>
+                <span aria-hidden="true"> / </span>
+                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                <span class="slider-counter--total">3</span>
               </div>
+              <button
+                type="button"
+                class="slider-button slider-button--next"
+                name="next"
+                aria-label="{{ 'general.slider.next_slide' | t }}"
+              >
+                {% render 'icon-caret' %}
+              </button>
             </div>
-            <div class="attribution-arrows">
-              <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
-              <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
-            </div>
-          </slider-component>
-        </div>
+          </ul>
+        </slider-component>
       </div>
       <div class="tc-image-wrapper">
         {%- unless section.settings.primary_image == blank -%}

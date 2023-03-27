@@ -19,7 +19,7 @@
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-1": {
           "type": "title",
           "settings": {
-            "banner__title": "<p><em><strong>Learning<\/strong><\/em> and development<\/p>"
+            "banner__title": "<p>Learning and development<\/p>"
           }
         },
         "template--16720487776501__52a83d38-c7ca-49aa-9c58-215efb66ab22-1679497731feb79e00-2": {
@@ -54,7 +54,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>Early years are vital<\/p>",
             "card_text": "Research suggests that early childhood is the most crucial time for a child's development, with clear links between early experiences and educational, social, emotional, and economic outcomes. The first six years of life are considered to be the most important for a person's overall education and wellbeing."
           }
@@ -63,7 +62,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>The playspace<\/p>",
             "card_text": "Our educational partner at home is the home learning area itself! Our toys work best in an environment that is conducive for learning. We provide resources and support to help you create and maintain the optimal playing and learning space."
           }
@@ -72,7 +70,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>You matter<\/p>",
             "card_text": "How adults interact with the children in their care is extremely important for early learning and development. While we provide wonderful, educationally rich toys, they're  no match for the power of your presence and interactions."
           }
@@ -81,7 +78,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>Being with children<\/p>",
             "card_text": "Guiding young children as they develop confidence, independence, curiosity, basic academic foundations and other essential skills is not always intuitive. This is why we provide caregiver\/parent support content to take the guesswork out of “best practices” for learning at home."
           }
@@ -90,7 +86,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>Keep it simple<\/p>",
             "card_text": "Reducing clutter and distractions, simplifies children's lives and creates more space for connection, creativity, and play.  Fostering a calm and organized environment allows children to feel valued and secure, and helps them to thrive both academically and emotionally."
           }
@@ -99,7 +94,6 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
-            "icon_hide": false,
             "card_title": "<p>Montessori at heart<\/p>",
             "card_text": "Our support materials provide you with time-tested tools and tips for incorporating Montessori practices into your home learning environment.  We believe every family is unique, and encourage you to take what works best for your family by observing what your children respond best to."
           }
