@@ -337,6 +337,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
+            "icon_hide": false,
             "card_title": "<h5><strong>Reduce Stress<\/strong><\/h5>",
             "card_text": "When we have less possessions and a more organized living space children and parents both experience less stress and anxiety."
           }
@@ -345,6 +346,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
+            "icon_hide": false,
             "card_title": "<h5><strong>Foster creativity<\/strong><\/h5>",
             "card_text": "Fewer distractions provide children with the opportunity to engage in open ended or unstructured play that helps develop mental skills like creativity and focus."
           }
@@ -353,6 +355,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
+            "icon_hide": false,
             "card_title": "<h5><strong>Prioritize what matters<\/strong><\/h5>",
             "card_text": "Managing less stuff creates greater space for connection and more time to focus on meaningful experiences with your little one."
           }
@@ -409,9 +412,11 @@
         "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2"
       ],
       "settings": {
+        "padding_top": 48,
+        "padding_bottom": 48,
         "color_scheme": "te-default",
         "full_width": true,
-        "testamonial_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
+        "primary_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium"
       }
