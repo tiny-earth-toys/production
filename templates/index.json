@@ -384,32 +384,38 @@
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
       "type": "te-testamonials",
       "blocks": {
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0": {
-          "type": "heading",
+        "4a57ac11-729f-4603-b43b-15208b263fd9": {
+          "type": "testamonial-block",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "author_name": "Jane Smith",
+            "author_title": "Walla Walla, WA",
+            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "testamonial_rating": "*****"
           }
         },
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1": {
-          "type": "text",
+        "17f4b7a3-bdab-41e7-811c-e683a61971dd": {
+          "type": "testamonial-block",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "author_name": "Jane Smith",
+            "author_title": "Walla Walla, WA",
+            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "testamonial_rating": "*****"
           }
         },
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2": {
-          "type": "button",
+        "e660eb5b-6984-4052-bb29-af25176d3cba": {
+          "type": "testamonial-block",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "author_name": "Jane Smith",
+            "author_title": "Walla Walla, WA",
+            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "testamonial_rating": "*****"
           }
         }
       },
       "block_order": [
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-0",
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-1",
-        "template--16664827363573__a1c0cc5b-8687-47ee-80d6-6275fc622a91-1672852316c4f65dcd-2"
+        "4a57ac11-729f-4603-b43b-15208b263fd9",
+        "17f4b7a3-bdab-41e7-811c-e683a61971dd",
+        "e660eb5b-6984-4052-bb29-af25176d3cba"
       ],
       "settings": {
         "padding_top": 48,
