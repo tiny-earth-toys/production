@@ -60,7 +60,7 @@
                     class="image-with-text__heading {{ block.settings.heading_size }} {{ block.settings.heading_alignment }}"
                     {{ block.shopify_attributes }}
                   >
-                    {{ block.settings.heading | escape }}
+                    {{ block.settings.heading }}
                   </h2>
                 {%- when 'caption' -%}
                   <p
@@ -317,9 +317,9 @@
       "limit": 1,
       "settings": [
         {
-          "type": "text",
+          "type": "richtext",
           "id": "heading",
-          "default": "Image with text",
+          "default": "<p>TE Image with text</p>",
           "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
         },
         {
