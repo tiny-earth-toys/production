@@ -6,9 +6,259 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "03cf24ca-c3c0-4917-bc6a-9ba26fad9b18": {
+      "type": "te-image-banner",
+      "blocks": {
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-0": {
+          "type": "caption",
+          "settings": {
+            "banner__caption": ""
+          }
+        },
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p><em><strong>Small<\/strong><\/em> changes<\/p><p> big <em><strong>impact<\/strong><\/em><\/p>"
+          }
+        },
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-2": {
+          "type": "subtitle",
+          "settings": {
+            "banner__subtitle": "Our families are choosing to shift the paradigm of ownership and consumption to help save planet Earth."
+          }
+        },
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3": {
+          "type": "image",
+          "settings": {
+            "banner__image": "shopify:\/\/shop_images\/sustainability.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-0",
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-1",
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-2",
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "966ae2ed-3df9-4abd-9e35-53795ea24dfb": {
+      "type": "te-quote",
+      "blocks": {
+        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-0": {
+          "type": "quote_caption",
+          "settings": {
+            "caption_text": "",
+            "caption_text--alignment": "left",
+            "caption_text--capitalize": false
+          }
+        },
+        "e0a08927-e123-4d82-a1c2-33191081970d": {
+          "type": "quote_text",
+          "settings": {
+            "main_text": "Rent your toys, Reduce your footprint",
+            "main_text--alignment": "left",
+            "main_text--font-size": "te-display te-display--med",
+            "main_text--font-weight": "te-weight--display-regular",
+            "main_text--italics": true
+          }
+        },
+        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-1": {
+          "type": "quote_text",
+          "settings": {
+            "main_text": "Affluent overconsumption is a leading cause in the climate change crisis. We're committed to empowering families to embrace reuse and see minimized consumption at the household level is a key step in saving our planet.",
+            "main_text--alignment": "left",
+            "main_text--font-size": "te-display te-display--xs",
+            "main_text--font-weight": "te-weight--display-light",
+            "main_text--italics": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-0",
+        "e0a08927-e123-4d82-a1c2-33191081970d",
+        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-1"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "color_scheme": "te-teal-light",
+        "full_width": true
+      }
+    },
+    "6e9df36b-6154-4b1d-9af1-f52755e32066": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Plastic free promise<\/p>",
+            "card_text": "We include ultra-premium wooden toys for a reason. They are durable, sustainable, and do not contribute to the incredible amount of plastic waste that cannot be recycled and ends up in landfills, incinerators and the ocean."
+          }
+        },
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Simple packaging<\/p>",
+            "card_text": "We intentionally ship our products in American-made recycled brown packaging and fill (with no added dyes and inks for fancy branding), 100% recyclable kraft tape and ask that our customers reuse their boxes when exchanging."
+          }
+        },
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Intentional sourcing<\/p>",
+            "card_text": "We prioritize sourcing North American-made products to reduce carbon emissions from shipping. Currently, of our 12 brand partners, 5 are manufactured in North America, 3 in Eastern Europe, 3 in Asia and 1 in Central America."
+          }
+        },
+        "86ebd8d0-b6a5-4619-970d-e824fa3ee88b": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Judgement free<\/p>",
+            "card_text": "We are on the journey towards conscious consumption and parenting with each of you. Every journey is unique and we respect the differences in every path."
+          }
+        },
+        "187c6b52-4e93-45a5-af7e-e853a7ed8a22": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing."
+          }
+        },
+        "6b9e2d89-db90-49a6-ac25-e6bc77b583b7": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "card_title": "<p>Continuous Improvement<\/p>",
+            "card_text": "Our journey as a business has just begun. We know there are strides we can make daily to improve our company’s business, environmental footprint and impact with families."
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-0",
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-1",
+        "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-2",
+        "86ebd8d0-b6a5-4619-970d-e824fa3ee88b",
+        "187c6b52-4e93-45a5-af7e-e853a7ed8a22",
+        "6b9e2d89-db90-49a6-ac25-e6bc77b583b7"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-light",
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "full_width": true,
+        "subtitle": "",
+        "section_title": "",
+        "section_text": "",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
+      }
+    },
+    "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Environmental stewards come in all sizes",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Research shows that habits and infant imitation begin as early as 14 months. By breaking the cycle of over-consumption and normalizing reuse of children’s toys, we can empower an entire generation to consume consciously.<\/p>"
+          }
+        },
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "How it works",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "color": "solid-white"
+          }
+        },
+        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/memberships",
+            "color": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0",
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1",
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2",
+        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-light",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
+    "c874c743-9aff-4de7-b053-85f9ead3ee83": {
+      "type": "te-double-column",
+      "blocks": {
+        "fc9f7688-be2d-4315-b57a-4f5f25302160": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Less waste",
+            "bullet__message-1": "Each of our families divert 78 pounds of plastic from landfills and the ocean",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "More joy",
+            "bullet__message-2": "Our toys stay in use 4-5 times longer than toys that are purchased and donated or discarded",
+            "bullet__hide-icon-3": false,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        },
+        "c459e6ea-41a9-4dbc-828d-7f97e45fed64": {
+          "type": "column__image",
+          "settings": {
+            "column__image": "shopify:\/\/shop_images\/AM8A1866_V1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "fc9f7688-be2d-4315-b57a-4f5f25302160",
+        "c459e6ea-41a9-4dbc-828d-7f97e45fed64"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 36,
+        "padding_bottom": 52,
+        "subtitle": "Our Story",
+        "title": "Etiam egestas in nec sed et",
+        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "03cf24ca-c3c0-4917-bc6a-9ba26fad9b18",
+    "966ae2ed-3df9-4abd-9e35-53795ea24dfb",
+    "6e9df36b-6154-4b1d-9af1-f52755e32066",
+    "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2",
+    "c874c743-9aff-4de7-b053-85f9ead3ee83"
   ]
 }
