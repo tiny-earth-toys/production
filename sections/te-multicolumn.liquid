@@ -119,7 +119,7 @@
                   {%- endif -%}
                   <div class="multicolumn-card__info">
                     {%- if block.settings.title != blank -%}
-                      <h3>{{ block.settings.title | escape }}</h3>
+                      <h3>{{ block.settings.title }}</h3>
                     {%- endif -%}
                     {%- if block.settings.text != blank -%}
                       <div class="rte">{{ block.settings.text }}</div>
@@ -473,9 +473,9 @@
           "label": "t:sections.te-multicolumn.blocks.column.settings.image.label"
         },
         {
-          "type": "text",
+          "type": "richtext",
           "id": "title",
-          "default": "Column",
+          "default": "<p>Column</p>",
           "label": "t:sections.te-multicolumn.blocks.column.settings.title.label"
         },
         {

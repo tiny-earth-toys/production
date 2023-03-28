@@ -6,9 +6,204 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "e6e7940e-e067-4acc-9ac6-d9ba9b3d0497": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><em><strong>Give <\/strong><\/em>sustainable play to a family you <em><strong>love<\/strong><\/em><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "How it works",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "color": "te-button--blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-0",
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-1",
+        "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AM8A1866_V1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e25893de-c5e9-4898-9d1a-61b78942e337": {
+      "type": "te-multicolumn",
+      "blocks": {
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-0": {
+          "type": "column",
+          "settings": {
+            "title": "<h5><em><strong>Praesent<\/strong><\/em><\/h5><h5>dapibus tincidunt<\/h5>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-1": {
+          "type": "column",
+          "settings": {
+            "title": "<h5><em><strong>Vivamus<\/strong><\/em><\/h5><h5>ut nisl vitae<\/h5>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-2": {
+          "type": "column",
+          "settings": {
+            "title": "<h4><em><strong>Pellentesque <\/strong><\/em><\/h4><h4>pellentesque<\/h4>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-0",
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-1",
+        "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_color": "line-gray",
+        "button_link": "",
+        "color_scheme": "te-silver-dark",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 36
+      }
+    },
+    "67806463-e7ba-499f-a336-0c6cf220cf11": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"gift-up-target\" data-site-id=\"a1b88b4f-3ecf-47c2-2026-08d9f148ba76\" data-platform=\"Shopify\"><\/div>\n<script type=\"text\/javascript\">\n(function (g, i, f, t, u, p, s) {\n    g[u] = g[u] || function() { (g[u].q = g[u].q || []).push(arguments) };\n    p = i.createElement(f);\n    p.async = 1;\n    p.src = t;\n    s = i.getElementsByTagName(f)[0];\n    s.parentNode.insertBefore(p, s);\n})(window, document, \"script\", \"https:\/\/cdn.giftup.app\/dist\/gift-up.js\", \"giftup\");\n<\/script>\n<style>\n.checkout-wrapper.max-w-lg {\n  max-width: 56rem;\n}\n<\/style>",
+        "color_scheme": "te-cream-dark",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "4bb09b8a-c2d8-4a7d-a97e-0340ada8943c": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "a5a07f09-963a-4bb2-bf10-3570bdea9647": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "4ca653df-b626-46bd-91fe-340595985f35": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        },
+        "f257e24a-3654-4090-86b3-53804cb74d40": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        }
+      },
+      "block_order": [
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-0",
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-1",
+        "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-2",
+        "a5a07f09-963a-4bb2-bf10-3570bdea9647",
+        "4ca653df-b626-46bd-91fe-340595985f35",
+        "f257e24a-3654-4090-86b3-53804cb74d40"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "full_width": true,
+        "subtitle": "",
+        "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
+        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e6e7940e-e067-4acc-9ac6-d9ba9b3d0497",
+    "e25893de-c5e9-4898-9d1a-61b78942e337",
+    "67806463-e7ba-499f-a336-0c6cf220cf11",
+    "4bb09b8a-c2d8-4a7d-a97e-0340ada8943c"
   ]
 }
