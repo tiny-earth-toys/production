@@ -1,4 +1,5 @@
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
 <link rel="stylesheet" href="{{ 'section-te-testamonials.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-te-testamonials.css' | asset_url | stylesheet_tag }}</noscript>
@@ -16,6 +17,13 @@
     }
   }
 {%- endstyle -%}
+{%- liquid
+  assign posts_displayed = 3
+  if section.settings.post_limit <= 3
+    assign posts_exceed_limit = true
+    assign posts_displayed = section.settings.post_limit
+  endif
+-%}
 
 <div
   class="color--{{ section.settings.color_scheme }} te-section-container--full-width"
@@ -28,13 +36,13 @@
         <slider-component class="slider-mobile-gutter">
           <ul
             id="Slider-{{ section.id }}"
-            class="blog__posts articles-wrapper contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--2-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop slider {% if posts_displayed > 2 %}slider--tablet{% else %}slider--mobile{% endif %}"
+            class="grid grid--1-col-desktop slider slider--desktop "
             role="list"
           >
-            {%- for block in section.blocks -%}
+            {%- for block in section.blocks limit: section.settings.post_limit -%}
               <li
                 id="Slide-{{ section.id }}-{{ forloop.index }}"
-                class="grid__item slider__slide slider__slide--full-width"
+                class="slider__slide slider__slide--full-width"
               >
                 <div class="tc-content--quote">
                   <h2 class="te-display--lg te-weight--med">
@@ -49,38 +57,34 @@
                       <p class="te-text--md te-weight--text-normal">{{ block.settings.author_title }}</p>
                     </div>
                   </div>
-                  <div class="attribution-arrows">
-                    <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-left.png' | asset_url }}">
-                    <img class="testimonial-icon" loading="lazy" src="{{ 'carousel-arrow-right.png' | asset_url }}">
-                  </div>
                 </div>
               </li>
             {%- endfor -%}
-            <div class="slider-buttons no-js-hidden">
-              <button
-                type="button"
-                class="slider-button slider-button--prev"
-                name="previous"
-                aria-label="{{ 'general.slider.previous_slide' | t }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-              <div class="slider-counter caption">
-                <span class="slider-counter--current">1</span>
-                <span aria-hidden="true"> / </span>
-                <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                <span class="slider-counter--total">3</span>
-              </div>
-              <button
-                type="button"
-                class="slider-button slider-button--next"
-                name="next"
-                aria-label="{{ 'general.slider.next_slide' | t }}"
-              >
-                {% render 'icon-caret' %}
-              </button>
-            </div>
           </ul>
+          <div class="slider-buttons no-js-hidden{% if section.settings.post_limit < 3 %} medium-hide{% endif %}{% if section.settings.post_limit < 2 %} small-hide{% endif %}">
+            <button
+              type="button"
+              class="slider-button slider-button--prev"
+              name="previous"
+              aria-label="{{ 'general.slider.previous_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+            <div class="slider-counter caption">
+              <span class="slider-counter--current">1</span>
+              <span aria-hidden="true"> / </span>
+              <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+              <span class="slider-counter--total">3</span>
+            </div>
+            <button
+              type="button"
+              class="slider-button slider-button--next"
+              name="next"
+              aria-label="{{ 'general.slider.next_slide' | t }}"
+            >
+              {% render 'icon-caret' %}
+            </button>
+          </div>
         </slider-component>
       </div>
       <div class="tc-image-wrapper">
@@ -220,6 +224,15 @@
       "default": "medium",
       "label": "t:sections.image-with-text.settings.desktop_image_width.label",
       "info": "t:sections.image-with-text.settings.desktop_image_width.info"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3,
+      "label": "Post limit"
     }
   ],
   "blocks": [

@@ -549,7 +549,6 @@ class SliderComponent extends HTMLElement {
     this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
     this.update();
   }
-
   resetPages() {
     this.sliderItems = this.querySelectorAll('[id^="Slide-"]');
     this.initPages();

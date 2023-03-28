@@ -21,6 +21,11 @@
 }
 
 .tc-content {
+  display: block;
+  width: auto;
+}
+
+.tc-content li {
   width: 100%;
 }
 
