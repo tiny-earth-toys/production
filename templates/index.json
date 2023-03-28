@@ -387,27 +387,27 @@
         "4a57ac11-729f-4603-b43b-15208b263fd9": {
           "type": "testamonial-block",
           "settings": {
-            "author_name": "Jane Smith",
-            "author_title": "Walla Walla, WA",
-            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "author_name": "Laura",
+            "author_title": "North Carolina",
+            "testamonial_text": "<p>'We were overwhelmed by the idea of a playroom full of toys, that only get used for a short period of time, and then sit and collect dust.  Let alone a playroom full of plastic.  It's refreshing to find Tiny Earth Toys.'<\/p>",
             "testamonial_rating": "*****"
           }
         },
         "17f4b7a3-bdab-41e7-811c-e683a61971dd": {
           "type": "testamonial-block",
           "settings": {
-            "author_name": "Jane Smith",
-            "author_title": "Walla Walla, WA",
-            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "author_name": "Greg",
+            "author_title": "Massachusetts",
+            "testamonial_text": "<p>'I can see Henry learning new skills every time we introduce a toy from our kit.  The toys are beautiful and clearly well-made, so we enjoy having them in our home.<\/p>",
             "testamonial_rating": "*****"
           }
         },
         "e660eb5b-6984-4052-bb29-af25176d3cba": {
           "type": "testamonial-block",
           "settings": {
-            "author_name": "Jane Smith",
-            "author_title": "Walla Walla, WA",
-            "testamonial_text": "<p>Vivamus feugiat, nunc sed volutpat commodo, dolor dolor auctor magna, sit amet congue elit massa.<\/p>",
+            "author_name": "Brit",
+            "author_title": "New York",
+            "testamonial_text": "<p>'I love recommending Tiny Earth because we get so much value from the kits and it makes me happy to send them back knowing other people will get to use them too.'<\/p>",
             "testamonial_rating": "*****"
           }
         }
@@ -424,7 +424,8 @@
         "full_width": true,
         "primary_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium"
+        "desktop_image_width": "medium",
+        "post_limit": 3
       }
     },
     "8069baa3-c517-4573-ba5f-36556c9a1e43": {
