@@ -10,16 +10,35 @@
     {% case block.type %}
       {% when 'product-selector--1' %}
         {% assign plan-1 = all_products[block.settings['plan-1']] %}
+
       {% when 'product-selector--2' %}
         {% assign plan-2 = all_products[block.settings['plan-2']] %}
+
       {% when 'product-selector--3' %}
         {% assign plan-3 = all_products[block.settings['plan-3']] %}
     {% endcase %}
   {% endfor %}
-
+  <span>
+    {{ plan-1.selling_plan_groups[0].name }}
+    {{ spg_name-1 }}
+    {{ spid-1 }}
+  </span>
+  <span>
+    {{ plan-2.selling_plan_groups[0].name }}
+    {{ spg_name-2 }}
+    {{ spid-2 }}
+  </span>
+  <span>
+    {{ plan-3.selling_plan_groups[0].name }}
+    {{ spg_name-3 }}
+    {{ spid-3 }}
+  </span>
   {% assign selected-plan = plan-2 %}
+
   <p>
     Selected plan is: <strong>{{ selected-plan.title }}</strong>
+    <span>{{ selling-plan__group-name }}</span>
+    <span>{{ selling-plan__id }}</span>
   </p>
 
   <div class="section--te-plans-pricing">
@@ -48,6 +67,8 @@
       {% case block.type %}
         {% when 'product-selector--1' %}
           {% assign selected-plan = plan-1 %}
+          {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
+          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
           <div
             id="plan-1__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
@@ -72,7 +93,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -84,6 +110,10 @@
                   </span>
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>
+                    {{- sp_id -}}
+                    {{- spg_name -}}
+                  </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
                   <li>{{ section.settings['variant-1__feat-3'] }}</li>
@@ -111,7 +141,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -150,7 +185,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -172,6 +212,8 @@
 
         {% when 'product-selector--2' %}
           {% assign selected-plan = plan-2 %}
+          {% assign sp_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
+          {% assign spg_name = selected-plan.selling_plan_groups[0].name %}
           <div
             id="plan-2__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto"
@@ -196,7 +238,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -208,6 +255,10 @@
                   </span>
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>
+                    {{- sp_id -}}
+                    {{- spg_name -}}
+                  </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
                   <li>{{ section.settings['variant-1__feat-3'] }}</li>
@@ -235,7 +286,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -274,7 +330,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -296,6 +357,8 @@
 
         {% when 'product-selector--3' %}
           {% assign selected-plan = plan-3 %}
+          {% assign sp_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
+          {% assign spg_name = selected-plan.selling_plan_groups[0].name %}
           <div
             id="plan-3__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
@@ -320,7 +383,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow({{ sp_id }}, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -332,6 +400,10 @@
                   </span>
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
+                  <li>
+                    {{- sp_id -}}
+                    {{- spg_name -}}
+                  </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
                   <li>{{ section.settings['variant-1__feat-3'] }}</li>
@@ -359,7 +431,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 
@@ -398,7 +475,12 @@
                   </div>
                 </div>
                 <div class="card-header__actions">
-                  <button class="card__cta te-button--green te-text te-text--lg">Get Started</button>
+                  <button
+                    class="card__cta te-button--green te-text te-text--lg"
+                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                  >
+                    Get Started
+                  </button>
                 </div>
               </div>
 

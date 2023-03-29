@@ -7,7 +7,7 @@ const inputPlan2 = document.querySelector('#plan-2__tab');
 const inputPlan3 = document.querySelector('#plan-3__tab');
 let radioTabs = document.querySelectorAll('.tab__input')
 
-
+console.log('monthly product', )
 
 function displaySelectedPlan(tabInput) {
     if (tabInput.checked && tabInput.value === 'plan-1'){
@@ -37,7 +37,7 @@ radioTabs.forEach(tab => {
 
 
 
-function directToOnboarding(selling_plan, selectedProductId, selectedVariantId, planString, variantString) {
+function onBeginRecFlow(sellingPlanId, selectedVariantId, planString, variantString) {
   console.log('productId--', selectedProductId);
   console.log('variantId--', selectedVariantId);
   console.log('selling_plan--', selling_plan);
