@@ -40,7 +40,12 @@
     <span>{{ selling-plan__group-name }}</span>
     <span>{{ selling-plan__id }}</span>
   </p>
-
+  {{ selected-plan.variants[0].id }}
+  {{ selected-plan.variants[0].option1 }}
+  {{ selected-plan.variants[1].id }}
+  {{ selected-plan.variants[1].option1 }}
+  {{ selected-plan.variants[2].id }}
+  {{ selected-plan.variants[2].option1 }}
   <div class="section--te-plans-pricing">
     <div class="plans-pricing__header-container">
       <div class="plans-pricing__titles">
@@ -69,6 +74,9 @@
           {% assign selected-plan = plan-1 %}
           {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
           {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% assign variant5 = selected-plan.variants[0] %}
+          {% assign variant8 = selected-plan.variants[1] %}
+          {% assign variant10 = selected-plan.variants[2] %}
           <div
             id="plan-1__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
@@ -77,12 +85,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__title">{{ variant5.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                      {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -95,7 +103,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -111,8 +119,8 @@
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>
-                    {{- sp_id -}}
-                    {{- spg_name -}}
+                    {{- selling-plan_id -}}
+                    {{- selling-plan-group_name -}}
                   </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
@@ -125,12 +133,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__title">{{ variant8.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                      {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -143,7 +151,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -169,12 +177,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__title">{{ variant10.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                      {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -187,7 +195,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -212,8 +220,11 @@
 
         {% when 'product-selector--2' %}
           {% assign selected-plan = plan-2 %}
-          {% assign sp_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
-          {% assign spg_name = selected-plan.selling_plan_groups[0].name %}
+          {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
+          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% assign variant5 = selected-plan.variants[0] %}
+          {% assign variant8 = selected-plan.variants[1] %}
+          {% assign variant10 = selected-plan.variants[2] %}
           <div
             id="plan-2__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto"
@@ -222,12 +233,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__title">{{ variant5.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                      {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -240,7 +251,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -256,8 +267,8 @@
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>
-                    {{- sp_id -}}
-                    {{- spg_name -}}
+                    {{- selling-plan_id -}}
+                    {{- selling-plan-group_name -}}
                   </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
@@ -270,12 +281,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__title">{{ variant8.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                      {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -288,7 +299,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -314,12 +325,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__title">{{ variant10.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                      {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -332,7 +343,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -357,8 +368,11 @@
 
         {% when 'product-selector--3' %}
           {% assign selected-plan = plan-3 %}
-          {% assign sp_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
-          {% assign spg_name = selected-plan.selling_plan_groups[0].name %}
+          {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
+          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% assign variant5 = selected-plan.variants[0] %}
+          {% assign variant8 = selected-plan.variants[1] %}
+          {% assign variant10 = selected-plan.variants[2] %}
           <div
             id="plan-3__display"
             class="plans-pricing__card-container te_grid-container te_grid-container--3-col-auto hidden"
@@ -367,12 +381,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[0].title }}</span>
+                    <span class="card__title">{{ variant5.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[0].price | money_without_trailing_zeros -}}
+                      {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -385,7 +399,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ sp_id }}, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -401,8 +415,8 @@
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>
-                    {{- sp_id -}}
-                    {{- spg_name -}}
+                    {{- selling-plan_id -}}
+                    {{- selling-plan-group_name -}}
                   </li>
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
@@ -415,12 +429,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[1].title }}</span>
+                    <span class="card__title">{{ variant8.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[1].price | money_without_trailing_zeros -}}
+                      {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -433,7 +447,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
@@ -459,12 +473,12 @@
               <div class="product-card__header">
                 <div class="card-header__content">
                   <div class="content__title-badge">
-                    <span class="card__title">{{ selected-plan.variants[2].title }}</span>
+                    <span class="card__title">{{ variant10.title }}</span>
                     <span class="card__badge">Popular</span>
                   </div>
                   <div>
                     <span class="te-display--lg te-weight--display-semibold">
-                      {{- selected-plan.variants[2].price | money_without_trailing_zeros -}}
+                      {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
                     <span class="te-text--md te-font-color--dk-gray">per month</span>
                   </div>
@@ -477,7 +491,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow(selling_plan, selectedProductId, selectedVariantId, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
                   >
                     Get Started
                   </button>
