@@ -1,0 +1,95 @@
+{{ 'section-onboarding.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'onboarding.js' | asset_url }}" defer="defer"></script>
+
+<section id="onboarding">
+  <div id="logo__container">
+    <a id="logo" href="{{ routes.root_url }}">
+      {% render 'icon-tet-logo' %}
+    </a>
+  </div>
+  <div class="p0 m0">
+    <div class="rec-form__container">
+      <form id="rec-preview" class="rec-form" onSubmit="onSubmitPreview()">
+        <div class="rec-form__fields">
+          <div style="display:none;">
+            <h4 class="text-align--center pt2">How many toys are in your kit?</h4>
+            <select id="subscription-variant">
+              <option value="5">5 toys</option>
+              <option value="8">8 toys</option>
+              <option value="10">10 toys</option>
+            </select>
+          </div>
+          <div>
+            <h4 class="text-align--center pt2">What's your child's name?</h4>
+            <input type="text" id="child1-name" placeholder="Name (optional)"><br>
+          </div>
+          <div>
+            <h4 class="text-align--center pt2 m0">What's your email address?</h4>
+            <p class="p0">We use this to save your recommendations</p>
+            <input type="email" id="email" placeholder="Email address" required><br>
+          </div>
+          <div>
+            <h4 class="text-align--center pt2 m0">When was your little one born?</h4>
+            <p class="p0">This helps us select the toys best suited for your child's development</p>
+            <input type="date" id="birthdate-1" required><br>
+          </div>
+        </div>
+        <div class="preview-button__container">
+          <button class="m1" type="submit" id="preview-button">Continue</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="rec-display__container">
+      <div id="rec-display__header" class="hide text-align--center"></div>
+      <div class="rec-display__wrapper"></div>
+    </div>
+    <div id="swap-wrapper" class="rec-swap__wrapper hide">
+      <div class="rec-swap__available ">
+        <div id="rec-swap__title-wrapper" class="text-align--center p2"></div>
+        <div id="swap-age__nav">
+          <label for="swap-age__select">Filter by Age Group:</label>
+          <select id="swap-age__select" required>
+            <option></option>
+            <option value="0 - 4">0-4 mo</option>
+            <option value="4 - 8">4-8 mo</option>
+            <option value="8 - 12">8-12 mo</option>
+            <option value="12 - 16">12-16 mo</option>
+            <option value="16 - 20">16-20 mo</option>
+            <option value="20 - 24">20-24 mo</option>
+            <option value="24 - 28">24-28 mo</option>
+            <option value="28 - 32">28-32 mo</option>
+            <option value="32 - 36">32-36 mo</option>
+            <option value="36 - 40">36-40 mo</option>
+            <option value="40 - 44">40-44 mo</option>
+            <option value="44 - 48">44-48 mo</option>
+            <option value="48 - 60">48-60 mo</option>
+          </select>
+        </div>
+        <div id="available__container" class="rec-swap__available-display"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="bottom-nav__container" class="bottom-nav__container">
+    <div id="bottom-nav">
+      <div id="your-selections__display"></div>
+      <div id="bottom-nav__buttons">
+        <button id="selected-toys__submit" class="hide" onclick="submitSelectedToys()">Next</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Onboarding",
+  "settings": []
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

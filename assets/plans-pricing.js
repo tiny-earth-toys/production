@@ -9,7 +9,6 @@ let radioTabs = document.querySelectorAll('.tab__input')
 
 
 
-
 function displaySelectedPlan(tabInput) {
     if (tabInput.checked && tabInput.value === 'plan-1'){
       planDisplay1.classList.remove('hidden')
@@ -37,16 +36,13 @@ radioTabs.forEach(tab => {
 })
 
 
-// radioTabs.forEach(function(tab){
-//   console.log('event listener fired for radioTabs')
-//   tab.addEventListener('click', function() {
-//     let tabInput = tab.firstElementChild
-//     if (prevCheckedTab !== null){
-//       prevCheckedTab.checked = false
-//     } else if (tabInput.checked){
-//     prevCheckedTab = tabInput
-//     console.log('prevCheckedTab --', prevCheckedTab)
-//     }
-//   })
-//   displaySelectedPlan()
-// })
+
+function directToOnboarding(selling_plan, selectedProductId, selectedVariantId, planString, variantString) {
+  console.log('productId--', selectedProductId);
+  console.log('variantId--', selectedVariantId);
+  console.log('selling_plan--', selling_plan);
+  console.log('product Title --', planString);
+  console.log('variant Title --', variantString);
+  location.href = `./onboarding/?&plan=${planString}&variant=${variantString}&selling_plan=${selling_plan}&id=${selectedVariantId}`;
+}
+
