@@ -5,14 +5,12 @@ const planDisplay3 = document.querySelector('#plan-3__display');
 const inputPlan1 = document.querySelector('#plan-1__tab');
 const inputPlan2 = document.querySelector('#plan-2__tab');
 const inputPlan3 = document.querySelector('#plan-3__tab');
-let radioTabs = document.querySelectorAll('.plans-pricing__tab')
+let radioTabs = document.querySelectorAll('.tab__input')
 
 
 
 
-function displaySelectedPlan() {
-  for (let i = 0; i < radioTabs.length; i++ ){
-    let tabInput = radioTabs[i].firstElementChild
+function displaySelectedPlan(tabInput) {
     if (tabInput.checked && tabInput.value === 'plan-1'){
       planDisplay1.classList.remove('hidden')
       planDisplay2.classList.add('hidden')
@@ -27,13 +25,14 @@ function displaySelectedPlan() {
       planDisplay3.classList.remove('hidden')
     }
   }
-}
 
-radioTabs.forEach(item => {
-  item.addEventListener('click', event => {
-    let tabInput = item.firstElementChild
+
+radioTabs.forEach(tab => {
+  tab.addEventListener('click', event => {
+    let tabInput = tab
     tabInput.checked = true 
     console.log('all radioTabs --', radioTabs)
+    displaySelectedPlan(tabInput)
   })
 })
 
