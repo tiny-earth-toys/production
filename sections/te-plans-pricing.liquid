@@ -73,7 +73,7 @@
         {% when 'product-selector--1' %}
           {% assign selected-plan = plan-1 %}
           {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
-          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% capture selling-plan-group_name %}{{ selected-plan.selling_plan_groups[0].name }}{% endcapture %}
           {% assign variant5 = selected-plan.variants[0] %}
           {% assign variant8 = selected-plan.variants[1] %}
           {% assign variant10 = selected-plan.variants[2] %}
@@ -103,7 +103,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, '{{ selling-plan-group_name }}', '5')"
                   >
                     Get Started
                   </button>
@@ -151,7 +151,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, '{{ selling-plan-group_name }}', '8')"
                   >
                     Get Started
                   </button>
@@ -195,7 +195,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, '{{ selling-plan-group_name }}', '10')"
                   >
                     Get Started
                   </button>
@@ -221,7 +221,7 @@
         {% when 'product-selector--2' %}
           {% assign selected-plan = plan-2 %}
           {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
-          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% capture selling-plan-group_name %}{{ selected-plan.selling_plan_groups[0].name }}{% endcapture %}
           {% assign variant5 = selected-plan.variants[0] %}
           {% assign variant8 = selected-plan.variants[1] %}
           {% assign variant10 = selected-plan.variants[2] %}
@@ -251,7 +251,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, '{{ selling-plan-group_name }}', '5')"
                   >
                     Get Started
                   </button>
@@ -299,7 +299,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, '{{ selling-plan-group_name }}', '8')"
                   >
                     Get Started
                   </button>
@@ -343,7 +343,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, '{{ selling-plan-group_name }}', '10')"
                   >
                     Get Started
                   </button>
@@ -369,7 +369,7 @@
         {% when 'product-selector--3' %}
           {% assign selected-plan = plan-3 %}
           {% assign selling-plan_id = selected-plan.selling_plan_groups[0].selling_plans[0].id %}
-          {% assign selling-plan-group_name = selected-plan.selling_plan_groups[0].name %}
+          {% capture selling-plan-group_name %}{{ selected-plan.selling_plan_groups[0].name }}{% endcapture %}
           {% assign variant5 = selected-plan.variants[0] %}
           {% assign variant8 = selected-plan.variants[1] %}
           {% assign variant10 = selected-plan.variants[2] %}
@@ -399,7 +399,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant5.id }}, '{{ selling-plan-group_name }}', '5')"
                   >
                     Get Started
                   </button>
@@ -447,7 +447,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant8.id }}, '{{ selling-plan-group_name }}', '8')"
                   >
                     Get Started
                   </button>
@@ -491,7 +491,7 @@
                 <div class="card-header__actions">
                   <button
                     class="card__cta te-button--green te-text te-text--lg"
-                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, planString, variantString)"
+                    onclick="onBeginRecFlow({{ selling-plan_id }}, {{ variant10.id }}, '{{ selling-plan-group_name }}', '10')"
                   >
                     Get Started
                   </button>

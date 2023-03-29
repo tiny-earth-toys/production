@@ -38,11 +38,11 @@ radioTabs.forEach(tab => {
 
 
 function onBeginRecFlow(sellingPlanId, selectedVariantId, planString, variantString) {
-  console.log('productId--', selectedProductId);
+
   console.log('variantId--', selectedVariantId);
-  console.log('selling_plan--', selling_plan);
+  console.log('sellingPlanId--', sellingPlanId);
   console.log('product Title --', planString);
   console.log('variant Title --', variantString);
-  location.href = `./onboarding/?&plan=${planString}&variant=${variantString}&selling_plan=${selling_plan}&id=${selectedVariantId}`;
+  location.href = `./onboarding/?&plan=${planString}&variant=${variantString}&selling_plan=${sellingPlanId}&id=${selectedVariantId}`;
 }
 
