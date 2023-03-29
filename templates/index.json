@@ -7,7 +7,7 @@
           "type": "heading",
           "settings": {
             "heading": "<p><em><strong>Rent your toys<\/strong><\/em><\/p><p>Reduce your clutter<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-1": {
@@ -52,7 +52,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
-            "title": "5 Toy Kit",
+            "title": "<p>5 Toy Kit<\/p>",
             "text": "<ul><li>Average kit value of $250<\/li><li>Exchanges every 2 months<\/li><li> Rent for $35 a month<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -62,7 +62,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg",
-            "title": "8 Toy Kit",
+            "title": "<p>8 Toy Kit<\/p>",
             "text": "<ul><li>Average kit value of $368<\/li><li>Exchanges every 2 months<\/li><li> Rent for $48 a month<\/li><\/ul>",
             "link_label": "",
             "link": ""
@@ -72,7 +72,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "title": "10 Toy Kit",
+            "title": "<p>10 Toy Kit<\/p>",
             "text": "<ul><li>Average kit value of $460<\/li><li>Exchanges every 2 months<\/li><li> Rent for $65 a month<\/li><\/ul>",
             "link_label": "",
             "link": ""
