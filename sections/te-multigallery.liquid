@@ -32,38 +32,49 @@
     </div>
     <div class="multi-gallery-container">
       <div class="mgc-content-container">
-        {% for block in section.blocks %}
-          {% assign btn_grouping = block.type %}
-          {% case btn_grouping %}
-            {% when 'multigroup-1' %}
-              <input type="radio" id="toggle--multigroup-1" class="mg-btn" name="select_group" checked>
-              <label for="toggle--multigroup-1">{{ block.settings.multigroup_name }}</label>
+        <div class="mgc__inputs-container">
+          {% for block in section.blocks %}
+            {% assign btn_grouping = block.type %}
+            {% case btn_grouping %}
+              {% when 'multigroup-1' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-1" class="mg-btn" name="select_group" checked>
+                  <label for="toggle--multigroup-1" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
 
-            {% when 'multigroup-2' %}
-              <input type="radio" id="toggle--multigroup-2" name="select_group">
-              <label for="toggle--multigroup-2">{{ block.settings.multigroup_name }}</label>
-
-            {% when 'multigroup-3' %}
-              <input type="radio" id="toggle--multigroup-3" name="select_group">
-              <label for="toggle--multigroup-3">{{ block.settings.multigroup_name }}</label>
-
-            {% when 'multigroup-4' %}
-              <input type="radio" id="toggle--multigroup-4" name="select_group">
-              <label for="toggle--multigroup-4">{{ block.settings.multigroup_name }}</label>
-
-            {% when 'multigroup-5' %}
-              <input type="radio" id="toggle--multigroup-5" name="select_group">
-              <label for="toggle--multigroup-5">{{ block.settings.multigroup_name }}</label>
-
-            {% when 'multigroup-6' %}
-              <input type="radio" id="toggle--multigroup-6" name="select_group">
-              <label for="toggle--multigroup-6">{{ block.settings.multigroup_name }}</label>
-
-            {% when 'multigroup-7' %}
-              <input type="radio" id="toggle--multigroup-7" name="select_group">
-              <label for="toggle--multigroup-7">{{ block.settings.multigroup_name }}</label>
-          {% endcase %}
-        {% endfor %}
+              {% when 'multigroup-2' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-2" name="select_group">
+                  <label for="toggle--multigroup-2" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+              {% when 'multigroup-3' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-3" name="select_group">
+                  <label for="toggle--multigroup-3" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+              {% when 'multigroup-4' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-4" name="select_group">
+                  <label for="toggle--multigroup-4" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+              {% when 'multigroup-5' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-5" name="select_group">
+                  <label for="toggle--multigroup-5" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+              {% when 'multigroup-6' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-6" name="select_group">
+                  <label for="toggle--multigroup-6" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+              {% when 'multigroup-7' %}
+                <div class="multigroup-input">
+                  <input type="radio" id="toggle--multigroup-7" name="select_group">
+                  <label for="toggle--multigroup-7" class="radio-label">{{ block.settings.multigroup_name }}</label>
+                </div>
+            {% endcase %}
+          {% endfor %}
+        </div>
 
         {% for block in section.blocks %}
           {% assign image_grouping = block.type %}

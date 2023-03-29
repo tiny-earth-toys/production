@@ -9,6 +9,13 @@
 }
 
 
+.multigroup-input {
+  padding: 1em 8px;
+}
+
+.multigroup-input input[type="radio"] {
+  display: none;
+}
 /* features section */
 .te-multigallery {
   padding: 6rem 0;
@@ -16,6 +23,26 @@
   flex-direction: column;
   align-items: center;
   gap: 4em;
+}
+
+.mgc-content-container{
+  display: block;
+}
+
+.radio-label {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--buttons-radius);
+  width: 8em;
+  height: 3em;
+  color: rgb(var(--te-base--white));
+  font-weight: 400;
+  box-shadow: var(--te-shadow--md);
+  cursor: pointer;
+  background: rgb(var(--te-base--white), 0.1);
+  transition: background-color 0.3s ease;
 }
 
 /* first container */
@@ -102,13 +129,13 @@ input#toggle--multigroup-7:checked ~ #multigroup-7--image-container {
 }
 
 
-
-/* Frame 10 */
 .mgc--img-container {
   margin: 2em 0 0 0; 
 }
 
-/* Frame 7 */
+.mgc__inputs-container{
+  display: flex;
+}
 .mgc--btn-container{
   display: flex;
   flex-direction: row;
