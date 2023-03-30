@@ -173,7 +173,7 @@ function addToSelectedToys (event, value) {
           <div class="toy-card__img-wrapper">
             <img src=${selectedToy['toyImgSrc']}>
           </div>
-          <h5 class="text-align--center">${selectedToy['toyName']}</h5>
+          <h5 class="center">${selectedToy['toyName']}</h5>
         </div>
       </div>
       `
@@ -265,7 +265,7 @@ function displayAvailableToys(data) {
   
   let allAvailableToys = data.records
   console.log('allAvailableToys---', allAvailableToys)
-  swapWrapper.classList.remove('hide')
+  swapWrapper.classList.remove('hidden')
   for( let i = 0; i < allAvailableToys.length; i++){
     let inStockSku = allAvailableToys[i]['fields']['Parent SKU']
     let inStockImgSrc = allAvailableToys[i]['fields']['Image (from Child SKUs)'][0]['url']
@@ -289,7 +289,7 @@ function displayAvailableToys(data) {
       <div class="toy-card__img-wrapper">
           <img src="${inStockImgSrc}">
         </div>
-        <p class="text-align--center">${inStockToyName}</p>
+        <h5 class="center">${inStockToyName}</h5>
       </div>
       </button
     `
@@ -309,8 +309,8 @@ function childNameCheck(value) {
 function toyRecommendations(record, subscriptionNumber) {
 
   //renders next button & display header
-  submitBtn.classList.remove('hide')
-  displayHeader.classList.remove('hide')
+  submitBtn.classList.remove('hidden')
+  displayHeader.classList.remove('hidden')
   let displayHeaderContent = document.createElement('div')
   let childName = childNameCheck(childNameField.value)
   // console.log('childName value ---', childName)
@@ -363,7 +363,7 @@ function toyRecommendations(record, subscriptionNumber) {
             <img src=${recToyImageUrl}>
           </div>
           <div class="toy-card__text-container">
-            <h5 class="text-align--center">${recToyName}</h5>
+            <h5 class="center">${recToyName}</h5>
           </div>
         </div>
       </div>

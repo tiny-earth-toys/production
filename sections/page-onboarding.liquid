@@ -20,33 +20,47 @@
             </select>
           </div>
           <div>
-            <label for="child1-name">What's your child's name?</label>
+            <label class="te-text te-text--lg te-weight--text-semibold" for="child1-name"
+              >What's your child's name?</label
+            >
             <input type="text" id="child1-name" placeholder="Name (optional)"><br>
           </div>
           <div>
-            <label for="email" class="text-align--center pt2 m0">What's your email address?</label>
+            <label
+              class="te-text te-text--lg te-weight--text-semibold"
+              for="email"
+              class="text-align--center pt2 m0"
+              >What's your email address?</label
+            >
+            <p class="p0 te-text te-text--sm te-weight--text-normal">We use this to save your recommendations</p>
             <input type="email" id="email" placeholder="Email address" required><br>
-            <p class="p0">We use this to save your recommendations</p>
           </div>
           <div>
-            <label for="birthdate-1" class="text-align--center pt2 m0">When was your little one born?</label>
+            <label
+              class="te-text te-text--lg te-weight--text-semibold"
+              for="birthdate-1"
+              class="text-align--center pt2 m0"
+              >When was your little one born?</label
+            >
+            <p class="p0 te-text te-text--sm te-weight--text-normal">
+              This helps us select the toys best suited for your child's development
+            </p>
             <input type="date" id="birthdate-1" required><br>
-            <p class="p0">This helps us select the toys best suited for your child's development</p>
           </div>
         </div>
         <div class="preview-button__container">
-          <button class="m1" type="submit" id="preview-button">Continue</button>
+          <button class="m1" type="submit" id="preview-button" placeholder="mm/dd/yyyy">Continue</button>
         </div>
       </form>
     </div>
 
     <div class="rec-display__container">
-      <div id="rec-display__header" class="hide text-align--center"></div>
+      <div id="rec-display__header" class="hidden center"></div>
       <div class="rec-display__wrapper"></div>
     </div>
-    <div id="swap-wrapper" class="rec-swap__wrapper hide">
+    <div id="swap-wrapper" class="rec-swap__wrapper hidden">
       <div class="rec-swap__available ">
-        <div id="rec-swap__title-wrapper" class="text-align--center p2"></div>
+        <div id="rec-swap__title-wrapper"></div>
         <div id="swap-age__nav">
           <label for="swap-age__select">Filter by Age Group:</label>
           <select id="swap-age__select" required>
@@ -75,7 +89,7 @@
     <div id="bottom-nav">
       <div id="your-selections__display"></div>
       <div id="bottom-nav__buttons">
-        <button id="selected-toys__submit" class="hide" onclick="submitSelectedToys()">Next</button>
+        <button id="selected-toys__submit" class="hidden" onclick="submitSelectedToys()">Next</button>
       </div>
     </div>
   </div>
