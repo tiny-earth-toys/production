@@ -466,13 +466,14 @@ function onSubmitPreview(){
 // this goes to -->findCorrectAgeRecordInTwoMonthCollections(data)
 
 function addProductToCart(selling_plan, selectedVariantId) {
-  $.ajax({
-    type: 'POST',
-    url: `/cart/add?selling_plan=${selling_plan}&id=${selectedVariantId}&quantity=1`,
-    success: function () {
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', `/cart/add?selling_plan=${selling_plan}&id=${selectedVariantId}&quantity=1`);
+  xhr.onload = function () {
+    if (xhr.status === 200) {
       console.log('add to cart successful');
-    },
-  });
+    }
+  };
+  xhr.send();
 }
 
 function submitSelectedToys () {

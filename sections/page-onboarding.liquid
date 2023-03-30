@@ -1,7 +1,7 @@
 {{ 'section-onboarding.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'onboarding.js' | asset_url }}" defer="defer"></script>
 
-<section id="onboarding">
+<section id="onboarding" class="te-section-container--full-width">
   <div id="logo__container">
     <a id="logo" href="{{ routes.root_url }}">
       {% render 'icon-tet-logo' %}
@@ -12,7 +12,7 @@
       <form id="rec-preview" class="rec-form" onSubmit="onSubmitPreview()">
         <div class="rec-form__fields">
           <div style="display:none;">
-            <h4 class="text-align--center pt2">How many toys are in your kit?</h4>
+            <label for="subscription-variant" class="text-align--center pt2">How many toys are in your kit?</label>
             <select id="subscription-variant">
               <option value="5">5 toys</option>
               <option value="8">8 toys</option>
@@ -20,18 +20,18 @@
             </select>
           </div>
           <div>
-            <h4 class="text-align--center pt2">What's your child's name?</h4>
+            <label for="child1-name" class="text-align--center pt2">What's your child's name?</label>
             <input type="text" id="child1-name" placeholder="Name (optional)"><br>
           </div>
           <div>
-            <h4 class="text-align--center pt2 m0">What's your email address?</h4>
-            <p class="p0">We use this to save your recommendations</p>
+            <label for="email" class="text-align--center pt2 m0">What's your email address?</label>
             <input type="email" id="email" placeholder="Email address" required><br>
+            <p class="p0">We use this to save your recommendations</p>
           </div>
           <div>
-            <h4 class="text-align--center pt2 m0">When was your little one born?</h4>
-            <p class="p0">This helps us select the toys best suited for your child's development</p>
+            <label for="birthdate-1" class="text-align--center pt2 m0">When was your little one born?</label>
             <input type="date" id="birthdate-1" required><br>
+            <p class="p0">This helps us select the toys best suited for your child's development</p>
           </div>
         </div>
         <div class="preview-button__container">
@@ -84,6 +84,8 @@
 {% schema %}
 {
   "name": "Onboarding",
+  "tag": "section",
+  "class": "te-section-container",
   "settings": []
 }
 {% endschema %}
