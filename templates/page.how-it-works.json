@@ -47,24 +47,27 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "<p><strong>Rent<\/strong><\/p>",
-            "card_text": "Pick the plan that works for your fam.  We'll send your first set of age-appropriate toys, curated specifically for your little one, straight to your doorstep."
+            "card_text": "Pick the plan that works for your fam.  Tell us any specific toys you want to receive at checkout. We'll send your first set of age-appropriate toys straight to your doorstep."
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-1": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
+            "icon_hide": false,
             "card_title": "<p><strong>Play<\/strong><\/p>",
-            "card_text": "The fun part!  Unbox your first kit and experience the magic of quality time spent with your child in your spruced up play space. Rest assured knowing they are getting the safest and highest quality toys on the market."
+            "card_text": "Let's have some fun! Unbox your toys and experience the magic of quality time spent with your child in your spruced up play space. *Sigh of relief*"
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-2": {
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_3",
-            "card_title": "<p><strong>Rotate\/Exchange<\/strong><\/p>",
-            "card_text": "Every two months you'll swap out your current toys for a fresh set. Can't bear to part with one of your toys?  You always have the option to purchase any time at a discounted rate."
+            "icon_hide": false,
+            "card_title": "<p><strong>Rotate<\/strong><\/p>",
+            "card_text": "Every two months you'll swap out your current toys for a fresh set and watch your little one light up! Can't bear to part with something? You'll have the option to purchase at a discounted rate."
           }
         }
       },
@@ -109,6 +112,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "",
             "card_text": "High quality wooden toys curated for your child's abilities"
           }
@@ -117,6 +121,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "",
             "card_text": "Free shipping and exchanges every two months"
           }
@@ -125,6 +130,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "",
             "card_text": "Educator curation from early childhood experts"
           }
@@ -133,6 +139,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "",
             "card_text": "Option to purchase any item from your kit at a 10-30% discount off it's retail price"
           }
@@ -141,6 +148,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "",
             "card_text": "Rigorous cleaning and inspection of each toy before it reaches its next family"
           }
@@ -149,8 +157,9 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_4",
+            "icon_hide": false,
             "card_title": "<p><\/p><p><\/p>",
-            "card_text": "No charge for lost or damaged pieces - it happens!"
+            "card_text": "No charge for a lost piece or minor damage - it happens!"
           }
         }
       },
@@ -247,6 +256,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
+            "icon_hide": false,
             "card_title": "<p>Get Alerted<\/p>",
             "card_text": "Every two months, you will receive an email letting you know your exchange is being prepared. You have 3 days to modify your exchange if needed. Modifications include toy modifications or rescheduling your exchange date."
           }
@@ -255,6 +265,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
+            "icon_hide": false,
             "card_title": "<p>New Toys Arrive<\/p>",
             "card_text": "Your new set of educator-curated toys will automatically arrive at your door.  These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
           }
@@ -263,6 +274,7 @@
           "type": "feature_card",
           "settings": {
             "icon_select": "icon_1",
+            "icon_hide": false,
             "card_title": "<p>Repack & Return<\/p>",
             "card_text": "Once your new toys arrive, use the included return shipping materials (prepaid label, tape) and the original packaging to pack your kit. Within 7 days of receiving your new toys, drop your return set off at your local FedEx location."
           }
