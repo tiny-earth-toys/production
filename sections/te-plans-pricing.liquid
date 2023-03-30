@@ -18,38 +18,7 @@
         {% assign plan-3 = all_products[block.settings['plan-3']] %}
     {% endcase %}
   {% endfor %}
-  {% comment %}
-    <span>
-      {{ plan-1.selling_plan_groups[0].name }}
-      {{ spg_name-1 }}
-      {{ spid-1 }}
-    </span>
-    <span>
-      {{ plan-2.selling_plan_groups[0].name }}
-      {{ spg_name-2 }}
-      {{ spid-2 }}
-    </span>
-    <span>
-      {{ plan-3.selling_plan_groups[0].name }}
-      {{ spg_name-3 }}
-      {{ spid-3 }}
-    </span>
-  {% endcomment %}
-  {% assign selected-plan = plan-2 %}
 
-  <p>
-    Selected plan is: <strong>{{ selected-plan.title }}</strong>
-    <span>{{ selling-plan__group-name }}</span>
-    <span>{{ selling-plan__id }}</span>
-  </p>
-  {% comment %}
-    {{ selected-plan.variants[0].id }}
-    {{ selected-plan.variants[0].option1 }}
-    {{ selected-plan.variants[1].id }}
-    {{ selected-plan.variants[1].option1 }}
-    {{ selected-plan.variants[2].id }}
-    {{ selected-plan.variants[2].option1 }}
-  {% endcomment %}
   <div class="section--te-plans-pricing">
     <div class="plans-pricing__header-container">
       <div class="plans-pricing__titles">
