@@ -34,9 +34,7 @@
   border-radius: 6px;
 }
 
-.plans-pricing__tab input[type="radio"] {
-  display: none;
-}
+
 
 .radio-label {
   display: inline-block;
@@ -48,6 +46,10 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
+.plans-pricing__tab input[type="radio"] {
+  display: none;
+  }
 
 .plans-pricing__tab input[type="radio"]:checked + label {
   width: auto;
