@@ -120,7 +120,7 @@
           "settings": {
             "icon_select": "icon_1",
             "card_title": "<p><strong>Gentler on the planet<\/strong><\/p>",
-            "card_text": "Our toys are enjoyed 4-5 times longer than those purchased outright, reducing your environmental impact."
+            "card_text": "Our toys are enjoyed 5x times longer than those purchased outright, reducing your environmental impact."
           }
         },
         "756d2b6d-25d6-4545-bb06-c86c29d4cf12": {
@@ -128,7 +128,7 @@
           "settings": {
             "icon_select": "icon_1",
             "card_title": "<p><strong>Less clutter, less stress<\/strong><\/p>",
-            "card_text": "Having too much stuff has been shown to negatively impact you and your child. We help you cut down on clutter, so you can focus on what is most important... time with your little one."
+            "card_text": "Having too much stuff has been shown to negatively impact you and your child. We help you cut down on clutter, so you can focus on what is most important... time with your little one!"
           }
         },
         "75116256-ed49-43fd-be6c-8b2a66e8f3ac": {
@@ -243,7 +243,7 @@
         "padding_top": 40,
         "padding_bottom": 52,
         "multigallery_section_heading": "<p><em><strong>Educator<\/strong><\/em> curated toys that grow with your <em><strong>child<\/strong><\/em><\/p>",
-        "multigallery_section_subtitle": "Vestibulum porta finibus nunc eget feugiat. Maecenas sagittis quam sit amet nisi vestibulum."
+        "multigallery_section_subtitle": "Noticing how fast your little one is growing and learning? Our membership evolves with them."
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -254,7 +254,7 @@
           "settings": {
             "title__subtitle": "Choose conscious",
             "title__title": "<p>Save your sanity and the planet<\/p>",
-            "title__message": "Spend less time worrying about age-appropriate toys, and accumulating more for toy rotations. Let us handle it for you! Better for your wallet, and the Earth.",
+            "title__message": "Let us handle toy rotations for you! No more scrolling secondhand sites. No more stuffing outdated toys in your closets.",
             "title__hide-icon": true,
             "title__icon": "none"
           }
@@ -265,11 +265,11 @@
             "bullet__hide-icon-1": false,
             "bullet__icon-1": "option_e",
             "bullet__title-1": "Empower the future",
-            "bullet__message-1": "Research shows that habits and infant imitation begin as early as 14 months. We're empowering the generations to come to consume consciously.",
+            "bullet__message-1": "Research shows that habits and infant imitation begin as early as 14 months. Normalizing re-use is empowering the tiny humans watching our every move to consume consciously.",
             "bullet__hide-icon-2": false,
             "bullet__icon-2": "option_f",
-            "bullet__title-2": "Reduce your environmental impact",
-            "bullet__message-2": "Our toys are enjoyed 5x longer than those that are purchased outright. Our families $356 a year on toys!",
+            "bullet__title-2": "Environmental impact",
+            "bullet__message-2": "Based on an average retail price per toy of $44 and 6 exchanges, our families save $900+ and divert 60+ pounds of waste per year.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
             "bullet__title-3": "",
