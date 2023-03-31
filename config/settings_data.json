@@ -119,6 +119,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "te-color-default",
+          "logo": "shopify:\/\/shop_images\/TET_logo.svg",
           "logo_width": 180,
           "logo_position": "middle-left",
           "menu": "main-menu",
