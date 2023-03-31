@@ -79,13 +79,14 @@
 }
 
 .customer tbody {
-  color: rgb(var(--color-foreground));
+  color: rgb(var(--te-base--text));
 }
 
 .customer th,
 .customer td {
   font-weight: 400;
-  line-height: 1;
+  font-size: 1rem;
+  line-height: 1.5rem;
   border: none;
   padding: 0;
 }
@@ -106,8 +107,9 @@
 }
 
 .customer thead th {
-  font-size: 1.2rem;
-  letter-spacing: 0.07rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
 
@@ -154,7 +156,7 @@
 }
 
 .customer tbody tr {
-  border-top: 0.01rem solid rgba(var(--color-foreground), 0.08);
+  border-top: 0.01rem solid rgba(var(--te-base--text), 0.08);
 }
 
 @media screen and (min-width: 750px) {
@@ -431,8 +433,9 @@
 }
 
 :is(.account, .order) p {
-  margin: 0 0 2rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
 :is(.account, .order) h1 {
