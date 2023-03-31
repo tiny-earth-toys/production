@@ -1,3 +1,27 @@
+#customer-account__grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 5fr;
+}
+#side-nav__container {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(var(--te-teal--500),.175);
+  padding: 2em 1em;
+}
+
+  #side-nav__container a{
+    color: rgba;
+}
+
+.side-nav__address {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.logo-wrapper {
+  margin: 1em
+}
 .customer:not(.account):not(.order) {
   margin: 6rem auto 9rem;
   max-width: 33.4rem;
@@ -55,9 +79,12 @@
 
 /* Customer Table */
 .customer table {
+  background-color: rgba(var(--te-base--white), .9);
   table-layout: auto;
+  border-radius: var(--te-border-radius);
   border-collapse: collapse;
-  border-bottom: 0.01rem solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 0.01rem solid rgba(var(--te-base--text), 0.08);
+
   box-shadow: none;
   width: 100%;
   font-size: 1.6rem;
@@ -397,8 +424,8 @@
 
 /* Account/Order */
 :is(.account, .order) {
-  margin: 6rem auto 9rem;
-  max-width: var(--page-width);
+  margin: 2rem 0;
+  max-width: 90%;
   padding: 0 2rem;
 }
 
@@ -408,19 +435,19 @@
   }
 }
 
-@media screen and (min-width: 990px) {
+/* @media screen and (min-width: 990px) {
   :is(.account, .order) > div:nth-of-type(2) {
     display: flex;
     margin-top: 5rem;
   }
-}
+} */
 
-@media screen and (min-width: 990px) {
+/* @media screen and (min-width: 990px) {
   :is(.account, .order) > div:nth-of-type(2) > div:first-of-type {
     flex-grow: 1;
     padding-right: 3.2rem;
   }
-}
+} */
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .order > div:nth-of-type(2) > div:last-of-type {
@@ -747,4 +774,26 @@ li[data-address] > h2 {
 .addresses form > div:nth-of-type(7),
 .addresses form > div:nth-of-type(7) + div[id] {
   margin-top: 1.5rem;
+}
+
+/* Quick Links Container */
+
+#quick-links__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1.5em 0;
+}
+
+.quick-links__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25em;
+  border-radius: var(--te-border-radius);
+  background-color: rgba(var(--te-base--white), .9);
+  box-shadow: var(--te-shadow--lg);
+  max-width: 20%;
 }

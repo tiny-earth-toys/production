@@ -102,13 +102,22 @@
       {{ 'accessibility.skip_to_text' | t }}
     </a>
 
-    {% unless template contains 'onboarding' %}
+    {% if template contains 'onboarding' %}
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {{ content_for_layout }}
+      </main>
+    {% elsif template contains 'account' %}
+      {% section 'announcement-bar' %}
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {{ content_for_layout }}
+      </main>
+    {% else %}
       {% section 'announcement-bar' %}
       {% section 'header' %}
-    {% endunless %}
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
-    </main>
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        {{ content_for_layout }}
+      </main>
+    {% endif %}
 
     {% unless template contains 'onboarding' %}
       {% section 'footer' %}
