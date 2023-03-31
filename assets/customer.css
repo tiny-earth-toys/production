@@ -6,12 +6,20 @@
 #side-nav__container {
   height: 100%;
   width: 100%;
-  background-color: rgba(var(--te-teal--500),.175);
+  background-color: rgba(var(--te-base--cream-dark),.95);
   padding: 2em 1em;
 }
 
   #side-nav__container a{
-    color: rgba;
+    color: rgb(var(--te-gray--700));
+    text-underline-offset: 0.125rem;
+    text-decoration-thickness: 0.1rem;
+    transition: text-decoration-thickness ease 100ms;
+}
+
+#side-nav__container a:hover {
+  color: rgb(var(--te-moss--700));
+  text-decoration-thickness: 0.15rem;
 }
 
 .side-nav__address {

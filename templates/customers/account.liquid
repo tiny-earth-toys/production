@@ -3,7 +3,7 @@
   <div id="side-nav__container">
     <div class='side-nav__logo-container'>
       <div class="logo-wrapper">
-      {% render 'icon-tet-logo'%}
+        <a href="/">{% render 'icon-tet-logo'%}</a>
       </div>
     </div>
 
@@ -14,6 +14,11 @@
         <div>
           <a href="{{ routes.account_url }}" class="font-size--xl">Account Home</a>
         </div>
+                <!-- Begin ReCharge code -->
+                <div>
+                  <a href="/tools/recurring/login">Manage Account</a>
+                </div>
+              <!-- End ReCharge code -->
         <div>
           <a href="/pages/internal" class="font-size--xl">Internal Resources</a>
         </div>
@@ -23,15 +28,7 @@
         <div>
           <a href="{{ routes.account_addresses_url }}" class="font-size--xl">Shipping Address</a>
         </div>
-        <!-- Begin ReCharge code -->
-        <div>
-          <a href="/tools/recurring/login">Manage Subscriptions</a>
-        </div>
-      <!-- End ReCharge code -->
       <div>
-        <a href="{{ routes.account_addresses_url }}">
-          {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
-        </a>
       </div>
         <div>
           <a href="{{ routes.account_logout_url }}">
