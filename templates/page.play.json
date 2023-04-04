@@ -53,14 +53,14 @@
         "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-0": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Our toys",
             "heading_size": "h2"
           }
         },
         "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>We test all toys for function and fun. We take into account smaller hands and age appropriate motor skills. We make sure there is a “point of interest” to capture their attention and make learning fun.<em> <\/em>Toys that are fully functional and fun foster independence, resilience and confidence.<\/p>"
           }
         },
         "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-2": {
@@ -93,11 +93,11 @@
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
             "bullet__title-1": "Child powered",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__message-1": "All our toys are “low stimulation” toys. They never have batteries or electric power of any kind. These toys support a child’s active concentration - an essential skill to build early in life.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-2": "Skill Oriented",
+            "bullet__message-2": "Many of our toys are skill oriented. This helps children discover and develop specific skills while having fun.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
             "bullet__title-3": "",
@@ -138,16 +138,16 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Fun and functional",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-1": "",
+            "bullet__message-1": "",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "",
-            "bullet__message-2": "",
+            "bullet__title-2": "Open Ended",
+            "bullet__message-2": "If a toy isn’t skill oriented, it is likely one of our open ended toys. These toys can be played with in a variety of ways. They encourage creative thinking, problem solving and many other skills. With these toys the sky's the limit.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
-            "bullet__title-3": "",
-            "bullet__message-3": ""
+            "bullet__title-3": "Naturally Beautiful",
+            "bullet__message-3": "We choose toys made of natural materials, like wood, not only because it is a win for the planet, but also because handling natural materials helps children learn about the natural world. We work to find beautiful toys because young children absorb an understanding of harmony, order and beauty from the world around them."
           }
         }
       },
@@ -172,12 +172,12 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Beautifully natural",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-1": "Small Changes. Big Impacts.",
+            "bullet__message-1": "We believe that environmental stewards come in all sizes. By renting with Tiny Earth, you're empowering the generations to come.",
             "bullet__hide-icon-2": false,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "",
-            "bullet__message-2": "",
+            "bullet__title-2": "The Play Space",
+            "bullet__message-2": "Our educational partner at home is the home learning area itself! The toys work best in an environment that is conducive for learning. We provide resources and support to help you create and maintain that optimal playing and learning space.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
             "bullet__title-3": "",
@@ -218,8 +218,8 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Engaging and educational",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-1": "",
+            "bullet__message-1": "",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
             "bullet__title-2": "",
@@ -250,8 +250,8 @@
         "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-0": {
           "type": "newsletter-title",
           "settings": {
-            "newsletter-title__header": "<p>Subscribe to our newsletter to stay updated with all of our special offers<\/p>",
-            "newsletter-title__caption": "Phasellus rhoncus augue non felis hendrerit pellentesque."
+            "newsletter-title__header": "<p>Stay in the loop on articles by experts and special offers<\/p>",
+            "newsletter-title__caption": "Never spam. Always designed to get you out of a parenting jam."
           }
         },
         "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-1": {

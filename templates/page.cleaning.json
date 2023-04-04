@@ -14,10 +14,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/AM8A5366_V1_4717b7b5-5b25-4380-9748-0b284ea5b532.jpg",
-            "heading": "Image slide",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -31,11 +31,11 @@
         "template--16679765901557__236b4933-4deb-4464-8f2c-72f98827de08-167993924288017e54-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/team-group.jpg",
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/educational-roddy.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
@@ -60,10 +60,48 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "f1c9d178-6558-49dc-b4b0-0db14b6c812a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Your safety is our top priority",
+            "heading_size": "h1"
+          }
+        },
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We start by only sourcing toys made from natural materials and finishes like solid linden wood blocks with water based paints and beeswax finishes. <\/p><p>When toys are returned or exchanged, they are handled by gloved and masked professionals who rigorously clean each toy using <a href=\"https:\/\/www.forceofnatureclean.com\/natural-cleaner-and-disinfectant\/\" target=\"_blank\">Force of Nature<\/a>. “Force of Nature is an EPA-registered disinfectant & sanitizer that kills 99.9% of <a href=\"https:\/\/www.forceofnatureclean.com\/lp-cleaning-disinfecting-test-results\/\" target=\"_blank\">germs<\/a>*, even Staph, MRSA, Norovirus, Influenza A, Salmonella, and Listeria when used as directed. It’s on EPA’s list of Disinfectants for Use Against SARS-CoV-2, the cause of COVID-19.” Force of nature is made without the use of toxic chemicals, added fragrance, dyes, preservatives or surfactants. <\/p><p>Toys are then air-dried, carefully repackaged and shipped where they spend between 3 - 5 days in transit.<\/p>"
+          }
+        },
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-0",
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-1",
+        "template--16679765901557__f1c9d178-6558-49dc-b4b0-0db14b6c812a-16805723912edf8eb5-2"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "236b4933-4deb-4464-8f2c-72f98827de08"
+    "236b4933-4deb-4464-8f2c-72f98827de08",
+    "f1c9d178-6558-49dc-b4b0-0db14b6c812a"
   ]
 }

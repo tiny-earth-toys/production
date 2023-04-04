@@ -135,8 +135,8 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing."
+            "card_title": "<p>Educator backed<\/p>",
+            "card_text": "Our products, learning content and materials are all vetted by and developed with early childhood educators who have built their careers educating children."
           }
         },
         "6b9e2d89-db90-49a6-ac25-e6bc77b583b7": {
@@ -253,9 +253,9 @@
         "color_scheme": "te-default",
         "padding_top": 36,
         "padding_bottom": 52,
-        "subtitle": "Our Story",
-        "title": "<p>Etiam egestas in nec sed et<\/p>",
-        "caption": "In tincidunt pharetra consectetur sed duis facilisis metus. Etiam egestas in."
+        "subtitle": "IMPACT",
+        "title": "<p>We're in this together<\/p>",
+        "caption": "Minimized consumption and reuse at the household level can slow climate change and be a key step towards saving our earth."
       }
     }
   },

@@ -136,16 +136,16 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Skill oriented",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-1": "Child-Powered ",
+            "bullet__message-1": "All our toys are “low stimulation” toys. They never have batteries or electric power of any kind. These toys support a child’s active concentration - an essential skill to build early in life.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Open ended",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-2": "Skill Oriented",
+            "bullet__message-2": "Many of our toys are skill oriented. This helps children discover and develop specific skills while having fun.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
-            "bullet__title-3": "Aliquam ac euismod quam",
-            "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+            "bullet__title-3": "Open ended",
+            "bullet__message-3": "If a toy isn’t skill oriented, it is likely one of our open ended toys. These toys can be played with in a variety of ways. They encourage creative thinking, problem solving and many other skills. With these toys the sky's the limit."
           }
         },
         "d070c2a7-0dfb-455f-8167-30807684bce6": {
@@ -166,6 +166,39 @@
         "subtitle": "",
         "title": "<p>Beyond ABCs<\/p>",
         "caption": "Our educational philosophy is reflected in every toy we send to our members.  Often educational toys are associated with letters and numbers, but essential learning during early childhood goes beyond these academic areas.  We believe it's crucial to support children in developing active concentration and executive thinking skills.  Our selections are specifically curated to support optimal early childhood learning at home."
+      }
+    },
+    "a2d9f5c9-0e3e-4e7f-ad04-73a8d1efc4d2": {
+      "type": "te-double-column",
+      "blocks": {
+        "9523fcf5-77a6-4ace-89e7-327900b4126d": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_a",
+            "bullet__title-1": "Functional and Fun",
+            "bullet__message-1": "We test all toys for function and fun. We take into account smaller hands and age appropriate motor skills. We make sure there is a “point of interest” to capture their attention and make learning fun. Toys that are fully functional and fun foster independence, resilience and confidence.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_a",
+            "bullet__title-2": "Naturally Beautiful",
+            "bullet__message-2": "We choose toys made of natural materials, like wood, not only because it is a win for the planet, but also because handling natural materials helps children learn about the natural world. We work to find beautiful toys because young children absorb an understanding of harmony, order and beauty from the world around them.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "9523fcf5-77a6-4ace-89e7-327900b4126d"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
       }
     },
     "b792b6eb-465f-4ff6-af94-5a5da9547e62": {
@@ -297,6 +330,7 @@
     "52a83d38-c7ca-49aa-9c58-215efb66ab22",
     "f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc",
     "c40df103-390d-4ae2-8c7b-aa6dc86d42f4",
+    "a2d9f5c9-0e3e-4e7f-ad04-73a8d1efc4d2",
     "b792b6eb-465f-4ff6-af94-5a5da9547e62",
     "5046e760-7ee5-4927-b3dc-fc03cfbbf1a0",
     "ea837264-8ba7-4332-9559-2d10ec88db2b"

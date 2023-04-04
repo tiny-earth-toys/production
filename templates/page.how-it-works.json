@@ -49,7 +49,7 @@
             "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "<p><strong>Rent<\/strong><\/p>",
-            "card_text": "Pick the plan that works for your fam.  You'll see your curated set of toys at checkout. Easy for you, gentle on the planet."
+            "card_text": "Pick the plan that works for your fam.  You'll see your curated set of toys at checkout. Easy for you, gentle on the planet"
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-1": {
@@ -67,7 +67,7 @@
             "icon_select": "icon_3",
             "icon_hide": false,
             "card_title": "<p><strong>Rotate<\/strong><\/p>",
-            "card_text": "Every two months you'll swap out your current toys for a fresh set and watch your little one light up! Can't bear to part with something? You can buy it."
+            "card_text": "Every two months you'll swap out your current toys for a fresh set and watch your little one light up! Can't bear to part with something? You can buy it"
           }
         }
       },
@@ -266,7 +266,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>Ding dong!<\/p>",
+            "card_title": "<p>Ding dong<\/p>",
             "card_text": "Your new toys arrive before you send the previous kit back. These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
           }
         },

@@ -20,7 +20,7 @@
         "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>We're here for you! Our Learning Guides are quick reads for every parent to support in-home learning through play, based on your child's age.<\/p>",
             "text_style": "body"
           }
         },
@@ -68,8 +68,8 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "",
-            "title__title": "Minimalism Overview",
-            "title__message": "In ipsum nibh, fermentum a tempor ut, interdum eu ipsum. Integer volutpat suscipit neque, ut ullamcorper dolor aliquam non.",
+            "title__title": "Set up for success",
+            "title__message": "It is hard to overstate the importance that the home environment has on our young children.  The \"environment\", in this case, means everything your child comes into contact with - the toys, furniture, pictures, music etc.",
             "title__hide-icon": true,
             "title__icon": "option_a"
           }
@@ -79,16 +79,16 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Aliquam ac euismod quam",
-            "bullet__message-1": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-1": "Less is More",
+            "bullet__message-1": "When little ones are overstimulated they often have a harder time listening and focusing and are more prone to melting down. This makes it very hard for them to build the essential skill of concentration at a pivotal time for developing it.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Aliquam ac euismod quam",
-            "bullet__message-2": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla.",
+            "bullet__title-2": "Declutter Consciously",
+            "bullet__message-2": "Limit or eliminate the number of high stimulation toys in your space. These are toys that beep and flash or play music. Prioritize toys that are either open ended or that target one skill acquisition. Open ended toys can be played with in many different ways.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
-            "bullet__title-3": "Aliquam ac euismod quam",
-            "bullet__message-3": "Phasellus non maximus risus. Praesent sem ante, aliquam quis elit et, laoreet eleifend lorem. Donec vitae erat lacinia mi laoreet fringilla."
+            "bullet__title-3": "Set up for Independence",
+            "bullet__message-3": "Organize your play space so that your little ones can easily access their toys on their own. Use low shelves so they can easily reach items."
           }
         }
       },
@@ -151,7 +151,7 @@
         "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0": {
           "type": "quote_caption",
           "settings": {
-            "caption_text": "Vestibulum non gravida velit",
+            "caption_text": "toy rotations are magical",
             "caption_text--alignment": "left",
             "caption_text--capitalize": true
           }
@@ -159,9 +159,9 @@
         "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1": {
           "type": "quote_text",
           "settings": {
-            "main_text": "Praesent consectetur velit enim, eget porta sem volutpat suscipit. Ut pretium faucibus tortor, quis condimentum urna elementum sit amet tincidunt.",
+            "main_text": "Rotate toys by changing the 8-10 toys that are available for play. If a toy isn’t getting played with try putting it in a different place on the shelf when you do bring it back out. ",
             "main_text--alignment": "left",
-            "main_text--font-size": "te-display te-display--med",
+            "main_text--font-size": "te-display te-display--sm",
             "main_text--font-weight": "te-weight--display-regular",
             "main_text--italics": false
           }
