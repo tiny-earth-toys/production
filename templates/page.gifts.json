@@ -125,7 +125,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "High quality wooden open-ended toys curated for your child’s abilities"
           }
         },
@@ -134,7 +134,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "Choice. No charge for educator selection of the toys or your customization"
           }
         },
@@ -143,7 +143,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "Buy for a discount off retail if you want to purchase an item from your kit"
           }
         },
@@ -152,7 +152,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "Rigorous cleaning and inspection of each toy before it reaches its next family"
           }
         },
@@ -161,7 +161,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "No charge for lost or damaged pieces - it happens with little ones"
           }
         },
@@ -170,7 +170,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
+            "card_title": "",
             "card_text": "Free shipping both ways"
           }
         }

@@ -7,8 +7,110 @@
         "padding_bottom": 28
       }
     },
+    "ff4fd325-8c48-495f-bddf-842f0a00afc9": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's included?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "8d448c8a-13fb-4317-b091-7ae79af1b4c6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does toy selection work?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I exchange?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I buy toys?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "23450e0f-d7b4-40cf-9a1a-012503e2568a": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I ship toys back to you?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I have more than 1 child ...",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "cc0f7eeb-3950-4c84-83c9-87556a1669de": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What's the cleaning process?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "3f69b542-cc43-44d0-829f-5fa22d2a5819": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I lose or damage a piece?",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-0",
+        "8d448c8a-13fb-4317-b091-7ae79af1b4c6",
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-1",
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-3",
+        "23450e0f-d7b4-40cf-9a1a-012503e2568a",
+        "template--16679329759477__ff4fd325-8c48-495f-bddf-842f0a00afc9-1680621073fa31b9dd-2",
+        "cc0f7eeb-3950-4c84-83c9-87556a1669de",
+        "3f69b542-cc43-44d0-829f-5fa22d2a5819"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "How it works",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "te-default",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "11d34b27-9a57-4147-ada3-2b08b3c6712b": {
       "type": "te-rich-text",
+      "disabled": true,
       "blocks": {
         "template--16679329759477__11d34b27-9a57-4147-ada3-2b08b3c6712b-167460709844647af9-0": {
           "type": "heading",
@@ -37,6 +139,7 @@
     },
     "4bc003e5-307d-488d-85ea-276e9307c0dd": {
       "type": "te-image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16679329759477__4bc003e5-307d-488d-85ea-276e9307c0dd-16746065607637a55f-0": {
           "type": "heading",
@@ -118,6 +221,7 @@
   },
   "order": [
     "main",
+    "ff4fd325-8c48-495f-bddf-842f0a00afc9",
     "11d34b27-9a57-4147-ada3-2b08b3c6712b",
     "4bc003e5-307d-488d-85ea-276e9307c0dd",
     "96def509-13c1-4845-a765-6890b2716c07"

@@ -20,7 +20,7 @@
         "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We're here for you! Our Learning Guides are quick reads for every parent to support in-home learning through play, based on your child's age.<\/p>",
+            "text": "<p>We believe you should be able to live your values in early parenthood. Your membership allows you to live a life with less clutter, and more time for play.<\/p>",
             "text_style": "body"
           }
         },
@@ -151,7 +151,7 @@
         "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-0": {
           "type": "quote_caption",
           "settings": {
-            "caption_text": "toy rotations are magical",
+            "caption_text": "judgement free parenting support",
             "caption_text--alignment": "left",
             "caption_text--capitalize": true
           }
@@ -159,7 +159,7 @@
         "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1": {
           "type": "quote_text",
           "settings": {
-            "main_text": "Rotate toys by changing the 8-10 toys that are available for play. If a toy isn’t getting played with try putting it in a different place on the shelf when you do bring it back out. ",
+            "main_text": "Our blog is full of learning guides for caregivers, simplicity parenting articles, and content that meets your family where you are.",
             "main_text--alignment": "left",
             "main_text--font-size": "te-display te-display--sm",
             "main_text--font-weight": "te-weight--display-regular",
