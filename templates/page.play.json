@@ -96,7 +96,7 @@
             "bullet__message-1": "All our toys are “low stimulation” toys. They never have batteries or electric power of any kind. These toys support a child’s active concentration - an essential skill to build early in life.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Skill Oriented",
+            "bullet__title-2": "Skill oriented",
             "bullet__message-2": "Many of our toys are skill oriented. This helps children discover and develop specific skills while having fun.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
@@ -142,11 +142,11 @@
             "bullet__message-1": "",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Open Ended",
+            "bullet__title-2": "Open ended",
             "bullet__message-2": "If a toy isn’t skill oriented, it is likely one of our open ended toys. These toys can be played with in a variety of ways. They encourage creative thinking, problem solving and many other skills. With these toys the sky's the limit.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
-            "bullet__title-3": "Naturally Beautiful",
+            "bullet__title-3": "Naturally beautiful",
             "bullet__message-3": "We choose toys made of natural materials, like wood, not only because it is a win for the planet, but also because handling natural materials helps children learn about the natural world. We work to find beautiful toys because young children absorb an understanding of harmony, order and beauty from the world around them."
           }
         }
@@ -172,11 +172,11 @@
           "settings": {
             "bullet__hide-icon-1": true,
             "bullet__icon-1": "option_a",
-            "bullet__title-1": "Small Changes. Big Impacts.",
+            "bullet__title-1": "Small changes. Big impacts.",
             "bullet__message-1": "We believe that environmental stewards come in all sizes. By renting with Tiny Earth, you're empowering the generations to come.",
-            "bullet__hide-icon-2": false,
+            "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "The Play Space",
+            "bullet__title-2": "The play space",
             "bullet__message-2": "Our educational partner at home is the home learning area itself! The toys work best in an environment that is conducive for learning. We provide resources and support to help you create and maintain that optimal playing and learning space.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_a",
