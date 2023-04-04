@@ -52,8 +52,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
-            "title": "<p>5 Toy Kit<\/p>",
-            "text": "<ul><li>Average kit value of $250<\/li><li>Exchanges every 2 months<\/li><li> Rent for $35 a month<\/li><\/ul>",
+            "title": "<p>Educational<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -62,8 +62,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg",
-            "title": "<p>8 Toy Kit<\/p>",
-            "text": "<ul><li>Average kit value of $368<\/li><li>Exchanges every 2 months<\/li><li> Rent for $48 a month<\/li><\/ul>",
+            "title": "<p>Sustainable<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -72,8 +72,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "title": "<p>10 Toy Kit<\/p>",
-            "text": "<ul><li>Average kit value of $460<\/li><li>Exchanges every 2 months<\/li><li> Rent for $65 a month<\/li><\/ul>",
+            "title": "<p>Minimal<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -85,10 +85,10 @@
         "template--16658355257589__f0905a4a-f8b1-47fd-8897-66f6c34773d1-16716516068fda9c7b-2"
       ],
       "settings": {
-        "title": "<p><em><strong>Choose<\/strong><\/em> your kit<\/p>",
+        "title": "<p><em><strong>Simplify<\/strong><\/em> your life<\/p>",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "subtitle": "<p>Your membership gives you access to our entire collection of educator-curated, age-appropriate toys.<\/p>",
+        "subtitle": "<p>Your membership gives you access to our entire collection of educator-curated, age-appropriate toys. Pick the plan that works for your fam. <\/p>",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
