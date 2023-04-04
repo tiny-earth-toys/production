@@ -49,7 +49,7 @@
             "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "<p><strong>Rent<\/strong><\/p>",
-            "card_text": "Pick the plan that works for your fam.  Tell us any specific toys you want to receive at checkout. We'll send your first set of age-appropriate toys straight to your doorstep."
+            "card_text": "Pick the plan that works for your fam.  You'll see your curated set of toys at checkout. Easy for you, gentle on the planet."
           }
         },
         "template--16679329693941__9bab2570-0bb4-4857-86f6-8d0be8eb42e2-167466404830fd5ee2-1": {
@@ -67,7 +67,7 @@
             "icon_select": "icon_3",
             "icon_hide": false,
             "card_title": "<p><strong>Rotate<\/strong><\/p>",
-            "card_text": "Every two months you'll swap out your current toys for a fresh set and watch your little one light up! Can't bear to part with something? You'll have the option to purchase at a discounted rate."
+            "card_text": "Every two months you'll swap out your current toys for a fresh set and watch your little one light up! Can't bear to part with something? You can buy it."
           }
         }
       },
@@ -208,8 +208,8 @@
             "bullet__message-1": "Children learn through repetition.  Circling back to old favorites boosts confidence and can have a settling effect. Finding new ways to play with familiar toys encourages creativity, innovation and active concentration.",
             "bullet__hide-icon-2": true,
             "bullet__icon-2": "option_a",
-            "bullet__title-2": "Team earth",
-            "bullet__message-2": "Part of our mission is to decrease the negative impact we parents have on the planet our children will inherit. Together, we are helping decrease demand for plastic toy production. We are helping decrease the amount of toys that end up in landfills and we hope to do so with minimal carbon footprint.",
+            "bullet__title-2": "Team Earth",
+            "bullet__message-2": "Part of our mission is to decrease the negative impact we parents have on the planet our children will inherit. Together, we are helping decrease demand for plastic toy production.",
             "bullet__hide-icon-3": true,
             "bullet__icon-3": "option_f",
             "bullet__title-3": "",
@@ -257,8 +257,8 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>Get Alerted<\/p>",
-            "card_text": "Every two months, you will receive an email letting you know your exchange is being prepared. You have 3 days to modify your exchange if needed. Modifications include toy modifications or rescheduling your exchange date."
+            "card_title": "<p>You've got mail<\/p>",
+            "card_text": "Every two months, you will receive an email letting you know your next kit is being prepared. You have three days to modify your order if needed. Swap out toys, or snooze your order."
           }
         },
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-1": {
@@ -266,8 +266,8 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>New Toys Arrive<\/p>",
-            "card_text": "Your new set of educator-curated toys will automatically arrive at your door.  These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
+            "card_title": "<p>Ding dong!<\/p>",
+            "card_text": "Your new toys arrive before you send the previous kit back. These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
           }
         },
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-2": {

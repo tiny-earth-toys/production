@@ -20,7 +20,7 @@
         "template--16723060424949__e6e7940e-e067-4acc-9ac6-d9ba9b3d0497-16800257572dbc9f6e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Gift educator-curated toy rentals. Less stress, more fun.<\/p>",
             "text_style": "body"
           }
         },
@@ -58,8 +58,8 @@
         "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-0": {
           "type": "column",
           "settings": {
-            "title": "<h5><em><strong>Praesent<\/strong><\/em><\/h5><h5>dapibus tincidunt<\/h5>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<h5><em><strong>Grab your gift<\/strong><\/em><\/h5>",
+            "text": "<p>Join a movement of friends, family, and caregivers committed to saving Earth and parents’ sanity by gifting 4, 6, or 12 months of toys<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -67,8 +67,8 @@
         "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-1": {
           "type": "column",
           "settings": {
-            "title": "<h5><em><strong>Vivamus<\/strong><\/em><\/h5><h5>ut nisl vitae<\/h5>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<h5><em><strong>Get things going<\/strong><\/em><\/h5>",
+            "text": "<p>Whenever your giftee is ready, they subscribe and customize their first kit to start renting age-appropriate wooden toys<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -76,8 +76,8 @@
         "template--16723060424949__e25893de-c5e9-4898-9d1a-61b78942e337-168002516077214783-2": {
           "type": "column",
           "settings": {
-            "title": "<h4><em><strong>Pellentesque <\/strong><\/em><\/h4><h4>pellentesque<\/h4>",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "<h5><em><strong>Bye bye clutter<\/strong><\/em><\/h5>",
+            "text": "<p>Every 2 months, your recipient can exchange for their next set of open-ended toys and educational content<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -126,7 +126,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "High quality wooden open-ended toys curated for your child’s abilities"
           }
         },
         "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-1": {
@@ -135,7 +135,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "Choice. No charge for educator selection of the toys or your customization"
           }
         },
         "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-2": {
@@ -144,7 +144,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "Buy for a discount off retail if you want to purchase an item from your kit"
           }
         },
         "a5a07f09-963a-4bb2-bf10-3570bdea9647": {
@@ -153,7 +153,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "Rigorous cleaning and inspection of each toy before it reaches its next family"
           }
         },
         "4ca653df-b626-46bd-91fe-340595985f35": {
@@ -162,7 +162,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "No charge for lost or damaged pieces - it happens with little ones"
           }
         },
         "f257e24a-3654-4090-86b3-53804cb74d40": {
@@ -171,7 +171,7 @@
             "icon_select": "icon_1",
             "icon_hide": false,
             "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_text": "Free shipping both ways"
           }
         }
       },
@@ -190,7 +190,7 @@
         "full_width": true,
         "subtitle": "",
         "section_title": "<p>All memberships <em><strong>include<\/strong><\/em><\/p>",
-        "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "section_text": "",
         "columns_desktop": 3,
         "columns_mobile": "1",
         "button_color": "green",
