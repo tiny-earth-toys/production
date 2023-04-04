@@ -62,7 +62,7 @@
         "511eca5f-96e2-4cbb-b6d3-c22d8a018a3e": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "<p>The playspace<\/p>",
             "card_text": "Our educational partner at home is the home learning area itself! Our toys work best in an environment that is conducive for learning. We provide resources and support to help you create and maintain the optimal playing and learning space."
@@ -71,7 +71,7 @@
         "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-1": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_3",
             "icon_hide": false,
             "card_title": "<p>You matter<\/p>",
             "card_text": "How adults interact with the children in their care is extremely important for early learning and development. While we provide wonderful, educationally rich toys, they're  no match for the power of your presence and interactions."
@@ -80,7 +80,7 @@
         "template--16679765737717__f8ce79e4-3d5c-47e4-a8fa-b0dcbfe0c0bc-1679513802ed8cc029-2": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "<p>Being with children<\/p>",
             "card_text": "Guiding young children as they develop confidence, independence, curiosity, basic academic foundations and other essential skills is not always intuitive. This is why we provide caregiver\/parent support content to take the guesswork out of “best practices” for learning at home."
@@ -98,7 +98,7 @@
         "e336376e-fd2f-45e7-b58e-27149962c713": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "<p>Montessori at heart<\/p>",
             "card_text": "Our support materials provide you with time-tested tools and tips for incorporating Montessori practices into your home learning environment.  We believe every family is unique, and encourage you to take what works best for your family by observing what your children respond best to."
