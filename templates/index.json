@@ -88,7 +88,7 @@
         "title": "<p><em><strong>Choose<\/strong><\/em> your kit<\/p>",
         "heading_size": "h1",
         "heading_alignment": "center",
-        "subtitle": "<p>Your membership gives you access to our entire collection of educator-curated, age-appropriate toys.<\/p><p>Explore which kit is the best fit for you and your fam.<\/p>",
+        "subtitle": "<p>Your membership gives you access to our entire collection of educator-curated, age-appropriate toys.<\/p>",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -151,7 +151,7 @@
         "padding_top": 4,
         "padding_bottom": 92,
         "fwi_section_heading": "<p><em><strong>The right<\/strong><\/em> learning materials at just the right <em><strong>time<\/strong><\/em><\/p>",
-        "fwi_section_subheading": "The beauty of renting with Tiny Earth is that our toys grow with your child. Always have what’s age appropriate and send back what isn’t.",
+        "fwi_section_subheading": "The beauty of renting with Tiny Earth is that you'll always have what’s age appropriate. Send back what isn’t.",
         "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
       }
     },
@@ -243,7 +243,7 @@
         "padding_top": 40,
         "padding_bottom": 52,
         "multigallery_section_heading": "<p><em><strong>Educator<\/strong><\/em> curated toys that grow with your <em><strong>child<\/strong><\/em><\/p>",
-        "multigallery_section_subtitle": "Noticing how fast your little one is growing and learning? Our membership evolves with them."
+        "multigallery_section_subtitle": "Our membership evolves with your fam."
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -366,6 +366,9 @@
         "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-1",
         "template--16716356387061__1c22a260-a7fe-4906-89ee-744ecd0899b9-16793464454815a1f6-2"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "color_scheme": "te-teal-light",
         "padding_top": 40,
@@ -445,7 +448,7 @@
           "settings": {
             "heading": "Can I buy the toys?",
             "icon": "none",
-            "row_content": "<p>If you are a monthly subscriber and fall in love with a toy, you can purchase it when you exchange for 15% off the retail price. Unfortunately, we don’t sell our toys outside of our subscriptions.<\/p>",
+            "row_content": "<p>If you are a monthly subscriber and fall in love with a toy, you can purchase it when you exchange for 15% off the retail price. We sell some pre-loved toys that you can see here.<\/p>",
             "page": ""
           }
         },
