@@ -17,10 +17,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "76d38ae1-b541-4f5f-bd57-29bbf42b7ac1": {
+      "type": "te-multicolumn",
+      "blocks": {
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-0": {
+          "type": "column",
+          "settings": {
+            "title": "<p>Headquarters<\/p>",
+            "text": "<p>Team Tiny is proudly based in North Carolina! <br\/><br\/>4913 S Alston Dr<br\/>Durham, NC 27713<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-1": {
+          "type": "column",
+          "settings": {
+            "title": "<p>Questions<\/p>",
+            "text": "<p>We get it! We've compiled some resources for our families to get answers to frequently asked questions about our rental membership.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-2": {
+          "type": "column",
+          "settings": {
+            "title": "<p>Drop us a line<\/p>",
+            "text": "<p>You can reach our support team at hello@tinyearthtoys.com—we guarantee a 100% human response. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-0",
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-1",
+        "template--16657629774069__76d38ae1-b541-4f5f-bd57-29bbf42b7ac1-16806176156c34ba46-2"
+      ],
+      "settings": {
+        "title": "<p>Get in touch<\/p>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "subtitle": "",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "More Info",
+        "button_color": "line-gray",
+        "button_link": "",
+        "color_scheme": "te-default",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "76d38ae1-b541-4f5f-bd57-29bbf42b7ac1"
   ]
 }
