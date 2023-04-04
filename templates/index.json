@@ -243,7 +243,7 @@
         "padding_top": 40,
         "padding_bottom": 52,
         "multigallery_section_heading": "<p><em><strong>Educator<\/strong><\/em> curated toys that grow with your <em><strong>child<\/strong><\/em><\/p>",
-        "multigallery_section_subtitle": "Browse toys from"
+        "multigallery_section_subtitle": "Toy rotations made easy to support stage-based play."
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -282,7 +282,7 @@
         "32729669-97d9-42fe-ba98-009eb4f66d6b"
       ],
       "settings": {
-        "color_scheme": "te-teal-dark",
+        "color_scheme": "te-silver-dark",
         "padding_top": 40,
         "padding_bottom": 52,
         "subtitle": "",
@@ -380,8 +380,8 @@
         "columns_desktop": 3,
         "columns_mobile": "1",
         "button_color": "line-gray",
-        "button_label": "Get Started",
-        "button_link": "shopify:\/\/pages\/memberships"
+        "button_label": "For Parents",
+        "button_link": "shopify:\/\/pages\/parents"
       }
     },
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
