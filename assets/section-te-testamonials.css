@@ -12,12 +12,12 @@
 }
 
 .testamonials-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 0 2em;
-  gap: 4em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+slider-component {
+  width: 50%;
 }
 
 .tc-content {
@@ -51,6 +51,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  padding-top: 1.5em;
   gap: 1em;
 }
 
@@ -77,12 +78,13 @@
 .attribution-arrows {
   display: flex;
   flex-direction: row;
-  align-items: ;
   gap: 2em;
 }
 
 .tc-image-wrapper{
-  width: 100%;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
 }
 
 .tc-image-wrapper img{
