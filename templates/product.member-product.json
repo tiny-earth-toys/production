@@ -10,6 +10,12 @@
             "text_style": "uppercase"
           }
         },
+        "b499a66f-2b47-4662-8ea8-0c098fb43c04": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.type}}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -50,7 +56,7 @@
           "settings": {
             "heading": "",
             "icon": "heart",
-            "content": "",
+            "content": "<p>Skills<\/p>",
             "page": ""
           }
         },
@@ -63,6 +69,7 @@
       },
       "block_order": [
         "vendor",
+        "b499a66f-2b47-4662-8ea8-0c098fb43c04",
         "title",
         "description",
         "caption",
@@ -93,20 +100,10 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
-        "column-0",
-        "column-1"
+        "column-0"
       ],
       "settings": {
         "title": "",
