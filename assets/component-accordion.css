@@ -2,7 +2,7 @@
   display: flex;
   position: relative;
   line-height: 1;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .accordion .summary__title {
@@ -29,7 +29,7 @@
 .accordion__title {
   display: inline-block;
   max-width: calc(100% - 6rem);
-  min-height: 1.6rem;
+  min-height: 1.2rem;
   margin: 0;
   word-break: break-word;
 }

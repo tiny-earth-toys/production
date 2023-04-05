@@ -259,7 +259,7 @@
       --font-heading-family: Poppins;
       --font-heading-style: normal;
       --font-heading-weight: 400; */
-
+      --font-heading-scale: 1;
       --media-padding: 8px;
       --media-border-opacity: 0.25;
       --media-border-width: 0px;
