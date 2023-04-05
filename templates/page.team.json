@@ -93,7 +93,7 @@
       ],
       "settings": {
         "color_scheme": "te-cream-dark",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 52,
         "full_width": true,
         "subtitle": "Our Values",
