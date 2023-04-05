@@ -14,7 +14,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What's included?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -23,7 +23,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How does toy selection work?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -32,7 +32,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I exchange?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -41,7 +41,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I buy toys?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -50,7 +50,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I ship toys back to you?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -59,7 +59,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "I have more than 1 child ...",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -68,7 +68,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What's the cleaning process?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -77,7 +77,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "What if I lose or damage a piece?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -95,7 +95,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "How it works",
+        "heading": "Frequently asked questions",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
