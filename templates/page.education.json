@@ -93,7 +93,7 @@
         "template--16723061211381__b792b6eb-465f-4ff6-af94-5a5da9547e62-167993058078994990-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><em><strong>Age based<\/strong><\/em> learning guides<\/p>",
+            "heading": "<p><em><strong>Age based<\/strong><\/em> <\/p><p>learning guides<\/p>",
             "heading_size": "h1"
           }
         },
