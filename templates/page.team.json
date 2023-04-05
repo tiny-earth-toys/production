@@ -63,7 +63,7 @@
           "settings": {
             "icon_select": "icon_4",
             "icon_hide": false,
-            "card_title": "<h5>39<\/h5>",
+            "card_title": "<h3><em><strong>39<\/strong><\/em><\/h3>",
             "card_text": "Average number of toys our families rent versus buy every year"
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<h5>78<\/h5>",
+            "card_title": "<h3><em><strong>78<\/strong><\/em><\/h3>",
             "card_text": "Pounds of plastic per year per family diverted from landfills and the ocean"
           }
         },
@@ -81,7 +81,7 @@
           "settings": {
             "icon_select": "icon_2",
             "icon_hide": false,
-            "card_title": "<h5>4-5x<\/h5>",
+            "card_title": "<h3><em><strong>4-5x<\/strong><\/em><\/h3>",
             "card_text": "Our toys stay in use 4-5x longer than toys that are bought and donated or discarded"
           }
         }
