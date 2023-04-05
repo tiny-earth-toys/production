@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="section-{{ section.id }}-padding {% if section.settings.full_width == true %}color--{{ section.settings.color_scheme }} te-section-container--full-width{% endif %}">
-  <div class="color--{{ section.settings.color_scheme }} block-quote__container ">
+  <div class="color--{{ section.settings.color_scheme }} te-section-container--full-width  block-quote__container ">
     <div class="block-quote__content">
       {% for block in section.blocks %}
         {% case block.type %}
