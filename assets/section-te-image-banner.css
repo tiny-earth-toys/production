@@ -29,6 +29,7 @@
   object-fit: cover;
   max-width: var(--te-container--xl);
   border-radius: var(--media-radius);
+  max-height: 40rem;
 }
 
 

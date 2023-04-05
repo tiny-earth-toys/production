@@ -81,13 +81,11 @@ slider-component {
   gap: 2em;
 }
 
-.tc-image-wrapper{
+.tc-image-wrapper {
   display: flex;
   align-items: center;
-  object-fit: cover;
 }
 
 .tc-image-wrapper img{
   border-radius: var(--te-media-border-radius);
-  object-fit: cover;
 }
