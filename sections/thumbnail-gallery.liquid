@@ -1,13 +1,124 @@
 {% schema %}
-  {
-    "name": "Thumbnail Gallery",
-    "settings": [],
-    "presets": [
-      {
-        "name": "Thumbnail Gallery"
-      }
-    ]
-  }
+{
+  "name": "Thumbnail Gallery",
+  "tag": "section",
+  "class": "te-section-container",
+  "settings": [
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "header",
+      "content": "Background Colors"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "te-default",
+          "label": "t:sections.all.colors.te-color-default.label"
+        },
+        {
+          "value": "te-cream-dark",
+          "label": "t:sections.all.colors.te-color-cream-dark.label"
+        },
+        {
+          "value": "te-teal-light",
+          "label": "t:sections.all.colors.te-color-teal-light.label"
+        },
+        {
+          "value": "te-teal-dark",
+          "label": "t:sections.all.colors.te-color-teal-dark.label"
+        },
+        {
+          "value": "te-silver-light",
+          "label": "t:sections.all.colors.te-color-silver-light.label"
+        },
+        {
+          "value": "te-silver-dark",
+          "label": "t:sections.all.colors.te-color-silver-dark.label"
+        },
+        {
+          "value": "te-black-white",
+          "label": "t:sections.all.colors.te-color-black-white.label"
+        }
+      ],
+      "default": "te-default",
+      "label": "t:sections.all.colors.label"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "thumbnail_card",
+      "name": "Image Card",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "card__image--primary",
+          "label": "Primary Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "card__image--hover",
+          "label": "Hover Image"
+        },
+        {
+          "type": "richtext",
+          "id": "card__title",
+          "label": "Title",
+          "default": "<p>Katelin Wheeler</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "card__subtitle",
+          "label": "Subtitle",
+          "default": "<p>Director of Growth</p>"
+        },
+        {
+          "type": "textarea",
+          "id": "card__paragraph",
+          "label": "Paragraph text",
+          "default": "Quisque eget pretium lorem. Pellentesque lacus nunc."
+        }
+      ]
+    },
+    {
+      "type": "text_card",
+      "name": "Text Card",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "card__text",
+          "label": "Text",
+          "default": "<p>A fantastic mix of people with big hearts</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Thumbnail Gallery"
+    }
+  ]
+}
 {% endschema %}
 
 {% stylesheet %}
