@@ -145,6 +145,7 @@
     },
     "b78a3c20-3e6a-4bea-8cde-310b6471f15c": {
       "type": "te-rich-text",
+      "disabled": true,
       "blocks": {
         "template--16679765704949__b78a3c20-3e6a-4bea-8cde-310b6471f15c-1680112271069e2f2e-1": {
           "type": "text",
