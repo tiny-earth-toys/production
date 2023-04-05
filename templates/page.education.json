@@ -141,8 +141,8 @@
         "template--16723061211381__b792b6eb-465f-4ff6-af94-5a5da9547e62-167993058078994990-2": {
           "type": "button",
           "settings": {
-            "button_label": "Get started",
-            "button_link": "shopify:\/\/pages\/memberships",
+            "button_label": "Learning Guides",
+            "button_link": "shopify:\/\/blogs\/news",
             "color": "te-button--green"
           }
         }
