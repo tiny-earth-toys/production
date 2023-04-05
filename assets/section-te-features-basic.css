@@ -9,13 +9,9 @@
   width: var(--te-container--xl);
 }
 
-.features-basic--single-column {
-  width: 40rem;
-}
 
-.features-basic--single-column .card {
-  width: 20remrem;
-}
+
+
 .title-container {
   display: flex;
   flex-direction: column;

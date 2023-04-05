@@ -143,36 +143,29 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Product",
-              "menu": ""
+              "heading": "Get Started",
+              "menu": "footer-product"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "About",
-              "menu": ""
+              "menu": "footer-about"
             }
           },
           "a1ba1755-97be-4265-8085-4d444a9c8b14": {
             "type": "link_list",
             "settings": {
-              "heading": "Get Started",
-              "menu": ""
+              "heading": "Resources",
+              "menu": "footer-get-started"
             }
           },
           "b045a247-1899-4e02-a166-c70e8c3e953d": {
             "type": "link_list",
             "settings": {
               "heading": "Get Help",
-              "menu": ""
-            }
-          },
-          "048044e7-f2e1-4acf-aeb8-3cc26668f1d0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "menu": "footer-support"
             }
           }
         },
@@ -181,8 +174,7 @@
           "footer-0",
           "footer-1",
           "a1ba1755-97be-4265-8085-4d444a9c8b14",
-          "b045a247-1899-4e02-a166-c70e8c3e953d",
-          "048044e7-f2e1-4acf-aeb8-3cc26668f1d0"
+          "b045a247-1899-4e02-a166-c70e8c3e953d"
         ],
         "settings": {
           "color_scheme": "background-1",
