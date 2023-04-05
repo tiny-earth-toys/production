@@ -246,50 +246,6 @@
         "multigallery_section_subtitle": "Toy rotations made easy to support stage-based play."
       }
     },
-    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
-      "type": "te-double-column",
-      "blocks": {
-        "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
-          "type": "column__title",
-          "settings": {
-            "title__subtitle": "Choose conscious",
-            "title__title": "<p>Save your sanity and the planet<\/p>",
-            "title__message": "Let us handle toy rotations for you! No more scrolling secondhand sites. No more stuffing outdated toys in your closets.",
-            "title__hide-icon": true,
-            "title__icon": "none"
-          }
-        },
-        "32729669-97d9-42fe-ba98-009eb4f66d6b": {
-          "type": "column__bullet",
-          "settings": {
-            "bullet__hide-icon-1": false,
-            "bullet__icon-1": "option_e",
-            "bullet__title-1": "Empower the future",
-            "bullet__message-1": "Research shows that habits and infant imitation begin as early as 14 months. Normalizing re-use is empowering the tiny humans watching our every move to consume consciously.",
-            "bullet__hide-icon-2": false,
-            "bullet__icon-2": "option_f",
-            "bullet__title-2": "Environmental impact",
-            "bullet__message-2": "Based on an average retail price per toy of $44 and 6 exchanges, our families save $900+ and divert 60+ pounds of waste per year.",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "",
-            "bullet__message-3": ""
-          }
-        }
-      },
-      "block_order": [
-        "f0991c3a-9d7e-45db-a728-57ec9efeebbb",
-        "32729669-97d9-42fe-ba98-009eb4f66d6b"
-      ],
-      "settings": {
-        "color_scheme": "te-silver-dark",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "subtitle": "",
-        "title": "",
-        "caption": ""
-      }
-    },
     "766dac87-d81b-463e-ba77-a9f931767ada": {
       "type": "te-image-banner",
       "blocks": {
@@ -382,6 +338,50 @@
         "button_color": "line-gray",
         "button_label": "For Parents",
         "button_link": "shopify:\/\/pages\/parents"
+      }
+    },
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
+      "type": "te-double-column",
+      "blocks": {
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb": {
+          "type": "column__title",
+          "settings": {
+            "title__subtitle": "Choose conscious",
+            "title__title": "<p>Save your sanity and the planet<\/p>",
+            "title__message": "Let us handle toy rotations for you! No more scrolling secondhand sites. No more stuffing outdated toys in your closets.",
+            "title__hide-icon": true,
+            "title__icon": "none"
+          }
+        },
+        "32729669-97d9-42fe-ba98-009eb4f66d6b": {
+          "type": "column__bullet",
+          "settings": {
+            "bullet__hide-icon-1": false,
+            "bullet__icon-1": "option_e",
+            "bullet__title-1": "Empower the future",
+            "bullet__message-1": "Research shows that habits and infant imitation begin as early as 14 months. Normalizing re-use is empowering the tiny humans watching our every move to consume consciously.",
+            "bullet__hide-icon-2": false,
+            "bullet__icon-2": "option_f",
+            "bullet__title-2": "Environmental impact",
+            "bullet__message-2": "Based on an average retail price per toy of $44 and 6 exchanges, our families save $900+ and divert 60+ pounds of waste per year.",
+            "bullet__hide-icon-3": true,
+            "bullet__icon-3": "option_a",
+            "bullet__title-3": "",
+            "bullet__message-3": ""
+          }
+        }
+      },
+      "block_order": [
+        "f0991c3a-9d7e-45db-a728-57ec9efeebbb",
+        "32729669-97d9-42fe-ba98-009eb4f66d6b"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "subtitle": "",
+        "title": "",
+        "caption": ""
       }
     },
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91": {
@@ -594,9 +594,9 @@
     "f0905a4a-f8b1-47fd-8897-66f6c34773d1",
     "fe64a3ae-435e-4e1c-aa08-7536040e90aa",
     "50f035ad-e557-4d11-a2c7-641f09cdc8cb",
-    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "766dac87-d81b-463e-ba77-a9f931767ada",
     "1c22a260-a7fe-4906-89ee-744ecd0899b9",
+    "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
     "22a75ae4-2560-47fc-8f5f-4f093757dc82",
