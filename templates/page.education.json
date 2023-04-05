@@ -171,7 +171,7 @@
         "template--16679765737717__ea837264-8ba7-4332-9559-2d10ec88db2b-1679665126cc949166-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Articles <em><strong>from experts<\/strong><\/em><\/p><p><\/p>",
+            "heading": "<p>Articles <\/p><p><em><strong>by experts<\/strong><\/em><\/p><p><\/p>",
             "heading_size": "h1"
           }
         },
