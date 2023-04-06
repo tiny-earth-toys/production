@@ -43,7 +43,7 @@
           "settings": {
             "heading": "What's included?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>All Memberships include: <\/p><ul><li>Play materials. The rental of high-quality wooden toys curated for the child’s age.<\/li><li>15% discount off of retail if you want to purchase an item from a kit.<\/li><li>Rigorous cleaning and inspection of each toy before it reaches its next family.<\/li><li>Simple logistics with free shipping both ways.<\/li><\/ul><p>We also include materials to make it super easy to exchange your kit for the next set of age-appropriate toys when you’re ready: a prepaid return label, packaging fill, and pre-cut tape to box and exchange your kit.<\/p>",
             "page": ""
           }
         },
@@ -52,7 +52,7 @@
           "settings": {
             "heading": "How does toy selection work?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Once you give us your child(ren)s birthday at checkout, we'll populate in-stock toys that we recommend for that age range! You can swap out any you'd like, for others you'd prefer. <\/p><p><br\/><\/p><p>Our toy selections are curated by educators and grouped by when toys are typically age-appropriate. The toys that you are most likely to receive for your child in the next set are listed by age group in our <a href=\"https:\/\/tinyearthtoys.com\/pages\/toy-library\">Toy Library<\/a>.<\/p>",
             "page": ""
           }
         },
@@ -61,7 +61,7 @@
           "settings": {
             "heading": "How do I exchange?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We offer free shipping and exchanges for all of our subscribers every 2 months to maximize your child’s learning and reduce our shipping impact. You will receive an email when your exchange is ready. You have 3 days to make a modification to your exchange by either modifying the toy selection or delaying your exchange. Please keep your current kit of toys until the new one arrives. Our goal is to ensure that there is no downtime between toys. <\/p><p>Please return your existing kit within a week of receiving your new kit. Each kit comes with a free prepaid return shipping label, pre-cut packaging tape, and fill paper. We ask that you save the toy boxes and packaging materials your kit came in to reduce waste. Feel free to break the box down and store it in a closet if space is tight or use another box that may be handy. If you have any trouble dropping off your box please <a href=\"mailto:hello@tinyearthtoys.com\">email us<\/a> and we will assist you.<\/p><p>Want free home pickup from FedEx? Upgrade to one of our prepaid memberships: \"The Friend\" or \"The Village\" to be able to schedule pickups from your home for all your exchanges. \"The Village\" also includes a free bonus exchange! <\/p>",
             "page": ""
           }
         },
@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Can I buy toys?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>We hope your children fall in love with each carefully curated toy and we expect there to be families who wish to keep toys within their kits. Fortunately, our memberships include a 15% discount off of retail to purchase items from your current kit to keep! If your child has found an absolute favorite new item that they just can’t part with, here are our steps:<\/p><ul><li>When it is time to exchange for your next set of toys, you will receive an email with details on how to purchase any toys you'd like to keep. <\/li><li>Once you've followed the checkout form, it's yours to keep!<\/li><\/ul><p>If you're not sure if a toy is forever, at the time of exchange you'll have the option to continue renting one or more of your current set and exchange the rest of them for new ones.<\/p>",
             "page": ""
           }
         },
@@ -79,7 +79,7 @@
           "settings": {
             "heading": "How do I ship toys back to you?",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>Once your next kit shows up, you can send back the previous one! A free prepaid return label is included in every order.<\/p><p>Can't find your label? Double check inside the envelope in the box you're trying to return. No luck? Just email us at hello@tinyearthtoys.com and we will send you a replacement label that you can print. <\/p>",
             "page": ""
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "heading": "I have more than 1 child ...",
             "icon": "none",
-            "row_content": "",
+            "row_content": "<p>There are 2 decisions to make on your membership: number of toys and plan. <\/p><ol><li>Number of Toys: We like to recommend having 8 or 10 toys at a time. During your checkout process, you will have the opportunity to share each of your children's birthdays with us so that we can send age-appropriate toys as they continue to grow. You can also preview what toys we intend to send at checkout and modify these.<\/li><li>Membership Plan: For families with more than one child, we highly recommend “The Friend” or “The Village” memberships because these include more toys and free Home Pickup from your front porch by FedEx. If you have more than one child, you probably have enough on your hands to not want to deal with dropping toys off at FedEx! If you choose the Village membership, you can get access to a free Bonus Exchange too in addition to your regular exchanges every 2 months.<\/li><\/ol><p>So, we recommend <strong>8 or 10 toys with “The Friend” or “The Village” plan<\/strong>, but regardless of which membership type you choose, we think you’ll love renting these toys for your fam!<\/p>",
             "page": ""
           }
         },
