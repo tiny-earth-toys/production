@@ -134,6 +134,7 @@
     },
     "5046e760-7ee5-4927-b3dc-fc03cfbbf1a0": {
       "type": "te-quote",
+      "disabled": true,
       "blocks": {
         "template--16679765737717__5046e760-7ee5-4927-b3dc-fc03cfbbf1a0-167977328706cce7af-0": {
           "type": "quote_caption",
