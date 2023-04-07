@@ -1,6 +1,8 @@
 .image-with-text__container {
   width: var(--te-container--xl);
 }
+
+
 .image-with-text .grid {
   margin-bottom: 0;
   padding: 0 2em;
@@ -30,6 +32,7 @@
 }
 
 @media screen and (min-width: 750px) {
+  
   .image-with-text__media--small {
     height: 31.4rem;
   }
@@ -131,6 +134,11 @@
 }
 
 @media screen and (max-width: 749px) {
+
+  .image-with-text__container {
+    width: 100vw;
+  }
+
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__media-item:after,
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .grid__item .image-with-text__media,
   .image-with-text.collapse-corners:not(.image-with-text--overlap) .image-with-text__media img {
@@ -165,6 +173,8 @@
 }
 
 @media screen and (min-width: 750px) {
+
+  
   .image-with-text__grid--reverse .image-with-text__content {
     margin-left: auto;
   }

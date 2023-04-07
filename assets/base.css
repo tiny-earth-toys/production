@@ -49,7 +49,6 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
   margin: 0 auto;
   padding: 0rem;
 }
@@ -58,6 +57,13 @@ html.no-js .no-js-hidden {
   padding: 0;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+  .page-width{
+    max-width: 480px;
+  }
+}
+
 
 @media screen and (min-width: 750px) {
   .page-width {
