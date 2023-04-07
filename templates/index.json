@@ -32,7 +32,7 @@
         "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/lifestyle-child-playing-wooden-toys_40b163d7-60ba-4b20-b963-8b89350eb1d2.jpg",
+        "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -51,7 +51,6 @@
         "template--16658355257589__f0905a4a-f8b1-47fd-8897-66f6c34773d1-16716516068fda9c7b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tiny-earth-10-toy-kit.jpg",
             "title": "<h5>Educational<\/h5>",
             "text": "",
             "link_label": "",
@@ -61,7 +60,6 @@
         "template--16658355257589__f0905a4a-f8b1-47fd-8897-66f6c34773d1-16716516068fda9c7b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tiny-earth-toys-dancing-alligator.jpg",
             "title": "<h5>Sustainable<\/h5>",
             "text": "",
             "link_label": "",
@@ -71,7 +69,6 @@
         "template--16658355257589__f0905a4a-f8b1-47fd-8897-66f6c34773d1-16716516068fda9c7b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
             "title": "<h5>Minimal<\/h5>",
             "text": "",
             "link_label": "",
@@ -151,8 +148,7 @@
         "padding_top": 4,
         "padding_bottom": 92,
         "fwi_section_heading": "<p><em><strong>The right<\/strong><\/em> learning materials at just the right <em><strong>time<\/strong><\/em><\/p>",
-        "fwi_section_subheading": "The beauty of renting with Tiny Earth is that you'll always have what’s age appropriate. Send back what isn’t.",
-        "fwi_image": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
+        "fwi_section_subheading": "The beauty of renting with Tiny Earth is that you'll always have what’s age appropriate. Send back what isn’t."
       }
     },
     "50f035ad-e557-4d11-a2c7-641f09cdc8cb": {
@@ -161,71 +157,44 @@
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-0": {
           "type": "multigroup-1",
           "settings": {
-            "multigroup_name": "0-6 months",
-            "image_a": "shopify:\/\/shop_images\/AM8A1554_V1.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A1816_V1_95f99db7-e927-43fc-9663-51d364e28891.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A1446_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A1845_V1.jpg"
+            "multigroup_name": "0-6 months"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-1": {
           "type": "multigroup-2",
           "settings": {
-            "multigroup_name": "6-12 months",
-            "image_a": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A2376_V1.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A2526_V1_2.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A2711_V1.jpg"
+            "multigroup_name": "6-12 months"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-2": {
           "type": "multigroup-3",
           "settings": {
-            "multigroup_name": "12-18 months",
-            "image_a": "shopify:\/\/shop_images\/AM8A3299_V1.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A3513_V1.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A3299_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A3513_V1.jpg"
+            "multigroup_name": "12-18 months"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-3": {
           "type": "multigroup-4",
           "settings": {
-            "multigroup_name": "18-24 months",
-            "image_a": "shopify:\/\/shop_images\/AM8A5278_V1_1.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A5302_V1.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A5032_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A4988_V1.jpg"
+            "multigroup_name": "18-24 months"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-4": {
           "type": "multigroup-5",
           "settings": {
-            "multigroup_name": "24-30 months",
-            "image_a": "shopify:\/\/shop_images\/AM8A5366_V1.jpg",
-            "image_b": "shopify:\/\/shop_images\/tiny-earth-8-toy-kit.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A5453_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A4488_V1.jpg"
+            "multigroup_name": "24-30 months"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-5": {
           "type": "multigroup-6",
           "settings": {
-            "multigroup_name": "2.5-3 years",
-            "image_a": "shopify:\/\/shop_images\/AM8A4346_V1.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A5319_V1.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A4331_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/mother-son-montessori-shelf.jpg"
+            "multigroup_name": "2.5-3 years"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-6": {
           "type": "multigroup-7",
           "settings": {
             "multigroup_name": "3-4 years",
-            "image_a": "shopify:\/\/shop_images\/AM8A6371_V1.jpg",
-            "image_b": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
-            "image_c": "shopify:\/\/shop_images\/AM8A6867_V1.jpg",
-            "image_d": "shopify:\/\/shop_images\/AM8A5674_V1.jpg"
+            "image_c": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
           }
         }
       },
@@ -270,7 +239,6 @@
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3": {
           "type": "image",
           "settings": {
-            "banner__image": "shopify:\/\/shop_images\/mother-daughter.jpg"
           }
         }
       },
@@ -428,7 +396,6 @@
         "padding_bottom": 48,
         "color_scheme": "te-default",
         "full_width": true,
-        "primary_image": "shopify:\/\/shop_images\/AM8A6843_V1.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "post_limit": 3
