@@ -57,8 +57,3 @@
 }
 
 
-@media screen and (max-width: 480px) {
-  .section--te-image-with-text{
-    width: 100vw;
-  }
-}
