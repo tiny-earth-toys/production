@@ -189,12 +189,6 @@
     "51a288a0-33ac-4605-b840-cb2cc311a3d6": {
       "type": "te-double-column",
       "blocks": {
-        "2bee888e-e610-4cea-9f42-527951da78e1": {
-          "type": "column__image",
-          "settings": {
-            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
-          }
-        },
         "04f06143-c4e4-4326-9d1d-17a3c0fb82a1": {
           "type": "column__title",
           "settings": {
@@ -204,11 +198,17 @@
             "title__hide-icon": true,
             "title__icon": "option_a"
           }
+        },
+        "2bee888e-e610-4cea-9f42-527951da78e1": {
+          "type": "column__image",
+          "settings": {
+            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
+          }
         }
       },
       "block_order": [
-        "2bee888e-e610-4cea-9f42-527951da78e1",
-        "04f06143-c4e4-4326-9d1d-17a3c0fb82a1"
+        "04f06143-c4e4-4326-9d1d-17a3c0fb82a1",
+        "2bee888e-e610-4cea-9f42-527951da78e1"
       ],
       "settings": {
         "color_scheme": "te-default",
@@ -225,29 +225,23 @@
         "5e86c005-6450-4cf5-8dd0-c16d0a8bb696": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
           }
         },
-        "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320": {
-          "type": "column__bullet",
+        "921bcdb0-bff7-431f-8d7c-0a2564180cc4": {
+          "type": "column__title",
           "settings": {
-            "bullet__hide-icon-1": true,
-            "bullet__icon-1": "option_a",
-            "bullet__title-1": "",
-            "bullet__message-1": "",
-            "bullet__hide-icon-2": true,
-            "bullet__icon-2": "option_a",
-            "bullet__title-2": "",
-            "bullet__message-2": "",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "",
-            "bullet__message-3": ""
+            "title__subtitle": "",
+            "title__title": "Naturally Beautiful",
+            "title__message": "We choose toys made of natural materials, like wood, not only because it is a win for the planet, but also because handling natural materials helps children learn about the natural world. We work to find beautiful toys because young children absorb an understanding of harmony, order and beauty from the world around them.",
+            "title__hide-icon": true,
+            "title__icon": "option_a"
           }
         }
       },
       "block_order": [
         "5e86c005-6450-4cf5-8dd0-c16d0a8bb696",
-        "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320"
+        "921bcdb0-bff7-431f-8d7c-0a2564180cc4"
       ],
       "settings": {
         "color_scheme": "te-default",
