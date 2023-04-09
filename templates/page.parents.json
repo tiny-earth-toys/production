@@ -139,6 +139,19 @@
         "padding_bottom": 36
       }
     },
+    "e3b53008-b29a-4c66-b1ae-aa76ae2ae0a0": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "video_url": "https:\/\/youtu.be\/X16d_t_3kxM",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "te-teal-light",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
     "0ce55297-a17b-4590-a764-8a7222e7b711": {
       "type": "te-quote",
       "blocks": {
@@ -178,6 +191,7 @@
     "0c2dc0c0-80e1-4402-b041-6690cab3935d",
     "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
     "b12e0b5e-43a3-4d58-909e-062fcadbd3ce",
+    "e3b53008-b29a-4c66-b1ae-aa76ae2ae0a0",
     "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
 }
