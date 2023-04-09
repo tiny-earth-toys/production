@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -31,7 +32,7 @@
         "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3": {
           "type": "image",
           "settings": {
-            "banner__image": "shopify:\/\/shop_images\/sustainability.jpg"
+            "banner__image": "shopify:\/\/shop_images\/sustainability-wood-toys-rental.jpg"
           }
         }
       },
