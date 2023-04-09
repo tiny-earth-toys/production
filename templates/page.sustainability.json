@@ -235,7 +235,7 @@
         "c459e6ea-41a9-4dbc-828d-7f97e45fed64": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/AM8A1866_V1.jpg"
+            "column__image": "shopify:\/\/shop_images\/sustainability-wood-toys-together.jpg"
           }
         }
       },
@@ -248,7 +248,7 @@
         "padding_top": 36,
         "padding_bottom": 52,
         "subtitle": "IMPACT",
-        "title": "<p>We're in this together<\/p>",
+        "title": "<h2>We're all in this <em><strong>together<\/strong><\/em><\/h2>",
         "caption": "Minimized consumption and reuse at the household level can slow climate change and be a key step towards saving our earth."
       }
     }
