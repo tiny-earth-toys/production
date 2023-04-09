@@ -92,17 +92,13 @@
         "button_link": ""
       }
     },
-    "98cfb3db-5c4b-4033-8241-f2553fbee6c3": {
-      "type": "video",
+    "8185f2a9-0b5f-46e5-8111-d05e2e274f75": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/youtu.be\/78P8uj_R0Ss",
-        "description": "",
-        "full_width": false,
+        "custom_liquid": "<div class=\"center global-media-settings\">\n<iframe src=\"https:\/\/www.youtube-nocookie.com\/embed\/78P8uj_R0Ss?start=1&modestbranding=1&loop=0&modestbranding=1\" width=\"768\" height=\"432\" frameborder=\"0\"><\/iframe>\n<\/div>",
         "color_scheme": "te-silver-light",
-        "padding_top": 92,
-        "padding_bottom": 0
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "32d8e748-ef68-488f-9324-6e21f6fb6b22": {
@@ -336,7 +332,7 @@
         "full_width": false
       }
     },
-    "8185f2a9-0b5f-46e5-8111-d05e2e274f75": {
+    "f2d4676a-0f96-4d44-8551-1b5c3a6ab6a6": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "",
@@ -350,12 +346,12 @@
     "main",
     "b45be050-f1b5-4f73-95bf-309e612a79ba",
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
-    "98cfb3db-5c4b-4033-8241-f2553fbee6c3",
+    "8185f2a9-0b5f-46e5-8111-d05e2e274f75",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",
     "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
     "0232d1a1-c205-4d71-8bc0-405c011675ba",
     "7a22d99f-883f-4736-baeb-76d0d03c1ead",
-    "8185f2a9-0b5f-46e5-8111-d05e2e274f75"
+    "f2d4676a-0f96-4d44-8551-1b5c3a6ab6a6"
   ]
 }
