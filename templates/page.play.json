@@ -192,29 +192,23 @@
         "2bee888e-e610-4cea-9f42-527951da78e1": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
           }
         },
-        "19ea59d2-4cc5-4088-93e1-6c99a3f5e094": {
-          "type": "column__bullet",
+        "04f06143-c4e4-4326-9d1d-17a3c0fb82a1": {
+          "type": "column__title",
           "settings": {
-            "bullet__hide-icon-1": true,
-            "bullet__icon-1": "option_a",
-            "bullet__title-1": "",
-            "bullet__message-1": "",
-            "bullet__hide-icon-2": true,
-            "bullet__icon-2": "option_a",
-            "bullet__title-2": "Open ended",
-            "bullet__message-2": "If a toy isn’t skill oriented, it is likely one of our open ended toys. These toys can be played with in a variety of ways. They encourage creative thinking, problem solving and many other skills. With these toys the sky's the limit.",
-            "bullet__hide-icon-3": true,
-            "bullet__icon-3": "option_a",
-            "bullet__title-3": "Naturally beautiful",
-            "bullet__message-3": "We choose toys made of natural materials, like wood, not only because it is a win for the planet, but also because handling natural materials helps children learn about the natural world. We work to find beautiful toys because young children absorb an understanding of harmony, order and beauty from the world around them."
+            "title__subtitle": "",
+            "title__title": "Fun and functional",
+            "title__message": "We test all toys for function and fun. We take into account smaller hands and age appropriate motor skills. We make sure there is a “point of interest” to capture their attention and make learning fun. Toys that are fully functional and fun foster independence, resilience and confidence.",
+            "title__hide-icon": true,
+            "title__icon": "option_a"
           }
         }
       },
       "block_order": [
         "2bee888e-e610-4cea-9f42-527951da78e1",
-        "19ea59d2-4cc5-4088-93e1-6c99a3f5e094"
+        "04f06143-c4e4-4326-9d1d-17a3c0fb82a1"
       ],
       "settings": {
         "color_scheme": "te-default",
