@@ -102,52 +102,10 @@
         "caption": "It is hard to overstate the importance that the home environment has on our young children. The \"environment\", in this case, means everything your child comes into contact with - the toys, furniture, pictures, music etc."
       }
     },
-    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce": {
-      "type": "collage",
-      "blocks": {
-        "28d66976-b626-46b0-8f56-c61d28fda244": {
-          "type": "image",
-          "settings": {
-            "image_padding": false
-          }
-        },
-        "408d5bd5-74bb-4254-bd88-710c78552485": {
-          "type": "image",
-          "settings": {
-            "image_padding": false
-          }
-        },
-        "3359cec4-0466-43f0-bbe3-bdb016e79c85": {
-          "type": "image",
-          "settings": {
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "28d66976-b626-46b0-8f56-c61d28fda244",
-        "408d5bd5-74bb-4254-bd88-710c78552485",
-        "3359cec4-0466-43f0-bbe3-bdb016e79c85"
-      ],
+    "a28c2915-dbfb-4677-ab09-c9bb63d6ea58": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "Less Clutter, Less Stress",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "te-default",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "e3b53008-b29a-4c66-b1ae-aa76ae2ae0a0": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/tiny-earth-parent-minimal-environment.jpg",
-        "video_url": "https:\/\/youtu.be\/X16d_t_3kxM",
-        "description": "",
-        "full_width": false,
+        "custom_liquid": "<div class=\"center global-media-settings\">\n<iframe src=\"https:\/\/www.youtube-nocookie.com\/embed\/X16d_t_3kxM?start=1&modestbranding=1&loop=0&modestbranding=1\" width=\"768\" height=\"432\" frameborder=\"0\"><\/iframe>\n<\/div>",
         "color_scheme": "te-teal-light",
         "padding_top": 48,
         "padding_bottom": 0
@@ -191,8 +149,7 @@
     "main",
     "0c2dc0c0-80e1-4402-b041-6690cab3935d",
     "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
-    "b12e0b5e-43a3-4d58-909e-062fcadbd3ce",
-    "e3b53008-b29a-4c66-b1ae-aa76ae2ae0a0",
+    "a28c2915-dbfb-4677-ab09-c9bb63d6ea58",
     "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
 }
