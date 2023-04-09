@@ -127,7 +127,7 @@
           "type": "column__title",
           "settings": {
             "title__subtitle": "",
-            "title__title": "Skill Oriented",
+            "title__title": "Skill oriented",
             "title__message": "Many of our toys are skill oriented. This helps children discover and develop specific skills while having fun.",
             "title__hide-icon": true,
             "title__icon": "option_a"
@@ -136,7 +136,7 @@
         "2b35c7c1-7f5b-4c99-acc2-2667af9b5252": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
+            "column__image": "shopify:\/\/shop_images\/best-toys-rental-skill-oriented.jpg"
           }
         }
       },
@@ -159,7 +159,7 @@
         "6ba7d84d-2c5d-4c3f-a2c7-9b8cb7f1e037": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/tiny-earth-play-developmentally-mindful.jpg"
+            "column__image": "shopify:\/\/shop_images\/best-toys-rental-open-ended.jpg"
           }
         },
         "3c7a1e3c-c389-4b1c-86e6-e7f4fa965247": {
