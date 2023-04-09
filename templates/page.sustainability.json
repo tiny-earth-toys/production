@@ -41,50 +41,6 @@
         "padding_bottom": 52
       }
     },
-    "966ae2ed-3df9-4abd-9e35-53795ea24dfb": {
-      "type": "te-quote",
-      "blocks": {
-        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-0": {
-          "type": "quote_caption",
-          "settings": {
-            "caption_text": "",
-            "caption_text--alignment": "left",
-            "caption_text--capitalize": false
-          }
-        },
-        "e0a08927-e123-4d82-a1c2-33191081970d": {
-          "type": "quote_text",
-          "settings": {
-            "main_text": "Rent your toys, Reduce your footprint",
-            "main_text--alignment": "left",
-            "main_text--font-size": "te-display te-display--med",
-            "main_text--font-weight": "te-weight--display-regular",
-            "main_text--italics": true
-          }
-        },
-        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-1": {
-          "type": "quote_text",
-          "settings": {
-            "main_text": "Affluent overconsumption is a leading cause in the climate change crisis. We're committed to empowering families to embrace reuse and see minimized consumption at the household level is a key step in saving our planet.",
-            "main_text--alignment": "left",
-            "main_text--font-size": "te-display te-display--xs",
-            "main_text--font-weight": "te-weight--display-light",
-            "main_text--italics": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-0",
-        "e0a08927-e123-4d82-a1c2-33191081970d",
-        "template--16679765868789__966ae2ed-3df9-4abd-9e35-53795ea24dfb-1679922948a2add4b2-1"
-      ],
-      "settings": {
-        "padding_top": 36,
-        "padding_bottom": 0,
-        "color_scheme": "te-teal-light",
-        "full_width": true
-      }
-    },
     "6e9df36b-6154-4b1d-9af1-f52755e32066": {
       "type": "te-features-basic",
       "blocks": {
@@ -153,12 +109,12 @@
       ],
       "settings": {
         "color_scheme": "te-teal-light",
-        "padding_top": 0,
+        "padding_top": 48,
         "padding_bottom": 52,
         "full_width": true,
         "subtitle": "",
-        "section_title": "",
-        "section_text": "",
+        "section_title": "<h2><em><strong>Rent<\/strong><\/em> your toys<\/h2><h2>Reduce your <em><strong>footprint<\/strong><\/em><\/h2>",
+        "section_text": "Affluent overconsumption is a leading cause in the climate change crisis. We're committed to empowering families to embrace reuse and see minimized consumption at the household level is a key step in saving our planet.",
         "columns_desktop": 3,
         "columns_mobile": "1",
         "button_color": "green",
@@ -256,7 +212,6 @@
   "order": [
     "main",
     "03cf24ca-c3c0-4917-bc6a-9ba26fad9b18",
-    "966ae2ed-3df9-4abd-9e35-53795ea24dfb",
     "6e9df36b-6154-4b1d-9af1-f52755e32066",
     "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2",
     "c874c743-9aff-4de7-b053-85f9ead3ee83"
