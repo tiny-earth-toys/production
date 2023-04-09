@@ -71,6 +71,7 @@
         "d070c2a7-0dfb-455f-8167-30807684bce6": {
           "type": "column__image",
           "settings": {
+            "column__image": "shopify:\/\/shop_images\/montessori-toys-educational-beyond.jpg"
           }
         }
       },
