@@ -65,14 +65,10 @@
     "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9": {
       "type": "te-double-column",
       "blocks": {
-        "aaac298c-223e-44bb-b85f-72cf1f718a18": {
-          "type": "column__title",
+        "addabc15-0c6b-48b3-9ef5-def207f5f7bf": {
+          "type": "column__image",
           "settings": {
-            "title__subtitle": "",
-            "title__title": "Set up for success",
-            "title__message": "It is hard to overstate the importance that the home environment has on our young children.  The \"environment\", in this case, means everything your child comes into contact with - the toys, furniture, pictures, music etc.",
-            "title__hide-icon": true,
-            "title__icon": "option_a"
+            "column__image": "shopify:\/\/shop_images\/tiny-earth-parents-minimalism-success.jpg"
           }
         },
         "5d8a2a0a-2673-466e-8834-42f44f8c35b3": {
@@ -94,7 +90,7 @@
         }
       },
       "block_order": [
-        "aaac298c-223e-44bb-b85f-72cf1f718a18",
+        "addabc15-0c6b-48b3-9ef5-def207f5f7bf",
         "5d8a2a0a-2673-466e-8834-42f44f8c35b3"
       ],
       "settings": {
