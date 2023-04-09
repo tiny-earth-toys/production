@@ -59,15 +59,29 @@
             "button_link": "shopify:\/\/pages\/memberships",
             "color": "green"
           }
-        },
-        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-0": {
-          "type": "heading",
+        }
+      },
+      "block_order": [
+        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-2",
+        "dad6c40a-8c5b-4330-9b38-ed9828e83f42"
+      ],
+      "settings": {
+        "color_scheme": "te-default",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5d856db4-1a4c-4c12-b5fe-c2d1d7a51eba": {
+      "type": "te-rich-text",
+      "blocks": {
+        "153449e5-6a24-40f3-8cff-848bb2c2dae9": {
+          "type": "text",
           "settings": {
-            "heading": "Our toys",
-            "heading_size": "h2"
+            "text": "<h2>Our <em><strong>toys<\/strong><\/em><\/h2>"
           }
         },
-        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-1": {
+        "template--16006077481113__5d856db4-1a4c-4c12-b5fe-c2d1d7a51eba-16810697828fc6ae64-1": {
           "type": "text",
           "settings": {
             "text": "<p>We test all toys for function and fun. We take into account smaller hands and age appropriate motor skills. We make sure there is a “point of interest” to capture their attention and make learning fun.<em> <\/em>Toys that are fully functional and fun foster independence, resilience and confidence.<\/p>"
@@ -75,16 +89,14 @@
         }
       },
       "block_order": [
-        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-2",
-        "dad6c40a-8c5b-4330-9b38-ed9828e83f42",
-        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-0",
-        "template--16679765836021__3954815d-61c4-4a71-9989-05188667bbbd-1679873507e0acdb75-1"
+        "153449e5-6a24-40f3-8cff-848bb2c2dae9",
+        "template--16006077481113__5d856db4-1a4c-4c12-b5fe-c2d1d7a51eba-16810697828fc6ae64-1"
       ],
       "settings": {
         "color_scheme": "te-default",
         "full_width": true,
-        "padding_top": 20,
-        "padding_bottom": 32
+        "padding_top": 48,
+        "padding_bottom": 0
       }
     },
     "beb6aa28-dd50-4950-a521-305b23113ca0": {
@@ -326,6 +338,7 @@
     "main",
     "40304770-665c-4079-ab03-58ad2ee6edae",
     "3954815d-61c4-4a71-9989-05188667bbbd",
+    "5d856db4-1a4c-4c12-b5fe-c2d1d7a51eba",
     "beb6aa28-dd50-4950-a521-305b23113ca0",
     "f3f1bee6-e167-4b35-8247-2bdbe51adc05",
     "596fb27e-e067-4f05-8482-17cfff61714c",
