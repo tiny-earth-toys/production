@@ -55,8 +55,8 @@
         "dad6c40a-8c5b-4330-9b38-ed9828e83f42": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/memberships",
             "color": "green"
           }
         },
