@@ -16,6 +16,7 @@
 }
 
 .video-section__media iframe {
+  max-width: 48em;
   background-color: rgba(var(--color-foreground), 0.03);
   border: 0;
 }
