@@ -307,6 +307,7 @@
     },
     "b34c0254-db33-4218-9685-c425600df3c2": {
       "type": "te-newsletter",
+      "disabled": true,
       "blocks": {
         "template--16679765836021__b34c0254-db33-4218-9685-c425600df3c2-16798736675641033c-0": {
           "type": "newsletter-title",
