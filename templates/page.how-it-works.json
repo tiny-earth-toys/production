@@ -303,41 +303,37 @@
         "button_link": ""
       }
     },
-    "c8bd799f-48c4-4b5b-b44b-9d7030a61b12": {
-      "type": "te-rich-text",
+    "7a22d99f-883f-4736-baeb-76d0d03c1ead": {
+      "type": "te-quote",
       "blocks": {
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-0": {
-          "type": "heading",
+        "template--16006076530841__7a22d99f-883f-4736-baeb-76d0d03c1ead-168106416321e3a3de-0": {
+          "type": "quote_caption",
           "settings": {
-            "heading": "Ready to sign up?",
-            "heading_size": "h1"
+            "caption_text": "Join the rental revolution",
+            "caption_text--alignment": "center",
+            "caption_text--capitalize": true
           }
         },
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-1": {
-          "type": "text",
+        "template--16006076530841__7a22d99f-883f-4736-baeb-76d0d03c1ead-168106416321e3a3de-1": {
+          "type": "quote_text",
           "settings": {
-            "text": "<p>See how simple it is to join the rental revolution. Customize the plan that works best for your family, and find out which toys we recommend for your little one!<\/p>"
-          }
-        },
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "",
-            "color": "solid-white"
+            "main_text": "Simply customize the plan that works for your family &<br> find the toys  recommended for your little one. See for youself!",
+            "main_text--alignment": "center",
+            "main_text--font-size": "te-display te-display--xs",
+            "main_text--font-weight": "te-weight--display-light",
+            "main_text--italics": false
           }
         }
       },
       "block_order": [
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-0",
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-1",
-        "template--16695766810869__c8bd799f-48c4-4b5b-b44b-9d7030a61b12-1676834435bf53af63-2"
+        "template--16006076530841__7a22d99f-883f-4736-baeb-76d0d03c1ead-168106416321e3a3de-0",
+        "template--16006076530841__7a22d99f-883f-4736-baeb-76d0d03c1ead-168106416321e3a3de-1"
       ],
       "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36,
         "color_scheme": "te-silver-light",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "full_width": false
       }
     }
   },
@@ -350,6 +346,6 @@
     "30c37563-3e81-426e-8aeb-9649230b044d",
     "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
     "0232d1a1-c205-4d71-8bc0-405c011675ba",
-    "c8bd799f-48c4-4b5b-b44b-9d7030a61b12"
+    "7a22d99f-883f-4736-baeb-76d0d03c1ead"
   ]
 }
