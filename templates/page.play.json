@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -31,7 +32,6 @@
         "template--16679765836021__40304770-665c-4079-ab03-58ad2ee6edae-1679500848d4518458-3": {
           "type": "image",
           "settings": {
-            "banner__image": "shopify:\/\/shop_images\/loft-donna.jpg"
           }
         }
       },
@@ -107,7 +107,6 @@
         "d808ccb3-9474-494d-8cc6-d81a7ae37733": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/AM8A1554_V1.jpg"
           }
         }
       },
@@ -130,7 +129,6 @@
         "2bee888e-e610-4cea-9f42-527951da78e1": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/AM8A4331_V1.jpg"
           }
         },
         "19ea59d2-4cc5-4088-93e1-6c99a3f5e094": {
@@ -210,7 +208,6 @@
         "5e86c005-6450-4cf5-8dd0-c16d0a8bb696": {
           "type": "column__image",
           "settings": {
-            "column__image": "shopify:\/\/shop_images\/AM8A6371_V1.jpg"
           }
         },
         "9d5d5d61-0d1d-4d67-ace1-40fcd43e9320": {
