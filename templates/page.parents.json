@@ -160,7 +160,7 @@
           "type": "quote_caption",
           "settings": {
             "caption_text": "judgement free parenting support",
-            "caption_text--alignment": "left",
+            "caption_text--alignment": "center",
             "caption_text--capitalize": true
           }
         },
@@ -170,7 +170,7 @@
             "main_text": "Our blog is full of learning guides for caregivers, simplicity parenting articles, and content that meets your family where you are.",
             "main_text--alignment": "left",
             "main_text--font-size": "te-display te-display--sm",
-            "main_text--font-weight": "te-weight--display-regular",
+            "main_text--font-weight": "te-weight--display-light",
             "main_text--italics": false
           }
         }
@@ -180,8 +180,8 @@
         "template--16679765770485__0ce55297-a17b-4590-a764-8a7222e7b711-1679874464ce6848ff-1"
       ],
       "settings": {
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 16,
+        "padding_bottom": 48,
         "color_scheme": "te-teal-light",
         "full_width": true
       }
