@@ -228,12 +228,6 @@
             "banner__caption": ""
           }
         },
-        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1": {
-          "type": "title",
-          "settings": {
-            "banner__title": "<p><em><strong>Minimal<\/strong><\/em> and<\/p><p>Clutter-Free<\/p>"
-          }
-        },
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-2": {
           "type": "subtitle",
           "settings": {
@@ -243,14 +237,21 @@
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3": {
           "type": "image",
           "settings": {
+            "banner__image": "shopify:\/\/shop_images\/tiny-earth-toys-minimal-mother.jpg"
+          }
+        },
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1": {
+          "type": "title",
+          "settings": {
+            "banner__title": "<p><em><strong>Minimal<\/strong><\/em> and<\/p><p>Clutter-Free<\/p>"
           }
         }
       },
       "block_order": [
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-0",
-        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1",
         "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-2",
-        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3"
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-3",
+        "template--16716356387061__766dac87-d81b-463e-ba77-a9f931767ada-167934591353539319-1"
       ],
       "settings": {
         "color_scheme": "te-teal-light",
