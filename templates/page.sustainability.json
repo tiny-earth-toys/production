@@ -17,10 +17,10 @@
             "banner__title": "<p><em><strong>Small<\/strong><\/em> changes<\/p><p>big <em><strong>impacts<\/strong><\/em><\/p>"
           }
         },
-        "b794bf06-eedc-4bb7-a6f6-2cf2a2fbde9c": {
-          "type": "title",
+        "4a6dde22-ed6f-475f-9534-dc5a601316b5": {
+          "type": "subtitle",
           "settings": {
-            "banner__title": "<p>Our families are shifting the paradigm of ownership and consumption to help save planet Earth<\/p>"
+            "banner__subtitle": "Our families are shifting the paradigm of ownership  to help save the planet"
           }
         },
         "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3": {
@@ -28,19 +28,12 @@
           "settings": {
             "banner__image": "shopify:\/\/shop_images\/sustainability-wood-toys-rental.jpg"
           }
-        },
-        "4a6dde22-ed6f-475f-9534-dc5a601316b5": {
-          "type": "subtitle",
-          "settings": {
-            "banner__subtitle": "Our families are shifting the paradigm of ownership and consumption to help save the planet"
-          }
         }
       },
       "block_order": [
         "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-1",
-        "b794bf06-eedc-4bb7-a6f6-2cf2a2fbde9c",
-        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3",
-        "4a6dde22-ed6f-475f-9534-dc5a601316b5"
+        "4a6dde22-ed6f-475f-9534-dc5a601316b5",
+        "template--16679765868789__03cf24ca-c3c0-4917-bc6a-9ba26fad9b18-1679919677fc9bdf7c-3"
       ],
       "settings": {
         "color_scheme": "te-teal-dark",
