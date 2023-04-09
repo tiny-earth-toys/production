@@ -387,6 +387,7 @@
         "padding_bottom": 48,
         "color_scheme": "te-default",
         "full_width": true,
+        "primary_image": "shopify:\/\/shop_images\/tiny-earth-toys-rental-testimonials.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "post_limit": 3
