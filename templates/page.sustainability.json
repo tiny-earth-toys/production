@@ -41,6 +41,52 @@
         "padding_bottom": 52
       }
     },
+    "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Environmental stewards come in all sizes",
+            "heading_size": "h2"
+          }
+        },
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Research shows that habits and infant imitation begin as early as 14 months. By breaking the cycle of over-consumption and normalizing reuse of children’s toys, we can empower an entire generation to consume consciously.<\/h5>"
+          }
+        },
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "How it works",
+            "button_link": "shopify:\/\/pages\/how-it-works",
+            "color": "solid-white"
+          }
+        },
+        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/memberships",
+            "color": "blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0",
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1",
+        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2",
+        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23"
+      ],
+      "settings": {
+        "color_scheme": "te-teal-dark",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "6e9df36b-6154-4b1d-9af1-f52755e32066": {
       "type": "te-features-basic",
       "blocks": {
@@ -122,52 +168,6 @@
         "button_link": ""
       }
     },
-    "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2": {
-      "type": "te-rich-text",
-      "blocks": {
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Environmental stewards come in all sizes",
-            "heading_size": "h2"
-          }
-        },
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Research shows that habits and infant imitation begin as early as 14 months. By breaking the cycle of over-consumption and normalizing reuse of children’s toys, we can empower an entire generation to consume consciously.<\/p>"
-          }
-        },
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "How it works",
-            "button_link": "shopify:\/\/pages\/how-it-works",
-            "color": "solid-white"
-          }
-        },
-        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23": {
-          "type": "button",
-          "settings": {
-            "button_label": "Get Started",
-            "button_link": "shopify:\/\/pages\/memberships",
-            "color": "blue"
-          }
-        }
-      },
-      "block_order": [
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-0",
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-1",
-        "template--16679765868789__afb1beb6-3dfc-44c6-870a-1deadc1ca7b2-1679921795f88253ff-2",
-        "ecbe9e3f-e4fb-461c-8e09-b1833d6a1d23"
-      ],
-      "settings": {
-        "color_scheme": "te-teal-light",
-        "full_width": false,
-        "padding_top": 0,
-        "padding_bottom": 52
-      }
-    },
     "c874c743-9aff-4de7-b053-85f9ead3ee83": {
       "type": "te-double-column",
       "blocks": {
@@ -212,8 +212,8 @@
   "order": [
     "main",
     "03cf24ca-c3c0-4917-bc6a-9ba26fad9b18",
-    "6e9df36b-6154-4b1d-9af1-f52755e32066",
     "afb1beb6-3dfc-44c6-870a-1deadc1ca7b2",
+    "6e9df36b-6154-4b1d-9af1-f52755e32066",
     "c874c743-9aff-4de7-b053-85f9ead3ee83"
   ]
 }
