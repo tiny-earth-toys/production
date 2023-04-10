@@ -5,7 +5,14 @@
   align-items: center;
   font-size: 1rem;
   padding-top: 6rem;
-  width: var(--te-container--xl);
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .section--te-multicolumn {
+    width: var(--te-container--xl);
+  }
+  
 }
 
 .te-multicolumn-container {
@@ -33,6 +40,10 @@
     margin-top: 0;
   }
 
+
+  .title-wrapper {
+    padding: 0 2em;
+  }
   
   
   @media screen and (max-width: 749px) {
