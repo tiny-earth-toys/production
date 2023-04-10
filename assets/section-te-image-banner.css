@@ -7,8 +7,11 @@
   align-items: center;
   font-size: 1rem;
   padding-top: 1rem;
-  max-width: var(--te-container--xl);
+  max-width: 100vw;
+  
 }
+
+
 
 .banner__titles{
   display: flex;
@@ -26,13 +29,21 @@
   padding: 2em;
 }
 .banner__image img {
-  object-fit: cover;
-  max-width: var(--te-container--xl);
+  object-fit: contain;
+  max-width: 88vw;
   border-radius: var(--media-radius);
-  max-height: 40rem;
+  height: 100%;
 }
 
+@media screen and (min-width: 1024px) {
+  .section--te-image-banner {
+    max-width: var(--te-container--xl);
+  }
 
+  .banner__image img{
+    max-width: var(--te-container--xl);
+  }
+}
 
 @media only screen and (max-width: 749px) {
   .banner--content-align-mobile-right .banner__box {
