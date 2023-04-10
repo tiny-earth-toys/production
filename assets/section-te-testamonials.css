@@ -8,8 +8,9 @@
   align-items: center;
   font-size: 1rem;
   width: var(--te-container--xl);
-  padding: 5em 0;
+  padding: 0 2em;
 }
+
 
 .testamonials-container {
   display: grid;
