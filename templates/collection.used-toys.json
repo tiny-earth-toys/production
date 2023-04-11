@@ -13,7 +13,7 @@
         "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Browse our selection of gently used, educational wooden toys for your little love. Choose 3 items and get free shipping with 3FREESHIP at checkout.<\/p>",
+            "text": "<p>Browse our selection of gently used, educational wooden toys for your little love. Choose 3 items and get free shipping with <strong>3FREESHIP<\/strong> at checkout.<\/p>",
             "text_style": "body"
           }
         },
