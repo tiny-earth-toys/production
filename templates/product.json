@@ -59,6 +59,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "f54bd44f-6120-4698-9f58-3e73002037b6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
         }
       },
       "block_order": [
@@ -69,7 +75,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "f54bd44f-6120-4698-9f58-3e73002037b6"
       ],
       "settings": {
         "enable_sticky_info": true,
