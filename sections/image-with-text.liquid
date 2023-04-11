@@ -14,7 +14,7 @@
   }
 {%- endstyle -%}
 <div class="color--{{ section.settings.color_scheme }} section-{{ section.id }}-padding te-section-container--full-width">
-  <div class="page-width">
+  <div class="">
     <div class="image-with-text image-with-text--{{ section.settings.content_layout }} ">
       <div class="image-with-text__container image-with-text__grid grid  grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
         <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
