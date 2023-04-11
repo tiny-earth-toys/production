@@ -96,7 +96,7 @@
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/tiny-earth-toys-logo-warmgray.png",
     "checkout_logo_position": "left",
-    "checkout_logo_size": "large",
+    "checkout_logo_size": "small",
     "checkout_body_background_color": "#fcfbfa",
     "checkout_input_background_color_mode": "white",
     "checkout_sidebar_background_color": "#f2eee8",
