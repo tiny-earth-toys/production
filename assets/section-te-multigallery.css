@@ -6,7 +6,6 @@
   padding: 3em 2em;
   gap: 2em;
   max-width: 100vw;
-  
 }
 
 .mgc__content-container {
@@ -14,7 +13,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
 
