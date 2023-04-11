@@ -103,9 +103,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "Buy pre-loved toys!  Unlock free shipping when you buy 3 or more and use code 3FREESHIP",
               "color_scheme": "te-teal-dark",
-              "link": ""
+              "link": "shopify:\/\/collections\/toys-used-1"
             }
           }
         },
