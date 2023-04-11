@@ -94,6 +94,13 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": false,
+    "checkout_body_background_color": "#fcfbfa",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f2eee8",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "Raleway",
+    "checkout_button_color": "#597548",
+    "checkout_error_color": "#b42318",
     "heading_scale": 100,
     "body_scale": 100,
     "sections": {
