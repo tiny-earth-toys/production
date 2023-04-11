@@ -1,7 +1,54 @@
 {
   "sections": {
+    "814dbe51-2c30-469e-b6d6-7f73a0044f6b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Second Hand Toy Sale<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our selection of gently used, educational wooden toys for your little love. Choose 3 items and get free shipping with 3FREESHIP at checkout.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "color": "te-button--green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-0",
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-1",
+        "template--16006076924057__814dbe51-2c30-469e-b6d6-7f73a0044f6b-16812379054322fa62-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AM8A3081_V1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "te-default",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "show_collection_description": true,
@@ -17,7 +64,9 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "enable_filtering": true,
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 36,
@@ -26,6 +75,7 @@
     }
   },
   "order": [
+    "814dbe51-2c30-469e-b6d6-7f73a0044f6b",
     "banner",
     "product-grid"
   ]
