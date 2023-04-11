@@ -99,6 +99,7 @@
     "checkout_sidebar_background_color": "#f2eee8",
     "checkout_heading_font": "Raleway",
     "checkout_body_font": "Raleway",
+    "checkout_accent_color": "#00586f",
     "checkout_button_color": "#597548",
     "checkout_error_color": "#b42318",
     "heading_scale": 100,
