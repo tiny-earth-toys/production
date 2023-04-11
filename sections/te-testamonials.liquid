@@ -36,7 +36,7 @@
         <slider-component class="">
           <ul
             id="Slider-{{ section.id }}"
-            class="grid grid--1-col-desktop slider slider--desktop "
+            class="grid grid--1-col-desktop slider slider--everywhere "
             role="list"
           >
             {%- for block in section.blocks limit: section.settings.post_limit -%}
@@ -45,9 +45,9 @@
                 class="slider__slide slider__slide--full-width"
               >
                 <div class="tc-content--quote">
-                  <h2 class="te-display te-display--med te-weight--med">
+                  <h3 class="te-display te-display--med te-weight--med ">
                     {{ block.settings.testamonial_text }}
-                  </h2>
+                  </h3>
                 </div>
                 <div class="tc-content--attribution">
                   <div class="attribution-author">

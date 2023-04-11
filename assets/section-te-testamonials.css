@@ -7,32 +7,35 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  width: var(--te-container--xl);
+  width: 100vw;
   padding: 0 2em;
 }
 
 
 .testamonials-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 2em;
 
 }
+
+
 slider-component {
   width: 50%;
 }
 
 .tc-content {
   display: block;
-  width: auto;
+  width: 50%;
+  margin: auto;
+  height: 100%;
 }
 
 .tc-content li {
   width: 100%;
 }
 
-.tc-content--stars{
 
-}
 
 .tc-content--quote h2{
   font-style: italic;
@@ -89,4 +92,16 @@ slider-component {
 
 .tc-image-wrapper img{
   border-radius: var(--te-media-border-radius);
+}
+
+@media screen and (min-width: 1024px) {
+  .section--te-testamonials {
+    max-width: var(--te-container--xl);
+  }
+
+  .testamonials-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+  }
 }

@@ -4,8 +4,10 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  width: var(--te-container--xl);
+  width: 100vw;
 }
+
+
 
 .double-column__header--container {
   display: flex;
@@ -28,10 +30,12 @@
 /*---------  this is the container for the two content columns -----------*/
 .double-column__content-container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 1.5em 2em 1em 2em;
   gap: 4em;
 }
+
 
 .double-column__block-container {
   display: flex;
@@ -52,14 +56,39 @@
 .double-column__bullet {
   display: flex;
   align-items: flex-start;
+  padding: 0.5em;
   gap: 1em;
 }
 
 .bullet-content__title {
   margin-left: 0;
-  margin: 1.5em 0 0 0;
+  margin: 0;
 }
 
 .bullet-content__text {
   margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .section--te-double-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    width: var(--te-container--xl);
+  }
+  
+  .double-column__content-container {
+    flex-direction: row;
+  }
+
+  .double-column__bullet{
+    padding: 0;
+  }
+
+  .bullet-content__title {
+    margin-left: 0;
+    margin: 1.5em 0 0 0;
+  }
 }
