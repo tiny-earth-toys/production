@@ -1,5 +1,12 @@
 .image-with-text__container {
-  width: var(--te-container--xl);
+  width: 100vw;
+}
+
+@media screen and (min-width: 1024px) {
+  .image-with-text__container{
+    padding: 0 2em;
+    max-width: var(--te-container--xl);
+  }
 }
 
 .image-with-text .grid {
