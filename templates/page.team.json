@@ -42,6 +42,7 @@
         "template--16716357042421__d1b399f8-9491-449d-914c-89675f472e3a-16793392818ad12f97-3": {
           "type": "image",
           "settings": {
+            "banner__image": "shopify:\/\/shop_images\/team.jpg"
           }
         }
       },
