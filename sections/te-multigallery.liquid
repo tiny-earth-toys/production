@@ -1,6 +1,8 @@
 <link rel="stylesheet" href="{{ 'section-te-multigallery.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-te-multigallery.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -23,7 +25,7 @@
 >
   <div class="te-multigallery-container">
     <div class="mtc-content-headings-container">
-      <h3 class="mtc-content-title te-display-xl te-display--bold">
+      <h3 class="mtc-content-title">
         {{ section.settings.multigallery_section_heading }}
       </h3>
       <p class="mtc-content-subtitle ">
@@ -70,53 +72,95 @@
           {% assign image_grouping = block.type %}
           {% case image_grouping %}
             {% when 'multigroup-1' %}
-              <div
+              <slider-component
                 id="multigroup-1--image-container"
-                class="mgc--img-container"
+                class="mgc--img-container "
                 data-block-type="tet-custom"
                 data-block-id="{{ block.id }}"
               >
-                <div class="mg-image-wrapper mg-image-wrapper--1">
-                  <img
-                    src="{{ block.settings.image_a | image_url: width: 480 }}"
-                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="480"
-                    height="384"
+                <ul
+                  id="Slider-{{ section.id }}"
+                  class="grid grid--1-col-desktop slider"
+                  role="list"
+                >
+                  <li
+                    id="Slide-{{ section.id }}-1"
+                    class="mg-image-wrapper mg-image-wrapper--1 slider__slide slider__slide--full-width"
                   >
-                </div>
-                <div class="mg-image-wrapper mg-image-wrapper--2">
-                  <img
-                    src="{{ block.settings.image_b | image_url: width: 480 }}"
-                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="480"
-                    height="384"
+                    <img
+                      src="{{ block.settings.image_a | image_url: width: 480 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy"
+                      width="480"
+                      height="384"
+                    >
+                  </li>
+                  <li
+                    id="Slide-{{ section.id }}-2"
+                    class="mg-image-wrapper mg-image-wrapper--2 slider__slide slider__slide--full-width"
                   >
-                </div>
-                <div class="mg-image-wrapper mg-image-wrapper--3">
-                  <img
-                    src="{{ block.settings.image_c | image_url: width: 480 }}"
-                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="480"
-                    height="384"
+                    <img
+                      src="{{ block.settings.image_b | image_url: width: 480 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy"
+                      width="480"
+                      height="384"
+                    >
+                  </li>
+                  <li
+                    id="Slide-{{ section.id }}-3"
+                    class="mg-image-wrapper mg-image-wrapper--3 slider__slide slider__slide--full-width"
                   >
-                </div>
-                <div class="mg-image-wrapper mg-image-wrapper--4">
-                  <img
-                    src="{{ block.settings.image_d | image_url: width: 480 }}"
-                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="480"
-                    height="384"
+                    <img
+                      src="{{ block.settings.image_c | image_url: width: 480 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy"
+                      width="480"
+                      height="384"
+                    >
+                  </li>
+                  <li
+                    id="Slide-{{ section.id }}-4"
+                    class="mg-image-wrapper mg-image-wrapper--4 slider__slide slider__slide--full-width "
                   >
+                    <img
+                      src="{{ block.settings.image_d | image_url: width: 480 }}"
+                      sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                      alt="{{ block.settings.image.alt | escape }}"
+                      loading="lazy"
+                      width="480"
+                      height="384"
+                    >
+                  </li>
+                </ul>
+                <div class="slider-buttons no-js-hidden">
+                  <button
+                    type="button"
+                    class="slider-button slider-button--prev"
+                    name="previous"
+                    aria-label="{{ 'general.slider.previous_slide' | t }}"
+                  >
+                    {% render 'icon-caret' %}
+                  </button>
+                  <div class="slider-counter caption">
+                    <span class="slider-counter--current">1</span>
+                    <span aria-hidden="true"> / </span>
+                    <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                    <span class="slider-counter--total">4</span>
+                  </div>
+                  <button
+                    type="button"
+                    class="slider-button slider-button--next"
+                    name="next"
+                    aria-label="{{ 'general.slider.next_slide' | t }}"
+                  >
+                    {% render 'icon-caret' %}
+                  </button>
                 </div>
-              </div>
+              </slider-component>
             {% when 'multigroup-2' %}
               <div
                 id="multigroup-2--image-container"
