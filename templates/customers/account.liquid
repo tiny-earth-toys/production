@@ -19,12 +19,14 @@
                   <a href="/tools/recurring/login">Manage Account</a>
                 </div>
               <!-- End ReCharge code -->
+              {% if customer.tags contains 'internal' %}
         <div>
           <a href="/pages/internal" class="font-size--xl">Internal Resources</a>
         </div>
         <div>
           <a href="/pages/shipmentform" class="font-size--xl">Shipment Form</a>
         </div>
+      {% endif %}
         <div>
           <a href="{{ routes.account_addresses_url }}" class="font-size--xl">Shipping Address</a>
         </div>
