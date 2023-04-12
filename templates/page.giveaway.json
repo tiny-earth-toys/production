@@ -22,10 +22,20 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "edefc7e2-b2b1-4367-808e-f261e478331f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-VDXjtu p0\"><\/div>",
+        "color_scheme": "te-default",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "52f304cf-c386-44b3-aa7b-ad86e28d061a"
+    "52f304cf-c386-44b3-aa7b-ad86e28d061a",
+    "edefc7e2-b2b1-4367-808e-f261e478331f"
   ]
 }
