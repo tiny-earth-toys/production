@@ -178,6 +178,13 @@
               "heading": "Get Help",
               "menu": ""
             }
+          },
+          "9b8700ed-7038-425c-b1d1-0d2a679baead": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
           }
         },
         "block_order": [
@@ -185,7 +192,8 @@
           "footer-0",
           "footer-1",
           "a1ba1755-97be-4265-8085-4d444a9c8b14",
-          "b045a247-1899-4e02-a166-c70e8c3e953d"
+          "b045a247-1899-4e02-a166-c70e8c3e953d",
+          "9b8700ed-7038-425c-b1d1-0d2a679baead"
         ],
         "settings": {
           "color_scheme": "background-1",
