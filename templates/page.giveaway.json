@@ -132,6 +132,15 @@
             "row_content": "<p>If you are a monthly subscriber and fall in love with a toy, you can purchase it when you exchange for 15% off the retail price. Unfortunately, we don’t sell our toys outside of our subscriptions.<\/p>",
             "page": ""
           }
+        },
+        "428bbca1-d863-4de9-919a-d313d3f29b34": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I cancel anytime?",
+            "icon": "none",
+            "row_content": "<p>We know renting toys is a new concept. That’s why there are no hidden contracts and you can cancel at any time without penalty in your subscription account.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -139,7 +148,8 @@
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-1",
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-2",
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3",
-        "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e"
+        "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e",
+        "428bbca1-d863-4de9-919a-d313d3f29b34"
       ],
       "settings": {
         "caption": "We've got you covered with some of our most commonly asked questions",
