@@ -323,7 +323,7 @@
         "columns_mobile": "1",
         "button_color": "line-gray",
         "button_label": "For Parents",
-        "button_link": "shopify:\/\/pages\/for-parents"
+        "button_link": "shopify:\/\/pages\/parents"
       }
     },
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd": {
@@ -548,35 +548,6 @@
         "padding_top": 16,
         "padding_bottom": 24
       }
-    },
-    "fa5d8f62-3a0b-4cab-a42f-d9991b177d62": {
-      "type": "te-newsletter",
-      "disabled": true,
-      "blocks": {
-        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-0": {
-          "type": "newsletter-title",
-          "settings": {
-            "newsletter-title__header": "<p>Subscribe to our newsletter to stay updated with all of our special offers<\/p>",
-            "newsletter-title__caption": "Phasellus rhoncus augue non felis hendrerit pellentesque."
-          }
-        },
-        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-1": {
-          "type": "newsletter-form",
-          "settings": {
-            "newsletter-form__placeholder-text": "Enter your email",
-            "newsletter-form__button-text": "Subscribe",
-            "newsletter-form__disclaimer": "Phasellus sollicitudin ut augue non pharetra."
-          }
-        }
-      },
-      "block_order": [
-        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-0",
-        "template--16684074205429__fa5d8f62-3a0b-4cab-a42f-d9991b177d62-16752596347456ce4e-1"
-      ],
-      "settings": {
-        "color_scheme": "te-cream-dark",
-        "newsletter_full-width": false
-      }
     }
   },
   "order": [
@@ -589,7 +560,6 @@
     "ad0ffd90-7ef7-4f4a-b80c-583b5bb938dd",
     "a1c0cc5b-8687-47ee-80d6-6275fc622a91",
     "8069baa3-c517-4573-ba5f-36556c9a1e43",
-    "22a75ae4-2560-47fc-8f5f-4f093757dc82",
-    "fa5d8f62-3a0b-4cab-a42f-d9991b177d62"
+    "22a75ae4-2560-47fc-8f5f-4f093757dc82"
   ]
 }
