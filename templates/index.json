@@ -191,7 +191,11 @@
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-3": {
           "type": "multigroup-4",
           "settings": {
-            "multigroup_name": "18-24 months"
+            "multigroup_name": "18-24 months",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-peacock.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-mirror.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-elephant.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-truck.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-4": {
