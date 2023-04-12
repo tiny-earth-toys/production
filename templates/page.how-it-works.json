@@ -301,6 +301,7 @@
     },
     "7a22d99f-883f-4736-baeb-76d0d03c1ead": {
       "type": "te-quote",
+      "disabled": true,
       "blocks": {
         "template--16006076530841__7a22d99f-883f-4736-baeb-76d0d03c1ead-168106416321e3a3de-0": {
           "type": "quote_caption",
@@ -332,13 +333,41 @@
         "full_width": false
       }
     },
-    "f2d4676a-0f96-4d44-8551-1b5c3a6ab6a6": {
-      "type": "custom-liquid",
+    "b23b8ac9-638f-4868-90e9-4a3663a0cb92": {
+      "type": "te-rich-text",
+      "blocks": {
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the rental revolution",
+            "heading_size": "h2"
+          }
+        },
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Simply customize the plan that works for your family & find the toys  recommended for your little one. See for yourself!<\/p>"
+          }
+        },
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/pages\/memberships",
+            "color": "green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-0",
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-1",
+        "template--16006076530841__b23b8ac9-638f-4868-90e9-4a3663a0cb92-16813108199b0a4029-2"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "te-default",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "color_scheme": "te-silver-light",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     }
   },
@@ -352,6 +381,6 @@
     "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
     "0232d1a1-c205-4d71-8bc0-405c011675ba",
     "7a22d99f-883f-4736-baeb-76d0d03c1ead",
-    "f2d4676a-0f96-4d44-8551-1b5c3a6ab6a6"
+    "b23b8ac9-638f-4868-90e9-4a3663a0cb92"
   ]
 }
