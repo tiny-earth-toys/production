@@ -1,0 +1,90 @@
+{%- assign section_color = section.settings.color_scheme -%}
+{{ 'refurb.css' | asset_url | stylesheet_tag }}
+<section
+  class="page section-with-padding color--{{ section_color }}-text bg--{{ section_color }}--background"
+  data-section-type="custom"
+  data-section-id="{{ section.id }}"
+>
+  <div class="grid">
+    <div class="grid__item">
+      <div class="rte font-size__basic">
+        {% if customer.tags contains 'internal' %}
+          <!-- -     Begin Sandbox   - -->
+          <header>
+            <h1 class="text-center">Refurb Form</h1>
+          </header>
+
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col-2">
+                <form>
+                  <div class="mb-3">
+                    <label for="rma-input" class="form-label">Enter RMA Number</label>
+                    <div id="rma-inputHelpBlock" class="form-text">(Press Enter to load toys)</div>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="rma-input"
+                      aria-describedby="emailHelp"
+                      autofocus="autofocus"
+                    >
+                  </div>
+                  <div class="mb-3">
+                    <label for="item-id" class="form-label">Scan Item Id's</label>
+                    <div id="rma-inputHelpBlock" class="form-text">(Press Enter to submit toys)</div>
+                    <input type="text" class="form-control" id="item-ids">
+                  </div>
+                  <div class="d-grid gap-2">
+                    <button type="button" class="btn btn-primary" id="rmabutton">Submit</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col">
+                <table class="table">
+                  <thead class="table-dark">
+                    <tr>
+                      <th scope="col">Check Box</th>
+                      <th scope="col">Item ID</th>
+                      <th scope="col">Toy Name</th>
+                      <th scope="col">Age Group</th>
+                      <th scope="col">R-Location</th>
+                      <th scope="col">Image</th>
+                      <th scope="col">Copy ID</th>
+                      <th scope="col">Clear Item</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- -   End Sandbox   - -->
+        {% else %}
+          {% render 'member-exclusive-note' %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "locked-tiny-internal",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Color"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "options": [
+        { "value": "primary", "label": "Primary" },
+        { "value": "secondary", "label": "Secondary" },
+        { "value": "tertiary", "label": "Tertiary" }
+      ]
+    }
+  ]
+}
+{% endschema %}
