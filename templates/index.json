@@ -222,7 +222,10 @@
           "type": "multigroup-7",
           "settings": {
             "multigroup_name": "3-5 years",
-            "image_c": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-child-nins.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-eco-auto.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-balance-board.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-click-clack.jpg"
           }
         }
       },
