@@ -64,7 +64,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-1__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -108,7 +108,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-1__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -151,7 +151,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-1__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -206,7 +206,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-2__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -250,7 +250,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-2__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -293,7 +293,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-2__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -348,7 +348,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant5.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-3__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -392,7 +392,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant8.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-3__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -435,7 +435,7 @@
                     <span class="te-display--lg te-weight--display-semibold">
                       {{- variant10.price | money_without_trailing_zeros -}}
                     </span>
-                    <span class="te-text--md te-font-color--dk-gray">per month</span>
+                    <span class="te-text--md te-font-color--dk-gray">{{ block.settings['plan-3__frequency'] }}</span>
                   </div>
                   <div>
                     <span class="te-text--md te-weight--text-normal te-font-color--dk-gray">
@@ -664,6 +664,12 @@
           "type": "product",
           "id": "plan-1",
           "label": "Select 1st plan"
+        },
+        {
+          "type": "text",
+          "id": "plan-1__frequency",
+          "label": "Billing frequency",
+          "default": "per month"
         }
       ]
     },
@@ -676,6 +682,12 @@
           "type": "product",
           "id": "plan-2",
           "label": "Select 2nd product"
+        },
+        {
+          "type": "text",
+          "id": "plan-2__frequency",
+          "label": "Billing frequency",
+          "default": "per month"
         }
       ]
     },
@@ -688,6 +700,12 @@
           "type": "product",
           "id": "plan-3",
           "label": "Select 3rd product"
+        },
+        {
+          "type": "text",
+          "id": "plan-3__frequency",
+          "label": "Billing frequency",
+          "default": "per month"
         }
       ]
     }
