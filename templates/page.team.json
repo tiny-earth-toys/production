@@ -13,7 +13,7 @@
         "80cc1734-e52f-47f0-95e9-03bebd2d70b0": {
           "type": "column__text",
           "settings": {
-            "column__textarea": "While pregnant with my second daughter, I noticed that our home became cluttered with a mountain of toys that, while thrilling for the short time they were developmentally appropriate, sat unused waiting for us to donate, regift, or discard. We are consuming more than our planet can bear.  And it has become clear that our"
+            "column__textarea": "While pregnant with my second daughter, I noticed that our home became cluttered with a mountain of toys that, while thrilling for the short time they were developmentally appropriate, sat unused waiting for us to donate, regift, or discard. We are consuming more than our planet can bear, and it has become clear that our"
           }
         },
         "0dd2688f-4b8c-4b80-a6d3-c3d69b9845c9": {
@@ -42,7 +42,7 @@
         "template--16716357042421__d1b399f8-9491-449d-914c-89675f472e3a-16793392818ad12f97-3": {
           "type": "image",
           "settings": {
-            "banner__image": "shopify:\/\/shop_images\/team-group.jpg"
+            "banner__image": "shopify:\/\/shop_images\/team.jpg"
           }
         }
       },

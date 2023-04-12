@@ -94,6 +94,17 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/tiny-earth-toys-logo-warmgray.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#fcfbfa",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#f2eee8",
+    "checkout_heading_font": "Raleway",
+    "checkout_body_font": "Raleway",
+    "checkout_accent_color": "#394f2f",
+    "checkout_button_color": "#597548",
+    "checkout_error_color": "#b42318",
     "heading_scale": 100,
     "body_scale": 100,
     "sections": {
@@ -103,9 +114,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "BUY PRE-LOVED TOYS ✨   Unlock free shipping when you buy 3 or more and use code 3FREESHIP",
               "color_scheme": "te-teal-dark",
-              "link": ""
+              "link": "shopify:\/\/collections\/toys-used-1"
             }
           }
         },

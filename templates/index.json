@@ -181,32 +181,51 @@
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-2": {
           "type": "multigroup-3",
           "settings": {
-            "multigroup_name": "12-18 months"
+            "multigroup_name": "12-18 months",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-rental-kit.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-lawnmower.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-helicopter.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-frog.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-3": {
           "type": "multigroup-4",
           "settings": {
-            "multigroup_name": "18-24 months"
+            "multigroup_name": "18-24 months",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-peacock.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-mirror.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-elephant.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-truck.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-4": {
           "type": "multigroup-5",
           "settings": {
-            "multigroup_name": "24-30 months"
+            "multigroup_name": "2-2.5 years",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-rainbowblocks.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-alphabet.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-pounding.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-sorting.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-5": {
           "type": "multigroup-6",
           "settings": {
-            "multigroup_name": "2.5-3 years"
+            "multigroup_name": "2.5-3 years",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-circle.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-lacing.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-gears.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toddler-stacking.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-6": {
           "type": "multigroup-7",
           "settings": {
-            "multigroup_name": "3-4 years",
-            "image_c": "shopify:\/\/shop_images\/AM8A6867_V1.jpg"
+            "multigroup_name": "3-5 years",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-child-nins.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-eco-auto.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-balance-board.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-click-clack.jpg"
           }
         }
       },
