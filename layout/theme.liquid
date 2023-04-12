@@ -95,9 +95,9 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  
-  {% include 'friendbuy' %}
-</head>
+
+    {% include 'friendbuy' %}
+  </head>
 
   <body class="te-color-default">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -159,5 +159,11 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script
+      async
+      type="text/javascript"
+      src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UcFUdg"
+    ></script>
   </body>
 </html>
