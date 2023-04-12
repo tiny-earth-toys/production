@@ -123,13 +123,23 @@
             "row_content": "<p>YES! If you prepay for 6 or 12 months you can schedule FedEx to pickup your return on your doorstep at no extra charge! <\/p>",
             "page": ""
           }
+        },
+        "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "If my child falls in love with a toy, can I buy it?",
+            "icon": "none",
+            "row_content": "<p>If you are a monthly subscriber and fall in love with a toy, you can purchase it when you exchange for 15% off the retail price. Unfortunately, we don’t sell our toys outside of our subscriptions.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-0",
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-1",
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-2",
-        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3"
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3",
+        "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e"
       ],
       "settings": {
         "caption": "We've got you covered with some of our most commonly asked questions",
