@@ -101,7 +101,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do exchanges work?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>We offer free shipping and exchanges every 2 months to maximize your child’s learning and reduce our shipping impact. You will receive an email when your exchange is due detailing the toys you will receive. You have 3 days to make a modification to your exchange by either modifying the toy selection or delaying your exchange. Keep your current kit of toys until the new one arrives ensuring no downtime between toys. <\/p>",
             "page": ""
           }
@@ -109,9 +109,9 @@
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can I get extra exchanges?",
+            "icon": "none",
+            "row_content": "<p>YES! If you prepay for a year, you receive a bonus exchange to be used during the holidays or your little ones birthday at no extra charge. <\/p>",
             "page": ""
           }
         },
