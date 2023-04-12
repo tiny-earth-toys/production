@@ -159,6 +159,15 @@
             "row_content": "<p>We do not charge for missing pieces or light damage. We just ask that if you find the missing piece, you send it back in your next exchange!<\/p>",
             "page": ""
           }
+        },
+        "6e6a42b6-0641-4930-ae37-4f751d5d8f86": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens to the toys after they are rented?",
+            "icon": "none",
+            "row_content": "<p>We attempt to keep toys in play as long as possible to minimize the environmental impact of overconsumption. We keep our gently pre-loved toys in use as long as they are safe and in good condition, after which we sell them at a discounted rate. <\/p><p>If a toy is broken or in poor condition, we recycle the materials with a local recycling center.<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -169,7 +178,8 @@
         "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e",
         "428bbca1-d863-4de9-919a-d313d3f29b34",
         "b8aa1eb5-ed89-4533-bfbc-021191ec249b",
-        "81bfc674-268d-44d3-a6f1-70a2ce4e59d6"
+        "81bfc674-268d-44d3-a6f1-70a2ce4e59d6",
+        "6e6a42b6-0641-4930-ae37-4f751d5d8f86"
       ],
       "settings": {
         "caption": "We've got you covered with some of our most commonly asked questions",
