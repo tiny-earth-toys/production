@@ -114,7 +114,7 @@
         "custom_liquid": "<div class=\"gift-up-target\" data-site-id=\"a1b88b4f-3ecf-47c2-2026-08d9f148ba76\" data-platform=\"Shopify\"><\/div>\n<script type=\"text\/javascript\">\n(function (g, i, f, t, u, p, s) {\n    g[u] = g[u] || function() { (g[u].q = g[u].q || []).push(arguments) };\n    p = i.createElement(f);\n    p.async = 1;\n    p.src = t;\n    s = i.getElementsByTagName(f)[0];\n    s.parentNode.insertBefore(p, s);\n})(window, document, \"script\", \"https:\/\/cdn.giftup.app\/dist\/gift-up.js\", \"giftup\");\n<\/script>\n<style>\n.checkout-wrapper.max-w-lg {\n  max-width: 56rem;\n}\n<\/style>",
         "color_scheme": "te-cream-dark",
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "4bb09b8a-c2d8-4a7d-a97e-0340ada8943c": {
