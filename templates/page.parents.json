@@ -30,7 +30,7 @@
           "settings": {
             "button_label": "How it works",
             "button_link": "shopify:\/\/pages\/how-it-works",
-            "color": "te-button--solid-white"
+            "color": "te-button--line-gray"
           }
         },
         "template--16679765770485__0c2dc0c0-80e1-4402-b041-6690cab3935d-1679874117b835a6fe-2": {
