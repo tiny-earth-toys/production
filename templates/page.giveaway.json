@@ -7,60 +7,25 @@
         "padding_bottom": 28
       }
     },
-    "1411ac70-1929-425e-9959-207959652016": {
-      "type": "te-plans-pricing",
-      "blocks": {
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-0": {
-          "type": "product-selector--1",
-          "settings": {
-            "plan-1": "monthly"
-          }
-        },
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-1": {
-          "type": "product-selector--2",
-          "settings": {
-            "plan-2": "tiny-earth-membership-6-month-prepay-1"
-          }
-        },
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-2": {
-          "type": "product-selector--3",
-          "settings": {
-            "plan-3": "tiny-earth-membership-12-month-prepay"
-          }
-        }
-      },
-      "block_order": [
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-0",
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-1",
-        "template--16003862691993__1411ac70-1929-425e-9959-207959652016-16798522216d3c28f4-2"
-      ],
+    "52f304cf-c386-44b3-aa7b-ad86e28d061a": {
+      "type": "image-banner",
       "settings": {
+        "image": "shopify:\/\/shop_images\/tiny-earth-rose-rex.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "te-default",
-        "plans-pricing__title": "<p>Main Header for Pricing<\/p>",
-        "plans-pricing__subtitle": "Esse quam videri",
-        "variant-1__caption": "Monthly",
-        "variant-1__blurb": "Avg. kit value = $$$",
-        "variant-1__includes": "<p>Our introductory plan includes...<\/p>",
-        "variant-1__feat-1": "Sed et pellentesque dui",
-        "variant-1__feat-2": "Nam in nunc et eros",
-        "variant-1__feat-3": "Pellentesque congue congue",
-        "variant-2__caption": "Half-yearly",
-        "variant-2__blurb": "Avg. kit value = $$$",
-        "variant-2__includes": "<p>Everything in 5 toy plan plus...<\/p>",
-        "variant-2__feat-1": "Sed et pellentesque dui",
-        "variant-2__feat-2": "Nam in nunc et eros",
-        "variant-2__feat-3": "Pellentesque congue congue",
-        "variant-3__caption": "Annual",
-        "variant-3__blurb": "Avg. kit value = $$$",
-        "variant-3__includes": "<p>Everything in 8 toys plus...<\/p>",
-        "variant-3__feat-1": "Sed et pellentesque dui",
-        "variant-3__feat-2": "Nam in nunc et eros",
-        "variant-3__feat-3": "Pellentesque congue congue"
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
-    "1411ac70-1929-425e-9959-207959652016"
+    "52f304cf-c386-44b3-aa7b-ad86e28d061a"
   ]
 }
