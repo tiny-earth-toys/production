@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "36e25c99-bc25-4352-aaa4-9894764f7d0d": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -74,6 +79,7 @@
       "block_order": [
         "vendor",
         "title",
+        "36e25c99-bc25-4352-aaa4-9894764f7d0d",
         "description",
         "caption",
         "collapsible-row-0",
