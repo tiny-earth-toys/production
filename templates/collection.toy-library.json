@@ -2,6 +2,7 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "show_collection_description": true,
@@ -11,6 +12,7 @@
     "product-grid": {
       "type": "te-main-collection-product-grid",
       "settings": {
+        "color_scheme": "te-default",
         "products_per_page": 12,
         "columns_desktop": 4,
         "image_ratio": "square",
