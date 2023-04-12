@@ -155,14 +155,14 @@
             "type": "link_list",
             "settings": {
               "heading": "Get Started",
-              "menu": ""
+              "menu": "footer-get-started"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
               "heading": "About",
-              "menu": ""
+              "menu": "footer-about"
             }
           },
           "a1ba1755-97be-4265-8085-4d444a9c8b14": {
