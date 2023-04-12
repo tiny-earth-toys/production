@@ -67,7 +67,7 @@
         "f54bd44f-6120-4698-9f58-3e73002037b6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
