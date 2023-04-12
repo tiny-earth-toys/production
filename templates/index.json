@@ -211,7 +211,11 @@
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-5": {
           "type": "multigroup-6",
           "settings": {
-            "multigroup_name": "2.5-3 years"
+            "multigroup_name": "2.5-3 years",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-circle.jpg",
+            "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-lacing.jpg",
+            "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-gears.jpg",
+            "image_d": "shopify:\/\/shop_images\/tiny-earth-toddler-stacking.jpg"
           }
         },
         "template--16679093141749__50f035ad-e557-4d11-a2c7-641f09cdc8cb-1674594042a16542b5-6": {
