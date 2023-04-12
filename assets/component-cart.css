@@ -117,8 +117,11 @@ cart-items {
   border-bottom-right-radius: 0;
 }
 .cart__ctas button {
-  width: 100%;
-  font-family: var(--te-fon);
+cursor: pointer;
+}
+
+.cart__ctas button:hover {
+  opacity: 0.85;
 }
 @media screen and (min-width: 750px) {
   .cart__items {
