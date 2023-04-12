@@ -39,7 +39,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Win 6 months of educator-backed toys customized for your child's age and interest<\/p>",
+            "text": "<p><\/p><p>Win 6 months of educator-backed toys customized for your child's age and interest<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -83,6 +83,57 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "da7167c7-4028-49b0-8877-0ad52299a9cb": {
+      "type": "te-features-basic",
+      "blocks": {
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-0": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_3",
+            "icon_hide": false,
+            "card_title": "",
+            "card_text": "Win 6 months of educator-backed toys customized for your child's age and interest"
+          }
+        },
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-1": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "",
+            "card_text": "Free toy exchanges (we will swap your toys out for the next progressive set every 2 months!)"
+          }
+        },
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-2": {
+          "type": "feature_card",
+          "settings": {
+            "icon_select": "icon_1",
+            "icon_hide": false,
+            "card_title": "<p>My card title<\/p>",
+            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+          }
+        }
+      },
+      "block_order": [
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-0",
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-1",
+        "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-2"
+      ],
+      "settings": {
+        "color_scheme": "te-cream-dark",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "full_width": true,
+        "subtitle": "",
+        "section_title": "<p>A <em><strong>Tiny Earth <\/strong><\/em>Giveaway!<\/p>",
+        "section_text": "",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "button_color": "green",
+        "button_label": "Get Started",
+        "button_link": ""
       }
     },
     "0848af4f-6b98-4e9c-addf-96e2825db8d6": {
@@ -202,6 +253,7 @@
     "52f304cf-c386-44b3-aa7b-ad86e28d061a",
     "edefc7e2-b2b1-4367-808e-f261e478331f",
     "b3965cc2-9a49-4540-95b2-316e561392a7",
+    "da7167c7-4028-49b0-8877-0ad52299a9cb",
     "0848af4f-6b98-4e9c-addf-96e2825db8d6"
   ]
 }
