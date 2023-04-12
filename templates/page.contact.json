@@ -64,7 +64,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "More Info",
+        "button_label": "",
         "button_color": "line-gray",
         "button_link": "",
         "color_scheme": "te-default",
