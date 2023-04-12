@@ -129,6 +129,8 @@
     </ul>
 
     <script>
+      
+      
       window.shopUrl = '{{ request.origin }}';
       window.routes = {
         cart_add_url: '{{ routes.cart_add_url }}',
@@ -154,6 +156,8 @@
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       };
+
+
     </script>
 
     {%- if settings.predictive_search_enabled -%}
@@ -166,4 +170,16 @@
       src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=UcFUdg"
     ></script>
   </body>
+
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <!-- Gorgias Chat Widget Start -->
+  <script
+    id="gorgias-chat-widget-install-v2"
+    src="https://config.gorgias.chat/gorgias-chat-bundle-loader.js?applicationId=23958"
+  ></script>
+  <script id="gorgias-chat-shopify-install">
+    !function(_){_.SHOPIFY_PERMANENT_DOMAIN="{{shop.permanent_domain}}",_.SHOPIFY_CUSTOMER_ID="{{customer.id}}",_.SHOPIFY_CUSTOMER_EMAIL="{{customer.email}}"}(window||{});
+  </script>
+  <!-- Gorgias Chat Widget End -->
 </html>
