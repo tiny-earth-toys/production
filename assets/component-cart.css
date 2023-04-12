@@ -116,7 +116,10 @@ cart-items {
 .cart__note .field__input {
   border-bottom-right-radius: 0;
 }
-
+.cart__ctas button {
+  width: 100%;
+  font-family: var(--te-fon);
+}
 @media screen and (min-width: 750px) {
   .cart__items {
     grid-column-start: 1;
@@ -154,6 +157,7 @@ cart-items {
 
 .cart__ctas button {
   width: 100%;
+  font-family: var(--te-fon);
 }
 
 .cart__ctas > *:not(noscript:first-child) + * {
@@ -171,6 +175,7 @@ cart-items {
 
 .cart__blocks > * + * {
   margin-top: 1rem;
+
 }
 
 .cart__dynamic-checkout-buttons div[role='button'] {
@@ -190,11 +195,14 @@ cart-items {
 }
 
 .cart__checkout-button {
-  max-width: 36rem;
+  max-width: 24rem;
 }
 
 .cart__ctas {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 750px) {
@@ -219,5 +227,6 @@ cart-items {
   .cart__ctas {
     display: flex;
     gap: 1rem;
+    align-items: end;
   }
 }

@@ -68,14 +68,14 @@
                 <button
                   type="submit"
                   id="checkout"
-                  class="cart__checkout-button te-button te-button--green"
+                  class=" te-button te-button--green cart__checkout-button"
                   name="checkout"
                   {% if cart == empty %}
                     disabled
                   {% endif %}
                   form="cart"
                 >
-                  {{ 'sections.cart.checkout' | t }}
+                  <p class="te-display te-display--xs te-weight--display-light m0">Check out</p>
                 </button>
               </div>
 
