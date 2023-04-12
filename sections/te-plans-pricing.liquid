@@ -85,9 +85,11 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our introductory plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-1__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-1__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
@@ -129,9 +131,11 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our most loved plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-2__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-2__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-2__feat-1'] }}</li>
@@ -172,9 +176,11 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Great for multiple children...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-3__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-3__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-3__feat-1'] }}</li>
@@ -227,14 +233,17 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our introductory plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-1__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-1__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
                   <li>{{ section.settings['variant-1__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
                 </ul>
               </div>
             </div>
@@ -271,14 +280,17 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our most loved plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-2__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-2__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-2__feat-1'] }}</li>
                   <li>{{ section.settings['variant-2__feat-2'] }}</li>
                   <li>{{ section.settings['variant-2__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
                 </ul>
               </div>
             </div>
@@ -314,14 +326,17 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Great for multiple children...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-3__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-3__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-3__feat-1'] }}</li>
                   <li>{{ section.settings['variant-3__feat-2'] }}</li>
                   <li>{{ section.settings['variant-3__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
                 </ul>
               </div>
             </div>
@@ -369,14 +384,18 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our introductory plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-1__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-1__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-1__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-1__feat-1'] }}</li>
                   <li>{{ section.settings['variant-1__feat-2'] }}</li>
                   <li>{{ section.settings['variant-1__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
+                  <li>Includes a free bonus exchange!</li>
                 </ul>
               </div>
             </div>
@@ -413,14 +432,18 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Our most loved plan...</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-2__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-2__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-2__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-2__feat-1'] }}</li>
                   <li>{{ section.settings['variant-2__feat-2'] }}</li>
                   <li>{{ section.settings['variant-2__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
+                  <li>Includes a free bonus exchange!</li>
                 </ul>
               </div>
             </div>
@@ -456,14 +479,18 @@
               <div class="product-card__features">
                 <div class="feat__intro">
                   <span class="te-text te-text--md te-weight--text-semibold">Great for multiple children</span>
-                  <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
-                    {{- section.settings['variant-3__includes'] -}}
-                  </span>
+                  {% unless section.settings['variant-3__includes'] == blank %}
+                    <span class="te-text te-text--md te-weight--text-normal te-font-color--dk-gray">
+                      {{- section.settings['variant-3__includes'] -}}
+                    </span>
+                  {% endunless %}
                 </div>
                 <ul class="product-card__feat-list te-font-color--dk-gray">
                   <li>{{ section.settings['variant-3__feat-1'] }}</li>
                   <li>{{ section.settings['variant-3__feat-2'] }}</li>
                   <li>{{ section.settings['variant-3__feat-3'] }}</li>
+                  <li>Access to free FedEx home pickup</li>
+                  <li>Includes a free bonus exchange!</li>
                 </ul>
               </div>
             </div>
