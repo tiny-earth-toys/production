@@ -39,12 +39,12 @@ let yourPlanWrapper = document.createElement('div')
 yourPlanWrapper.innerHTML = `
   <div id="your-plan__container">
   <div class="your-plan__card">
-    <div class="your-plan__title">
+    <div class="your-plan__title m0 p0">
       <h4 class="m0">Your selected plan</h4>
     </div>
-    <div class="your-plan__info">
-      <h5 class="m0">${selectedPlan}</h5>
-      <h5 class="m0">${selectedVariant} toy kit</h5>
+    <div class="your-plan__info m0 p0">
+      <h5 class="m0 p0">${selectedPlan}</h5>
+      <h5 class="m0 p0">${selectedVariant} toy kit</h5>
     </div>
     </div>
   </div>

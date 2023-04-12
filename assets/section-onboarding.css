@@ -255,6 +255,7 @@ padding-top: 2em;
 
 #bottom-nav {
   display: flex;
+  flex
   align-items: center;
   justify-content: center;
   gap: 4rem;
@@ -445,6 +446,7 @@ padding-top: 2em;
   #bottom-nav {
     display: block;
     width: 100%;
+    height: 15vh;
     margin: auto;
   }
 
@@ -455,28 +457,32 @@ padding-top: 2em;
   }
 
   #your-plan__container {
-    display: flex;
-    flex-direction: row;
+    display: block;
+    flex-direction: column;
     justify-content: center;
-    padding: 0 0 0 8px;
+    padding: 4px 0;
+    margin: 4px 0;
+    max-height: 8vh;
     color: #44403C;
   }
   .your-plan__card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: block;
     background-color: #f5f2ee;
     border-radius: 8px;
-    margin: 4px;
+    margin: 0;
+    max-height: 8vh;
   }
   .your-plan__title {
-    display: flex;
+    display: block;
+    flex-direction: column;
     align-items: center;
-    padding: 4px 4px 4px 8px;
+    padding: 0;
     text-align: center;
   }
 
   .your-plan__title h4 {
     font-size: 12px;
+    line-height: 14px;
   }
   
   .your-plan__info {
@@ -484,16 +490,20 @@ padding-top: 2em;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4px 8px 4px 4px;
+    padding: 0;
+    max-height: 6vh;
   }
 
   .your-plan__info h5 {
     font-size: 10px;
+    line-height: 10px;
+    margin: 0;
+    padding: 0;
   }
 
   #bottom-nav button {
     display: flex;
-    width: 48%;
+    width: 88%;
     margin: auto;
     margin-top: 2px;
     background: #597548;
