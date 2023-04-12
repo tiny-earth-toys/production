@@ -155,37 +155,46 @@
             "type": "link_list",
             "settings": {
               "heading": "Get Started",
-              "menu": ""
-            }
-          },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "About",
-              "menu": ""
+              "menu": "footer-get-started"
             }
           },
           "a1ba1755-97be-4265-8085-4d444a9c8b14": {
             "type": "link_list",
             "settings": {
               "heading": "Resources",
-              "menu": ""
+              "menu": "footer-resources"
             }
           },
           "b045a247-1899-4e02-a166-c70e8c3e953d": {
             "type": "link_list",
             "settings": {
               "heading": "Get Help",
-              "menu": ""
+              "menu": "contact-support"
+            }
+          },
+          "footer-1": {
+            "type": "link_list",
+            "disabled": true,
+            "settings": {
+              "heading": "About",
+              "menu": "footer-about"
+            }
+          },
+          "9b8700ed-7038-425c-b1d1-0d2a679baead": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
             }
           }
         },
         "block_order": [
           "73b9987c-06bf-4fe3-a9fe-44e690ebbcff",
           "footer-0",
-          "footer-1",
           "a1ba1755-97be-4265-8085-4d444a9c8b14",
-          "b045a247-1899-4e02-a166-c70e8c3e953d"
+          "b045a247-1899-4e02-a166-c70e8c3e953d",
+          "footer-1",
+          "9b8700ed-7038-425c-b1d1-0d2a679baead"
         ],
         "settings": {
           "color_scheme": "background-1",
@@ -196,8 +205,8 @@
           "enable_language_selector": false,
           "payment_enable": false,
           "margin_top": 48,
-          "padding_top": 36,
-          "padding_bottom": 36
+          "padding_top": 0,
+          "padding_bottom": 48
         }
       },
       "main-password-header": {

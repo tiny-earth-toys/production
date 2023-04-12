@@ -523,6 +523,7 @@
         },
         "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Donec condimentum suscipit scelerisque. Etiam posuere metus vitae blandit iaculis.<\/p>"
           }
