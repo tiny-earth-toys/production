@@ -51,7 +51,13 @@
                 </div>
                 <div class="tc-content--attribution">
                   <div class="attribution-author">
-                    <img class="attribution-author--avatar" loading="lazy" src="{{ 'avatar.png' | asset_url }}">
+                    <img
+                      class="attribution-author--avatar"
+                      loading="lazy"
+                      src="{{ block.settings.author_image | image_url: width: 56 }}"
+                      width="56"
+                      height="56"
+                    >
                     <div class="attribution-author--text te-text">
                       <h6 class="te-text--lg te-weight--text-semibold">{{ block.settings.author_name }}</h6>
                       <p class="te-text--md te-weight--text-normal">{{ block.settings.author_title }}</p>
