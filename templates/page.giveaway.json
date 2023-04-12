@@ -118,9 +118,9 @@
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Do you offer home pickup for exchanges?",
+            "icon": "none",
+            "row_content": "<p>YES! If you prepay for 6 or 12 months you can schedule FedEx to pickup your return on your doorstep at no extra charge! <\/p>",
             "page": ""
           }
         }
