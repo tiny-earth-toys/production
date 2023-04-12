@@ -100,7 +100,7 @@
         "template--16014660796569__da7167c7-4028-49b0-8877-0ad52299a9cb-16812943162be18462-1": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "",
             "card_text": "Free toy exchanges (we will swap your toys out for the next progressive set every 2 months!)"
@@ -111,8 +111,8 @@
           "settings": {
             "icon_select": "icon_1",
             "icon_hide": false,
-            "card_title": "<p>My card title<\/p>",
-            "card_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aenean euismod elementum nisi quis eleifend quam adipiscing. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula."
+            "card_title": "",
+            "card_text": "Parenting content and support from our team of early childhood experts"
           }
         }
       },
