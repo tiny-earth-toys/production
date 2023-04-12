@@ -150,6 +150,15 @@
             "row_content": "<p>We safety-inspect, clean and reseal every returned toy.<br\/><br\/>To clean we use Force of Nature. “Force of Nature is an EPA-registered disinfectant & sanitizer that kills 99.9% of <a href=\"https:\/\/www.forceofnatureclean.com\/lp-cleaning-disinfecting-test-results\/\" target=\"_blank\">germs<\/a>*, even Staph, MRSA, Norovirus, Influenza A, Salmonella, and Listeria when used as directed. It’s on EPA’s list of Disinfectants for Use Against SARS-CoV-2, the cause of COVID-19.” It is made without the use of toxic chemicals, added fragrance, dyes, preservatives or surfactants.<br\/><br\/>When necessary, we reseal using pure beeswax.<\/p><p>Toys are then air-dried, carefully repackaged and shipped where they spend between 3 - 5 days in transit.<\/p>",
             "page": ""
           }
+        },
+        "81bfc674-268d-44d3-a6f1-70a2ce4e59d6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What happens if I lose or damage a piece?",
+            "icon": "none",
+            "row_content": "<p>We do not charge for missing pieces or light damage. We just ask that if you find the missing piece, you send it back in your next exchange!<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -159,7 +168,8 @@
         "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3",
         "36ebeb56-c2bb-4cbe-bd9a-4770044cef2e",
         "428bbca1-d863-4de9-919a-d313d3f29b34",
-        "b8aa1eb5-ed89-4533-bfbc-021191ec249b"
+        "b8aa1eb5-ed89-4533-bfbc-021191ec249b",
+        "81bfc674-268d-44d3-a6f1-70a2ce4e59d6"
       ],
       "settings": {
         "caption": "We've got you covered with some of our most commonly asked questions",
