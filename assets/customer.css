@@ -805,3 +805,8 @@ li[data-address] > h2 {
   box-shadow: var(--te-shadow--lg);
   max-width: 20%;
 }
+
+.quick-links__card a{
+  margin: 1em;
+  text-align: center;
+}
