@@ -1,5 +1,7 @@
 {%- assign section_color = section.settings.color_scheme -%}
+{{ 'bootstrap.min.css' | asset_url | stylesheet_tag }}
 {{ 'refurb.css' | asset_url | stylesheet_tag }}
+
 <section
   class="page section-with-padding color--{{ section_color }}-text bg--{{ section_color }}--background"
   data-section-type="custom"
@@ -69,7 +71,7 @@
 
 {% schema %}
 {
-  "name": "locked-tiny-internal",
+  "name": "page-refurb",
   "settings": [
     {
       "type": "header",
