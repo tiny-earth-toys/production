@@ -48,14 +48,14 @@
         "variant-2__caption": "Half-yearly",
         "variant-2__blurb": "Avg. kit value = $368",
         "variant-2__includes": "<p>Everything in 5 toy plan plus...<\/p>",
-        "variant-2__feat-1": "FedEx home pickup for easy exchanges",
+        "variant-2__feat-1": "",
         "variant-2__feat-2": "",
         "variant-2__feat-3": "",
         "variant-3__caption": "Annual",
         "variant-3__blurb": "Avg. kit value = $460",
         "variant-3__includes": "<p>Everything in 8 toys plus...<\/p>",
-        "variant-3__feat-1": "FedEx home pickup for easy exchanges",
-        "variant-3__feat-2": "One free bonus toy swap—great for holidays or birthdays",
+        "variant-3__feat-1": "",
+        "variant-3__feat-2": "",
         "variant-3__feat-3": ""
       }
     }
