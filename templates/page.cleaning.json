@@ -13,6 +13,7 @@
         "template--16679765901557__236b4933-4deb-4464-8f2c-72f98827de08-167993924288017e54-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/clearning.png",
             "heading": "",
             "heading_size": "h1",
             "subheading": "",
@@ -29,6 +30,7 @@
         },
         "template--16679765901557__236b4933-4deb-4464-8f2c-72f98827de08-167993924288017e54-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "heading": "",
             "heading_size": "h1",
