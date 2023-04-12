@@ -47,8 +47,8 @@
         "template--16014660796569__b3965cc2-9a49-4540-95b2-316e561392a7-1681293206e27c32aa-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>Free toy exchanges (we will swap your toys out for the next progressive set every 2 months!)<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -56,8 +56,8 @@
         "template--16014660796569__b3965cc2-9a49-4540-95b2-316e561392a7-1681293206e27c32aa-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "",
+            "text": "<p>Parenting content and support from our team of early childhood experts<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -74,13 +74,74 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
         "button_link": "",
-        "color_scheme": "te-default",
+        "color_scheme": "te-cream-dark",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0848af4f-6b98-4e9c-addf-96e2825db8d6": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do exchanges works",
+            "icon": "none",
+            "row_content": "<p>Select the membership that fits your family (either 5, 8 or 10 toys per shipment) and customize the toys you receive. We do free exchanges every 2 months.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-0",
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-1",
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-2",
+        "template--16014660796569__0848af4f-6b98-4e9c-addf-96e2825db8d6-1681293424b2555c33-3"
+      ],
+      "settings": {
+        "caption": "We've got you covered with some of our most commonly asked questions",
+        "heading": "FAQs",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "section",
+        "color_scheme": "te-default",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -90,6 +151,7 @@
     "main",
     "52f304cf-c386-44b3-aa7b-ad86e28d061a",
     "edefc7e2-b2b1-4367-808e-f261e478331f",
-    "b3965cc2-9a49-4540-95b2-316e561392a7"
+    "b3965cc2-9a49-4540-95b2-316e561392a7",
+    "0848af4f-6b98-4e9c-addf-96e2825db8d6"
   ]
 }
