@@ -182,6 +182,7 @@
           "type": "multigroup-3",
           "settings": {
             "multigroup_name": "12-18 months",
+            "image_a": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-rental-kit.jpg",
             "image_b": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-lawnmower.jpg",
             "image_c": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-helicopter.jpg",
             "image_d": "shopify:\/\/shop_images\/tiny-earth-toys-toddler-frog.jpg"
