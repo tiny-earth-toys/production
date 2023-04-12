@@ -95,6 +95,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -138,6 +139,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
