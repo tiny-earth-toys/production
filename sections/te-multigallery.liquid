@@ -1,8 +1,6 @@
 <link rel="stylesheet" href="{{ 'section-te-multigallery.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'section-te-multigallery.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -136,30 +134,32 @@
                     >
                   </li>
                 </ul>
-                <div class="slider-buttons no-js-hidden">
-                  <button
-                    type="button"
-                    class="slider-button slider-button--prev"
-                    name="previous"
-                    aria-label="{{ 'general.slider.previous_slide' | t }}"
-                  >
-                    {% render 'icon-caret' %}
-                  </button>
-                  <div class="slider-counter caption">
-                    <span class="slider-counter--current">1</span>
-                    <span aria-hidden="true"> / </span>
-                    <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
-                    <span class="slider-counter--total">4</span>
+                {% comment %}
+                  <div class="slider-buttons no-js-hidden">
+                    <button
+                      type="button"
+                      class="slider-button slider-button--prev"
+                      name="previous"
+                      aria-label="{{ 'general.slider.previous_slide' | t }}"
+                    >
+                      {% render 'icon-caret' %}
+                    </button>
+                    <div class="slider-counter caption">
+                      <span class="slider-counter--current">1</span>
+                      <span aria-hidden="true"> / </span>
+                      <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+                      <span class="slider-counter--total">4</span>
+                    </div>
+                    <button
+                      type="button"
+                      class="slider-button slider-button--next"
+                      name="next"
+                      aria-label="{{ 'general.slider.next_slide' | t }}"
+                    >
+                      {% render 'icon-caret' %}
+                    </button>
                   </div>
-                  <button
-                    type="button"
-                    class="slider-button slider-button--next"
-                    name="next"
-                    aria-label="{{ 'general.slider.next_slide' | t }}"
-                  >
-                    {% render 'icon-caret' %}
-                  </button>
-                </div>
+                {% endcomment %}
               </slider-component>
             {% when 'multigroup-2' %}
               <div

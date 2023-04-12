@@ -170,6 +170,10 @@ input#toggle--multigroup-7:checked ~ #multigroup-7--image-container {
   font-weight: 500;
 }
 
+.mg-image-wrapper {
+  margin: 4px;
+}
+
 .mg-image-wrapper img {
   display: block;
   width: 100%;
