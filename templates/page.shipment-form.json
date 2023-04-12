@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-shipment-form",
+      "settings": {
+        "color_scheme": "primary"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
