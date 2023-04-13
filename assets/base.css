@@ -51,6 +51,7 @@ html.no-js .no-js-hidden {
 .page-width {
   margin: 0 auto;
   padding: 0rem;
+
 }
 
 .page-width-desktop {
@@ -86,6 +87,11 @@ html.no-js .no-js-hidden {
 
 
 @media screen and (min-width: 990px) {
+
+  .page-width {
+    max-width: 1280px;
+  }
+
   .page-width--narrow {
     max-width: 72.6rem;
     padding: 0;
