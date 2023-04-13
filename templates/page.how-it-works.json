@@ -92,12 +92,17 @@
         "button_link": ""
       }
     },
-    "8185f2a9-0b5f-46e5-8111-d05e2e274f75": {
-      "type": "custom-liquid",
+    "70c1e0b8-fcf6-4ab3-9737-c6297867729e": {
+      "type": "video",
       "settings": {
-        "custom_liquid": "<div class=\"center global-media-settings\">\n<iframe src=\"https:\/\/www.youtube-nocookie.com\/embed\/78P8uj_R0Ss?start=1&modestbranding=1&loop=0&modestbranding=1\" width=\"768\" height=\"432\" frameborder=\"0\"><\/iframe>\n<\/div>",
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/tiny-earth-toys-rental-video.jpg",
+        "video_url": "https:\/\/youtu.be\/78P8uj_R0Ss",
+        "description": "",
+        "full_width": false,
         "color_scheme": "te-silver-light",
-        "padding_top": 96,
+        "padding_top": 48,
         "padding_bottom": 0
       }
     },
@@ -375,7 +380,7 @@
     "main",
     "b45be050-f1b5-4f73-95bf-309e612a79ba",
     "9bab2570-0bb4-4857-86f6-8d0be8eb42e2",
-    "8185f2a9-0b5f-46e5-8111-d05e2e274f75",
+    "70c1e0b8-fcf6-4ab3-9737-c6297867729e",
     "32d8e748-ef68-488f-9324-6e21f6fb6b22",
     "30c37563-3e81-426e-8aeb-9649230b044d",
     "dcef4f2d-a4ed-4675-8e1f-32c2d7447761",
