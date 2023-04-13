@@ -93,6 +93,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/TinyEarth_fav_1.png",
     "currency_code_enabled": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/tiny-earth-toys-logo-warmgray.png",
     "checkout_logo_position": "left",
