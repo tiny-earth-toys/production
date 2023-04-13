@@ -1,11 +1,16 @@
 
+
 .video-section__media {
+  border: 1px dotted black;
+  display: block;
+  width: 100%;
+  margin: auto;
   position: relative;
   padding-bottom: 56.25%;
 }
 
 .video-section__media.deferred-media {
-  box-shadow: var(--media-shadow-horizontal-offset) var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius) rgba(var(--color-shadow), var(--media-shadow-opacity));
+  box-shadow: var(--te-shadow--xl);
 }
 
 .video-section__media.deferred-media:after {
@@ -17,14 +22,15 @@
 }
 
 .video-section__media iframe {
-  max-width: 48em;
-  background-color: rgba(var(--color-foreground), 0.03);
+  max-width: var(--te-container--xl);
+
   border: 0;
 }
 
 .video-section__poster,
 .video-section__media iframe {
   position: absolute;
-  width: 100%;
+  width: 96vw;
   height: 100%;
+  max-width: 1028px;
 }
