@@ -254,7 +254,7 @@
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-0": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "<p>You've got mail<\/p>",
             "card_text": "Every two months, you will receive an email letting you know your next kit is being prepared. You have three days to modify your order if needed. Swap out toys, or snooze your order."
@@ -263,7 +263,7 @@
         "template--16679329693941__0232d1a1-c205-4d71-8bc0-405c011675ba-167466404830fd5ee2-1": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "<p>Ding dong<\/p>",
             "card_text": "Your new toys arrive before you send the previous kit back. These new toys were selected with your child's age and growing abilities in mind. We hope you and your little one love them!"
