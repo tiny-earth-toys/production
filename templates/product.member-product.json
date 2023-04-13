@@ -69,6 +69,13 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "359fd17a-5c85-48d0-b943-fa02296eb3db": {
+          "type": "additional_cta",
+          "settings": {
+            "additional_cta_url": "shopify:\/\/pages\/memberships",
+            "additional_cta_label": "Become a member"
+          }
         }
       },
       "block_order": [
@@ -80,7 +87,8 @@
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-3",
-        "share"
+        "share",
+        "359fd17a-5c85-48d0-b943-fa02296eb3db"
       ],
       "settings": {
         "enable_sticky_info": true,
