@@ -390,6 +390,7 @@
   border-radius: 40px;
   box-shadow: var(--te-shadow--xs);
   text-decoration: none;
+  cursor: pointer;
 }
 
 .te-button--blue {
@@ -411,7 +412,8 @@
 }
 
 .te-button--solid-gray {
-  border: 1px solid rgb(var(--te-gray--800));
+  background-color: rgb(var(--te-gray--700));
+  border: 1px solid rgb(var(--te-gray--700));
   color: rgb(var(--te-base--white));
 }
 

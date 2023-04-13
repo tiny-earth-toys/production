@@ -599,12 +599,6 @@
                   </div>
                 </div>
               </noscript>
-            {%- when 'additional_cta' -%}
-              <div class="additional_cta">
-                <a class="te-button te-button--solid-gray" href="{{ block.settings.additional_cta_url }}">
-                  {{- block.settings.additional_cta_label -}}
-                </a>
-              </div>
             {%- when 'buy_buttons' -%}
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
@@ -912,7 +906,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.main-product.name",
+  "name": "Non-Recurring Product",
   "tag": "section",
   "class": "section",
   "blocks": [
@@ -1000,23 +994,6 @@
           "default": true,
           "label": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.main-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
-        }
-      ]
-    },
-    {
-      "type": "additional_cta",
-      "name": "Additional CTA",
-      "settings": [
-        {
-          "type": "url",
-          "id": "additional_cta_url",
-          "label": "Additional button link"
-        },
-        {
-          "type": "text",
-          "id": "additional_cta_label",
-          "label": "Additional button label",
-          "default": "Get Started"
         }
       ]
     },
