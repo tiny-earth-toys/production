@@ -132,7 +132,7 @@
         "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-1": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "",
             "card_text": "Choice. No charge for educator selection of the toys or your customization"
@@ -141,7 +141,7 @@
         "template--16723060424949__4bb09b8a-c2d8-4a7d-a97e-0340ada8943c-1680025452f33e6691-2": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_3",
             "icon_hide": false,
             "card_title": "",
             "card_text": "Buy for a discount off retail if you want to purchase an item from your kit"
@@ -150,7 +150,7 @@
         "a5a07f09-963a-4bb2-bf10-3570bdea9647": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "",
             "card_text": "Rigorous cleaning and inspection of each toy before it reaches its next family"
@@ -168,7 +168,7 @@
         "f257e24a-3654-4090-86b3-53804cb74d40": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "",
             "card_text": "Free shipping both ways"
