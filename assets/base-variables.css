@@ -369,8 +369,6 @@
   color: rgb(var(--te-teal--50));
 }
 
-
-
 .te-section-container--full-width {
   display: flex;
   flex-direction: column;
