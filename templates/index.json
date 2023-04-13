@@ -30,7 +30,7 @@
           "settings": {
             "button_label": "See the Toys",
             "button_link": "shopify:\/\/collections\/toys-active",
-            "color": "te-button--green"
+            "color": "te-button--line-gray"
           }
         }
       },
