@@ -102,15 +102,6 @@
         "caption": "It is hard to overstate the importance that the home environment has on our young children. The \"environment\", in this case, means everything your child comes into contact with - the toys, furniture, pictures, music etc."
       }
     },
-    "a28c2915-dbfb-4677-ab09-c9bb63d6ea58": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"center global-media-settings\">\n<iframe src=\"https:\/\/www.youtube-nocookie.com\/embed\/X16d_t_3kxM?start=1&modestbranding=1&loop=0&modestbranding=1\" width=\"768\" height=\"432\" frameborder=\"0\"><\/iframe>\n<\/div>",
-        "color_scheme": "te-teal-light",
-        "padding_top": 48,
-        "padding_bottom": 0
-      }
-    },
     "33f93ec8-6679-492f-8781-12813e203e87": {
       "type": "video",
       "settings": {
@@ -163,7 +154,6 @@
     "main",
     "0c2dc0c0-80e1-4402-b041-6690cab3935d",
     "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
-    "a28c2915-dbfb-4677-ab09-c9bb63d6ea58",
     "33f93ec8-6679-492f-8781-12813e203e87",
     "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
