@@ -109,7 +109,7 @@
           "type": "button",
           "settings": {
             "button_label": "Learning Guides",
-            "button_link": "https:\/\/www.info.tinyearthtoys.com\/en-US",
+            "button_link": "shopify:\/\/blogs\/learning-guide",
             "color": "te-button--green"
           }
         }
