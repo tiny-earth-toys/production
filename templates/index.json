@@ -28,7 +28,7 @@
         "87af6fa9-adb0-47a2-8aa3-cc31e358d9a8": {
           "type": "button",
           "settings": {
-            "button_label": "Toy Library",
+            "button_label": "See the Toys",
             "button_link": "shopify:\/\/collections\/toys-active",
             "color": "te-button--green"
           }
