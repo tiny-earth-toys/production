@@ -2076,13 +2076,20 @@ input[type='checkbox'] {
 
 .announcement-bar__link .announcement-bar__message {
   padding: 0;
+  cursor: pointer;
 }
 
 .announcement-bar__message {
+  font-size: 1rem;
   text-align: center;
   padding: 1rem 2rem;
   margin: 0;
   letter-spacing: 0.1rem;
+}
+@media screen and (min-width:1024px) {
+  .announcement-bar__message{
+    font-size: 1.125em;
+  }
 }
 
 /* section-header */
