@@ -1,9 +1,8 @@
 
 
 .video-section__media {
-  border: 1px dotted black;
   display: block;
-  width: 100%;
+  width: 92vw;
   margin: auto;
   position: relative;
   padding-bottom: 56.25%;
@@ -22,15 +21,15 @@
 }
 
 .video-section__media iframe {
+  width: 92vw;
   max-width: var(--te-container--xl);
-
   border: 0;
 }
 
 .video-section__poster,
 .video-section__media iframe {
   position: absolute;
-  width: 96vw;
+  width: 92vw;
   height: 100%;
   max-width: 1028px;
 }
