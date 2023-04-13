@@ -93,7 +93,7 @@
         "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-0": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "<p>Plastic free promise<\/p>",
             "card_text": "We include ultra-premium wooden toys for a reason. They are durable, sustainable, and do not contribute to the incredible amount of plastic waste that cannot be recycled and ends up in landfills, incinerators and the ocean."
@@ -111,7 +111,7 @@
         "template--16679765868789__6e9df36b-6154-4b1d-9af1-f52755e32066-1679921318dcc48379-2": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_4",
             "icon_hide": false,
             "card_title": "<p>Intentional sourcing<\/p>",
             "card_text": "We prioritize sourcing North American-made products to reduce carbon emissions from shipping. Currently, of our 12 brand partners, 5 are manufactured in North America, 3 in Eastern Europe, 3 in Asia and 1 in Central America."
@@ -120,7 +120,7 @@
         "86ebd8d0-b6a5-4619-970d-e824fa3ee88b": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_3",
             "icon_hide": false,
             "card_title": "<p>Judgement free<\/p>",
             "card_text": "We are on the journey towards conscious consumption and parenting with each of you. Every journey is unique and we respect the differences in every path."
@@ -129,7 +129,7 @@
         "187c6b52-4e93-45a5-af7e-e853a7ed8a22": {
           "type": "feature_card",
           "settings": {
-            "icon_select": "icon_1",
+            "icon_select": "icon_2",
             "icon_hide": false,
             "card_title": "<p>Educator backed<\/p>",
             "card_text": "Our products, learning content and materials are all vetted by and developed with early childhood educators who have built their careers educating children."
