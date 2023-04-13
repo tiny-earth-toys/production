@@ -111,6 +111,20 @@
         "padding_bottom": 0
       }
     },
+    "33f93ec8-6679-492f-8781-12813e203e87": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/tiny-earth-toys-olynda-video.jpg",
+        "video_url": "https:\/\/youtu.be\/X16d_t_3kxM",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "te-teal-light",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "0ce55297-a17b-4590-a764-8a7222e7b711": {
       "type": "te-quote",
       "blocks": {
@@ -150,6 +164,7 @@
     "0c2dc0c0-80e1-4402-b041-6690cab3935d",
     "ae61cbe2-c6b7-4b10-a4e9-21b6fec9e7c9",
     "a28c2915-dbfb-4677-ab09-c9bb63d6ea58",
+    "33f93ec8-6679-492f-8781-12813e203e87",
     "0ce55297-a17b-4590-a764-8a7222e7b711"
   ]
 }
