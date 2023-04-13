@@ -149,7 +149,13 @@
   width: 100%;
   padding: 1em 1.75em;
   border-radius: 2.5em;
-  box-shadow: var(--te-shadow--sm);
+  box-shadow: var(--te-shadow--lg);
+}
+
+.card__cta:hover {
+  cursor: pointer;
+  border: 1px solid;
+  box-shadow: var(--te-shadow--xl);
 }
 
 .product-card__features {
