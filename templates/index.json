@@ -24,12 +24,21 @@
             "button_link": "shopify:\/\/pages\/memberships",
             "color": "te-button--green"
           }
+        },
+        "87af6fa9-adb0-47a2-8aa3-cc31e358d9a8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Toy Library",
+            "button_link": "shopify:\/\/collections\/toys-active",
+            "color": "te-button--green"
+          }
         }
       },
       "block_order": [
         "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-0",
         "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-1",
-        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-2"
+        "template--16657630068981__0000427b-81c3-4532-ba8e-cac0238595f3-167978210844e617ea-2",
+        "87af6fa9-adb0-47a2-8aa3-cc31e358d9a8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/child-playing-wooden-instrument.jpg",
