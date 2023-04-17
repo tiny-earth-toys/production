@@ -545,8 +545,8 @@ class SliderComponent extends HTMLElement {
     this.sliderItemsToShow = Array.from(this.sliderItems).filter(element => element.clientWidth > 0);
     if (this.sliderItemsToShow.length < 2) return;
     this.sliderItemOffset = this.sliderItemsToShow[1].offsetLeft - this.sliderItemsToShow[0].offsetLeft;
-    this.slidesPerPage = Math.floor((this.slider.clientWidth - this.sliderItemsToShow[0].offsetLeft) / this.sliderItemOffset);
-    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage + 1;
+    this.slidesPerPage = 1;
+    this.totalPages = this.sliderItemsToShow.length - this.slidesPerPage +1;
     this.update();
   }
   resetPages() {
