@@ -5,8 +5,15 @@
   align-items: center;
   font-size: 1rem;
   border-radius: var(--te-border-radius);
-  width: var(--te-container--xl);
+  width: 100vw;
 }
+
+@media screen and (min-width: 1024px) {
+  .block-quote__container {
+  max-width: var(--te-container--xl);
+}
+}
+
 
 .block-quote__content {
   padding: 4em;
