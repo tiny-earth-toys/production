@@ -115,9 +115,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "SPRING SPECIAL 🌺 $30 OFF 6 month and 12 month rental plans with code SPRING30.",
+              "text": "POLAR BEAR SAIL BOAT ⛵️ Free gift to keep when you join! Use code POLARGIFT at checkout.",
               "color_scheme": "te-teal-dark",
-              "link": "shopify:\/\/pages\/memberships"
+              "link": "shopify:\/\/products\/polar-bear-sail-boat"
             }
           }
         },
