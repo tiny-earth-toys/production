@@ -115,7 +115,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "POLAR BEAR SAIL BOAT ⛵️ Free gift to keep when you join! Use code POLARGIFT at checkout.",
+              "text": "POLAR BEAR SAIL BOAT ⛵️ Free gift to keep when you join! Add to cart and use code POLARGIFT at checkout.",
               "color_scheme": "te-teal-dark",
               "link": "shopify:\/\/products\/polar-bear-sail-boat"
             }
