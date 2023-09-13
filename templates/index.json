@@ -29,7 +29,7 @@
           "type": "button",
           "settings": {
             "button_label": "See the Toys",
-            "button_link": "shopify:\/\/collections\/toys-active",
+            "button_link": "shopify:\/\/collections\/toy-library",
             "color": "te-button--line-gray"
           }
         }
@@ -539,7 +539,6 @@
     },
     "22a75ae4-2560-47fc-8f5f-4f093757dc82": {
       "type": "te-rich-text",
-      "disabled": true,
       "blocks": {
         "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-0": {
           "type": "heading",
@@ -569,6 +568,7 @@
         "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-1",
         "template--16658355257589__22a75ae4-2560-47fc-8f5f-4f093757dc82-1672332884af1ca253-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "te-default",
         "full_width": true,
